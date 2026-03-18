@@ -1,0 +1,738 @@
+
+# TRANSCRIPTION BRUTE
+
+Let's go back to share our slides from this page, which is fundamental.
+ I suggest you dedicate enough time to digest well what are the definitions of the four
+ speed to the air that we examine, which are the four used in the field, let's say,
+ engineering and practical, because the definition is fundamental. Now, tattoo it with your nose,
+ your wrist, but make sure you know it if I ask you, and if I ask you what the definition of
+ EAS is, don't start explaining the completeness to me. No, tell me that the EAS is the speed
+ that you will give me. That's the definition. Ok, so let's start. EAS, airspeed indicator,
+ as we said, simply the speed that the pilot reads on the instrument, which can also be more or
+ less affected by the problems of the instrument. Some of you this morning mentioned the error
+ of parallax, so if I am misaligned compared to the axis of the instrument with my eyes,
+ but I have a line of sight that gives me an error of parallax and then it shows me
+ the bar placed with respect to the index on which I would like to indicate if I were aligned.
+ Clearly this does not happen with electronic instrumentation, because it is simply an image
+ projected on the board. The CAS, Airspeed Calibrated, is the speed that provides the same
+ impact pressure flying at zero. When we say "flying at zero" it means taking as an error zero.
+ So I have a certain impact pressure that I measure as a difference between Pt and Ps and I beat the CAS
+ with the speed that in those conditions would give me the same impact pressure. In a completely
+ similar way, the EAS, Equivalent Airspeed, is the speed that would give me the same final pressure.
+ So in the case of the EAS we neglect the comprehensiveness effects, at zero, at E6 we see it.
+ Lastly, the TAS is the true speed, True Airspeed, with which I move with respect to the air.
+ Here, the TAS is used very little, if not for navigation problems, even if what is the
+ problem of navigating using the TAS? The TAS gives me the real speed compared to the wind,
+ if I integrate I find the movement, note the conditions. But what is the problem of using the TAS to navigate?
+ Exactly, so I find my speed.
+
+with respect to the mass of air, but normally I want to navigate with respect to an internal reference.
+ So, to navigate correctly using the button, I should have specific information on the wind.
+ Let's say that usually it is used the other way around. If any of you remember that aboard the Long Haul,
+ at a certain point in the total darkness there is this little screen that gives you the flight data,
+ among the various data there is Tailwind or Headwind, it is calculated in this way.
+ The onboard equipment calculates the ground speed, the TAS is evaluated, the difference between the two is the wind, which can be the tail.
+ Or Head, to test.
+ Ok, we have already seen these relations.
+ Error of system. Error of system are those that from the IAS, considering which ones, from the IAS I finish the class.
+ Error of system are understood in the most general sense possible, linked to my system.
+ Even if, let's say, the man with the smoking gun in hand is the real responsible for the system errors,
+ as we have already said several times, it is a mistake.
+ Then there are also errors due to the PITO, errors due to the loss of charge in the tubes,
+ even if in reality we rarely have a motor, errors due to the instrument that is electromechanical,
+ it will have the hysteresis, it will have the games, it will have everything that is intended for an electromechanical system,
+ but even if it is electronic, it will still have errors due to the quantization, the sampling, the bandwidth limits, etc.
+ But, because of some order of magnitude greater than all the others, it is due to the static errors.
+ So how do we go from the IAS to the class? We have to correct the system errors.
+ How do we correct system errors? Are there closed formulas? No.
+ System errors are evaluated experimentally.
+ So we activate, as I have already mentioned, an experimental campaign that allows us to evaluate system errors.
+ So there are no formulas to go from the IAS to the class.
+
+experimental campaigns, which in the end produce tables.
+ These tables normally have as columns different values of the IAS.
+ And in the row, or in the rows we will see later, because they are more than one,
+ the corresponding value of CAS.
+ So when I read 50 nodes of IAS, actually the CAS is 47,
+ when I read 60 it is 59, etc. etc.
+ We populate a table.
+ Precisely because experimental nature then prevents us from having an equation,
+ a formula for this kind of thing.
+ But I told you there are more rows, and why are there more rows?
+ So why can I have different values of CAS with the same IAS?
+ What can it depend on?
+ External functions are vague.
+ No, because that one is labeled anyway.
+ If I do some tests up to, I don't know, what do they fly?
+ A new girl stream flies, 0.89, 0.91, something like that.
+ I calibrate.
+ Flying configuration.
+ Say configuration, great the term.
+ So it depends on how the pilot acts on the controls of the secondary flight,
+ then on the aerodynamic configuration.
+ Hypersustainers and landing gear.
+ This is because inevitably the change in the aerodynamic configuration
+ makes the pressure field around the aircraft change.
+ Also here, seen from the point of view of hypersustainers,
+ it's a good thing, because I have to have the possibility
+ to generate a greater range at lower speeds,
+ or to arrive at larger impacts.
+ So the reason why I install hypersustainers
+ is to change the pressure field around the aircraft.
+ But this inevitably has an impact on the pressure field around the plane.
+ So there will be a line for the clean configuration,
+ and a line, normally in the simplest cases, for the land configuration.
+ An even more complex case for military machines,
+ which as a configuration can have, for example,
+ subalar chargers attached to the pods,
+ rather than other changes to the configuration.
+ I can install the antenna of the radar, the synthetic aperture,
+ the flier pod in front, the searchlight.
+ Other, let's say, amenities, other devices that protrude
+ compared to the outside surface of the aircraft,
+ and therefore change the pressure field.
+ So generally there is a line for each configuration of the aircraft.
+
+You see, this is the example of a Cessna 172,
+ in which there is simply the clean and the configuration in Coniflap in Lend,
+ and you see that for several values of IAS, I have it at this moment below.
+ [Music]
+ Ok, instead, to go from the CAS to the IAS,
+ what do I have to do? I have to get rid of the effects of comprehensiveness.
+ The CAS has comprehensiveness, the IAS doesn't.
+ To do this, I just need a formula.
+ You see, in general, the IAS is the same as the CAS plus a delta vc.
+ This delta v, what will it depend on?
+ What is the greatness that gives me an idea,
+ we already discussed this morning,
+ how much the comprehensiveness effects are to be considered or overlooked?
+ The number of MACs.
+ Ok, so, depending on the number of MACs, I have a delta vc that will be more or less great.
+ Now, normally, the number of MACs is the same.
+ The ratio between the speed at which I move and the acceleration
+ of the pressure disturbances within the fluid.
+ Let's say the speed of sound, hoping that aerodynamics don't hear us.
+ Having an indication, from the pilot's point of view,
+ for the corrections of the number of MACs is not easy,
+ even if there is the MAC meter as we will see, but it is not easy.
+ Usually it is solved in this way.
+
+Speed as a numerator is used as a case, as a denominator, instead of the acceleration of sound we use a quantity that is now linked.
+ In what way is it linked? The acceleration of sound is equal to the root of gamma RT.
+ So gamma is a constant, R is a constant, P varies with the rate. How does it vary with the rate?
+ Linearly, at least until the end of the pause.
+ So I have a link between the rate and the acceleration of sound.
+ And for the pilot it is much more convenient because these corrections, over time, were made with a kind of rule by the pilot,
+ which consisted of an instrument with several concentric discs with a declining diameter,
+ in which I put the case on one side, on the other side I turned the other disc for the pressure altitude and in this way I pulled out the delta bc.
+ Because this ratio, instead of being given directly as a Mach number, was given according to the two sizes that are available to the pilot.
+ In the case of A the pressure altitude is given, which is connected to A from the relationship.
+ So, as you can see here, according to the case and for different pressure altitudes there are several delta v to be applied.
+ Clearly the origin is completely null because here the understanding is obscured and then we go on.
+ Here then are the curves of the constant Mach number.
+ What do you notice about the delta vc?
+ In this graph but it is an observation that has a general value.
+ No one notices anything.
+ Look at the numbers on the coordinate axis.
+ What are these numbers? Negative.
+ What does this mean? This is a general value. Are they negative or null?
+ It means that the delta vc that passes from the cas to the eas is negative or null.
+ It means that the eas is always smaller than the cas, at a maximum of two.
+ And this is the result.
+
+intuitively, I don't know, we can do analytical reasoning, but the experience tells me that you are
+ missing. Try to see if this definition fits you. So, when I talk about airs,
+ I neglect the compressibility, so let's say so, all the kinetic energy per unit of
+ volume, a half square meter asyntoptic, how does it transform into pressure at the point of
+ stagnation? When I talk, instead, about CAS, taking into account the phenomena, adiabatic,
+ isentropic, the phenomena linked to compressibility, it is as if I were to "spend"
+ part of this kinetic energy per unit of volume in feeding the compressibility phenomena,
+ so I get a smaller increase in pressure. So, seen from the other side, to have the same
+ dynamic pressure, I just have to go slower, compared to how far I should go, considering
+ the impact pressure, then the CAS. Then, why? To have the same PT-PS, if I consider it
+ as CAS, I should have a higher speed, because part of this kinetic energy per unit
+ of volume asyntoptic goes, I say in a formally not correct way, but it goes to feed these
+ compressibility phenomena, the adiabatic transformation, while in the case of EAS, it all transforms.
+ So, let's remember that the EAS is always smaller or at most equal to the CAS, the delta
+ v is always negative, at most 0, 0 for speed 0 and q0. Until now, we have always used
+ as a Rho, Rho0, because we have said, "it's too hard to recover Rho0". In reality,
+ if instead of Rho0 I put Rho, I get the CAS. How do I put Rho? I have to add a
+ measure of another physical size. PT and PS are not enough for me, but to have information
+ on the density of the air in which I am flying, I need Rho. I calculate Rho from P = RhoRT.
+ As we have said, T must be measured, and then P, I know it, is the static P,
+ only Rho remains, so Rho is equal, and then I measure T, I find the true Rho, and then
+ there will be a relationship with the root of Rho0/Rho, which leads me to have the CAS, the true
+ airspeed. But as I said, the true airspeed is of little interest for what concerns the
+ management of the airplane, at least the part of AV8, it is of little interest.
+
+This is another formula that tells me the direction between compressible and incompressible.
+ Let's see how the anemometer is made, the instrument that indicates to the pilot the airspeed indication.
+ The anemometer is typically an instrument with the movable handle and fixed gear, in which the handle by rotating indicates to the pilot the IAS.
+ On the anemometer are generally colored arches that indicate to the pilot the speed intervals within which there are different meanings depending on the color.
+ For example, the white arc goes from the minimum sustain speed with the flaps in land configuration to the maximum speed usable with the flaps in land configuration.
+ The lower limit is considered aerodynamic, the upper limit is considered structural,
+ because beyond a certain speed the load imposed by the air supports on the aircraft is no longer bearable by the structure of the aircraft.
+ The green arc is instead the arc that goes from the minimum sustain speed in clean configuration to the maximum speed,
+ always in clean configuration, to which I can fly in the air with the flaps and within which I can act without particular caution on the commands of the aircraft.
+ The yellow arc is instead that speed range that I can use exclusively in calm air,
+ and within which I can not have abrupt, impulsive actions on the commands of the aircraft, because I could create structural alterations in the cinematic part of the command on the aerodynamic part.
+ The red line, which you see just below 210, is the VNE, the velocity never exceeds, which is the maximum speed to never exceed during flight.
+ Is it the maximum speed at which the aircraft has ever flown? No, why?
+ Yes, because the certification rules require the manufacturer to fly 15% more, so 1.15 times the VNE.
+
+What are the considerations for the limits of VNE?
+ We've talked about structural considerations, aerodynamic considerations and mini-sustaining considerations.
+ VNE?
+ Aeroelastic.
+ So, the limit is always structural, but at this point it is affected by the aeroelastic phenomena
+ that you will see in the course, yes, do all of them, you will see, you have already seen them,
+ I don't remember what they are, do it now.
+ So, VNE is the vertical cut, if some of you, as I hope, in reality the majority of you,
+ remember, here, the N, V diagrams, if you remember, if you remember more or less, yes, the rifts, etc., etc.
+ VNE is precisely due to the aeroelastic phenomena.
+ One thing, because sometimes I ask you to draw the little instrument, you can't draw the white arc
+ and then the green arc that starts and ends with the white arc,
+ because otherwise I wouldn't be able to change the configuration of the aero,
+ because I would rush, or I would go too fast with respect to the flaps.
+ Anyway, from the N, V diagram we don't have time to go and review it all,
+ if someone has never seen it, then if they want we can talk about it,
+ all the points that we have seen colored come out on the instrument.
+ However, there is a problem, there is an assumption that I have deliberately overlooked,
+ because now we are pulling it out together.
+ What is the assumption not said in that coloring of the arcs?
+ Are we at the beginning of the white arc or the beginning of the green arc?
+ What is the implicit condition that we establish in coloring these arcs?
+ This is the mechanics of flight.
+ Let's go back to the definition.
+ What is the definition of the beginning of the white arc?
+ It is the minimum sustainment in the configuration of the stall.
+ But the stall depends on the speed.
+ No, it depends on the incidence.
+ Why do we link it to the speed?
+ How do we link it to the speed?
+ With two assumptions.
+ The first is that the weight, we are flying at maximum take-off weight.
+
+Because if the weight is less, if you do the balance on the vertical, if the weight is less, I stand slower, it is conservative, yes, because at the limit it tells me that I stand here, but if I am lighter I stand slower, so I am on the safe side.
+ In coloring those diagrams we consider that the machine is MT or W, maximum take-off weight or maximum take-off mass, as it should be said because it is not the weight but the mass, but in short everyone talks about maximum take-off weight.
+ This is the first prerequisite, but I repeat, we are on the safe side, because at the limit, if we are lighter and we cannot be lighter or equal to the maximum take-off weight, it is not advisable to take off above the maximum take-off weight.
+ If we are lighter or equal, we either stand at that speed or we stand slower, but what is the second assumption?
+ Second prerequisite to draw these diagrams.
+ This is for the load factor, these are for the unit load factor, if I am doing a turn at 60 degrees to the load factor 2, with the cable that is there, I stand much faster, this is not conservative, but for the pilot, since these indications serve fundamentally in the Elend approach phase,
+ except for the acrobatic division, the Procellen is done with the unit load factor, or if I am at a load factor less than 1, I stand even slower.
+ But let's remember that when I build a tool and physically paint the arches, I have these two assumptions, weight equal to maximum take-off weight, unit load factor, on the basis of that or on the basis of the characteristics of the vehicle, I find the speed of 1,000 km/h, then the clap, always the clap, etc.
+ And here come the advantages of the electronic instrumentation system, because I can move the colored faces in the electronic instrumentation system, and they are not painted when the tool is built, but they are painted by the computer that at this moment, with this configuration, with this load factor, is generating the image of the tool.
+ So as long as I change the aerodynamic configuration or change the load factor, the colored faces move, and therefore they give a much more fluid indication to the pilot.
+ There is no need to bother with the history of air accidents to see the stalling turns, how many deaths they have made, especially on the General Data machines.
+ The typical case is, I take off, the airplane does not go up, I make a turn to return to the field, I pull the load factor, I stall and I fall asleep, even if I am in the white arc.
+
+because I load it inevitably at the moment of the accident.
+ While in the electronic instrumentation system, as I told you,
+ here you see these colored bands, they are painted on the fly,
+ calculated by the computer that generates the image
+ and placed on the fly to give a much more fluid information.
+ This is a huge advantage of electronic instrumentation systems
+ compared to traditional electronic systems.
+ Sorry, mechanical pneumatic.
+ Typical representation of anemometry in electronic instrumentation systems
+ is the box with the exact numerical reading of the speed
+ and then there is this moving tape
+ that allows you to have a very eye-catching indication,
+ because you see, there are few numbers, this is my reference,
+ the labr line with which I read the speed,
+ therefore also eye-catching, without having to read
+ to interpret the individual numbers, I take a look here
+ and I see where I am in the speed range,
+ in addition I am then helped by the colored sectors.
+ We will see them.
+ For example, a very useful function of electronic instrumentation systems
+ is to put the V1, Vr and V2 on the pressure on the anemometer.
+ I imagine you know what it is about.
+ Someone does not know, let's do a little review, everyone knows it.
+ The V1 is the speed linked to the take-off phase.
+ The V1 is the speed above which you have to take off anyway.
+ You see VHL, no, the FEDEX, UPS, DC10.
+ It had an incident before, but it was above, before it was taken off.
+ The Vr is the speed of rotation, so I arrive at the V1,
+ I pass the V1, I have to take off, I arrive at the Vr, I perform the rotation,
+ then I give incidence, then I tap on the ground, the V2 is the speed of safety
+ that I have to keep in particular conditions.
+ Since they depend on the weight, on all contingent conditions,
+ which are not certain notes when the instrument is built by its manufacturer,
+ they are put on the pressure of the calculator on the anemometer.
+ So it is extremely convenient for the pilot or for the first officer,
+ you know that there is one who is piloting, the other who calls the speed,
+ usually to have this information.
+ However, the anemometry is on the left, as on the left the airspeed indicator
+ in the pneumatic-mechanical instrumentation systems.
+ This we have seen, there is the problem of non-linearity also for the anemometer,
+ it is solved with the usual variable arm lever in the mechanical systems.
+
+However, unlike altimeters, which try to have a perfectly linear scale,
+ the anemometer tolerates that the scale is non-linear.
+ It just needs to be wide enough in the range of low speeds,
+ which is the one that has the most impact on flight safety.
+ So, as far as the treatment of anemometry measurements in supersonic regime is concerned,
+ in my opinion, the analytical formulation for the resources we have in the course is a bit complicated.
+ Let's say that the problem is that the probe is in the part behind the adult wave.
+ So, the probe is usually always in the subsonic field.
+ And what happens to the current through the adult wave?
+ What kind of transformation is that of the crossing of an adult wave?
+ It is not isentropic, exactly, and therefore the problem is complicated.
+ There are several... I have also brought a calibration for the...
+ However, it is all analytically solvable, it is just a matter of running behind the thermodynamics a bit.
+ You will see here behind a normal adult wave, which then you have to see if the adult waves are normal or not,
+ there is a big ferment on supersonic, especially on the part of BOOM, I don't know if anyone follows,
+ which has developed this supersonic commercial transport machine.
+ It will not be like CONCORD, the CONCORD flew at 2.2 of Mach,
+ a BOOM machine called... Overture, perhaps.
+ It seems that it flies at 1.75, which is not very good.
+ And, in addition, until recently they had the big problem that the regulations
+ forbid flying supersonic above the Earth, but they only allowed it above the sea.
+ It is not that CONCORD had, as it treats, let's say, elections, the New York and Vice versa.
+ Which, on the other hand, was almost always 100% effective, despite the costs.
+ Now they have changed the regulation, I was saying, there is a lot of ferment,
+ because perhaps some of you who follow the research have seen the QSS, the Quiet Supersonic Transport,
+ the NASA experimental airplane, which would like to reduce the noise of the wave perceived by Earth a lot,
+ except for the propellers. Unfortunately, as usual, the coverage is short, and the inevitable compromise,
+ which is the constant of the engineering work, the engineer typically has to optimize the compromises.
+ The inevitable compromise is that if I want to make less noise,
+ if I want to make less noise,
+
+I have to accept a smaller efficiency of the aeroplane because I have to have a
+ fan of the wave instead of a single wave, so the jump between different waves
+ with a smaller delta p makes less noise than the single wave, which is the one that
+ characterizes the machines. I don't know if you remember when, a few years ago, the Eurofighters
+ went to intercept that plane of Egyptair, they heard the sound of the Hombardia in the SuperSonic hangar.
+ It seems to us that even if they are very high, they should not hear it at all. I can imagine
+ that if a couple of SuperSonic planes begin to fly, this thing will break the boxes.
+ Anyway, everything is analytically modelable through the passage through the
+ duct. The SuperSonic anemometer simply holds a duct wave behind it, so it takes into account
+ this non-isentropic passage to go and rebuild the usual syntotic speed that is being
+ developed. At this point we have the last capsule instrument that we see.
+ I should have recharged it, by the way. What is the magnetron?
+? The speed of the sound, that is, the speed of the pressure disturbances within the fluid
+ at the passages we know, gamma RT radius, the areas we are interested in, after which the temperature is constant,
+ and therefore it remains constant. The magnetron is that instrument that must go and revert
+ along the mark. So the ratio between the speed at which I move and the speed of the sound C or A as
+ we named it before and V as usual, a bit like the delta T, sorry, the delta Vc,
+
+that we have seen before that the pilot used to pass from the case to the EAS,
+ in the case of the Machmeter, I recover the V from the impact pressure.
+ The V will be a function of Pt-Pr.
+ The acerality of the sound is a function of the static temperature,
+ which in turn is a function of the temperature according to a light note,
+ so I can express it as a function of the static pressure.
+ So, in the end, the Machmeter, the indicator of the Machmeter,
+ will be a function of Pt-Pr, of impact pressure, of Qc, of Ps,
+ and of the inevitable system errors.
+ Here, at the same rate of airspeed, at different pressure attitudes,
+ I fly at different Mach numbers.
+ So, how is the instrument made?
+ The Machmeter is the only instrument with a capsule that has two capsules.
+ And why does it have two capsules?
+ Because it has to do with the numerator and the denominator of that ratio.
+ The numerator has a differential capsule,
+ which is like that of the anemometer,
+ which will already have the total inside and will be exposed to the static pressure,
+ where the total and the static are the pressures,
+ which is inside the box.
+ In addition, the anemometer, for the denominator,
+ will have an aneroid capsule that is exposed to the static pressure in the instrument box,
+ which is therefore directed according to the rate.
+ According to the rate, C or A changes the sound's accellerity,
+ so by going to act appropriately on the gear train,
+ which multiplies or reduces the given indication,
+ taken, calculated from the pressure and impact,
+ I'm going to change the sound.
+ So, this was a pretty brilliant system that was invented,
+ because now we write three rows of codes and we do everything,
+ but once it's not that simple.
+ This was a pretty brilliant system that was invented for the indication of Mach numbers.
+ So, basically, I have a measurement of CAS,
+ a parameter, a differential capsule, which the measurement of CAS
+ is multiplied or reduced by a measurement of the rate made by a capsule.
+ The mechanism, the gear system that manages these two measurements
+ is inside the capsule.
+
+The ones here, movement due to airspeed changes, this is the movement due to airspeed,
+ and these ones, movement due to altitude changes, change in this case some arms of some levers
+ and the macrometer then goes to indicate, here there is a more sophisticated version of the macrometer.
+ In the case of the macrometer it was from here to here, you see, up here.
+ Here there was also a macrometer, I put one, a bit complex.
+ There are also macrometers, let's see if there is one here, that indicate the number of macrometers,
+ and that's it, no, I have more than one, once I had one.
+ In the electronic instrumentation systems the number of macrometers is marked typically here,
+ down here, so under the tape of the IAS.
+ And here you see, up here in the reference, we have, it seems to me, already marked
+ what is the margin color and the set point of the autopilot.
+ So, in this case, the autopilot is set for .78 and the macrometer is set for .774.
+ 40,000 feet, as much as you see .774, the sum at the end is 233.9.
+ So, not much.
+ Ok, so with the macrometer we conclude our analysis of the capsule instruments.
+ Now I have brought you to see, also to slow down the weight of the hours.
+ This is a capsule, if you want to turn it around, try not to destroy it.
+ In fact, there are two capsules put on top of each other to increase sensitivity,
+ because at least the dilatation of one adds to the dilatation of the other.
+ After that, I can show you, this is semi-destructed, this is the inside.
+ Let's turn it around, this is the variometer.
+ A blow-in-to-tube is easy by blowing at very high pressures.
+ Clearly, if we blow in a macrometer, probably nothing happens.
+ But in normal instruments it is easy to damage them.
+ Here, if you want, there is another variometer, which is broken, but it allows us to see how they are made inside.
+
+And this is the anemometer with the photo of the two elements.
+ The piece is a real instrument, an integral one, even with its calibration certificates,
+ because then the instruments periodically calibrate them.
+ This is an altimeter, in which you can see I can adjust
+ the reference pressure, which then gives you values.
+ Usually there is an objection that is made on the fact of not using the TAS
+ and not using the rover I am flying, for example, in giving all the VNE speeds.
+ Let's imagine we are flying on a cold day with the highest density of rho_0.
+ My instrument that is set on rho_0, when it reads a certain impact pressure,
+ tends to underestimate the speed.
+ And then I could find myself flying at a speed above the VNE
+ because my instrument is set on rho_0.
+ Because my instrument underestimates the TAS, because there is a rover above the rover.
+ Why is it good for the author to behave like this in my instrument?
+ Why is it good for the author to behave like this in my instrument?
+ I don't know if I explained myself with the question I asked.
+ Why is it good for the author to behave like this in my instrument?
+ Why is it good for the author to behave like this in my instrument?
+ The question is this.
+ What is the answer?
+ In fact, the authority is very good.
+
+Exactly. The point is this, because in reality the determinants are not the velocities,
+ they are the pressures. They are the determinants, or the pressures of the field.
+ That is, if the arrow is different, even the energy that is given by the current to the structure
+ to feed the aerolactic phenomena is different, so the two things go together.
+ So what my instrument tells me, even if I have calibrated it in knots or kilometers per hour
+ in reality it is the impact pressure. So as long as I am under the critical impact pressure,
+ it is fine, even if in reality I am moving more or less quickly,
+ because the density is different. So to the authority it is fine. What is a problem
+ for painted anemometers is instead the issue related to the load factor, that the pilot must know.
+ Because as I said, I can have the g-stall due to the fact that I am pulling the load factor
+ and therefore I can install velocities in proportion to the load factor much higher
+ compared to the minimum sustain velocity, which is painted on my mechanical instrument.
+ So let's see, I don't have this one destroyed, I have another variometer,
+ this is just a broken one. But just to show you, this is a more efficient airplane.
+ Okay, are there any questions or doubts on the part of capsule instruments or anemometers
+ in general? Then we will see how it is actually done on modern airplanes,
+ even the lowest-end ones. They are the ones that have the complete air data. Let's start by saying two words,
+ then we will talk about it in a dedicated lesson. The air data computer, as the name suggests itself,
+ is a computer, a programmable device that starts from measuring the same physical sizes,
+ therefore total pressure, static pressure and temperature, and it does some calculations to go and evaluate
+ all the sizes we have seen so far and then make them available to the other
+ users on board who need them. So the computer's data is attached to the same
+ tubes that come from the same probes compared to the capsule instrumentation.
+ However, as the first thing, it has transducers,
+
+first the transducers, then the analog and digital converters that transform the pressure and temperature magnitudes into binary numbers
+ and by working these numbers it performs all its functions and generates the magnitudes of the air data.
+ Normally, the frequency with which they are generated is 10 Hz,
+ it is difficult for the air data to have such a dynamic to require a very high frequency of the day,
+ so normally the air data is generated at 10 Hz.
+ We will only talk superficially in this course about the certification of the software,
+ because as long as they are mechanical, pneumatic or electrical systems, the certification part is quite coded,
+ I have to try mechanical resistance, fatigue, vibrations, temperatures, etc.
+ The big problem is the certification of the software,
+ it is a bigger problem because the software is delegating more and more of the functions that are presided over on the European computer,
+ and it is delegating more and more parts of the aircraft, systems or services,
+ from the variety of which there may be catastrophic consequences for the safety of the flight.
+ It is enough to name, as we have already done a few lessons before, the flight control computer,
+ which is what presides over the fly-by-wire machines, the operation of the control surfaces,
+ which if this is not enough, the aircraft is no longer controllable.
+ The certification of the software is extremely complex, maybe we will talk about it shortly,
+ but talking about Air Data Computer, it is extremely complex and has a slightly different approach
+ than that of a particular mechanical or electrical or pneumatic certification,
+ that is, the idea is that we are careful about the quality of the software,
+ keeping the process that generates it under close control.
+ In other words, it is impossible to try all the possible combinations
+ in which a software can work, it is impossible.
+ So we do not try everything and see that everything goes.
+ What the authority requires for those who develop software that must fly
+ is to keep under control, in a very, very
+
+the process generated by the software.
+ As we will see when we will turn it on,
+ for the software that governs parades,
+ the failure of which has potentially catastrophic consequences
+ on the safety of the flight,
+ of all the effort, of all the resources that are needed
+ to develop the software,
+ the part of coding, of writing the software,
+ absorbs about 5-7, 8% of the time.
+ All the rest is documentation, preliminary studies,
+ testing of the individual units made by independent test teams,
+ because this is quite common, I don't know if it happens to you too,
+ you write a little thumb in MATLAB,
+ you use it, it's fine,
+ but you make your friend use it for a second.
+ This also goes beyond the software.
+ If you write a text, a letter of candidacy
+ for an important position to which you want to apply,
+ it seems perfect to you, you make your friend read it,
+ you immediately find the comma without the space after,
+ or other refusals that disappear from you.
+ This is because, precisely for the mechanisms,
+ the tool of the man, of the cognitive,
+ each of us tends not to see our own errors.
+ So, for the software that,
+ in the case of which it has potentially catastrophic consequences,
+ we need an independent test team,
+ which means two pairs for the cost of development,
+ we need two pairs for the cost of development.
+ But you can well understand that
+ the software that governs this display
+ it would be appropriate not to say that the application was finished,
+ leaving the data in this place.
+ For which, I repeat, the control over software
+ is very stringent and it is extremely expensive
+ to develop the software.
+ This also explains the reason why
+ not always what flies is aligned to the last cry
+ of the hardware and software that we see around,
+ because the certification processes are long and expensive.
+ So, obviously, the core of the versions are currently in use.
+ Ok, I would say that we can take a few minutes of break.
+ After that, let's see something,
+ I mean, let's not do a lesson,
+ I'll show you some videos of a head-up display for commercial use,
+ so you can see how the information is represented in that field,
+ which is a little lighter given the time.
+ Ok, so let's take a 10-minute break,
+ let's go back to E25.
+
+to see an instrumentation system for commercial cars.
+ Aftermarket, a product from SAB, this is not a paid partnership,
+ I don't have any financing from them, but it is quite interesting
+ because we have talked about the representation of information,
+ the interaction of the car with the driver, and this is an interesting solution.
+ So, here you see "Advanced Lightweight Low Cost Head-Up Display System",
+ this is a small brochure, let's see the technical characteristics.
+ "Electro-Optical Presentation System, which is used for presentation of navigation, altitude flight, reticle and video".
+ The video part is quite important, we will see it a bit quickly,
+ but it is also possible, and it happens very often, to capture images with an appropriate camera
+ and then present them to the pilot to help him realize what is happening outside.
+ "We need aircraft or helicopter crew by day, night and adverse weather conditions".
+ Here you see "New Generation Enhanced Vision Sensor Convegato of Rigs and Rigs".
+ It enables pilots to see through darkness, smoke and various levels of snow, rain and fog.
+ "Safety is therefore enhanced via early detection of runaway incursions and improved awareness".
+ "Also the control of flight into terrain means that it is still a cause of non-transparent incidents".
+ "The development of the Rigs comes from more than 100,000 flight hours with the add-ons of the Prison Configuration Sub".
+ "It is a military OEM, a very advanced one, as you know they won a race for the trainer of the US Air Force with the T7".
+ "It is surprising how a country of 9 million people invests so much in its aeronautical industry".
+ "Saba was even asked by the Swedish government to evaluate the possibility of carrying out 6th generation hunting at home".
+ "Safety is therefore enhanced via early detection of runaway incursions and improved awareness".
+
+that is one of the two consortiums, there is Leonardo, British Aerospace and Mitsubishi that were together.
+ The other consortium was the F-CAS that had the French and the Germans,
+ but it seems to me that they were not getting along as much as at the beginning.
+ And so normally they are international programs precisely because the investments are gigantic,
+ Sweden thinks of doing everything at home, including the engine,
+ which is also quite a thing.
+ Anyway, this is SavSystems, the division that deals with avionics,
+ which put this head-up display on point.
+ Here you see, it is not enough to project on the windshield,
+ as the head-up displays of the automobiles I have already spoken badly of do.
+ Let's see the unique features, very low weight, compact, one single unit and single installation point.
+ Clearly, to install a device like this, what do you have to do at the practical level?
+ Does anyone know?
+ At the level of Type Certificate, do I bother you with the voices?
+ Because maybe who is behind me ... I close?
+ What do I have to do?
+ What do I have to do when the winglets are installed on the fleet of its own,
+ or the Sharklet of its own trans-sets, at the bureaucratic level?
+ Yes, you do an STC, which means Supplemental Type Certificate.
+ So I have to show the authority, basically, that what I do does not create problems with flight safety,
+ because it is the only thing that interests the authority.
+ This will often return to our considerations,
+ but there is a sensitive difference between civil authority and military authority.
+ Civil authority is only interested in flight safety.
+ For civil authority, the plane that is standing still on the ground never flies,
+ it is the most beautiful airplane in the world.
+ If then there are no passengers, it is even more beautiful.
+ Not for the military authority,
+ because the military authority normally also asks the supplier or the car to test the performance.
+ So much so that we normally talk about certification in civil habit and qualification in the military environment,
+ precisely because the term "qualification" also includes the verification of performance,
+ which is something that does not exist in civil habit.
+ So, to install an instrument of this kind, you have to do a Supplemental Type Certificate, an STC,
+ which proves that it has not created a possible problem for flight safety.
+ It's all solid state, no lamps or CRTs.
+ Once the adaptive display was, let's say,
+
+the image was generated at the beginning by a cathode ray tube,
+ now cathode ray tubes are no longer used,
+ also because the work of the aeroplanes had several problems,
+ starting from the weight, the mass of the tube itself,
+ and the power circuits, because, as you may know or not,
+ cathode ray tubes needed high voltage,
+ so the transformers, so other heavy objects,
+ afterwards created electromagnetic disturbances,
+ with the deflection of the electronic brush it went to create the image,
+ and electromagnetic disturbances were possible,
+ so the CRT and the aeroplanes did not have an easy life.
+ High Resolution, NVG Compatibility,
+ therefore compatible with night vision goggles,
+ can accept most video formats,
+ let's see all the characteristics of this HUD,
+ here you see how it can be installed on the edge of the cabin,
+ here "Field of View", "Focus Infinity" we have already read,
+ "Transmission more than 75%", even when I look through,
+ I wanted to show you, these are communication standards,
+ some specifics, "Function, Flight Data Presentation",
+ and here we will see it, "Landing Presentation",
+ "Enhanced Vision System, Compatible with NVG",
+ "Reticle in GRM", which we are interested in.
+ It comes out in two versions, green and red,
+ as a visualization, normally red is better for helicopters,
+ why is it better for helicopters?
+ Because helicopters fly low and what is below is mostly green,
+ because it is vegetation,
+ so the green on the green makes less contrast,
+ while the red on the green does.
+ So here we see the proofs against the two versions,
+ "Green Vision", "Human Eyes have the best sensitivity in green",
+ I don't know if you have ever seen the sensitivity curve
+ of the human eye to a peak on the green,
+ which is about the center of the visible radiation,
+ which in combination is the peak of the sun's radiation,
+ so there has been an adaptation of the human being
+ to the planet on which it lives.
+ Traditionally the HUDs were all green,
+ because there were red phosphorescent CRTs,
+ and then with the green it is easier to keep the NVG capable.
+ While the red, "Proven best for helicopter air-to-ground sighting,
+ testing relative to the cluttered ground, sky-to-ground".
+ Here we are.
+ "End of visible spectra, inclined, improved for topic transmittance in the combiner",
+ here works better in the combiner,
+ and the NVG capable is still kept with these other standards.
+ So here you see the environmental characteristics,
+ I talked a lot about them.
+
+Memorize this DO-160F, it's the revision of the document, now it seems to me that the G has been released,
+ it's the reference standard for the environmental compatibility of the electronic instrument.
+ I think some of you will work in the field of design or validation or integration of the instrument,
+ the DO-160 will know it very well, because it is precisely that series of standards for environmental certification.
+ Ground Survival Temperature, you see, there is a difference between the operating and the Ground Survival Altitude,
+ always on the DO-160F, you see, they are all mentioned here.
+ Instead, the vibration of a transport is given according to a mill, it is not specified in the DO-160
+ in this particular class of environmental tests, but the mill STD 810, which is a military standard,
+ a military standard STD, is freely downloadable, you can find all the mill standards,
+ then maybe the NSA will start to follow you with the downloads, but they are freely downloadable
+ from the sites of the American military and they are also the equivalent.
+ The DO-110 is practically superimposable to the RTCA DO-160, even if it adds something,
+ including this Vibration During Transport.
+ And here we have it. Now let's see together a video
+ of an approach to an airport.
+ Unfortunately, I was not able to upload this video in the support material of WeBeep
+ because they had put a limit from this year to 250 megabytes and the video is broken by 400.
+ Maybe I'll send you a link to my one drive of the Polytechnic, if anyone of you is interested in seeing it.
+ Now it's coming, it's starting to download.
+ But it's not there, it's not active yet.
+
+Meanwhile, let's see if it's downloading.
+ I've downloaded this one, yes.
+ So here you have, I've also downloaded this on the site, the storyboard of the description of what happens in the video.
+ I interact with the film from 0 to 1 minute, the flight that was presented to me is an ILS vectoring, we will see the instrument in the end of the system, to arrive at runway 19 of the airport of Jönköping,
+ I don't know how to pronounce it, I don't know how to speak Swedish. The position is on the eastern side of Lake Vatten, about 12 miles northeast of the airport, and we are vectored, that is, the aircrafts are given to us by the air traffic control.
+ When it is said that it is vectored, it means that the decision on which aircraft to fly is not taken on board, but is given by the air traffic control, giving us some vectoring.
+ So we are given a vector for 260 at 2800 feet to go and intercept the localizer, we will see, then the course 195, because then the runway is oriented for runway 19 from left to right.
+ Let's see what's in the head-up presentation, maybe we'll see it directly on the film.
+ Let's share, why is everything black?
+ Well.
+
+[silence]
+ [silence]
+ [silence]
+ [silence]
+ [silence]
+ [silence]
+ [silence]
+
+Ok, we should be there, let's see it from here.
+ No, it's not this one, it's this one, ok.
+ We should be there, do you want to turn off the lights so that you can see better?
+ Ok, we're here, let's see what you can see.
+ Ok, I'm filming, here it is, Sierra Golf Juliet, it's the name of the car of the airport.
+ Here you can see the map of the airport, I'm sorry about the aspect ratio, it's a bit crushed, it shouldn't be like this, but since it didn't work, we'll see it like this.
+ So, in this adapt display there's a lot of information, here we have the anemometer on the left and up here the ground speed, so this is the air speed and this is the ground speed.
+ This is the altimeter on the Pascal setting, the air speed is vertical, we'll see it later, and up here we have the flight mode annoucement because it's the panel that says which are the autopilot modes,
+ which are engaged or activated to be engaged, here we have wind information, this is the horizon line, here we have the DMA indication, we'll see the distance measuring equipment that tells us which stations we are in tune with and at what distance we are.
+ We'll see what this is, RH stands for Radio Height, it's the distance from the closest object below, from the ground, hopefully taken from the altimeter radar, and this is the Decision Height,
+ that, in the procedures of instrumental approach,
+
+is the height at which the pilot must decide whether to proceed with the approach and land
+ or, let's say, activate a go-around maneuver, therefore a missing approach.
+ And this is both from a technical point of view, but also from a legal point of view.
+ So, at the decision height, the pilot will make his decision.
+ So, they give us the proa of 260, which you will see below, this is West, so 270, we are above 260.
+ So, in a minute, it is selected, the clearance is given for the instrument approach,
+ and up here, you see, it is activated by the pilot, it is pre-noted by the pilot on the vertical and on the lateral,
+ the navigation assisted by the system we will see called ILS.
+ I take this opportunity to underline once again how the lateral and vertical dynamics are also disconnected in the instrumentation.
+ Here, you see, at this moment, the autopilot is in altitude hold mode, so it maintains the barometric rate,
+ and it is pre-noted, the capture of the glide slope, which is the descent path, which is, let's say, that part of the ILS that gives the guidance on the vertical.
+ Instead, the lateral is now in heading hold, because the vector had gone for 260,
+ so we, let's say, the autopilot, keep the proa they gave us, 260, and then it is armed, let's say, it is ready to intervene, the capture of the localizer.
+ The localizer is a vertical plane that extends the axis of the track towards the approach and is used for lateral guidance.
+ At this moment, these modes of the autopilot are activated.
+ If we go ahead, in a while, the "machine" will capture the localizer and then it will start to turn to the left to take it to the airport, and it will understand that this lock will become the active mode of the lateral driving of the machine.
+ For now, we are in heading hold and heading selected, this bug, this kind of bug.
+
+T. Here you see, "Localizer" captured, the autopilot turns us to stabilize us at the level of lateral driving on the localizer.
+ We are always at constant speed, the glideslope is an inclined plane of 3 degrees, as we will see,
+ and we arrive when we intercept it, then we start to descend. So now look here,
+ we are at altitude hold at 2800 feet on this altimeter setting, which is different from the QFE,
+ because you see the radio height is 2520 and here we are at 2100. The track is oriented for 190,
+ here we turn to have then proof at 190, it was 195 because then they go from 10 to 10.
+ If you look at the flight mode at altitude, when you take off the glideslope a horizontal line appears,
+ here it is, which materializes the glideslope and the airplane begins to descend following the glideslope.
+ You see, the huge advantage of the head-up display is that all the information is presented to the pilot,
+ while the pilot looks outside and sees what is happening.
+ From here we get closer, there are other details that are of no interest.
+ Here you see that we have a vertical speed to descend, these are the lines,
+ you can also see, let's say, in the instrumentation, both mechanical and electronic,
+ the vertical speed can also be seen by observing how the altimeter moves.
+ At a certain point, if I remember correctly, the pilot will activate a de-cluttering mode,
+ which will remove the feet, everything that is no longer needed, but leaves only the information
+ that can be used in that very last phase of the flight, which is the final phase of the approach.
+ And so here I have the bow, this that you see is the point where the glideslope plane intersects the track,
+ which is not the beginning of the track, it is what is called "touchdown point",
+ which is further ahead than the edge of the track, clearly to take into account the possibility
+ that one arrives a little short and lands on the track anyway, so one never points to the edge of the track.
+ Here you see, vertical speed, 860 feet per minute to descend, radio height,
+ and here, if there was the grand proximity, the volume is high, it would say 500.
+ And then, when it gets close to the Decision height, it calls upon it.
+
+He approaches in minimums to warn us that he is approaching the minimums and then he will call minimums or decision height, depending on the version.
+ It seems that here he lights up the DH200 on the left, we are getting closer to the decision height since the pilot is the one here, DH, there is a DH in the middle, the pilot continues, you see, the horizontal lines are also painted on the touchdown points, these are PAPI lights.
+ And here we land, so far so good, we simply have the over-impression of the information and of the instrumentation on the DAP display, where this type of instrumentation is extremely advantageous is when it also manages to merge the shots made with cameras, maybe from the outside of the visible, some on the infrared, some on other bands,
+ and to generate a synthetic image of the track. Here you see what would be in good visibility, now below you see how the pilot can be helped by the system.
+ I don't know if you can see through the projector.
+ And there is another landing like this with the Enhanced Vision System, before it was not active, now here you see, compared to the approach before, what are the advantages of the Enhanced Vision System.
+ At this moment it has been turned on, if you see here you can already see the track behind it, it is made more visible by this system, and this was the equivalent without the Enhanced Vision System.
+ At some point here it seems to me that it turns it off for a moment and turns it on again, just to show the difference between having it, here it turned it off and here it turns it on again, you see, the help it gives is very important.
+
+Okay, so this is to show you how, let's say, that which is the evolution of
+ onboard equipment, it often goes in the direction of simplifying the life of the pilot and, let's say,
+ reducing precisely those that are the requests that the equipment makes to the pilot to interact with the machine
+ to leave him this excess workload capability that allows him to develop the situation aware.
+ If there are no questions or doubts on your part, today I will end here, we will see each other tomorrow
+ and then we will see who gives us the key.
+ The last time I was in Durandome, one of the closest ones to the entrance.
+ Let's hope it doesn't end with design, with due respect for design at least.
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

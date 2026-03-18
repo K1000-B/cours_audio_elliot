@@ -1,0 +1,692 @@
+
+# TRANSCRIPTION BRUTE
+
+[Music]
+ [Music]
+ [Music]
+ I was saying, let's talk today about the atmosphere and let's do it by recovering some
+ of the information that we already know from some previous courses, but
+ putting them on what is the need for our course of study.
+ The atmosphere, thank goodness, is there, in short, it is thanks to the presence of an atmosphere on the
+ planet that we can generate aerodynamic forces that help us keep the
+ atmosphere clear, in particular the port. And therefore, as can be intuitive, since the dawn of aviation, it has been felt the
+ need to modify a standard atmosphere on which it could be made
+ of accounts, of comparisons, etc. So, for the North American initiative, in the 50s, the ISA was created,
+ which is the International Standard Atmosphere, which is a model that is universally used, even if it is not
+ common to find other models of atmosphere. For example, recently, for work reasons, I had
+ the request from the DRDO, which is an Indian military research agency, to use an Indian
+ atmosphere model, because for some of them it was necessary to use the Indian model and not the standard model,
+ in terms of reservations, they couldn't even tell us what their model differed from. But I want
+ to say this as evidence of the fact that not only the ISA exists, even if the ISA is the model
+ universally adopted. How was the model of International Standard Atmosphere created? As I said,
+ towards the middle of the last century, they started to generate this model that is based on
+ observations. How is the atmosphere of the planet made? Observations are made throughout North America,
+ so not globally. It is a model that, for some reasons,
+
+is simplified compared to what could be created as a model of the atmosphere but
+ for a whole series of activities connected with the design, with the flight experiment of the
+ flying machines, it is totally adequate. First of all, the only independent variable in our
+ model of atmosphere is altitude. The model is time invariant, so there is no variation in time.
+ The only physical magnitude that acts on the air is the acceleration of gravity.
+ The atmosphere is restless, so there is no wind, there are no horizontal pressure gradients
+ nor vertical movements. We know that this is not true, we know for example that for the
+ certification of aeroplanes we have to evaluate the effect of the raptors that are specifically
+ the graphical movements. The atmosphere is fixed with the surface of the earth, so it
+ usually rotates along with the earth, the air is dry. This is also a fairly strong solution
+ because in general we give a lot of steam, even less if not very much, because it
+ would make the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs of the lungs.
+ It happened to me to access an air-conditioning room, which is quite large, which is used for
+ environmental qualification tests, and the effect of humidity is impressive. I remember that
+ 55 degrees with 10% humidity were much better than 40 with 90% humidity, but for our
+ ISI the air is completely dry, there is no discontinuity and a very simple model has been adopted
+ that has three equations that govern the atmosphere, the atmosphere model. I repeat, if it could be more sophisticated, yes, it would take advantage of having a more sophisticated model, not necessarily, so much so that this ISI is still a reference
+ on many occasions in the field of development and aeronautics operations. The atmosphere is a model with layers, so I recommend layers, also here, in which the only variable, regardless of altitude and for the rest, latitude and longitude have no impact,
+
+For what interests us, we have the tropopause, the troposphere, which is the layer from ground level to sea level up to 11,000 m.
+ After tropopause, the stratosphere begins, which reaches up to 50 km.
+ You will see who is responsible for which layers. After tropopause, the mesosphere reaches up to 85 km.
+ Then, at 100 km, there is the Karmann line, where the space begins.
+ All the commercial initiatives, such as Blue Origin, etc., that bring powerful tourists to be able to define themselves as astronauts,
+ arrive at 100 km plus epsilon to be able to say that we are in space.
+ In fact, 100 km for space is a very, very low rate, because, as far as the stratosphere is concerned,
+ the decline in the orbit of an object in orbit at that rate is extremely high.
+ The most basic objects are a few hundred micrometers, seen as space vehicles.
+ Also here, I imagine, is something perfectly known.
+ Now let's see the three little equations that govern our model.
+ First, the air is considered a perfect gas and the state equation of the perfect gases makes it convenient to write it in this way.
+ Instead of P for V = nRT, we write P = rho R*T, where R* is different from R, the universal constant of the gases, and R of the air.
+ Which is 287 joules per kilogram of Kelvin and is obtained by the molecular mass of the dry air.
+ Written in this way, 1 is very simple for all of us.
+ After that, the other equation is that of the hydrostatic relation, the famous air cube that underlies the gravity reaction and the hydrostatic force, so it stays still, which governs this equation.
+ Where there is a g, which is a g function of h, for our purposes, g is reasonably comparable to g0.
+ Because, as you can see below, there is an R, which is the radius of the Earth, and h is unspeakable for us.
+ By the way, I don't know if any of you has ever done the math of what the thickness of the troposphere is.
+ Try to do it now. When does the Earth's radius go?
+
+Let's imagine that we have a world map with a diameter of 1 meter.
+ Try to tell me how thick the troposphere is on the world map of the diameter of 1 meter.
+ Do the calculations and first think about how much you imagined it. I imagined it as a finger or two fingers.
+ Do the calculations of how much the troposphere comes and this explains a lot of things. Please.
+ I'm not doing it myself. So do the 10 km/h on 6,000 meters and bring it back to the diameter of the world map of 1 meter.
+ Imagine a world map of 1 meter is a big world map and we fly at 1 mm from the surface of the world map.
+ So all the mountains that are on the world map are completely off the scale.
+ So our delicate troposphere is more visible than the Earth, so much so that, and I say this to justify it,
+ I don't want to go around and say it's less visible, particularly anomalous for our traffic, which is almost all in the troposphere.
+ Particular machines will go into the stratosphere, like supersonic machines or hypersonic ones even.
+ BOOM Supersonic, I don't know if any of you are following it, is developing a supersonic commercial transport. It won't be like CONFORD.
+ To begin with, CONFORD Acero 2.2 and BOOM Acero 1.7. But in their business model they also managed to change the regulation that said that supersonic could not fly on the Earth but only on the water.
+ So much so that CONFORD was mainly used on ocean routes, so specifically on the London-New York or Paris-New York, I think it was also Paris-Rio.
+ Now, however, a large part of the market that is attacked by BOOM Supersonic is a market that prefers to fly on the Earth, so cost-to-cost in the United States rather than every time towards the air.
+
+So, excluding these applications, the people are even higher, but normally the air traffic flies in troposphere, or in tropopause.
+ Business jets fly higher in commercial flights, also related to air traffic control, we will see when we talk about this topic.
+ The third equation is the one that regulates the temperature gradient.
+ Here it is observed experimentally that, with a fortunately large statistical window, the temperature gradient with the quotient of 6.5°/km, or 6.5°/km, the interval is the same, obviously.
+ And so it has become clear that dT = A/dH, where this gradient is in troposphere, then in tropopause we have a whole range with constant temperature.
+ These three small equations govern our model of atmosphere, they are differential equations that do not need surrounding conditions.
+ These conditions have also been fixed on the basis of experimental observations.
+ Here we have a P0, pressure at the level of the hand, 101,325 pascal or 1,325 hectopascal, to return to the millibars that were units of measurement used instead of the international system.
+ But with us aeronautics the history of the international system does not work much, as you have certainly already had the opportunity to see.
+ We love to use units of measurement not of the international system, even if this is illegal for us, rather than other units, among which the pressure, for example, in inches of mercury is very widespread in the American world.
+ To give the pressure in inches of mercury, P0 in inches of mercury is 29.92.
+ Then we have a rho0 that is 1.225 kg per cubic meter and T0 comes as a consequence, that is, if T0 and P0 are calculated, rho0 comes as a consequence.
+ I am not independent of the three relations that are related to the partitions, so we see them at the temperature of the stratosphere of -56, -75.
+ Some of you have never had the opportunity to fly a long haul during the cruise, typically for three years, sometimes even softer, which are statistical values but not punctual.
+
+So this is the temperature with the quotas. Linearly it is a linear decrescence up to too much pause after which it stays at -56.5, this is the ISA model.
+ We can recombine the three equations to evaluate the pressure dependence with the high pressure.
+ And this is done because, as we will see, the quotas of the airplanes, also here for historical reasons, are expressed from the pressure measurements.
+ It is labeled as pressure altitude or barometric quotas, barometric altitude.
+ So it was necessary to turn the equation around a bit, we can see that all the steps are self-explanatory, to be able to express h in the formula below, according to h which is the gradient of temperature and a constant,
+ P0 at zero-quota temperature, after which we have P, the measured pressure, P0, the zero-quota pressure, after which at the exponent we have A again which is a constant, R* which is a constant and G0 which is a constant.
+ Our h depends on T0 and P0, but here we can see, this is instead in stratosphere with the constant temperature, but in the 11 as we have seen there were the values of T0 and P0,
+ and here we can show that the influence of T0 is transferable. So as T0 in the formula that expresses h in the function of P, we put T0 standard and at that point we get a link between h, the measured pressure and P0.
+ The effect of the pressure at the sea level is not transferable. So we will have a h, barometric quotas, pressure altitude, which is the function of the pressure that I measure and of the pressure at zero level.
+ This has had a big impact, while the variation of the temperature has a small impact in moving the value of the quotas compared to what I get by inserting the values of T0.
+
+of the standard temperature the pressure has a remarkable influence and so you have to know P0 and the pilot
+ must be able to change P0 on his altimeter which is the instrument, as we will see, that measures the pressure altitude
+ and among the infinite values of P0 that the pilot can put on the altimeter there are three standard
+ regulations that are used in the world of air transport. The first regulation, these are
+ labeled with three letter codes of the Q series, which is a series invented here too, in the last century
+ we are not going into details but it is necessary to understand what is being talked about. They are not acronyms so
+ do not try to understand the meaning of the acronym because they make no sense. The first regulation
+ is that of the so-called QNH, it does not mean to regulate the altimeter on QNH, it means that I
+ put the pressure at level 0, the pressure that is at level 0 at this moment in a few minutes.
+ And so on my altimeter I will read my altitude with respect to the sea level as measured on the
+ standard atmosphere. Another regulation of the altimeter is that of the so-called QFE. The regulation of the
+ altimeter on the QFE involves using the pressure at level 0, the pressure that there is in the field on the
+ airport from which I typically take off. And so my altimeter when I am standing on the track,
+ while before with the QNH I was reading the elevation of the track with respect to the sea level,
+ when I am on the track with the QFE regulation, the altimeter reads 0. The last regulation of
+ the altimeter is that of the QNH and therefore regulating the altimeter on QNH involves putting
+ the pressure at level 0, the pressure that is at level 0 at this moment in a few minutes.
+
+So three possible regulations, QNH, regulation that puts pressure at level 0, the pressure
+ that is at level 0 today in this place of the world, because the pressure at level 0 changes
+ in time and changes in space, that is, in one day in one way, in the other day in
+ a different way, remaining in the same place, here in front of our building today it has
+ a different value tomorrow, in one hour, in two hours it will have a different value and it also
+ changes in one place and in the other, that is, in the same instant in the world the pressure at level
+ 0 is generally different, that is to say that these events are generated by pressure equivalents
+ that therefore call air, I can't do it. QNH, rule to read 0, QNH, rule on standard pressure
+ at level 0. And here there is a drawing that I hope is informative to understand better.
+ So first of all a little nomenclature. The elevation is generally the height of a
+ station, of a point, compared to the average level of the station. So I can say that the elevation of Malpensa Airport is 372 feet, rather than the elevation of Monte
+ Bianco is about 4000 feet. After which the distance between the airplane and the train is called height,
+ while the distance between the airplane and the MIMC level is altitude. So this at the level of nomenclature,
+ elevation, height and altitude are three different sizes. Let's do the flight level for a moment.
+ So by adjusting the altimeter on QNH I read my altitude, adjusting the altimeter on QFE I read my height.
+ But when are these two regulations used? Typically the regulation on QFE is used very little, indeed in commercial air transport it is not used at all.
+ When is the regulation on QFE used? I do not remember, in the instruction flights, because typically some sizes,
+
+for example traffic circuits around the airport are referred to ground.
+ You have to make the branch under the wind at 1000 feet of ground.
+ So it is very convenient to have the altimeter set on the QFE
+ so that if I know that I have to fly the under-wind section of the traffic circuit around the airport
+ at 1000 feet of ground, I set 1000 feet of ground on the altimeter, but I set it on 4 feet.
+ Clearly, keeping in mind the fact that the QFE value also changes over time,
+ so if I am at the Milan-Obrezzo airport,
+ the rule on the QFE when I take off is not that after an hour that I have been flying back to the ground,
+ I still connect to zero when I am at the parking lot, at the level of the airport,
+ because the QFE value can change, and it generally changes over time.
+ The QNH, on the other hand, is the regulation that is normally used in the terminal flight phases,
+ and also here, always on the level of nomenclature, the terminal phase also includes the initial phase.
+ The terminal flight phases are usually those near the ground.
+ Do not ask me why, but in the jargon of our sector, the take-off is a terminal phase,
+ precisely to say that it is near the ground.
+ In the terminal phases, the pilot adjusts the altimeter on the QNH,
+ and this is because in the terminal phases it is near the ground and for the separation from the obstacles on the ground
+ it is useful to have the altimeter adjusted on the QNH, because
+ if I have to pass over the Monte Bianco, the elevation of the Monte Bianco is written compared to the sea level,
+ not the level of the airport from which I leave, and therefore to separate myself from the ground,
+ from the obstacles that are connected to the ground, which are normally the one whose elevation is reported on the cards,
+ I use the QNH.
+ Then, why was the QNH taken out and what sense does it have to use it?
+ The rationale behind the QNH is precisely in the fact that, as we said before,
+ the QNH, that is, the pressure at sea level, changes over time and space, so
+ let's imagine that we have two flights that go through the same route but in the opposite direction,
+ we have an Oreo Serio Gatwick and an Oreo Serio Gatwick, let's imagine that they take off at the same time,
+ At the moment of takeoff, the plane is in the air.
+
+In general, the QNH is different from the QNH that there is in Londra Gatwick and therefore the air traffic control communicates to the pilots what is the value of the QNH in the initial phase of the flight, the pilots fly on the QNH and the initial part of the procedures and the routes they follow is referred to the QNH.
+ What would happen if the QNH regulation was maintained throughout the mission?
+ First, when I arrive at the destination airport, I am with the QNH of the departure airport, so I no longer find myself with the separation of the ground because in general the QNH of the arrival airport is different from that of departure, even if maybe they return to the same airport after a long time, as I said.
+ In addition, there would be a problem for the vertical separation of the airfields because, starting from different QNH, the airplanes, when they cross each other, may be very close to each other even if their instruments indicate very long distance.
+ That's right, because if I move the level 0, look at the level 0, it can be a lot, so I also move the photo of the plane. So, how was this little problem solved? It was solved by knowing the QNH.
+ There is a transition altitude that the pilot knows, in the procedures if the air traffic control is changed that communicates to the pilot, surpassing the one that the pilot who first in the initial phase of his flight had regulated the altimeter on the QNH, surpassing the one that the pilot regulated the altimeter on the standard.
+ And this is done by both pilots, so from the transition altitude onwards they fly on QNH.
+ What does this mean? This means that maybe both are at a different altitude than they think they are.
+ Actually, no, false, reformulated. It is no longer called altitude, but precisely to distinguish it, to minimize the possibilities of confusion, it is called flight level, FL, and in addition, to further reduce the possibilities of confusion, it is expressed in hundreds of feet, in order to have a different number, even as orders of magnitude.
+ If the transition altitude is 5,000 feet, because we know that the altitudes are always expressed in feet, if the transition altitude is 5,000 feet,
+
+I fly, then I see my altimeter, I see the number 5000, at 5000 feet I put the standard function and I start reading the numbers in flight level in a hundred feet,
+ so if I arrive at 6000 feet, I'm actually at flight level 60, so the number 60 is already a totally different number from 5000,
+ so even if I don't know if it's quota on QNA or QFE, I see a number that makes me understand what we're talking about,
+ because the higher quotas, the higher altitudes, in fact the higher flight levels are those of the order of 41,000 feet, 41,500, 42,000, which is 410, 420,
+ they are a much smaller number than the thousands of feet that are normally there when I fly on QNA.
+ So the fact of talking about flight level instead of pressure altitude, the fact of having a completely different number, helps us not to confuse one with the other.
+ So during their cruise, the two traffic, the two different flight levels are assigned, separated by 2000 or 1000 feet, there are different strategies,
+ and we are sure that the aircrafts are separated vertically, because they are both with the altimeter set on QNA.
+ They can both be at a different quota than the one reported by the altimeter, but this is not a problem,
+ because what matters primarily is the vertical separation of the aircrafts, and this, if we all have the altimeter set on QNA,
+ is guaranteed in principle.
+ What can be the problem of having a regulation that is very different from what is QNH?
+ That we are all either higher or lower, but if we are higher it is not a problem, if we are lower we could have collision problems with the mountains,
+ with the obstacles relative to the ground, but as this problem is resolved there are the mountains higher and we are assigned the flight level lower.
+ It is estimated what is the maximum error that is obtained when the QNH is different from the QNH, in such a way as to give different quotas from those that are real,
+ there is a little bit of difference.
+ All the other infinite altimeter regulations are never used, so they are only these three.
+ QNH, QFE, I said they are not acronyms, but to remember what we are talking about,
+ once I jump out with the fact that QFE means grass edge quotas, to remember that it is the regulation in which I read zero when I am standing on the grass of my field of view.
+
+How do I make the QNH known?
+ The QNH is communicated to the pilot from an appropriate air traffic control.
+ There is also a transition level that works towards the end of the flight.
+ The QNH is adjusted to the QNH and the QNH is adjusted to the QNH.
+ How do the airports that are generally not at sea know the QNH?
+ How do you do it?
+ I have the equation that tells me how the pressure goes with the QNH.
+ I know my elevation, because when I study the relationship between the various data that I recover,
+ here are those of my elevation, I know that at my elevation, that is, this pressure today,
+ project in low with the standard atmosphere equation and I know how much the QNH is worth.
+ If I am in an airport, how do I know in autonomy with my altimeter how much the QNH is worth?
+ If I know the elevation of my airport, how do I know it, because in the IP or in the documentation,
+ but we will also see this, I turn the altimeter until I read on the gauges of the altimeter,
+ we will see then how it is done when we will talk about the instrument.
+ I read the elevation of my field, I go to see for which zero pressure regulation I get that elevation,
+ that is the QNH that is there that day in this place.
+ Okay, so this was the little review on the standard atmosphere.
+ I repeat, I am sure it is a review because you will have seen it in other courses.
+ I wanted to give it a small cut relative to what we will see.
+ The standard atmosphere is also very used for the evaluation of performance.
+ In fact, normally when you tend to deviate from the standard conditions, you express it in two ways.
+
+deviation from the ISA, for example, if I have to guarantee take-off performance
+ from airports where it is extremely hot, I say that the take-off course is 3 km
+ to ISA + 30, which means when it is 30 degrees above what the ISA conditions would be
+ for that amount of airports, or ISA -10, in short, it is taken as a reference
+ also in the case of deviations, I mean, also in terms of performance, the capacity of an
+ out-of-ground-effect helicopter is expressed by the function of the ISA, because the deviation
+ of the ISA has repercussions typically on the density and therefore both on the aerodynamic forces
+ and then on the performance of the engines. Traditional engines, when then we will all go
+ on the electric or on other propulsion modes not linked to turbomachines, maybe things will change.
+ You have some questions to observe on the part of the atmosphere. So, connected to the atmosphere,
+ indeed, dragged from the atmosphere, we are talking about air data. Air data are a fundamental
+ greatness for flight control. They are so important that when the prototype of a new
+ airplane, the first experimental campaign to be carried out, before doing anything else,
+ is the so-called calibration of the air data, Air Data Calibration, which is the name that is made
+ to that series of operations that ensure that the air data read by the experimental pilot
+ is reliable and their error is continued at the level of a margin of acceptance. This is because,
+ linked to the air data, there are a thousand issues that involve flight safety, from the speed
+ of minimum sustain, DNE, maximum speed, etc., etc., all linked to the correct interpretation
+ of the air data, so they have a fundamental importance for what concerns
+ flying machines and this is the reason why we see them first.
+ As the name suggests, the air data concern those parameters that are external,
+
+are calculated, are evaluated on the basis of some thermodynamic quantities of the area in
+ which we are flying. And these quantities, not only thermodynamic quantities, but quantities
+ related to the area in which we are flying, these quantities are typically the static pressure,
+ the total pressure. One of the two, between static temperature and total temperature,
+ depends on what will be the probe that I use to pick up this big object. And then,
+ typically, the angle of attack, the angle of incidence. In experimental machines it has also
+ recovered the side slip angle, the angle of the side slip, of the drift, but normally in
+ standard machines it is not useful, except in some particular cases, typically on military helicopters.
+ So I take some physical quantities, three thermodynamics and one, instead,
+ geometric, combine them in an appropriate way and produce the area data that I then communicate to the pilot.
+ How is the architecture of a data system generally done? I start from probes, probes
+ are those equipment that pick up the physical magnitude from the current in which it is flying.
+ These probes then have to pick up, as we said before, the static pressure, the total pressure,
+ the total temperature. We are talking about thermodynamic quantities, after which they bring these
+ quantities either to a pneumatic-mechanical instrumentation system, this is the case of the simplest machines,
+ or to a computer that at that point has pressure transducers and temperature transducers,
+ and which then elaborates all the data as numerical data, digital data, to produce
+ what are the information that are in the output, you see them listed there, pressure altitude,
+ bar or vertical speed, we will see, CAS, calibrated airspeed, Mach number, tough through airspeed,
+ OAT, external temperature and density ratio, all these values that can be used
+ calculated starting from the air data that are picked up.
+ Two words on probes, which are fundamental in the air data system.
+
+There are several types. First of all, I would like to make it clear on one thing.
+ The pitot is a pressure probe, so you have the blind tube at the bottom.
+ So, if we talk about pitot and basta, pitot to coure, without specifying anything else, is the probe that allows us to pick up the pressure.
+ The static pressure is picked up by probes called static port, which are made differently.
+ There is an integrated probe that is a pitot tube with a static port on the outside.
+ In that case, it picks up both the total pressure and the static pressure, but it is no longer a pitot and basta, it is a pitot static.
+ So pitot and basta does not pull out the static, pitot and basta brings me to the total.
+ The pitot static, which is a monolithic probe from which two tubes come out, brings me the static and the port.
+ For the temperature, there are OAT or SAT, static air temperature, outside air temperature, which are probes that somehow expose the sensitive element of the temperature to the static temperature, so without the part of increase due to the motor.
+ There are TAT, Total Air Temperature, probes made differently that sense the temperature at a certain point in time, so it also takes into account the transition from synthetic to OAT.
+ For the angle of attack, there are several versions, the simplest are the Stallon indicators, which are digital probes that have only two states and have a certain angle of attack,
+ at the bottom of this they do not say anything, at the top they give an alarm, rather than the Vane, which are small wings, which instead give a continuous measurement of the OAT, of the angle of incidence,
+ rather than the Smart Probe, we will see a little how they are made, which are a bit the fashion of the moment.
+ So, the probe is that element of the data system that detects the physical greatness, and above all talking about pressures, but also talking about temperature, let's make this consideration,
+ where do we want to take, compared to the airplane, the physical greatness?
+
+In front of Vavo, let's abstract the concept, we want the greatness of the asymptotic current.
+ Why do we want the greatness of the asymptotic current?
+ Because the fact that there is an airplane, it makes a change in the field of speed, in the field of pressure of the current.
+ This is not a bad thing, because as I said, without the change in the field of pressure, we would not be able to generate the range.
+ But it is not simple, but there was not even an airplane, even just a probe that inevitably would have a size, a physical dimension,
+ the presence of a probe would have an alteration of the field of pressure and speed of the current that is outside.
+ It is not very easy to recover the asymptotic values of this greatness, also because I have to be close to the plane.
+ Close to the plane there can be big problems. For example, in the static, here you see,
+ imagine that you put along that line, which is about parallel to the axis of the plane, the pressure probe, you see the error that is made compared to the asymptotic pressure.
+ Here we are talking about static pressure. This is clearly a qualitative process, but to tell you that the positioning of the static,
+ and we are talking about static, because the static person is the most critical size to recover.
+ This is a simply linear process, you can start to change the pitch angle, rather than having a little size there, the error grows even more.
+ So the positioning of the static is extremely critical, and it is typically the man with the smoking gun in hand,
+ he is the one responsible for the errors of the data area. The PITO is a robust system of total pressure recovery.
+ The PITO is also 15-20 degrees desalinated compared to the asymptotic current, it still takes a good total pressure compared to the asymptotic total pressure.
+ With statics, on the other hand, it is very very complicated and it is also very difficult to model errors and in this way therefore a priori go to find a position suitable for the static force.
+ It is a mix between science and art, that of the correct positioning of the static force.
+
+It often needs to be convergent experimentally.
+ Even making attacks with CFD, sophisticated things, it is difficult to find the right point.
+ You need to have the experience, the skill and the patience to fly with as many configurations as possible
+ until you find the static port position.
+ Here you see in a typical liner where the probes are placed.
+ So we have a static port, a certain number, this is the standby one,
+ so the instrumentation, we talked yesterday about the standby display,
+ the part that feeds the T-Area.
+ Captain and First Officer are placed at this point.
+ Here we have a TAT, here we have a pitot, which therefore takes only the total, not the static,
+ and here we have the Vane.
+ Vane is the flag, like the signal beam, which aligns with the synthetic current.
+ So it aligns with the current in the flag.
+ And therefore, compared to the fuselage system,
+ it gives me an idea of what the current is.
+ The sockets are multiple, of course, for redundancy reasons.
+ In the case of jetliners, it is easier to find a correct positioning,
+ it becomes very complex on military machines, for example,
+ which are much smaller, which have a much larger flight envelope,
+ which also have a very different aerodynamic configuration.
+ Imagine having submarines where I can hook loads,
+ which are obviously humanitarian aid that we bring to those who are more unfortunate.
+ The presence of load on the Vane also brings a change in the pressure field,
+ so it can influence the size of the stadium a lot.
+ The size of the stadium is really the big problem.
+ I was lucky enough to follow for several illustrious the flight experimentation course,
+ for which at the time we were doing an experimental campaign on ultralight aircraft.
+ And we were doing data calibration.
+ We had an agreement with an ultralight manufacturer,
+ so we also helped him in the experimental campaign of the new machines,
+ and I remember that it was really a matter of art and science
+ to find the right point for statics.
+ We are not talking about applications like the rotating wing,
+ in which inevitably the total statics are immersed in the hurricane of the downwash of the main rotor,
+ which, up to a certain level of advanced flight,
+ so below a certain level of advanced flight,
+ and I'm very happy to be here.
+
+the plane is completely in the air, so it is also necessary to increase the speed of the aircraft.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ However, in the case of low speed over-flight, typically in the air, the static is also suffered.
+ In the case of high speed over-flight, the static is also suffered.
+ The plane is completely in the air, so it is also necessary to increase the speed of the aircraft.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+ In the forward flight, a certain speed is taken away, so the problem is less.
+
+Normally, this is how they are done.
+ On the left we see an aneroid capsule, 14.7 PSI on the outside, 0 on the inside, an aneroid.
+ If the pressure is on the outside, the capsule drops.
+ On the right, which is a differential type, you see that at the bottom there is the inlet to feed one of the two pressures.
+ So the capsule dilation depends on the difference of the two pressures that are inside the capsule and outside the capsule.
+ Sometimes, to increase sensitivity, these capsules are stacked on top of each other in such a way that the total dilation of this pile of capsules is the sum of the dilation of the individual capsules.
+ Let's see the definition of aerodynamic angles.
+ How do you define an accident?
+ Don't call it an angle of attack.
+ The phalanx is probably Macedonian, with the angle of attack against the Romanians.
+ It's called "incident".
+ In English it's "angle of attack".
+ In Italian it's called "angle of incident".
+ How is the definition of an accident defined?
+ No.
+ Let's do it better.
+ It's the angle between a direction of reference on the fuselage, which is not said to be the axis of the fuselage.
+ It's the direction of reference from which the measure of the incident can be the direction of zero importance, the direction of the fall of the wing, the root, and the speed projection on the plane of symmetry of the fuselage.
+ So I project the asymptotic speed, I would like it, on the plane of symmetry of the fuselage, I measure the angle between that direction and an appropriate direction of reference.
+ The angle of absolute incidence depends on what I take as a reference.
+ I repeat, some references can be either the axis of the fuselage or the angle of zero importance.
+ The angle of incidence that gives me zero importance, that can be a reference.
+
+the angle, the direction of the string of the wing to the joint with the fuselage,
+ of the calipers, so it depends on what I take as a reference.
+ While the angle of the side-sleep
+ is similar to the horizontal plane,
+ so what we normally call XY with our nomenclature of data,
+ and then for that, the reference is the trace of the symmetrical plane of the wing.
+ These are therefore geometric quantities and not thermodynamic.
+ Here too, I go back to the stall, here is the phenomenon in which the CL-alpha curve stops growing
+ because there is the detachment, etc. etc. we are not there.
+ However, the stall is a truly aerodynamic question,
+ truly geometric of incidents, we do this very well.
+ It is an extremely dangerous phenomenon,
+ because it provokes a more or less abrupt fall of the carrying force,
+ consequently a vertical motion of my airplane if I am in horizontal flight.
+ Therefore, the regulations require that on each airplane there is at least one stall warner.
+ The stall warner is simpler, the stall warner is not, let's say,
+ that measure of incidents that I told you about before, which has only two possible states,
+ and which is very often made with this little tongue that is fixed on the edge of the wing attack,
+ and is basically aligned in such a way that when the incident is sufficiently below the stall incident
+ to give the pilot a warning in useful time, before the phenomenon of the stall is verified,
+ this letter is moved, the switch is closed and a little tongue is sounded.
+ This is the simplest version of the stall indicator, which is also available on low-wing airplanes.
+ However, as I told you, the regulations require that at least a stall warner,
+ if not an A/A warner, but at least a stall warner is present on each single airplane that flies.
+ In the pre-flight controls of these small machines it was possible to move the tongue with the finger to see that it can be moved.
+
+and feel the cyclists on the cabin.
+ To measure the angle of attack, there are often,
+ this is a picture of the MIG-29,
+ there are also on commercial cars,
+ this measurement of the angle of impact with a vane has the advantage,
+ compared to the stall indicator that we have seen before,
+ a continuous measurement.
+ So, what is the principle?
+ The bed is placed along the direction of the current that invents the bed,
+ like the signpost of which I have spoken before,
+ in some way, with an angular resolver,
+ you measure the direction of the bed compared to the direction of reference in the fuselage,
+ and this gives an indication of the aircraft.
+ One of the disadvantages of this type of measurement
+ is that there is a moment of polar inertia compared to the axis of rotation of the vane,
+ and therefore the answer is often cut,
+ because above there is a certain value and the bed does not understand it.
+ Does not it matter much?
+ For flying it is not very important,
+ but if you start making analysis of flight mechanics like short-term,
+ maybe the bed is not behind it,
+ it has the impact variations of the short-term,
+ and so you have to put other systems into action.
+ A bed made like this is responsible for the Max incident,
+ it is one of the responsible for the Max incident,
+ because precisely for a problem, a sensor in this way,
+ the bed came to a very high incidence,
+ the Manoeuvring Characteristic Augmentation System,
+ the MCAS trimmed nose down to recover from the incident,
+ which was erroneously measured very high,
+ as I said, for how many pilots tried with the flight controls
+ to counteract the action of the trim,
+ when trimming the fixed part of the horizontal plane,
+ the authority is much greater than that of the balance part,
+ so the incident was verified.
+ I was involved in an analysis of this incident,
+ and it was seen, for example,
+ that the flight before the first incident had the same problem,
+ but the pilots had the problem of removing the breaker.
+ I don't know if you know, but there are these circuit breakers,
+ which are reprehensible fuses,
+ which sometimes, in an inappropriate but effective way,
+ are used as switches,
+ it would not be necessary to use them in this way,
+ but they had removed the circuit breaker,
+
+as you will have seen, can trigger if the electric consumption is above a certain level.
+ That is, the circuit breakers are set for a certain current and it is the current that heats up an internal mechanism above the Curie point,
+ the one they assume to be active magnetic properties, so there is a spring that makes my circuit breaker jump out and therefore interrupts the circuit.
+ The circuit breaker can also be triggered by hand, the pilots had activated the circuit breaker by hand to prevent the automatic system from triggering the knockdown and they were able to do it easily.
+ They had written on the logbook that, however, since the flight took off immediately after, no one read it and unfortunately it ended up not very well.
+ This is just for a mistake by Aoa. Then we went to see the inconsistency, there were two probes but I remember well because it happened to me here,
+ the MCAS took only one, or in any case it did not do one of the most elementary checks that are done in the case of redundant sensors, which is the one on the discrepancy.
+ I go to see the individual values ​​that the two redundant sensors of the same size give me and if these are reasonably similar to me, they work very well,
+ they are very different, I say that there is something that does not work, but if I only have two, I do not know who to give the rest.
+ There they did not make this discussion because they took the wrong value for a reliable value and the problem was propagated until they reached these conclusions.
+ Here you can also see a dot above. This, on the other hand, is an Aoa-Cono indicator and this is typically used in military machines.
+ Here it has a super cool aula but this is not a blackboard, no, do not write on this board. This has an electronic blackboard here.
+ Let's try to describe it in words. What is the idea of the Aoa-Cono probe?
+ The cone protrudes from the fuselage with an axis that should be perpendicular to the symmetrical plane, more or less, then it is clearly placed where it can be and this is an active probe.
+
+So it has an electronic and an engine inside it.
+ It has an engine that can rotate the cone around its axis.
+ How is the side surface of the cone made?
+ The side surface of the cone has three small slots, three millings,
+ that have their direction along the axis of the cone.
+ So, as you can see from the photograph,
+ on the side surface of the cone there are millings that are placed at 90 degrees from each other.
+ And so they occupy 180 degrees of the circumference of the cone.
+ So if I start from zero, from the direction, let's imagine the clock,
+ let's imagine to see the probe with the axis of the cone that comes in front of me,
+ I look at it from above, I have a curvature that develops over 12 hours,
+ 1 hour 9 and 1 hour 6, along the side surface of the cone.
+ Ok, how does AWA's measurement work in this way?
+ Well, the active electronic system of the probe rotates the cone around its axis
+ in such a way that, on the central measurement,
+ the one I was telling you about before being at 9 o'clock,
+ the maximum pressure is measured.
+ Instead, on the two sides, a minimum pressure will be measured.
+ There are two because as soon as, let's take a step back,
+ and when is the maximum pressure measured on the central milling?
+ When this is aligned with the current.
+ So, in the case of having the central milling aligned with the current,
+ I have the maximum pressure measurement on that milling
+ and minimum on the two side millings.
+ If there is a misalignment of the current that the cone invests compared to this system,
+ I begin to see that the pressure increases on one of the two side millings
+ because it begins to be invested by the synthetic current.
+ Then the electronic system rotates the cylinder around its axis
+ in such a way as to reposition the equal and minimum pressure
+ on the two opposite millings and maximum on the one at 90 degrees.
+ I don't know if I explained myself, otherwise I'll make a drawing.
+ So, measuring how much the cone needs to rotate
+ compared to a direction of reference in the fuselage,
+ I measure the oar, because I constantly keep in mind
+
+the central line of the cone with the direction from which the current arrives to me.
+ I don't know if it's clear how it works.
+ So it's an active probe and among the various advantages
+ there is also the one that has a much higher frequency response compared to the Vane,
+ which is passive and in addition has a moment of non-transcurable polar inertia
+ because it is able to rotate at a considerable distance compared to the rotation axis of the Vane.
+ So this probe has a much higher frequency response and is much more robust
+ because even in the case of birdstrike this one resists better than the Vane,
+ which typically affects the birdstrike a lot.
+ In addition, if it is well designed, it also works from the top.
+ From there I take the total and with the two sides, if it is well designed, I take the static.
+ So I can have a single smart probe that takes all the thermodynamic data.
+ The two thermodynamic data, total and static, plus the AOA data,
+ but also the temperature that is taken in some other way.
+ The continuous AOA indication is presented to the pilot on a instrument that is the AOA indicator.
+ And look, unlike what happens in the civil world,
+ most military aircraft fly for AOA.
+ So, while in the field of commercial transport, civil aircraft, general aviation, business jets,
+ many parameters are given, for example, in terms of speed.
+ With extended flaps I have a certain speed to keep in the approach phase, etc.
+ And this, as we will see, is not so formally correct,
+ but it is acceptable for the type of missions that civil aircraft carry out.
+ For military aircraft it is said that you make the approach at 0.6 degrees of angle of attack,
+ then you slow down to 0.7, so going to give information to the pilot on the angle of impact.
+ The pilot then flies by incidence, does not fly by speed.
+ This, fundamentally, we anticipate a little, is due to the great variability of aerodynamic configuration and weights
+ in which military aircraft fly their missions compared to civil aircraft.
+ So, it is reported, when there were electromagnetic instruments,
+
+This is a tool dedicated to OAS, a military machine, and it is reported in Angolova Tech.
+ Clearly, with the advent of electronic equipment, Angolova Tech's information ends up in the computer,
+ in which it then decides if when showing it, I would emphasize that in the Airbus of the incident of Air France 447 it was not shown.
+ So, there was no way for the pilots to see what the value of the incident was.
+ As I said, they flew at 40 degrees of incidence.
+ Among other things, here too, a small detail to close what we said yesterday.
+ Yesterday we said that for commercial machines, fly-by-wire gives advantages of lower consumption because it can tolerate a lower margin of stability,
+ and also of envelope protection. Why?
+ Because the flight control computer prevents any action of the pilot or on command that the machine goes out of flight.
+ So much so that one of the recommendations that are followed by this incident of Air France
+ was precisely not to tell the pilots who are trained on the Airbus immediately that they can never fly.
+ This is true, so much so that for the certification flight tests in which the authority requires to really fly an obstacle,
+ even today, the authority has a very cautious attitude towards flight safety.
+ So, for many things that would be demonstrable by analysis or simulation, the authority says, "Look, I don't care."
+ You take it, you fly, you make an obstacle, you show me the recovery of the obstacle from the machine.
+ To do those flight tests, they have to program the flight control computer in a special way to remove the envelope protection on the UA.
+ Normally, on the other hand, there is the envelope protection on the UA, unless something happens,
+ because the flight control computer of the A320, A330, A340 of all Airbus machines does not have a single mode of operation in which either everything goes well or I get off, I do nothing.
+ It has several degraded modes, until it reaches the minimum mode of the so-called direct low,
+ in which the flight control computer no longer manages to do what it normally does and associates the pilot's command with the dynamic surface movement as if there were a cinematic chain.
+
+The normal procedure begins to be reconfigured with the control laws, which I don't remember how they are defined, "alternate laws" if I remember well.
+ Because some data is missing, the flight control computer to do its job, some things are lost, including the health of the profession.
+ So one of the explanations that is given to us for that incident is that the pilots did not think
+ that they were in stall because they had already been told that this program cannot stall and that they had avoided the fact that with the "alternate law" in reality there is an envelope of protection.
+ So there was this overconfidence in this envelope of protection.
+ In the course of this great help that is given to the pilots, which by the way today if nothing happens, as very often we have seen the statistics yesterday,
+ they are flight supervisors, the machine does everything by itself, it can even take off, land, even release in some airports, release from the runway and do the "tacting" automatically.
+ In this role, which is no longer a flight driver but a supervisor, it does lose a bit of what is generally called "airmanship", that is, the human sensibility to fly the plane.
+ And it was especially recommended by the FIA, which in one of its leaflets wrote a while ago that it would be the case that the pilots could fly the plane.
+ Just because now the machine does everything, the flight management system does everything, especially the autopilot, this flying pilot sensibility is always coming to me.
+ And so this also had an impact on the programs of recurrent training for simulators.
+ You know that the pilot is trained at the simulator, sometimes a lot at the simulator.
+ Once we went to Cascina Costa where there is the training academy for the flight partners, there were also many less, now there are 50 people.
+ But the training academy is where there are flight simulators and they do the training for the customers who buy the aircraft, especially the civil aircraft.
+ And it impressed me the fact that the instructors told me that for the FIA, the American one, the type rating is acceptable.
+ What is the type rating? I'll go back to those who have never been exposed to these things, the license for the aircraft is not like that for cars.
+ So I have to have the license that tells me "okay, you can fly" and then for every single airplane I want to fly I have to do the type rating.
+ to do the thing "passing"
+
+to understand exactly how you pilot that plane.
+ Well, the FIA accepted the type rating on the Gustav Westland helicopters
+ of a pilot who had flown all and only hours on the simulator,
+ that is, who had never sat on a real helicopter.
+ It was an impressive thing.
+ And ASA asked at least three missions for a total of at least an hour on a real helicopter.
+ While the FIA, on the one hand, it is a recognition of the validity of the simulator,
+ which on the other hand is great.
+ I try a thousand emergency operations on the real helicopter, I would never try.
+ That is, the loss of two engines on the take-off.
+ I try the simulator, but not the real helicopter during the take-off.
+ However, perhaps it would be the case to fly a few hours on the real helicopter.
+ Anyway, apart from this, when we went from the simulators,
+ they explained to us that there is the initial training, then there is a recurrent training.
+ So, this is what I asked for the regulations and every X months I have to do the simulator sessions.
+ Here, as an outcome, as suggestions in the sense of that incident,
+ all the practices of unreliable air speed and stall etc. have been introduced,
+ which were seen a bit quickly during the training.
+ Instead, after that incident, they were introduced in a heavier way.
+ Here you see how it is installed. I hope you can see it better.
+ The active take-off, clearly, all sophisticated,
+ being an active system, it has a lower reliability.
+ The simple fan, the simple flag that has a cushion,
+ maybe two that hold the flag tree, and an angular resolver, also measuring the end angle.
+ Here we have all the electronic system, the engine, etc.
+ However, this is normally very complicated. This is the air data probe
+ that is installed on the M346, which is Leonardo's engine de-extractor,
+ and four of these have been installed, two on the right side and two on the left side.
+ This one again.
+ Here it was a bit to see what the indication was,
+ those that were the symbols on the AOA indicator in military vehicles.
+ You see, stall warning at 0.85, landing approach with the clap down, maximum endurance, maximum range.
+ Here, too, you know that maximum range, kilometers,
+
+and maximum time autonomy, so max endurance and max range are mere questions of incidents
+ that are transformed in speed, however, through the weight, I don't know if you are present in the mechanics of the box.
+ And so, in short, these are the values ​​that were reported on the UAV indicator of the military machine.
+ On the electronic instrumentation systems, it is regenerated electronically and maybe appears when needed.
+ The UAV has already been born yesterday, we will also see it in the simulator, the information tends to appear when needed.
+ Maybe during the process, the UAV disappears, but in other cases it is made to reappear, this is the case on the 737 post-incident.
+ This is even a whole Smart Probe, a Smart Probe group for a military machine,
+ it also has the Transducer and the Air Data Computer, so from this box all the already calculated data come out, air data.
+ Ok, this is the introduction to the air data.
+ The question of air data is critical, because the probes are exposed to the outside of the air,
+ and therefore they are vulnerable to impacts, typically to big ice.
+ Then it also happens that inadvertently someone in the airport uses them as small steps of a ladder,
+ I don't know how many UAVs of this kind use them as a ladder to go and close the air.
+ However, I repeat, being exposed to the outside, they are very vulnerable to the environment,
+ so much so that they have a whole process of environmental qualification that begins to be introduced,
+ we will see it only in detail because we don't have time to go into detail on this,
+ but everything that concerns the instrumentation, in order to be embarked and used on board the airplanes,
+ has to undergo qualification or certification processes, and these processes first of all evaluate the performance,
+ and the question is, what is the best way to do it?
+
+the accuracy of the system that is installed on board.
+ But they also evaluate its behavior compared to the environmental threats.
+ There are all environmental qualification procedures for the instrumentation that flies,
+ for the electronics that flies, but also for the simple details like the sockets
+ that are performed by the manufacturer must be passed on in order to land the electronic on board.
+ These can also be extremely stringent.
+ I happened to see, for example, corrosion tests.
+ The exhibition is done at the Nebbia Salina.
+ I saw stainless steel nails rust at first sight.
+ There is this test machine with the Nebbia Salina.
+ The Nebbia Salina is very critical for rust-like phenomena.
+ We put it in the right place to show that the nails rust at first sight.
+ They have an impressive speed.
+ If you are an armed force that has a helicopter on board, a wreck that travels in the sea,
+ where there are sprays of Nebbia Salina,
+ or where there are no connectors, then everything resists the environment.
+ The threats of the environment are caused by temperature, pressure, vibrations.
+ Then there is the whole chapter of electromagnetic compatibility,
+ that is, disturbances that come from the wires, radiative disturbances,
+ or the fact that I do not have to generate disturbances,
+ rather than electromagnetic impulse for military use,
+ in case of possible nuclear explosion.
+ I do not know if you know, but the nuclear explosion, among the various damages it causes,
+ creates an electromagnetic impulse of a crazy intensity,
+ which can also, at a distance, create serious problems for all electronic systems, etc.
+ Then there is the question of the certification of the software.
+ Now the software presides over many, and increasingly more, functions on board the airplanes,
+ and even here the authority wants to be careful against the possible malfunction of the software.
+ So we will see a bit of the qualifying part.
+ The probes that are exposed to the outside, for example, also do the test of direct fume.
+ There are few laboratories in the world that do direct fumes.
+ One of these is in Bavaria, in Campagna.
+
+Where there is this kind of thick layer full of condensers that are charged at an incredible voltage
+ and then they are discharged against the equipment under test, which can be the antenna, the air probe
+ because everything outside the airplane must be able to resist direct fulmination
+ Attention, resist does not mean continue to work after covering the fulmination
+ It means not to cause other problems inside
+ Typically the probe evaporates when you use direct fulmination
+ Ok, then we'll see you next Monday
+ Check WeBeep if there are any changes in the schedule, I'll let you know on that platform
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

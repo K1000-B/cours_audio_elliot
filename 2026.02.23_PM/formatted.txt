@@ -1,0 +1,697 @@
+
+# TRANSCRIPTION BRUTE
+
+We were talking about the data that is collected on board and their destinations, which are in the first place the pilots and the automatic systems that manage the progress of the mission, that is, the performance of our flight, but it's not them, it's them.
+ For example, the last decades have developed the whole branch of data management collected on board that concerns maintenance.
+ This was initially done by the companies by downloading the data from the Flight Data Recorder, the black box and then the orange one, which still collects a certain number of parameters, the number of parameters of their frequency, which is required to collect in the Flight Data Recorder, specified by the ICAO,
+ which obliges all aircraft to have Flight Data Recorder.
+ But what did the operators do? They started systematically downloading the data from the Flight Data Recorder to analyze, for example, the so-called "exceedens",
+ that is, those moments when the aircraft was out of a flight envelope provided by the company, rather than evaluating other parameters useful to the prognosis,
+ that activity that predicts the state of health of the aircraft and tries to predict the future, or limits its journey, that is, when there is a problem, let's see what caused it.
+ The priority, this practice of continuing to interact with the Flight Data Recorder, did not please me much, because, in short, it preferred to have physical access, to attach connectors, that is, Flight Data Recorder was made to download the data at the end of each leg of each flight stretch.
+ Then, also complicit in the progress of technology, the recorders who are in parallel with the Flight Data Recorder arrived on board.
+ The Flight Data Recorder is left as a specific authority for the analysis in the event of an accident or incident, and on board, on the other hand, there are systems to record the data collected.
+ This practice goes under the acronym of FDM, Flight Data Monitoring, and is now a practice used by all operators.
+ The data collected on board, as I told you, are quite a few. I have followed a thesis of a colleague of yours, involved in NEOS, which is the charter operator based in Malpensa, and I would say that among the Italian operators it is the one that works best.
+ We have the preconception of classifying charter operators as lower category operators compared to those who fly scheduled.
+ But, in short, NEOS, to tell you the truth, was the first in Europe to receive the Dreamliner 787, and now it has a mixed fleet of 737 MAX, 737-800 and 787.
+ And they systematically download these data, the flight data, to then feed the various functions of the post-processing.
+ But, to give you an idea, from the 737-800, which generated about 50 megabits per flight hour, to the 737 MAX, which makes about 600, the 787 makes 1 gigawatt of data per flight hour.
+ Just because now an incredible number of on-board data is collected, so much so that one of the problems is precisely the analysis.
+ These approaches are used, the one at the time was called data mining, which are then approaches born in totally different fields,
+ the approach that makes the large organized distribution, they go to see the customer discounts, if they buy yogurt, they also buy cat food, all these things.
+ And then, to go and mine what is needed in this gigantic mill of data that they collected for me, collected from the instrumentation systems.
+ Even today, while in the case of having access to the flight data recorder, you had to physically connect with the flight data recorder box.
+ Now there are the so-called Quick Access Recorder, QAR, which have the possibility of inserting a cartridge into the cockpit,
+ where there is the pedestal behind the handles, the horizontal part between the two seats, usually there is the slot to insert the Quick Access Recorder and go and collect the flight data,
+ or even there are wireless systems that when they feel that the airplane is still on the ground, they activate,
+ they do this so as not to disturb the radio waves when they are flying, they reactivate and via TCP/IP connection, in some way, send all the data to the operator's operating center of the last flight leg, even when it arrives out of base, like in the Air Ammo destination.
+ Anyway, everything is born from the instrumentation that is on board that allows you to collect data that is of interest.
+ Just to give you an idea of what these data can be used for, some destinations go to the safety manager of the company,
+ who goes to analyze, not for punitive purposes, here then there is the victory, the return of the pilots, usually the data is anonymized,
+ but to go and see, fundamentally, if you need to insert additional training sessions on a particular procedure for the pilots,
+ which may always be wrong or do not keep the parameters as they should, rather than, another thesis that I had followed at the cargo operator, which no longer exists,
+ was the download of data from the Flight Data Monitor to power an engine condition monitor program.
+ Basically, it was an MD-11 cargo, a company that had 3 MD-11s on board, and these data were downloaded to power a software provided by GE,
+ the electric generator that was the manufacturer of the airplane, which gave diagnostic indications on the engine health status.
+ The downloaded data were vibrations taken from accelerometers, the time of, I think it's called "coast down",
+ that is, the time the engine takes, from when it is idle, I turn it off, to when it actually stops at high pressure and low pressure, etc.
+ And well, always in the development, in the amount of time in which this thesis was turned, it was discovered that one of the engines would have gone to avalanche from there to Poco,
+ and therefore the whole procedure was activated to replace it in a calm way,
+ unlike what happened years before, in which the engine broke down in Singapore,
+ where you can well imagine that if there is an airplane in Singapore with a broken engine, recovering it costs much more than it costs me to predict the replacement and perform it before there are problems.
+ In order to get an idea, let's talk about 10 years ago, the "shop visit", that is, to send the engine back to the manufacturer,
+ let them review it and recover it back, was an operation of the Z&A, 500,000 euros.
+ Now the engines are worth much more, as you know, there is a shortage for that problem of Pratt & Whitney,
+ here there are even new, stationary airplanes, which have cannibalized the engines,
+ because for the owner, it is more convenient for a client to sell the engine and keep the airplane standing on the ground, rather than using the airplane.
+ These, however, are non-technical dynamics, which, however, have an effect on the management of the machines we are dealing with.
+ All right, so, among other things, you have seen on WeBeep, yes, it seems to me that the other documents have been successfully loaded.
+ Let's start, instead, to take a look at the story.
+ First of all, the MD-11, do you remember what it is like?
+ there is a characteristic, especially in the cargo version, quite
+
+We're talking about the weight and center of gravity.
+ Yes, there's a motor in the tail, but with the characteristics of the Frighter versions of the MD-11.
+ The MD-11 Frighter was supposed to fly with a savor put all the way forward.
+ Otherwise, it would sit on the tail.
+ It was a matter of design, not design.
+ I had to carry a lot of weight, hundreds of kilos, to keep it on the tail.
+ In flight, it would have been in the center of gravity.
+ The sources of information.
+ If we consider the wings of the aeronautics, the sources of information were the senses of man for a long time.
+ So, visual perceptions.
+ As you know, we have the sense of sight, which is the most developed among all the senses we have.
+ It's a fraction of the area of the brain, or rather the volume of the brain, dedicated to the elaboration of the sight.
+ It's much bigger than the one in relation to the other senses.
+ Auditory sensations, tactile, olfactory, and then the sense of balance.
+ There was a very famous phrase by a famous Formula 1 driver from the 70s and 80s.
+ Then he started his career in aeronautics with Niki Lauda.
+ Niki Lauda, with due respect, said that the car is driven with the ass.
+ In the sense that you have to feel the feeling of acceleration that is on the protocol.
+ Clearly, with the development of the capabilities of the flying machines.
+ Here we have already talked about the sense of development of the capabilities of the flying machines.
+ The senses have begun to not be sufficient for the management of flight.
+ Sorry, I'll turn off the remote control.
+ [I'll turn off the remote control]
+ And then, little by little, some instruments were introduced.
+ The instrument that was introduced on the AeroClan was a rev counter for the engine.
+ For the rest, the pilot, for example, had an evaluation of the air speed
+ through the, in some way, estimate of the impact pressure, feeling the wind on his face.
+ Rather than other sensations that the pilot could have.
+ And once the first instrument arrived, the rev counter,
+ gradually the instruments began to fill the cockpit, the instrument panel, more and more.
+ Until today, where we have seen, following the revolution of electronic instrumentation,
+ a whole reconfiguration of these instrument panels.
+ As I told you, in the turning point, that is, in the point where there was an extreme density of information
+ generated and collected by the onboard instruments, but not yet a filtering processing capacity,
+ which is that of electronic instrumentation, the task for the pilots became complicated.
+ Because, it was necessary to keep many parameters in mind, you imagine, every single indicator
+ clearly indicated a single parameter, at most two, three at a time, taken from an appropriate sensor.
+ And so what the pilot had to do, in those cases, was a periodic scan of the instruments,
+ which most of the time, especially when it comes to systems systems, was useless,
+ because all the instruments worked perfectly. All the specks were in green arc.
+ As the complication increased and the number of parameters collected for systems systems became even necessary,
+ as I mentioned this morning, the presence of a third person on board, the flight engineer,
+ who controlled the entire part of systems systems, leaving the pilots the task of the aviate and navigate.
+ This is the dashboard, let's say, in the most complicated electromechanical version.
+ Does anyone recognize the airplane? This is the Concorde cockpit.
+ As you can see, it is very crowded with information, because then we see it sitting comfortably
+ on our little table, but you imagine being at night in critical conditions, bad weather,
+ with acceleration, etc., etc., in short, go and check what was happening.
+ All the instruments could not be trivial or notice some anomalies.
+ Even then, let's make a close-up, this is the instrumentation,
+ the one that we will now call "Primary Flight Navigation Display" in front of the commander,
+ and this one in front of the commander.
+ Here you see everything complicated for the engines, in short, extreme complication.
+ There was an attempt to integrate the information coming from several sensors in one instrument only.
+ We will talk about the attitude of the Rector Indicator, which at the moment electromechanically,
+ moving indicators, flasks and flags electrically, with magnets or electromechanical systems,
+ was able to give the pilot condensed information compared to the different instruments and sensors they collected.
+ The same thing can be said for military vehicles, this is the cockpit of a Mustang of the P-51,
+ then the fighter used by the United States in the end of the World War.
+ And this instead, this is the description for those interested in the P-51 cockpit,
+ this is the flight instrument panel, this is what the flight engineer was looking at during the flight.
+ And really, there were dedicated trainings, because you imagine a mission of several hours to look at all these instruments,
+ it was really an alienating job, and it was necessary to put in place appropriate practices to maximize efficiency,
+ because after a while one looks at all these instruments and sees nothing more.
+ And so there were techniques, more of the physiological aspect of how the brain works, or psychological of cognitive abilities,
+ so there were all multidisciplinary studies that did not involve, as it happens very often when we talk about Human-Machine Interface,
+ only the engineers, but also experts of the other disciplines that concern the human being.
+ By default, every time I say "human" I don't mean the genre, but the animal that inhabits the planet.
+ So the human being, the functioning of the human being in comparison to its interaction with the hand.
+ Then, thanks to the Fagin we talked about, the first programmable systems arrived on board the airplanes,
+ the first computers, and there was an epic revolution, it was a disruptive change compared to previous versions.
+ Disruptive change, because in traditional instrumentation systems, electromechanical or pneumatic,
+ for each indicator on the screen we see the simplest version, we imagine the engine instruments, pressures, temperatures, number of revolutions,
+ for each instrument on a cockpit I had a physical connection with an appropriate sensor that was placed somewhere on the airplane, on the engine.
+
+if we're talking about high-pressure instruments.
+ This meant that that instrument could indicate
+ exclusively that parameter.
+ If I had the instrument that gave me N2,
+ the number of turns of the tree at high pressure,
+ it would indicate N2.
+ Moreover, if that instrument had broken,
+ I would have certainly lost the data associated with it.
+ This meant that for everything that was on board,
+ my attitude director indicator in front of the pilot,
+ if it had broken,
+ would have deprived the pilot of all the information
+ about the attitude director indicator.
+ This is because there was this bi-univocal connection
+ between the origin of the data and its representation.
+ With the glass cockpit,
+ there is a thread in the middle,
+ so the representation of a quantity,
+ of a physical size of an information
+ is disconnected from its origin,
+ because this passage is mediated
+ by a computer in the middle.
+ This certainly gives possibilities
+ that were previously inconceivable
+ at the time of the instrument.
+ But it also creates complications.
+ The possibilities are different.
+ It goes from the fact that I can rotate
+ the same information on different visualization systems,
+ which are then TVs, screens.
+ I have N screens on board.
+ So, if the screen breaks,
+ I am showing the pilot the primary flight display,
+ the artificial horizon with the speed and the quota,
+ I can give him the same information on board.
+ And this is already a first advantage.
+ Second advantage, I can make the fusion of so much information,
+ because at that point I have all the information
+ available digitally.
+ And so I can combine them
+ to give the pilot an aggregate representation
+ that allows him to have all the information he needs
+ by looking at a single instrument,
+ which may change depending on the phase of the flight,
+ because it is not said that during take-off
+ I need all the data I need during the cruise,
+ or during the approach.
+ So, depending on the phase of the flight,
+ the representation towards the pilot
+ can be limited to giving him the information he needs,
+ so much so that we are talking about decluttering.
+ I have already mentioned this term this morning.
+ Decluttering.
+ I can remove all the information I need from my feet.
+ This is most valid for systems and systems.
+ In the central screen, the one normally dedicated
+ to the Boeing, Airbus and Embraer machines,
+ to systems and systems,
+ I can have a single page of summary.
+ When everything goes well, it doesn't show me anything
+ from the thousands of parameters of the electrical,
+ pneumatic, hydraulic system, commands,
+ I say, "No, I don't care."
+ I see a summary page that tells me, "Everything is fine."
+ Clearly, then I can, and normally it is done,
+ have pages in detail through which
+ I can go and see the single parameter,
+ the single voltage on the single generator.
+ You know, I'm interested in that moment.
+ And so, the decrease in load
+ for the management of the systems
+ allowed by the glass cockpit
+ was such that it was able to do less decluttering.
+ Because, at this point, the pilots remain,
+ they will be in two for a while, in my opinion.
+ You know that airplanes are certified
+ single-pilot or double-pilot
+ by the authority.
+ But single-pilot, apart from the machines,
+ let's say, for the recreative flight,
+ single-pilot are low-end business jets.
+ After that, from a certain line up,
+ the certification is double-pilot.
+ And the double-pilot certification is,
+ let's say, released, that is,
+ the authority asks that there be two people on board,
+ evaluating the load of work during emergencies.
+ In particular, not after the first failure,
+ but after the second failure.
+ When there was the second failure,
+ the load of work on the pilots was still high.
+ And so we need two people on board,
+ one who controls, the other who manages the hand.
+ Even, maybe we'll see if we'll understand,
+ in the central screens I can show the procedures
+ to be implemented following the failure.
+ So I can say, ok, failure on the blue hydraulic system.
+ Consequence of the failure.
+ Brake pads for 1.5, flap extension much slower.
+ All the consequences and, moreover, the controls to be made.
+ Press here, press there, close the valve.
+ All that was once in the aircraft flight manual AFM,
+ which, on the other hand, there is still paper on board,
+ but which was once, in the only paper version,
+ consulted by the pilots.
+ Now, instead, everything appears.
+ And so here everything seems perfect.
+ What is the counter-indication?
+ What could be the problem of this approach to instrumentation?
+ More complex maintenance, why?
+ The electronic maintenance is done in this way.
+ There is the self-test and if it does not go, the failure.
+ The design is more complex, that's for sure.
+ But the maintenance is not so much.
+ But there is another insidious.
+ This is the so-called overconfidence.
+ Yes, it can be.
+ But even before they were based on mechanical instruments.
+ Yes, even now we will see.
+ Topologically, the information is always in the same place.
+ So no.
+ But we are getting closer.
+ Some other idea.
+ If electronic maintenance is a problem, this is for sure.
+ Has anyone ever heard of
+ what is the approach of the authority in requesting reliability?
+ And we are not just talking about the reliability of the electronics.
+ In general, the reliability of the flight components.
+ What is the approach?
+ What is the approach?
+ The authorities, based on what?
+ They ask the manufacturer for a reliability target.
+ But this is also for the structure, for flight commands, for everything.
+ No, that's what the authorities ask.
+ But based on what?
+ They ask me that a component or a system is more or less reliable.
+ I'm going to risk it.
+ No, redundancy is a technique.
+ We are there enough, but
+ based on the gravity of the consequences linked to failure.
+ Ok.
+ Has anyone ever read the CS25 or CS23?
+ Because they are the CS.
+ Ok.
+ In the CS25 and in the CS23 there are five different degrees.
+ Let's say the granularity provides five levels.
+ Five different degrees of severity, of gravity,
+ of the consequences of a failure, which go from catastrophic,
+ which means high risk of losing the plane that everyone dies,
+ hazardous, major, minor, no effect.
+ Clearly, if you spoil the in-flight entertainment,
+ which pisses the passengers off a bit,
+ but it's not as bad as spoiling flight commands.
+ So it's wrong to ask for the same reliability
+ for flight commands and for the in-flight entertainment.
+ So, based on the consequences of the failure on flight safety,
+ there are five reliability targets.
+ The most striking is the one for the potentially catastrophic consequences.
+ It asks that the probability of failure is less than 1/10 to 9.
+ Then there is a second piece missing that I usually don't mention.
+ 1/10 to 9?
+ For flight hours.
+ With current electronic technology it is impossible to build
+ the devices that pay for this requirement.
+ So, what did I say?
+
+and therefore to center the goal of my single device is not quite reliable
+ redundancy the redundancy does not seem very beautiful but it is the mother of all ills because it has an impact on the
+ weights I carry around the boxes that I do not need and the impact on the weights then the impact
+ on the weights also indirectly because if it weighs more then I consume more if I consume
+ more I have a larger engine that pushes more then it weighs even more in short they will have
+ made a head so that the weight is the evil in all the other courses here also in this
+ redundancy is the only system that is to pay for the requirements of reliability of the electronics
+ so we said what is the problem of the glass cockpit if a computer breaks I lose everything
+ well I put two computers indeed no I put three normally in the liners of the current generation
+ there are three computers one serves the left side the captain side one serves the right side the
+ first office side and a third in the middle can be rotated from here or there depending on which one must be
+ yes but the redundancy also gives me another problem if I have a system n times redundant
+ it decreases according to the law you know the probability of loss of function but what is my
+ average in terms of probability which is the reason why normally now the liners are done in two motors instead
+ of four motors you have noted 350 in the engine rim liner in two motors triple 7 in the engine
+ what is more likely if I have four engines instead of two that there is one broken when I go there I turn on everything
+ that is, if I had infinite motors I would have the certainty that there is at least one ok so
+ redundancy also this problem redundancy in addition does not always protect me there is a
+ particular class of problems from which redundancy has no idea
+ from which type of problems redundancy does not protect me
+ fire let's say it better no well if they are in series it is not redundant
+ yes I can put the redundant sensors that is the max did not have it ended badly with two you are young
+ to have lived it directly but when the first pentium processor 32 bits of intel came out before
+ then a researcher from the university of kansas could be wrong I found out that the first
+ pentium had a silica error just as it was done and in some conditions a division in
+ mobile comma was wrong but systematically that is, it was not a disturbance due to an electric
+ discharge in the air that turned bits no systematically wrong so if I also had
+ a system many times redundant but with all the computers made with the first pentium that I had
+ a systematic error when they find themselves dealing with the division they are all wrong I who
+ normally when the redundant systems I use a so-called majority vote to know who
+ directs I see that they all say the same thing in reality it is wrong so redundancy does not
+ protect me against those called common-mode errors then we who are a little jealous of
+ our cousins and we are very jealous because when everything explodes for them it is a success to
+ talk about the space because they tell you that they have collected the data so even if the starship
+ explodes immediately but success our cousins give us a paradigm example of this first launch
+ of ariane 6 fails for a launch of ariane 6 fails because the control computer of the set had
+ the same ariane 5 software that had made 140 successful launches no problem
+ I did a so-called unit testing of that software there and it went well on board
+ ariane starts the first launch control of the set as you can imagine it does the vectoring of the
+ bird the problem of the pendulum is the opposite in short all the checkers in the history
+ are cemented with the problem of the pendulum the opposite I split from below but the center
+ high I have to keep the balance which is an unstable balance so you do the trans vector
+ moves the bird clearly it must be a high-frequency loop with small corrections
+ but what happened is that ariane 6 is much larger than ariane 5 and among the information that
+ the control computer of the set received there were those on the vibrations taken from some accelerometers
+ that in ariane 6 were an order of magnitude higher than ariane 5 the software that
+ powered with the ariane 5 flight data worked very well with the overflow that caused
+ this magnitude of the vibrations of ariane 6 and gave an exception it blocked the computer
+ that was in hot standby redundant that had the same identical software had the same identical
+ problem the machine lost the set the launcher lost the set after a few seconds they had to
+ activate self-destruction burning years of work men the satellites of a couple of customers who
+ were not very happy just for a trivial error of common model lesson learned must be fed
+ in the unit testing phase when I try the piece one by one and not all together with the data of the
+ environment in which it will go to operate this I underline because it will happen in many cases we
+ must always consider the environment in which it goes to operate the instrument itself is not enough
+ ok then first problem we go back to monte we go back to the mistakes we have made one of the
+ problems of the instrumentation is that if I lose the computer I lose everything but I don't lose the computer
+ because it has less problems in a common way that can also be solved if you just pay
+ in a very elegant way for example someone knows nh 90 helicopter of the consortium nh made by
+ gustav westland ocker which then there was still a low helicopter a military machine was the
+ first standard helicopter with the fly by wire so without the mechanical connection or the hydraulic
+ connection between the flight controls and what is the name of that organ that acts below the blades of the helicopter
+ someone knows you know how it is done the cinema is called swash plate you know I can
+ tilt the swash plate and this then gives me an action on the cycle path on the collective I don't know
+ someone has done the helicopter test ok next life however we say to tilt the
+ pass of the blades or all together to have more range of the rotor then to climb or
+ cyclically along the turn to be able to let's say vector the result of the rotor's dynamic force
+ so as to have a component forward or sideways depending on what I want to do
+ well once there are some axes the balance of the hydraulic actuators that went directly
+ on the swash plate in the nh 90 there are potentiometers that detect the position of the controls and then
+ there are electrical motors that open and there is a computer of me that chooses then since it was
+ the first fly by wire machine and did not trust us the process was to have redundancy but redundancy
+ with dissimilar software and dissimilar video two flight control computers each of
+ which has a different processor and a different hardware and has a software written in languages
+ different programs from different teams perfect that is, I definitely compare myself to the problems in a
+ common way what is the problem our engineers even if we are on this side of the road it is the
+ cost I have to pay double basically development the spare parts I have to have the computer
+ The computer is wrong.
+
+I don't know what it will cost, so the hardware dissimilar, software dissimilar is a
+ great trick for reliability, however it is a commercial and economic suicide,
+ let's say, but it can be done with the hardware dissimilar, software dissimilar unless there is
+ error in the initial equations that I give to programmers to program at that point,
+ nothing can be done about it, but less than this, from common death. Okay, so let's solve it in
+ some way, in commercial machines they are all identical. Arbasa's instrument, three computers
+ of identical instrument, so Boeing, so Embraer. Okay, and what is another problem,
+ instead, related to the new philosophy of instrumentation compared to the traditional one?
+ Try to think about it here too.
+ I don't have direct access to all the information,
+ so it requires extreme caution and extreme attention in the design phase,
+ because if I don't foresee something, Air France 447, we named it before,
+ but it was not predicted that on the instruments there would be an indication of the AOA, of the angle of impact,
+ not being predicted, there was no way to know what the AOA was, even if the AOA was detected
+ by three sensors, it went to the computers, there was a problem, but the pilots had no access,
+ because it had not been predicted that the AOA would be displayed on the screen.
+ So, the other risk is that, since there is this intermediate layer,
+ if everything is not perfectly predicted, there is no access to information.
+ This can be managed in different ways, but it is still a risk,
+ which must be corrected.
+ So, this must be a dreamliner, you see, the screens are always bigger,
+ but it is still, compared to, let's see how the concorde was made,
+ it is still much cleaner, even if it probably gives 10, 20, 50 times as much,
+ and there is a lot of information that gives the touch of the concorde.
+ Also the backup instruments, the so-called get home display,
+ I don't know if you have ever heard this definition,
+ in addition to the entire main instrumentation system,
+ normally on the Europlan, the authorities require to have a minimal instrument
+ that gives the assets and the data area,
+ so assets and altitude aheadings and data area,
+ regardless of everything else, so it must have its own sensors,
+ its own power supply, its own computer, etc.
+ For me it is anachronistic, because if I lose all the electrical energy,
+ for the rest, even if I have my get home display, I hardly get home,
+ but the get home displays are also made in glass, so in an electronic way.
+ This is another example.
+ The glass cockpit also includes the minor phases, this is a General Aviation.
+ General Aviation means Piper PR28, four-seater with pistons, 180 horsepower.
+ General Aviation is also the Business Aviation.
+ The Business Jet, the Galstream 450 is considered General Aviation,
+ so don't think that talking about General Aviation we are talking about the aircraft of the Aero Club.
+ Anyway, even in General Aviation there is always more glass cockpit.
+ Let's not talk about military vehicles, the F-35 display seems to me to cost a million dollars,
+ just the display.
+ Why does it have all the requirements for certification?
+ But let's say, even military vehicles now have this philosophy.
+ Actually, military vehicles are even more complex,
+ they have a much more complex mission.
+ And so, let's say, that phase of study in which I don't have to forget anything for military vehicles.
+ Moreover, military vehicles in their displays have features for training,
+ which jetliners don't have.
+ Everything that is said in the word "embedded training",
+ so I, for the training of the pilots,
+ I have to build winches or I have to be able to design a fake "operative theater",
+ which is represented on the instrumentation, to do the training.
+ Two words about human factors, also here.
+ I don't want to confine myself in disciplines of which I am not an expert.
+ Human factors are a bunch of psychologists and doctors, in my opinion.
+ But we have to take into account, because in the end,
+ the interaction of the instrumentation, in most cases, is with a human being.
+ And so, we have to take into account these human factors,
+ of which, at times, it's difficult to find objective conclusions with closed formulas.
+ So, I have to ask, what is the load of work,
+ in the sense that this is the weight of the loss of an engine for the pilots?
+ Well, there are formulas that tell me that this is the load of work,
+ so much so that, I was talking to you before about the certification of the cars.
+ I'll give you another example, the Augusta Westland 139,
+ I don't know if anyone has it, which is a mid-range mid-engine bi-engine helicopter,
+ which is a huge commercial success of Augusta Westland.
+ They delivered, a few years ago, the thousandth copy, which is a lot for a helicopter.
+ Probably, in the automotive field, 1,000 cars are made in an hour by the big producers,
+ but now there are a lot of helicopters.
+ And the 139 has a glass cockpit instrumentation system developed by O'Neill,
+ and in the initial stages, Augusta Westland had decided to certify first with the Federal Aviation Administration,
+ with the FIA, with the North American authority, the United States authority,
+ because then, once certified with them, there is a kind of mutual recognition by AASA,
+ even if it is not the copy-and-paste, the bad guys say that everyone has to justify their own salary,
+ so the AASA lieutenant has to ask for some small corrections to accept the certification made with the FIA.
+ So, a small detail, is the certification process clear to everyone, the certification, the certifications, the applicability?
+ If not, let's spend two words, there is someone who has never heard of these issues,
+ if not, let's spend two words, ok.
+ So, to have the Type Certificate, they went first with the FIA,
+ before having concluded with the FIA, they started approaching EASA to have a recognition motor,
+ in short, I'll make the story short, for the EASA employees,
+ the three displays provided by the initial project of the 139 and accepted by the FIA,
+ they wanted a fourth, the problem was that the project was already in an advanced stage of development,
+ to put a fourth display is not very common, so it cost a lot and the AASA employees were inflexible on this,
+ they said no, according to us they wanted four, they justified their decision,
+ but precisely for issues related to this, in some way intangible human factor,
+ so they said no, but in case a display varies, it's better to have two more, etc.
+ So, you have to take into account the human factor, this is a nice definition that is given by the FIA website,
+ "Dear, this last sentence, they can be applied, can be applied to tools as simple as a pen
+ or writing instrument to systems as complex as a space shuttle."
+ So it is not uncommon that in the design and instrumentation teams there are non-engineers who take care of this part.
+
+Thank you.
+ Now we can apply equipment, systems, facilities, procedures, job, environment, training, etc.
+ There is a student from the University of Bicocca,
+ who was in charge of the 8th October Committee, the Committee of the Family of Victims of the Incident of Lidate,
+ and he developed a very interesting theory,
+ so, let's say, the organization that then led to the disaster was punishable.
+ He said, here there have been misunderstandings, now let's go and see the details,
+ between air traffic control and other plans.
+ But his idea was that the organization was built in such a way that it was extremely likely
+ that anyone in the position of who was wrong would have been wrong.
+ So, the part of human factor must also be applied to the definition of the organization, procedures, etc.
+ There are not only products.
+ Ok, let's go.
+ Again.
+ Top shots.
+ So, two words on the architecture of avionics.
+ Avionics is the name we give to the electronics that is the work of airplanes.
+ The idea is this.
+ Avionics is built a bit like a Lego box.
+ That is, I have elementary bricks that perform dedicated functions.
+ First of all, I put them all together and I have the entire avionics system in my airplane.
+ Elementary bricks means that I have the brick of the inertial platform,
+ then I have the one of the TICAS that I have named today for the collisions,
+ then I have the one of the air data, etc., etc.
+ So, from the point of view of the responsible for the avionics of the users of the airlines,
+ what is the name of the airline association?
+ IATA.
+ So, the IATA side, which are the ones that have three-letter airports,
+ we are much more snob, we use the four-letter ones of the ICAO.
+ So, Malpensa is not MXP, but Elima India Mike Charly.
+ However, IATA said, no, no, let's agree, let's form this ARINC,
+ which is the aircraft, I don't remember, it's the electronic club of airlines,
+ and let's emanate directives with which we can interface the various avionics boxes.
+ This is aimed at not binding a single supplier that does everything,
+ but to be able to install avionics of suppliers.
+ So, the architecture that describes the instrumentation system,
+ the avionics system of most of the airplanes that fly,
+ is an architecture that provides that some boxes are defined
+ that carry out one or maximum two elementary tasks called LRU, Line Replaceable Unit.
+ And why is it called LRU? What does Line Replaceable Unit mean?
+ Actually, let's talk about boxes. What does Line Replaceable Unit mean?
+ Try to invent it from the etymology of the meaning of the three words.
+ We need to find out what Line means.
+ Line is Flight Line. What does Flight Line Replaceable Unit mean?
+ That the unit is replaceable in a flight line, it doesn't have to go in the hangar.
+ Look, this is fundamental, because for the operators the airplane lands,
+ it costs a lot, the airplane has to stay in the air as much as possible.
+ If any of you have ever timed the turnaround time of the most aggressive operators,
+ such as Ryanair, EasyJet, in 15-20 minutes they do everything and send the plane back to the air.
+ The airplane flies four, five, six, eight flights a day.
+ So, the idea of Line Replaceable Unit is the following.
+ The avionic unit can be replaced in a flight line, so at the apron at the parking lot,
+ it arrives at the appropriate technician, clearly not anyone can do it,
+ the technician arrives, he takes off the old broken unit, puts in the new one, and so on.
+ So, you don't have to go to the shop, but you stay in line.
+ To be able to do this, let's briefly turn on, this is not an aeronautics course,
+ but to be able to do this, each LRU has the built-in test functionality,
+ that is, self-diagnosis.
+ So, imagine you arrive at the plane, turn everything on, all the LRUs do the BIT.
+ And the BIT turned on is very deep.
+ And so, in the end, they give me a go-no-go, basically, green light, red light.
+ If there is some red light, there is some no-go, they call me in the infirmary, if I'm in the area,
+ they change the unit, they put in the new one, they redo the BIT of the newly replaced one,
+ if it's green, you go to the shop.
+ After which the disembarked unit, yes, will go to the shop or even to the supplier to be repaired inside.
+ But the idea is exactly that, to have the flexibility and effectiveness
+ to be able to change the boxes in the flight line and send them back to the airport.
+ The BIT then also continues throughout the operation, during the progress of the flight,
+ to keep under control and eventually isolate, as soon as possible, those units that had to go to Navaria.
+ What are the differences, however, in your opinion, between the built-in test done at the ignition
+ and the built-in test done during the operation, during the deployment of the mission, of the flight?
+ You can say no-go, if it's redundant, I'll disable it, at least I'll take away the circuit breaker and change the unit.
+ Fire.
+ If said in more general terms, what can be allowed, the built-in test done on land with the airplane still,
+ compared to the built-in test done in flight with the airplane that is flying?
+ Yes, but it's not so much this, but yes, this is true.
+ If you look at me in flight, it's not that one parachute arrives, enters and changes the thing.
+ Explain better.
+ No, no, no, of course, but no, no, I agree, but let's think about the built-in test level.
+ What can I do, I built-in test, when they light me up and I'm standing on the ground, that I can't do in flight?
+ I don't know, think about the flight control computer.
+ It's a fly-by-wire machine, there's a computer that then goes to operate, to command the actuators that move the ruinous surfaces.
+ Well, this, in itself, is irrelevant, but what can I do?
+ Well, I can, in more general terms, deny the functionality for which I was built.
+ While in flight, no.
+ That is, if I want to see if the surfaces reach the bottom of the course, I move to the bottom of the course,
+ everything to cable, everything to pick up, and I see them, but I can't do this thing in flight, ok?
+ This is an extreme example to make you understand.
+ So the built-in test on fire is much more pervasive than the built-in test,
+ which instead rotates continuously and does more or less a monitoring.
+ In addition, there is a third type of built-in test, which is the one used by the controllers.
+ That is, the controllers can have access to an appropriate functionality of built-in test of each avionics device
+ that allows to test in extreme depth some sub-functions to go and identify the damages.
+ So the vast majority of planes that fly have several boxes
+ that compose their instrumentation system and their avionics system.
+ When does this architecture come less in particular machines?
+ So, typically, very small UAVs in which you try to make a single electronic device that manages everything,
+ even because with the division into different line-replaceable units,
+
+I have a non-optimization of the weights, for example.
+ Each box has its own power supply, each box has the connectors to connect it to the other boxes,
+ I have the wires that connect me to the other boxes.
+ So it's not optimal, you accept this for the advantages it gives instead.
+ And also other types like Advanced Air Mobility, Personal AirVie with all these racks here,
+ vertical tail, full electric.
+ Lilium was my client, as you know, it ended badly,
+ I don't know if anyone followed it, it was our client, the company I work for.
+ They developed this 8-seater, 6-8-seater full electric, vertical tail, vertical frame,
+ with a propulsion distributed on the wings that had to, let's say, use case,
+ bring people from the airport to the city center.
+ They did a good job, when they failed, they burned a million euros a day.
+ But all those machines there don't have the avionics done like that, because they're small machines.
+ And so they have other solutions, the planes, the jetliners normally are the same.
+ And here is where these boxes are, they are under the cockpit floor.
+ So under the cockpit floor, there is a bottle, the cockpit floor that gives access to the avionics bay,
+ where all the electronic equipment is installed, here I have some photos to show you,
+ you see, it's done like this, each of these is an LRU,
+ so if it doesn't work, the technician arrives, unwinds the route, unwinds the spare, does the test, and that's it.
+ Another one, this is always the Triple 7, it's standing on its own, this is particularly important.
+ There are also cases, also of larger airplanes, compared to what I mentioned before,
+ in which you try to go on the integrated one.
+ So instead of having a whole system distributed, there are one or two computers that do everything,
+ but this solution doesn't work.
+ It's the case of some large machines, also because another advantage of a federated system like this
+ is the possibility of updating some functions while maintaining the rest.
+ If it comes out in the wind, the new inertial platform, which is more reliable, more precise, etc., etc.,
+ I can think of updating the aircraft, the instrumentation of my airplane, changing only that
+ and keeping the rest as it is, if it's an integrated system, I can't do this.
+ Ok, there are questions and observations from you, this brief historical excursus
+ makes us understand some of the choices we have to make.
+ So, let's see.
+ Next Sunday.
+ I would like to propose something, let's take a 10 minute break, I need to drink a glass of water.
+ So, I ask someone to remind me
+ to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+ I'm going to take a break.
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

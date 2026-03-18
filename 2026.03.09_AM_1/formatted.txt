@@ -1,0 +1,77 @@
+
+# TRANSCRIPTION BRUTE
+
+Speaking of the compass, we have stopped on the magnetic deviation,
+ which is the quantity of which the magnetic north, indicated by the compass, differs from the real magnetic north.
+ We have already seen it being characterized by a different direction compared to the geographical north
+ due to the phenomenon called magnetic declination.
+ The magnetic deviation is due to a magnetic distortion of the field detected by the compass
+ caused by the masses of ferromagnetic material in the vicinity of the compass
+ and by the electric currents that rotate alternating in the cables of the electric plants of the plane.
+ So, the entire course of the last part of the last lesson was precisely due to the fact
+ that the electric part of the planes will be characterized in the machines that will come from much higher values,
+ much higher than those of the current airplanes.
+ We have seen that, in parallel with the passengers, between 767 and 787, the electric impact had a 4x increase in power,
+ it has gone from 400 kilowatts to 1600 kilowatts, then to megawatt and 6.
+ And this will not be able to grow more and more.
+ I was telling you, an airplane of the tier 72 class with two engines of 2 megawatts,
+ one, a much more widebody.
+ Let's say that non-official data from some employees of Rolls-Royce told me that the 30,000 has a continuous power of a few tens of megawatts
+ and in takeoff of several tens of megawatts.
+ These are very important powers that therefore require a whole change of paradigm
+ also in the part of production and distribution of the electric power.
+ My feeling also in the face of substantial increases in the energy density and power density of the batteries
+ and the fuel cell capacity, my feeling is that for widebody cars of a high weight class,
+ we will go for several years at most with the Direct Burning Hydrogen Engine.
+ So with an engine that instead of burning a hydrocarbon,
+
+will burn hydrogen, which has advantages and disadvantages, because clearly,
+ since there is no carbon in the molecules, there is no production of CO2,
+ unlike what current machines do.
+ The advantages are that by burning hydrogen at a higher temperature,
+ there are many more NOx, oxides of nitrogen that are produced,
+ and nitrogen, unfortunately, is taken from the air,
+ so even if we do not have it in the carburetor, it is taken from the air.
+ In addition, everything that is the new evil in the emissions of airplanes,
+ which are the so-called "con-trails",
+ which is the label with which the communication scales are described,
+ "con-trails" are much, much more intense,
+ if I burn directly hydrogen in a turbo-machine,
+ instead of burning kerosene or SAF, as in the current state expected to do.
+ Anyway, going back to our magnetic deviation,
+ the magnetic deviation, therefore the error of my compass compared to the magnetic norm,
+ is a function of the magnetic probe,
+ because it is not constant, because the distortion on the lines of field of the Earth's magnetic field
+ is different depending on how I orient the plane,
+ at least that derived from the magnetic mass of a plane.
+ So here you see a possible description, the line drawn,
+ the one that tells me what is the error of my compass,
+ what is the magnetic deviation of my compass,
+ in function of the probe, which is on the rise.
+ As you can see, before compensation it can also be of several degrees,
+ so to give a totally unreliable reading.
+ Why is it said before compensation?
+ Because since the first introduction of compass to the work of planes,
+ a compensation mechanism has been introduced,
+ basically two small magnets that are placed outside the compass box,
+ but linked to each other, which can be placed on two axes,
+ and with a particular procedure they manage to algebraically compensate
+ the distortion derived from the installation on the plane,
+ until it reaches a value that is considered more acceptable,
+ which is what you see in the continuous line.
+ These compensations were done periodically,
+ therefore during the installation of the compass on the plane,
+ and then at regular intervals, depending on how prescribed by the Aircraft Maintenance Manual,
+ that document produced by OEM, by the manufacturer of aeroplanes,
+ which explains how they are done.
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

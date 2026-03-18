@@ -1,0 +1,780 @@
+
+# TRANSCRIPTION BRUTE
+
+We're going to talk about the air data, how they are calculated, how they are taken from the current we're flying and then distributed on board, and this is done through an air data computer.
+ What is the air data computer? It's an LRU, Line Replaceable Unit, a computer, as the name suggests, ADC is normally the acronym,
+ it's a computer that has mechanical interfaces that are normally connected directly to the probes, that is, in a large fraction of the aircrafts of the air data computer,
+ and this is one of those black boxes that if you remember we saw in the Vionic Bay Dayliner, the box has directly, for example, the two outlets to which I connect the total pressure and the static pressure through the tubes that take me from the probes that are on the outside of the airplane to the inside of the Vionic Bay,
+ which are somehow the electric cables of the temperature transducer that can be made in different ways, and therefore the air data computer in reality is a complete system, it is not simply the computer but the entire analog front-end for those components that transform a physical size into another physical size,
+ pressure into tension, transducers, so it has the transducers that normally transform the tension, sorry, the pressure into an electrical physical size, typically into a tension,
+ and here we have the part of digital analog conversion that for the first block will have, from the transducer as usual, a filter, a more general part we call signal conditioning,
+ it surely filters but maybe then also adjusts the levels or the impedances to then present the filtered value, conditioned as it is said in an Italian word, to the digital analog converter,
+ after which the digital analog converter converts, from there onwards they are binary numbers and go into the computer.
+ In the computer, the sizes that we have seen from the air data are calculated, so typically pressure altitude on different references, bar-over, gas-speed, all the air speeds,
+
+The IAS does not make sense in an air data computer, it calculates directly the CAS,
+ we will see how it does, the MAC number, static temperature, total temperature and I would say that's enough.
+ And it performs these calculations using the formulas of the standard air that we have seen.
+ Here there is a realization of how the air data computer calculations could be done,
+ this equation clearly needs to be rewritten because we start from the IPS measurement in front of the HP ratio,
+ so we need a relationship that has HP to the left of the same and all the rest constant or measured to the right of the same.
+ For the computing power of the very first computers that ended up on airplanes,
+ these calculations started to be quite complex because there were not yet hardware units,
+ you know that for us it is given by guarantee that there is the unit that does the calculations,
+ when I was on your side of the room, it was a different processor, the so-called co-processor mathematical,
+ so the computer came out with a unit, a CPU that did not have the part of calculations in "mobile",
+ and who wanted, who could afford it, put the co-processor mathematical that instead had the part that does the calculations in "mobile",
+ to give you an idea, there is a factor of 100 on the times in the speed of execution to do the calculations with the CPU
+ and do the calculations with a floating point unit that does these calculations in hardware.
+ And so there you will see the lookup table, the idea was to use a lookup table and I imagine you have already come to know this technique,
+ let's go over it a bit, I take the opportunity to underline how, since it is contested sometimes that the course presents repetitions
+ compared to other courses that we have done, the repetitions that we do in the course are on the one hand to recover those who may not have been exposed
+ to these same topics in their own previous curriculum and on the other hand to frame them according to the optics in which they serve us,
+ so there will be some repetitions, better for you if you have already come to know what we are talking about.
+ But what is the idea of the lookup table? The idea of the lookup table is basically to speed up with space of memory,
+ the second has become available much earlier than the first and therefore traditionally for this type of calculations
+
+were used in the lookup table. What is the idea of the lookup table? The idea of the lookup table is
+ to pre-calculate, at this point without any hurry, the solution of
+ these equations for a certain number of values of reading, for example, of
+ static pressure. We are talking about the calculation of the barometric rate and this is facilitated
+ by the fact that no matter how finite a number of bits can be, the digital analog converter
+ gives me a finite number of combinations in output. If I have a digital analog converter,
+ how many bits is it reasonable, in your opinion, to convert the static pressure?
+ It has put the center of the range with the initial conditioning.
+ How many bits could the digital analog converter be converted to?
+ How many bits is the audio converted to in the CDs that you do not even know how to play?
+ Let's say 16, we are open, 16 to have a good dynamic. Dynamic is the ratio between the minimum
+ quantity of which I can evaluate the variation and the maximum quantity. How many combinations do I make with 16 bits?
+ Two is 16, that is, 65,536. Then I could pre-calculate 65,536 times this equation for
+ each of the possible binary figures that are in the output of the digital analog converter.
+ Clear? So I take from 0 to 65,535 as the output of the digital analog converter,
+ with the appropriate conversion factors I see how much PS is worth, when the converter is from 0
+ and when the converter is from FFFF in decimal, that is, 65,535. Then, for each of these values,
+ I pre-calculate, with all the calm I need, in the process of designing the device, how much HP is worth.
+ And in a table, which is called precisely the lookup table, imagine a table with two columns that has,
+ as the first column, the value of the figure that comes out of the digital analog converter,
+ as the second column the value of the altitude pressure. After that, during the operation of my
+ air data computer, I will no longer have to solve this equation to calculate HP, but I simply use the current value
+
+to see the pre-calculated value of the pressure.
+ So I narrowed down the speed that I was not able to do with the first computers
+ that were on the edge of the planes with memory occupation.
+ It is clear that I occupy 65,535 for two, which are the first column,
+ for 8 bytes with this table.
+ But, I repeat, the storage space is not a problem.
+ On the other hand, the speed is fulminous.
+ That is, once I give the index, the value of the table for a CPU is immediate.
+ It is an extremely fast question.
+ And so, very often, the Lookup Tables are used.
+ Lookup Tables that can also grow a lot in size,
+ if on the one hand I grow with the number of bits of the digital analog converter.
+ From 16 I could get up to 24 bits.
+ If any of you is an audio enthusiast,
+ he knows that the Super Audio CD converts the two channels on the left to 24 bits.
+ So it has two to 24 possible values, so it has a very, very large dynamic range,
+ because it is one divided by two to 24, which makes, I don't know, memory.
+ 16 million something like that? How much does 2 to 24 do?
+ 16 million possible values between the minimum and the maximum.
+ So it has a very fine granularity, which is perhaps unnecessarily fine,
+ for example, for audio applications, because it goes beyond the ear capacity.
+ The ear has a dynamic range of about 100 decibels.
+ And here, in the sense that, instead of 0 decibels,
+ the value of the threshold of pain of the ear of the average human,
+ so by adjusting to that value there, the value of smaller intensity is less 99, less 98 or 10.
+ Below that, the ear does not feel pain.
+ The Super Audio CD has an even greater dynamic, which therefore goes beyond the ear capacity,
+ but also in the case of data conversion.
+ In short, if I have a 24-bit converter, it begins to become very, very critical
+ for the whole aspect related to noise, to thermal derivatives, to everything that is in the front-end compared to my chain of acquisitions of greatness.
+ So the table can grow, but anyway, then imagine today the dimension of memory is an uninfluential problem.
+ I have just paid 2 euros to Aliexpress.
+
+a microSD from 1TB, including the shipping, I don't know how much it costs,
+ probably it has bad performance, but I wasn't interested in that.
+ So, nowadays, they also put the SD from 2.60€ on the airplanes,
+ but I want to hope, but the problem of memory dimension is not a problem.
+ The table, I said, can increase the size of memory occupancy,
+ either to fit its rows, or maybe to depend on two parameters,
+ because at this point it becomes a much larger table, because I have two input values,
+ so I have the multiplication of the number of values of each of the two input values
+ to be able to bring the output.
+ In this case, we are function invariable only, but we could be function of 2.60€.
+ But I repeat, this is not a problem. With the growth of the computing power
+ of the programmable systems that arrive on board, and that are therefore certifiable,
+ it has gone from the lookup table to the real-time calculation.
+ Same case for the case for the case, in short, here are some formulas that I will give you
+ when you do the exercise of calculating the data from the pressure measurements.
+ Radical speed, here too one has to evaluate the incremental ratio.
+ Clearly, numerically, in discrete-time systems it is difficult to make derivatives.
+ You know how it is done here, I do not want to go into a strong repetition,
+ but you can do it this way. Calculation of the Mach number,
+ static temperature and true airspeed.
+ So, let's see a logical flow of how to turn the information in an air-data computer,
+ which is a bit different from the practical flow.
+ And in particular, here we see that we start on the left with the measurement of static pressure and total pressure,
+ which may be correct because I have a calibration function of the transducer,
+ maybe the transducer is not perfect.
+ And here it is calculated, first of all, the Pt minus Ps, that is, the impact pressure.
+ So, even if from the analytical point of view it is exactly the same thing,
+
+Normally, from a practical point of view, the system is not implemented in this way.
+ In this way I would have a transducer of static pressure and a transducer of total pressure.
+ This can give me problems related to practical implementation.
+ Let's see if someone comes in.
+ If I say that the impact pressure is pT minus pS, what problems could I have
+ derived from the fact that I have a transducer and a converter of pT and a transducer and a converter of pS?
+ What flight modes and for what reason could I have problems?
+ First of all, what type of transducers of pressure are used, in your opinion, for static pressure?
+ Or let's take a step back, but don't shout at me, I'm repeating myself.
+ What type of transducers of pressure do you know, in terms of connections with the outside?
+ There are three types, let's say, like the transducer architecture.
+ One is a transducer that is similarly baptized as capsules, absolute.
+ The transducer of absolute pressure, as the name says, transduces the absolute pressure
+ that insists on its own sensitive membrane within the tube that is connected.
+ Then there is a transducer that is similarly a differential capsule that has two ports
+ and therefore transduces the difference in pressure between the two ports.
+ It can be unidirectional or bidirectional, the second is that one of the two is always superior to the other
+ because they can be the absolute values of the two pressures, also different.
+ So my differential transducer can go from zero to a bottom scale or from less bottom scale to more bottom scale,
+ depending on whether it is unidirectional or bidirectional.
+ Then there is a third transducer, which is a particular name that we give to the differential transducer.
+ What? No, then, it is a transducer, it is normally called Gage,
+ which is the one, for example, to evaluate the levels of liquids in the tanks,
+ which is a differential transducer in which the second port is exposed to atmospheric pressure.
+ You know that if I go to evaluate the level of a liquid in a tank,
+ the pressure that is measured at the bottom is the Egeri-Stevino for what it is.
+
+I only care about the level of the liquid, so I put the atmospheric pressure from one side to the other so that it is subsided in the differential transducer
+ and I have the level of the water in the sink, because it is also used for this, rather than the levels of liquids in the tanks.
+ So this is the so-called gauge transducer, which is a differential, however, whose second door is not accessible, but it is simply exposed to atmospheric pressure.
+ So, what would happen if I used an absolute transducer for the total and for the static?
+ Instead of the solution that is used, using a differential transducer that is directly sensitive, by design, to the pressure of impact.
+ So I put it on one side of the P.T. and the other side of the P.S.
+ Does anyone have any idea?
+ Almost.
+ I am more precise with the differential, even if, I repeat, from an analytical point of view it is the same thing.
+ From an analytical point of view it is practical, no. Why am I more precise and in which flight modes am I more precise?
+ Think about the absolute values of the quantities at play. What is the standard static pressure? 101,325 pascals.
+ Now imagine flying slowly, towards low speeds. So let's skip the compressibility effects for the simplicity of this treatment.
+ We know that P.T. minus P.S. is a half of v2. So how does a function that has v2 go to zero?
+ In what tangent? Horizontal. So, in low speeds, the dynamical pressure, the pressure of impact, is small.
+
+then it increases with the square clearly at a certain point when it increases it becomes larger.
+ So if I measure 101,325 of static and 101,325 plus a small amount of total,
+ my transducer is lost in the noise if the pressure, the impact is small
+ because compared to the 101,325 it has a small magnitude.
+ So at low speed for technological reasons of non-perfection of my data acquisition chain
+ I could have some errors that I don't have if I use a differential transducer
+ because the differential transducer makes the mechanical difference of the pressures on its membrane that is exposed.
+ I am aware of how transducers are usually made, they are this membrane that deforms.
+ Its membrane is exposed to the two pressures, mechanically it makes the difference,
+ the deflection of the membrane is already the impact pressure.
+ So even if from the analytical point of view it is exactly the same thing,
+ measuring pt and ps, making the difference in the values or measuring qc,
+ normally then from the point of view of practical realization we measure qc or we measure all three,
+ we measure the total with an absolute transducer, the static with an absolute transducer
+ and the impact pressure with a differential transducer, just to have the three values.
+ So here I have the corrections according to the amount and the number of mc,
+ here we see a bit, sorry here I have it, from the static compute pressure altitude, hp,
+ the impact pressure, I calculate the case, pt over ps, the number of mc is another way,
+ after which once the number of mc is the recovery ratio of the probe from the total temperature
+ I go to calculate the static and with the static and the number of mc I calculate the true airspeed and the static airspeed.
+ This loop is executed by the Herdetta computer, as I told you, typically at 10 Hz.
+ Why 10 Hz? Because the air data is not a physical size that varies with a strong dynamic.
+ Here there is another example of the computer which then in this case sends to the indicators,
+ these indicators are clearly logically made like this, but being made by a computer
+ and then generated by an image generator, so altitude, vertical speed, cas, one of the mc.
+
+and then static temperature and total temperature.
+ What is interesting to see in this scheme is who uses the air data
+ among all the other systems and systems of the aeroplane.
+ It is many, many.
+ So much so that, as I was saying, the air data are considered a component
+ which has consequences, or malfunction, potentially catastrophic consequences
+ on the safety of the flight
+ and therefore are subject to the most stringent reliability requirements
+ among those assigned to the various systems.
+ So, the Fly Director, we will see it, the Fly Director is, let's say, the computer
+ which generates the information for the flight flight in output,
+ so information on requests for, let's say, altitude and heading
+ and eventually the settings of the controllers,
+ which can be closed as a loop manually by the pilot.
+ The Fly Director was the first computer to assist the pilot who arrived on board
+ or by the autopilot, which at this point is what is normally on board.
+ Automatic flight control, here we are.
+ Inertia navigation, why?
+ Because I make the difference between the TAS and the ground speed
+ detected by the inertial navigator and calculate the wind
+ which can be used for navigation.
+ Altitude reporting, here we are.
+ Ground proximity warning, we will see it, a system that warns me
+ when there is a potential collision with the features of the terrain.
+ Flight management, flight recorders, stall warning, here we are.
+ Gas response, also this.
+ Multiliner, they have active systems of reduction of sensitivity to gusts
+ which usually work using the ailerons, the ailerons in concord mode
+ instead of discord, just to relieve the load of the gusts
+ and these need air data.
+ Engine control, certainly.
+ Cable Impressorization, flight control system, flaps, flaps, stabilizer,
+ everything that is, yaw dumper.
+ The yaw dumper, what is the yaw dumper?
+ Someone has never talked about it.
+ It was the first active electronic system installed on a commercial airplane.
+ What does the yaw dumper do?
+ Here we have to recover some of the mechanics of the plane.
+ Vago.
+ What are the lateral directional modes of the airplane?
+
+Dutch Roll. The yaw dumper crushes the Dutch Roll, because in the e-liners Dutch Roll has its own frequencies that are extremely annoying for the passengers.
+ The Dutch Roll, which is this combination of roll and embezzlement, now we are not repeating the part of the mechanics of flight,
+ it is advanced by the yaw dumper, which acts on the radar and therefore was the very first computer that took off. Now the yaw dumper is part of the flight control automatic systems,
+ but just for your information it was the very first automatic system certified and in operation on a commercial aircraft.
+ Here we see generally on a machine that can also be military, which are the fruiters of the radar system.
+ Here we see more that we have not mentioned before, the transponder, the FMS and the flight management system.
+ The flight control computer that has to decide how to deflect the control surfaces on the basis of the input that arrives from the pilot or from the autopilot and the conditions of the machine,
+ has to know the ATI ARIA, because to obtain the same maneuver, for example in speed regimes or at different rates, the deflection of the control surfaces must be different.
+ The navigation system, the electronic instrumentation, therefore among the fruiters of data calculated by the so-called computer, there are also primary flight display and navigation display.
+ And up display, eventually, is the shooting system of the weapons or the release of humanitarian aid in the case of machines that have missions of that kind.
+ This is to show you how an air data computer can be made.
+ You see there is an LRU, Line Replaceable Unit, we have already seen this acronym, and the particularity compared to other LRUs that only have that large connector.
+ The large connector brings the power supply, the data bus, which as we will see is the communication channel through which the information is exchanged with the other boxes.
+ Compared to other LRUs that only have the data bus power connector, here we have the two doors to physically attach the tubes that arrive from the probes.
+ Probably the temperature probe is wired directly to the J1 pins.
+ A curiosity that can surprise, it is not uncommon that the particularities that have the highest cost in the realization of LRUs are the box and the connectors.
+ The electronics inside are definitely expensive.
+
+is definitely made with the criteria of the pension and the different productive processes
+ than those of the consumer electronics and those of the 1,000 devices we have,
+ because the requirements of reliability are certainly higher.
+ However, it does not cost as much as the box and the connector cost,
+ which are extremely critical points.
+ The connector is what brings all the signals, the power supply, the data of the databases,
+ so the connector clearly needs it because I have to be able to disassemble the LRU
+ and replace it with another one, the idea of ​​having a proper connector.
+ And therefore, guaranteeing in all the environmental conditions in which this box will be operated,
+ that the connector has a small contact surface, it is possible to mount and disassemble it without breaking the pins, etc.
+ It is all other than trivial and it brings very high costs.
+ This LRU is not necessarily mounted in a quiet environment like that of the Vionic Bay of a Liner,
+ because as I said, if we are on a helicopter, it is probably mounted in Sbalzo,
+ in front of the parachute, let's say that it corresponds to it.
+ Excuse me, but it's mute, why?
+ So, let's do something.
+ If it is mounted in Sbalzo, it is exposed to cold, warm, vibrations, humidity, temperature quotient gradients.
+ And therefore also the container, because the container, for example,
+ has a very important task in the screening for what concerns electromagnetic radiation.
+ That of the so-called electromagnetic compatibility, EMC, electromagnetic compatibility,
+ is a very, very important problem.
+ There have been cases, historically a first case of problem generated by issues of electromagnetic compatibility has been mentioned.
+ In essence, electromagnetic compatibility is evaluated under two completely distinct forms.
+ One is the so-called immunity, that is, it is the characteristic of an electronic system
+ to be able to continue to work even if it is subjected to an external electromagnetic radiation.
+
+So, immunity and then radiation.
+ The other question about electromagnetic compatibility is that the electronic disposal
+ does not need to irradiate electromagnetic pulses for higher levels than a threshold of acceptability
+ that is given by certification standards such as the RTC-ADO-160 that we mentioned yesterday
+ or the MIL-STD-810.
+ So, all these tests are then done in a very wide range of frequencies,
+ ranging from a few hundred kilohertz, which were the typical frequencies of transmitters,
+ those with long waves of services such as Voice of America or BBC World Service,
+ we will talk about the radio part, to a very high frequency,
+ indeed that they are pushing themselves higher and higher.
+ As you know, the cell phone works on bands of a few gigahertz, two gigahertz, one and eight.
+ Wi-Fi has now reached five and four, in fact, Wi-Fi 6 and 7,
+ which are seen to house a band at six gigahertz, which is even higher,
+ after which it also goes higher with other services.
+ Here, we must avoid being susceptible to disturbances on these frequency bands
+ or to emit disturbances on these frequency bands.
+ I said before that the example that is historically made of susceptibility
+ is that around the end of the 60s, when the radar on board an American aircraft carrier
+ caused a disturbance to an airplane's onboard system that launched the missile,
+ while the aircraft was hovering on the bridge, causing several damages and several deaths.
+ This is precisely because the disturbance has generated a malfunction of the onboard system.
+ Later, a tornado was lost in Germany during a low-cost flight
+ because it passed next to a Voice of America transmitter, also there.
+ The high intensity electromagnetic field, which even has a dedicated acronym,
+ which is called HIRF,
+ here it is written by hand, I don't remember.
+ So, HIRF, High Intensity Radiated Field.
+ This is typically the condition linked to the transmitters of some radio services that are on the ground,
+ so television, also digital, radio, radar.
+
+So because of the IRF, a tornado was lost because the terrain following, the system that had to guarantee the possibility of the aircraft to fly at low speed automatically did not work anymore and it fell to the ground in such short times that the crew could not launch.
+ What is the problem in general related to electromagnetic compatibility, susceptibility, immunity?
+ It is related to how the intensity of a radio frequency signal goes compared to the distance from whom it generates and how it goes.
+ What is the law that says, we will see it more in detail when talking to Ratan, but maybe someone has already seen it, the intensity, let's call it I, of an electromagnetic relation that functions as R, the distance from which I measure it compared to the source of this radiation.
+ I is a function of distance and what is the function of distance, you have already seen it, so it is proportional to 1 over R squared.
+ This is because we will see it, it is considered that the total intensity is constant on a R-ray sphere and therefore as R increases, the surface of the sphere goes with R squared.
+ 1 over R squared means that if I go close it becomes very intense, so this is the problem when I, it is true that my phone has a very soft radiation because it transmits a fraction of watt, at the limit of 1 watt,
+ attached to where there is an electronic device underneath, the intensity that generates is very high because 1 over R squared, this is the reason why when you call the microphones you hear the disturbance, you just have to move it away a little and you don't hear it anymore, precisely for this reason.
+ In the case of electromagnetic compatibility, we must evaluate the intensity radiated field, which is typically due to the fact of being close to the source of electromagnetic radiation, which can be transmitters, as I said, broadcast services in some way,
+ the regime on the airport seat is exposed to various radar radiations that can also be intense and therefore the box must guarantee in all this range of frequencies.
+
+One of the problems to make a good Faraday tube that blocks the radiations that enter by increasing my immunity
+ because the test is done by putting the box in an appropriate test chamber and bombing it with the radiations.
+ If it is a good container, it prevents these radiations from entering or attenuates them very much, but the good container also works the opposite.
+ I have very high clock frequencies and circuits that I can't optimize, but if the box is done well, the radiations remain inside.
+ So, as long as they don't bother me, I don't have any problems.
+ To make it good, it should be monolithic, that is, it would be necessary to get it from the ground, to build it for additive manufacturing with electronics inside.
+ Every time I have sections, as you can see in this case, the screws allow me to open it, or I have the cover in front, which is clearly necessary to do the servicing of what is inside.
+ Every time I have different parts, ensuring continuity, such that the electromagnetic shielding is extremely complicated.
+ This is one of the construction techniques aimed at preserving the electromagnetic shielding that brings the cost of realization very high.
+ This was the conclusion of the data area.
+ To this day, even the small 4-dollar drones, compared to the cost of the air data computers, that have transducers, everything is done in the economy, but the logic is exactly that, to have a data system that goes to evaluate all the data of which there may be interest.
+ Now let's talk about navigation.
+ Why? Because navigation, in the vast majority of missions, is fundamental.
+ The mission of a flying machine is to make the most of the time.
+
+is intrinsically linked to the navigation on the Earth's surface.
+ So, we need to recover some concepts.
+ It is not unlikely that you have already seen them in other courses.
+ We recover what we need to be able to talk about the instrumentation part
+ that is dedicated to navigation.
+ So, you know, meridians and parallels are the system of coordinates
+ that we normally use to identify points on the surface of the Earth.
+ The Earth is not a sphere, it is not even an ellipsoid.
+ It is a geoid that is more or less pressed against the poles
+ and is normally approached by an ellipsoid.
+ And there are several ellipsoids in use
+ because each nation has invented an ellipsoid,
+ by turning the parameters of the ellipsoids appropriately,
+ each nation has invented an ellipsoid that approaches better
+ the territory of its own nation
+ compared to other ellipsoids.
+ So, clearly, an ellipsoid that approaches the real territory of Italy
+ is different from what approaches that of Argentina
+ rather than from New Zealand or Australia.
+ There are then some ellipsoids of international use
+ and perhaps the most used of all is the WGS 84,
+ the World Geodetic System 84,
+ which has global validity.
+ It was established as a NATO initiative
+ and is, for example, the ellipsoid used by all satellite navigation systems,
+ starting with GPS, then Galileo, GLONASS, etc.
+ The sphere, or the ellipsoid, or the geoid are three-dimensional.
+ Very often we have, for reasons also historical, the need to describe them
+ on a two-dimensional sheet.
+ And so there are the various projections
+ that have been developed in history, but in the centuries, I would say,
+ the Merkatorre projection, I think, of the millennium,
+ that project the terrestrial surface on a flat sheet.
+ The problem is not trivial.
+ The example that is usually done, which allows us to understand this well,
+ is to try to peel an orange and then put on the surface of the table
+ the peel you have removed.
+ You see that it is not very trivial to recreate the surface of the orange.
+ So, the Merkatorre projection
+
+The equator is made on a cylinder that touches the Earth, and the equator is the axis that coincides with the Earth's rotation axis.
+ It has some problems, it has surface dilatation, I don't know if you have seen it, let's see if we can see this here, which is quite nice.
+ Let's see if we can see this.
+ Here we are, this is a site that shows us the real size. If I take Greenland, which is in fashion recently, you see, it always seems huge to us, but why does it seem huge to us?
+ Because, if you think about it, on the position of the marketer, the North Pole, which should be a point, how big is the position of the marketer? It's as big as the equator, it's as long as the equator.
+ If I move Greenland, you see that it becomes much smaller, the ratio towards the equator, and the same thing if I move Italy, let's see if we can see it, the ratio towards the pole becomes gigantic.
+ Let's try again, the other one is closed.
+ The volume is 0, I can't understand if this is possible.
+ So, surface dilatation.
+ After that, there are several other projections, what is used in the eonautical field is Lambert's paper, which is an iconic projection that then,
+
+It intersects the outer surface of the earth on two parallels.
+ It enters the surface of the earth in one parallel and goes out in another.
+ These are the two parallel bases.
+ Now they do entire courses on the cartographic side.
+ It's a conical projection that allows us to better manage the paths we consider to be two different types of paths.
+ The first one we consider is the elliptical path between two points.
+ Someone has done a classical high school degree.
+ The elliptical path is the one that brings me between two points while maintaining a constant curve.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ Historically, it's the first type of elliptical path that has been invented.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+ It's the one that brings me between the meridian and the direction of the elliptical path.
+
+through the smallest distance between the origin and the destination,
+ which is called the orthodromic route.
+ Then we imagine the earth as a sphere, to understand it better.
+ We imagine the earth as a sphere, we take the maximum circle,
+ like the equator circle,
+ and we begin to rotate our maximum circle
+ in such a way that it passes through the two points that interest us.
+ The trace of this circle on the surface of the earth
+ identifies the orthodromic route
+ between the point of origin and the point of destination,
+ and it is mathematically guaranteed
+ that it is the smallest distance between origin and destination.
+ If you have access to a world map,
+ besides seeing the height of the troposphere we have already talked about,
+ to impress you, because it is a few millimeters compared to the world map,
+ you can easily identify the orthodromic route
+ between any two points with a wool thread.
+ If you take a wool thread and stretch it,
+ if you pull it enough between origin and destination,
+ by pulling it, let's say,
+ you bring it to have the minimum distance,
+ that is exactly the orthodromic route between origin and destination.
+ Why has the orthodromic route not always been used in the centuries?
+ Because the orthodromic route, in the most general case,
+ involves constantly changing the angle of the track,
+ which, imagining a symmetrical flight without winds,
+ coincides with the bow of the airplane.
+ If you have in mind the North Atlantic route
+ between Europe and the United States,
+ the planes, seen on the marketer's map, all fly,
+ indeed from your side, from Europe and the United States,
+ all fly in this way, they go towards the pole and then descend.
+ So they start with a bow that is towards the north
+ and then arrive with a bow towards the south.
+ And in the case of the orthodromic route, the bow changes,
+ there is a delta Psi on delta T that is continuous,
+ there is a continuous variation of bow and then track,
+ taking into account the wind,
+ which can only be carried out by automatic systems.
+ The compromise that was used halfway
+ was to use segments of the orthodromic route
+ that approached the orthodromic route.
+ That is, the pilot flew by hand for several minutes with the same bow,
+ trying to approach the orthodromic route with pieces of the orthodromic route.
+ And look, the difference is not small.
+ Here you can see, always on a marketer's map,
+ the difference between the orthodromic route and the osodromic route
+ on the Paris-Torres route.
+
+and here the difference is about 25%, if I remember correctly,
+ on the distance, which is not small, that is, a quarter.
+ But you see, you see the big difference,
+ here the angle of the track is very visible
+ because the meridians are all vertical,
+ while with the osodromic, which is the same as the tratteggiata,
+ I have the track angle constant, because you see,
+ I go to intercept the meridians always with the same angle,
+ in the case of the orthodromic it varies with continuity.
+ When you can, in the case of air transport, you use the orthodromic.
+ It happened that I returned from Seoul, in Europe, flying over the pole,
+ flying to the east, over Japan,
+ at 89 knots, they gave me the certificate that I flew on the North Pole,
+ even if it was not 90, exactly,
+ at 89 knots and then you go down to Europe
+ and it is much shorter than not going around.
+ Clearly, all the speeches on the tracks, then,
+ they cannot be omitted and this is also a current topic,
+ the possible restrictions on the airspace,
+ derived from geopolitical issues.
+ But even before the recent events in the Middle East,
+ there was an exposition of the carrier of the American operators,
+ because, as a counter-return to the Western sanctions,
+ Russia had closed the airspace to the ungrateful airlines,
+ which are practically all the Western ones.
+ So, in the routes towards China, there was a clamorous disloyal competition
+ of Chinese operators compared to Western operators.
+ And here too, I speak from experience, going to Beijing
+ with Air China from Milan or going to Beijing from Milan
+ with an operator, not Air China, but it took me four hours more,
+ just to give you an idea, because you have to do the whole tour.
+ So, we are all happy,
+ orthodromy, osodromy, let's take the shortest route
+ and then there are political issues that are going to impact on the routes.
+ But not only political issues, there are also economic issues,
+ and I will tell you another anecdote that impressed me a lot.
+ It impressed me because we sometimes run after optimizations
+ that allow us to save money.
+ One and a half, two percent of fuel, let's count the sharklets,
+ they told me in Neos that with the winglets / sharklets on the 737 fleet,
+ on average, they have evaluated a fuel savings of one and a half percent.
+
+which seems small, but if you burn tons of kerosene per airplane per month at the end of the month they are a non-transparent import.
+ Well, another acquaintance told me, an ex-commander of 777 via L'Italia, who did the doctorate from us,
+ unfortunately I can't bring you in the class for personal reasons this year, usually it was very interesting what he said,
+ he said that he then happened to fly on the 320 on the Milan-Bari and in the face of the orthodromical-osodromical Milan-Bari started and flew eastward,
+ then flew all over the area of ​​Equiu Yugoslavia and the Balkans and then returned to Bari, in total 20% more of the way and also a higher time.
+ And why did they do this? Let's see if anyone, in the end for the airline it was more convenient.
+ What could be linked? Someone has an idea.
+ No, no, exactly, the air traffic control rates, this in my opinion is a crazy thing,
+ because we have said and we will repeat it when we analyze in a more systematic way how air traffic is organized,
+ but the separation between the passengers is entrusted to an external service that is on the ground, the ATS, Air Traffic Service,
+ which then charges costs for every traffic that is controlled.
+ Then the costs of air traffic control over Italy, of the orthodromical route between Milan and Bari, more or less orthodromical, taking into account any restrictions,
+ in the end they were higher than the costs of air traffic control in Croatia, Slovenia, Montenegro, maybe even a bit of arrival on the sea, even Bosnia, right?
+ Anyway, at the end of the event, taking into account that they paid more than Rosene, because they consumed more,
+ that the pilots paid more, that the cabin crew paid more, because in the end it cost less than not flying over Italy.
+ In my opinion this is an absurd thing, without being an environmentalist, but it's crazy to burn 20% more than Rosene,
+ because it simply means that 20% longer equals 20% more or less consumption.
+ They left LENAV in Italy, in my opinion what should be done is, at the central level of Eurocontrol and the European Commission,
+ to harmonize the costs of air traffic control, it makes no sense for every nation to impose its own costs.
+
+you know that all the companies that were in the air traffic control service are ex-military,
+ because once the military was entrusted in practically every nation,
+ so even ENAV is the incarnation, let's say, in SPA of what was the air traffic control service.
+ I think it's absurd that every nation can impose the tariff it needs,
+ because then you end up with these absurdities, with these "sprakes", let's call them that.
+ So, going back to our speech on roads, everything is nice, everything is right,
+ then in the end you have to take into account what you can do.
+ But when you can, between the two points, the shortest stretch is the orthodromic one.
+ Obviously, the closer the points are, the more the orthodromic and the osodromic coincide.
+ And then there are particular cases in which they really coincide.
+ One, as we said before, is the case of flying between two points that are on the equator,
+ not on the same parallel, it's only on the equator that this thing works,
+ and instead the flying between two points that are on the same meridian always works.
+ The meridian is already an arc of maximum circle,
+ and in any case, if I fly on the same meridian, I always fly north or south,
+ and so in that case the orthodromic coincides with the osodromic.
+ In all other cases, on the other hand, it's different.
+ How is it done, even if we anticipate a little, the navigation of the airplanes?
+ The operators would hardly like to leave, except for geopolitical restrictions,
+ to leave and go with an orthodromic to the destination.
+ Normally the route of the airplanes follows a finite number of waypoints.
+ Waypoints are intermediate points of the route,
+ in proximity of which, generally, the direction of the route changes.
+ Between one waypoint and the other, you navigate for an orthodromic.
+ Clearly, as I said, if the waypoints are extremely close,
+ as they may be those of the landing procedures of the airports,
+ which are a few miles from each other, the orthodromic and the osodromic are the same thing,
+ but in itself the boarding systems make me follow the orthodromic between one waypoint and the other,
+ which, on the other hand, can also be distant from each other on other occasions.
+ Here are other examples of orthodromic and osodromic.
+ And here we see...
+
+of some angles here too, it will certainly be a step back, but which will interest us for what we will be dealing with in a moment.
+ So, the Prua is the direction that is identified between the north, the direction of the north, and the projection on the Earth's surface
+ of a reference direction of the plane, normally that of the symmetry axis.
+ So, the plane of symmetry, sorry, so the plane X, Z, as we normally define the axis.
+ And normally the angle Psi is assigned, and as I said, in the parameterization of the set of the plane,
+ it has a separate name, so this is heading.
+ We said that the three angles that identify how the plane is oriented with respect to a reference plane with the Earth,
+ are not all given together, but are divided into attitude and heading, and this is heading.
+ We can then have an angle of detour, so with respect to the north, I can have the direction of the Prua,
+ which is different from the direction of the route if I have a flight not on the plane of symmetry.
+ What can be the cause? The cause can be, for example, the loss of an engine in the case of the motor codes.
+ And so, as you can see, my Prua does not coincide with my route, I will adjust the Prua to have the right route,
+ and so it could have a little misuse, respectively.
+ What matters, obviously, except for particular operations, is to have the right route, not the Prua.
+ This is what is commonly called a slip or a slip.
+ Or there can be a wind that gives me a drift or a drift.
+ Here too, the vector composition is made between the speed in the area of ​​the plane and the speed of the wind with respect to the Earth
+ to find the speed of the plane with respect to the Earth.
+ And so here we define the drift angle.
+ Here we have the two combined effects.
+ As you can see in the drawing, in this drawing, as a reference direction, the geographical north is taken.
+ In the aeronautical field we also use the magnetic north.
+ We will talk about this as a subsequent topic, the magnetic field and the rest of the magnetic references.
+ When we use the geographical north,
+
+The north is characterized by true,
+ so true heading is heading with respect to the geographical north.
+ For example, magnetic heading is heading with respect to the magnetic north.
+ We'll see this later.
+ So this was a crash course,
+ actually a crash and a review of the navigation issues,
+ those that we need to move forward.
+ Now let's see the magnetic field part.
+ Our planet, unlike others, has a magnetic field.
+ If I'm not mistaken, to explain it exactly,
+ we need to look at Maxwell's equation,
+ which is something I'd like to avoid,
+ and I remember it as a nightmare,
+ both in the formulation and in another formulation.
+ Anyway, the magnetic field is given by the lines of force,
+ excuse me, the net around the earth of the lines of force
+ of the Earth magnetic field allows us to identify some directions.
+ So let's take a step back.
+ By definition, what is the geographical north pole?
+ Exactly, it's the point of the Earth's surface from which the axis of rotation of the Earth
+ comes out in an imaginary way.
+ It's the same for the south pole and the one on the other side.
+ The magnetic north pole is the point that identifies a particular direction,
+ because when we talk about the magnetic field,
+ it's quite complex to talk about this,
+ a particular position on the Earth's surface.
+ In general, the magnetic north pole does not coincide with the geographical north pole,
+ even if it's more or less in the zone.
+ The magnitude that measures the angular distance
+ between the geographical north pole and the magnetic north pole
+ is called the magnetic declination.
+ And the magnetic declination varies from place to place on the Earth's surface.
+ So it's not a constant, but it varies from place to place.
+ In addition, for physical phenomena,
+
+linked to how the Earth's magnetic field is generated from what is inside our planet,
+ the position of the magnetic north pole also changes over time.
+ So the magnetic declination has not only a function for space, but also a function for time,
+ so much so that in each sheet of paper of those that are used for the planning of flights,
+ or were used, now I imagine it will be all electronic,
+ for the planning of flights, the date in which the magnetic declination was detected was also marked.
+ Why are we still dealing with the Earth's magnetic field?
+ Why, historically, for heading information, or for the lateral guidance of the plane,
+ the magnetic north pole was used, from which direction it was detected by an appropriate instrument on board,
+ which is called the magnetic compass, so it gives me my heading with respect to the magnetic north pole.
+ And for decades it has flown using the compass for magnetic glides.
+ So how does the compass work? The compass has a kind of cup, of body that is in motion,
+ which has a spherical hinge, with respect to the support, which is solid with the airplane,
+ up to a spherical hinge that has three degrees of freedom of rotation,
+ and if we look at the two perpendicular degrees to the axis of this support pin, what we are interested in is that it has this,
+ let's say, mobile equipment, the possibility of rotating around the pin,
+ and this rotation will be given by the fact that a magnet is mounted on the part of this mobile cup,
+ which, for the sake of electromagnetic force, will align with the lines of force of the Earth's electromagnetic field.
+ And so it will point towards the magnetic north, it will rotate the mobile equipment of my compass to point towards the magnetic north,
+ depending on how I am oriented with my airplane, on a line, a "lubber line", this one that you see,
+ which is in line with the box of my instrument, I am going to evaluate that which is my magnetic probe.
+ So the box is mounted solidly on the airplane, the inner body can rotate, it always points towards the magnetic north,
+ I read my magnetic probe here.
+ So what are the iso-conic lines?
+
+those that join the points of equal magnetic declination and also these lines change in time.
+ Among other things, what is the maximum value of magnetic declination and where are we going to measure it?
+ What is the maximum angular distance between the magnetic norm and the geographical norm?
+ And where is it?
+ If I am on the junction between the geographical norm and the magnetic norm,
+ I have 180 degrees of declination.
+ We imagine to look at the magnetic norm with the geographical norm behind me or vice versa.
+ Therefore, the magnetic declination can also be large.
+ In addition to the magnetic declination that we have said is the angle between the direction of the geographical norm and that of the magnetic norm,
+ there is also the magnetic deviation.
+ The magnetic deviation is a discrepancy between the indication of the compass and the true direction of the magnetic norm
+ due to the fact that my compass is exposed to an electromagnetic field that is deformed compared to the magnetic field of the Earth.
+ And the deformation of this magnetic field of the Earth, which is perceived by my compass, is fundamentally due to what is on the airplane.
+ Therefore, there are masses of ferromagnetic material that are on the edge of the airplane, such as ordnance, flamethrower,
+ some structural particles that are not made of aluminum.
+ You should know that aluminum is not a ferromagnetic material, if you try to attach the flamethrowers to aluminum they do not attach,
+ while some particles that are made of ferromagnetic material that are on the edge of the airplane can distort the magnetic field
+ that is perceived by the compass, causing the magnetic deviation.
+ We also know from Maxwell's already mentioned equations that when there is a current
+
+as time changes and a magnetic field is generated.
+ All electrical equipment, more than electronic,
+ because we need to have strong currents,
+ all electrical equipment on board the airplane
+ generates a magnetic field
+ that vectorially adds to the terrestrial magnetic field,
+ which does not have this high intensity,
+ and therefore is perceived by the compass in a distorted way,
+ the total magnetic field, a product of the sun.
+ And look, this second question about on-board electrical equipment
+ is ever more important,
+ above all considering the airplanes of the last generation
+ that are in service and imagining those of the future generation,
+ where it is always turning more and more on the electric.
+ For example, just to focus,
+ what is an on-board characteristic of the 787 Dreamliner?
+ It was the first to enter service.
+ What does it say?
+ It says, "Battery of a different material that gives you problems at the beginning."
+ No, however, this is not it.
+ At the on-board level of the architecture of the systems,
+ what is the big news of the 786?
+ Ok, so the de-icing is no longer…
+ how was it traditionally done?
+ She does not answer.
+ The de-icing or the anti-icing?
+ Maybe I should talk about anti-icing because it avoids forming, it does not start.
+ The anti-icing in traditional airplanes, how is it done?
+ The first is the take-off, but during the mission?
+ No, no.
+ Mechanical and on the turbo-elite,
+ those kind of air chambers that inflate and deflate, right?
+ No, this is not the 787.
+ The tires, a little flame,
+ because the tires are that of the cold air.
+ There is something that makes motorists go crazy.
+ What do we do?
+ Bleed air, we go and get hot air,
+ to squeeze hot air from the thermodynamic cycle to heat it up.
+ What else do you do by squeezing the air from the engines?
+ In addition to the anti-icing of the wings of the tail.
+ ECS, the Environmental Control System.
+ This penalizes the performance of the thermodynamic machine.
+ The air squeezed from the engine is defined as bleed air.
+ And yes, the tire system, let's say, not only.
+ So, the 787 has the big thing.
+
+Our innovation is to be a "bleedless" machine.
+ All the drivers are happy, not so much because they also break the boxes
+ that we have mechanical sockets to supply mechanical energy to their engines
+ and make the hydraulic pumps run rather than the electrical generators.
+ But the 787 is a bleedless.
+ So some services that were obtained with onboard systems,
+ with the use of hot air, or cooling, as you know how the air conditioning system works,
+ have become electric.
+ And this has had an impact, first of all, the machine is more efficient overall.
+ So for passenger or passenger, also for this reason,
+ but also because it has carbon parts, a finer aerodynamics, etc, etc.
+ But for passenger, it consumes less than a comparable machine to the previous generation.
+ But, like a 767, just to have an idea.
+ But the impact has been on the electrical system.
+ Someone has an idea of the values ​​of the power installed by the electrical generators on the line.
+ For example, the 767, according to you, had electrical generators for a total of how many kilowatts?
+ Large borders? What do you expect?
+ In your home, at least a 3-kilowatt contract, with which you make a phone and the hairdresser go, then you have already exceeded 3 kilowatts.
+ In the electric oven at your house, maybe they are not there.
+ So the 767 had a total of 400 kilowatts of power installed.
+ The 787, if not 10% more, has a megawatt and 6% of electrical power installed.
+ That, on the other hand, we generate by taking mechanical power from the engines.
+ So the motorists, as I said, are still pissed off, but a little less, because in the end we are more efficient.
+ So from 400 kilowatts to a megawatt and 6% is not a small jump,
+ because you, in the megawatt and 6%, also have to consider how to distribute it on board the airplane.
+ Because in the so-called traditional airplanes, so I save the very last generations,
+ the electric system in the two DC and AC variants, what parameters did it have to function?
+ DC or how many volts was it?
+ 28 volts.
+ And AC?
+ We studied four times the St. Vincent line.
+
+Ok, 115V AC, among other things, there is a 115V 400 Hz, unlike the domestic distribution,
+ I'm not going to ask you now, which is 230V 50 Hz, why did they invent the 400 Hz standard
+ because it's a question of weight, because as you will surely know from the electro-technical courses,
+ the transformers, the electric motors, etc., etc., have iron plates, steel plates and laminates
+ of ferromagnetic material to make the electric car, so it is shown that at 400 Hz the car weighs less,
+ so the transformers weigh less, they have less laminates because it is the highest frequency,
+ the motors have fewer cores on which the winding wire is wrapped to generate the engine,
+ the losses are higher both in iron and in copper, but this lower efficiency is tolerated to have a lower mass.
+ When the 115V standard was born, the power installed on the airplanes was low,
+ so you had to carry around low power, when you started carrying around a megawatt and 6,
+ if you do two counts of the current of a megawatt and 6 at 115V, you get extremely high current values,
+ and so, in order not to have losses during transport, you had to have very large section cables or bars,
+ you know, there are the bus bars, which are the ones that bring electrical energy to the airplane,
+ they are made of massive copper, tragically the good conductors of electricity have a high volume mass,
+ and so, if you have a megawatt and 6, 115V in fact has too high currents, so you start to rise with the voltage.
+ In the most modern machines, the electric system is 270V in DC, among other things, not even in AC,
+ and this is for curious reasons of standard, because there is a threshold, which is that of 300V,
+ above which you have to, if you make a system above this threshold,
+ you have to do a thousand proofs of isolation, arcing, etc., etc., just for the safety of the people on board,
+ which are extremely expensive and force you to put components to overcome these proofs,
+ which have a great impact on the weight.
+ So, why 270V and not 299V? Because the regulation says that the voltage on which to evaluate this,
+ the overcoming of this threshold, is the nominal voltage,
+
+10% so 270 volts plus 10 per 100 that makes 27 volts makes 297 which is marginally below
+ 300 so the products of the airplanes are exempted from all these additional conveniences that
+ instead they should pay in the case of plants over 300 volts so 270 volts are used but with a
+ trick compared to the mass of the airplane and the reference 0 I can have more 270 and less 270
+ so I have 540 volts distributing at 540 volts the current is a fifth compared to what I have
+ distributing at 115 volts so if I have 5 volts the power is enough for me the same section of the
+ cables to transport an equal current which however gives me 5 times the power of 515 volts
+ the condition will be much more serious in the future for example many researchers are
+ working on the full electric airplane which is with the current state of the advancement of
+ technology maybe we'll talk about it another time in my opinion it doesn't have much chance but for example
+ on the hydrogen versions so typically I have as a source of energy of the liquid hydrogen
+ after which I transform it into electricity maybe with a fuel cell and I feed with electricity
+ produced by the engine sorry by the fuel cell the engines at this point become electric then
+ typically in this case we study the regional airplanes of the tier 72 class but to do it
+ electric the tier 72 needs two engines of 2 megawatts plus the onboard services so
+ we begin to understand that the installed power becomes very large so going back to
+ everything that triggered this little digression the currents that turn around the plane are
+ large the distortion of the magnetic field due to the fact that there are currents that turn
+ in my conductors of electric energy distribution are large and therefore the compass undergoes a
+ strong magnetic deviation see you next Monday
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

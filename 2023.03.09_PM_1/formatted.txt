@@ -1,0 +1,388 @@
+
+# TRANSCRIPTION BRUTE
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+
+[Music]
+ [Music]
+ [Music]
+ [Music]
+ [Music]
+ So there is the possibility to navigate back and forth and also to go
+ fast to the following questions, you see here it takes you directly to the individual questions,
+ here you do not see it and the question is asked in this way.
+
+Here I can see the score, the relative score.
+ The questions can have a score of 1, 1.5, 2, 2.5, 3.
+ Then everything is normalized in percentage at the end of the contest.
+ So this one weighed 2, this one weighed 1, and this one weighed 1.
+ So this also can guide you on the decision to dedicate resources to one question rather than the other.
+ After that, those with the ball, the so-called radio buttons in terms of user interface, are the ones that are worth a single answer.
+ While those with the square can also have one more.
+ What matters to me is to show you the evaluation system, because this one is worth two points.
+ So obviously it's 0.66, which is 2.3.
+ The three right answers are these.
+ So each one has two thirds of a point.
+ This one, which is wrong, has two thirds of a point.
+ So if you do this, this answer is actually worth zero.
+ Because the single wrong answer cancels all the other scores.
+ It doesn't go below zero, because if you do this, you keep getting zero, and not two thirds of a point.
+ But just to contextualize what's written in the exam modes, that is, the points of the question, which in this case are two,
+ are divided equally between the right answers
+ and divided equally between the wrong ones, and then the algebraic sum is done.
+ In this case, Alberto, Michele and Luigi were worth two thirds, and Procopio was worth two.
+ So much so that in this question I got zero out of two, because I only got the wrong one.
+ After that, the last question, then I'll let you take a break.
+ This time is faithful. For those who aim for a bonus, now maybe I should darken the names, don't blame me.
+ So, let's stop doing the sharing.
+ Time is taken from the system, so don't close two seconds before the time limit to get the bonus,
+ because then it puts a little bit of...
+
+late, the browser is one thing and the other is finished later. For me what matters is what is written
+ on the Moodle system, so who points to the bonus, controls the boundaries that are always explicitly
+ written in the test introduction text and takes those 15-20 seconds, 30 seconds of margin
+ in the closing to avoid problems of the last hour.
+ The test has raised some doubts, some perplexities on your part, any questions?
+ Yes, it can also be turned backwards, no, I only see when at the end, because then after a
+ while you can't touch anything anymore, you can't see anything anymore, so if you
+ see it again later, on the contrary, it normally makes sense to flip them later, because then you say
+ "But how is that A right?" I thought it was just B, it always told me that it was just B,
+ because in the question, then you flip it later, so you have a little time for this.
+ Can you remove some questions? I don't know, I've never done it. Other questions or doubts?
+ I can't hear you. Yes, you must also have Zoom, is it already written? No, in the test mode,
+ I think so. You must also have Zoom, connect with each other and share the screen, because I
+ record the Zoom that records on the Polytechnic cloud and then I can see the screen of
+ everyone in the case of playback, that is, I can see the screen of everyone in the case of playback,
+ so if there are contestations or doubts on my part, I call the bank. I can see what you have
+ combined, if I see that the PDF of the notes appears, it is not a good sign, ok? Other questions?
+ Come on, let's do a quarter of an hour, let's go back to the fourth menu, a quarter of an hour of pause,
+ I pause the recording. An exercise that I entrust to you today, but maybe even the next time,
+ which provides that you calculate the air data related to a flight experiment mission that happened,
+ I was looking at exactly 10 years ago, in February 2016. I have these data available because in February
+ 2016 there was in progress a thesis of graduation of a colleague of yours, which was developed by a
+ a manufacturer of...
+
+with which we had a trade agreement of mutual cooperation at the time,
+ and also a very good personal relationship that goes on even now,
+ despite the title being tragically disappeared for a bad illness a few years ago.
+ And so we helped this manufacturer of ultraleggeri, called Nando Gropo,
+ to carry out the experimental campaign for certification with the LTF-UL regulation,
+ which is a German regulation, because at the level of ultraleggeri,
+ at least at the time, there was no unique regulation and ASA,
+ because ultraleggeri are not aeroplanes, so they do not fall under the laws of ASA.
+ So each nation had its own regulation,
+ the regulation recognized in more European and German nations,
+ so we certified with the LTF-UL, which is actually a kind of copy-and-paste
+ with due respect for the Germans of the LTF-UL or of other regulations related to ultraleggeri.
+ I don't know if any of you have ever read a CS, a Certification Specification,
+ and the linked document called AMC, Acceptable Means of Compliance,
+ because if it had done so, it would have discovered that item by item,
+ which is required in the shopping list that they send you when they say
+ "you have to prove this to me because I certify you for the aeroplane",
+ item by item is specified how that item can be shown.
+ How can it be shown? By calculation, by proof at the bank, by analysis, I don't know,
+ and one of the ways is by flight test.
+ So there are many items, as you can imagine,
+ many of which are linked to flight quality, or the flight mechanics,
+ that must be demonstrated with flight tests.
+ So we instrumented the aeroplane and then it had a data acquisition system
+ that was developed in the polytechnic field,
+ it was born as an object of my doctoral thesis many years ago,
+ and which allowed to recover air data, so QC, pressure and impact,
+ static, AOA and SSA, and temperature, position of the main flight controls,
+ of the three flight controls, so wings, elevator and rudder, plus position of flaps,
+ inertial data, so the three components of rotation, three components of angular velocity in axis, body,
+ altitude and velocity, speed of GPS, so also the angle of track that comes from GPS,
+ and in short, a few other data, now a little later, maybe...
+
+We had a load cell that allowed us to evaluate the pilot's effort on the flight command.
+ Have you ever heard of "stick force per g"?
+ Stick force per g is practically one of the requirements of the certification.
+ It means that the more you shoot, the harder the command is, which is not guaranteed intimately.
+ So we measured the stick force to do the wind-up turn tests.
+ I have the "grezzi" files available, which means "non-engineered", with the acquired data saved as the "count" of the analog-digital converter.
+ In the typical chain, there is a physical size, a transducer, a system of conditioning, analog-digital conversion, and a number.
+ From there, there is the data engineering, which again gives me the physical size from the number.
+ This second step, which is done through a procedure called "calibration", was not saved, because it is normally done in post-processing.
+ This is because it can happen to be wrong in the realization of calibration curves, so it is convenient to keep the "grezzi" data, which is always valid,
+ in order to be able to apply in the future more correct calibration curves or not go and ask which curve I used.
+ So what I will give you are the numbers that come out of the analog-digital converter, acquired at a certain frequency,
+ they are not all at the same frequency, then I will show you how it works, because the air data is a lower ratio than the inertial data,
+ the GPS data is still a lower ratio than the air data, because if I remember correctly, they came out at 4 Hz.
+ So what do you have to do? You have to engineer these data, then transform the "count" of the analog-digital converter into physical quantities,
+ basically these are the ones you need, and then apply the formulas that I showed you, taken from Collinson, to calculate pressure-altitude, vertical speed,
+ CAS, in short, what we said.
+
+In order to do this, the Debriefing Sheet can help you,
+ which is the sheet that is compiled at the end of every exit,
+ of every flight experiment mission.
+ It contains all the information needed to assign a persistent value to that mission,
+ because otherwise, if not everything was available,
+ a lot of value would be lost.
+ Here you can see the data on the machine,
+ this is the sixteenth flight of the campaign,
+ this is the file identification, Nemosi in the name of the data acquisition system.
+ I said February, test pilot of Cobono,
+ which is now Shift Test Engineering X,
+ what was it called before?
+ Copter, those who are in Switzerland, who do the V09,
+ now it's the Augusta Western.
+ FDGadarco, which is our thesis,
+ Takeoff Timeline Record Duration,
+ these are the test items from the normative,
+ you see here they had to try level authority, high speed,
+ maximum power or idle,
+ bank to bank controllability, low speed,
+ clean and land configuration,
+ and high speed, and then takeoff distances.
+ They also did a ground test, which was not a test item,
+ but I don't know why, they had their own reasons.
+ It's not that they only make the certification items,
+ also because, I remember well,
+ in February they were still in the development phase of the machine,
+ so the machine is developed until it reaches a certain maturity
+ to be able to do the real tests, those to be spent in certification.
+ What are the configurations of the machine?
+ This is the configuration that was then named 2-2 with Max Forward CG,
+ so, test pilot, weight and seat heel,
+ seat heel is used to see where to put the weight center,
+ to see the total weight center and where it ends.
+ Ballast, so they had the Zaborra.
+ Carburetor, CG position in X and in Y.
+ Metro ground position, there is Freschino, 5.9,
+ Quenac, 2FE, vent, visibility, cloud.
+ Changes applied from last flight, no changes.
+ And here is the flight card with the various test points.
+ Now I don't want to make spoilers
+ of what will come, for those who will do it,
+ illustrated in the flight experimentation course,
+ but in the practice of flight experimentation,
+ there are some notes to make the test points better identifiable,
+ so those flight tracks where you try or maintain a certain…
+
+to demonstrate a certain value, to evaluate a certain value,
+ to isolate the test point inside of what is a recording that maybe lasts hours,
+ they are flight tests that last several hours, so you imagine having the time history of the parameters,
+ which lasts hours, but what was the good one?
+ Then you use this TOP, the TOP is an additional size that is acquired,
+ which is nothing more than an incremental counter, and when we take off it starts from zero,
+ and every time the flight test engineer moves the switch, the TOP switch on the open position,
+ it is increased by one, because the particular test technique is performed,
+ then it is brought back to zero, and every time you do a test, a test for a test item,
+ the flight test engineer opens the TOP and closes it when it is finished,
+ in such a way that during the so-called repositioning the flight is with the TOP closed.
+ In addition to this operation on the switch, the flight test engineer writes in its notes
+ which TOP corresponds to which operation is performed, in such a way that it is then immediate
+ to go and find the good one, rather than the right maneuver,
+ because sometimes they are performed several times, the test technique,
+ because you have to trim the level, because you need to have rifts,
+ because a thousand reasons may require repeated tests.
+ And so you also have TOPCount, which you will also see in the acquired data.
+ So here you see there are some notes, so you can also, to do a sanity check of your elaborations,
+ refer to this card, because for example, during the underwater tests, we expect the speed to rise a lot
+ and the rate to drop rapidly, ok?
+ Here we already have some elaborations, I always forget to darken them.
+ In short, this is a bit of the documentation that can help you.
+ Now let's see. Yes, during the underwater tests, following the underwater test,
+ the transparent got stuck and detached from the lower part of the fuselage,
+ causing the suction to the outside of the GPS antenna, as evidenced by the image.
+ In short, it did not go very well.
+ Now let's see the MATLAB files that I have shared with you.
+
+to see the MATLAB files, let's see the Collinson.
+ So here I have published on WeBeep an extract of the Collinson
+ that gives, here you see the scheme of the computer,
+ which will be familiar to you, given what we have seen in the lesson,
+ and gives you the formulas that are used to calculate pressure altitude,
+ vertical speed and the other sizes.
+ Here, keep in mind that there is an "1+" that is redundant,
+ there is a printing error, so I gave you the already correct version.
+ And so here you have a way to see how the various sizes are calculated.
+ Clearly from a car with an engine of a hundred, I don't know how many,
+ from a Rotax, I don't remember how many horses, a few,
+ we don't expect numbers of high brands or other sizes,
+ aeroplanes with higher performance characteristics.
+ So, coming now, for a series of reasons I don't have the MATLAB on my PC,
+ let's hope that the one online goes reasonably well.
+ So this is the flight track.
+ What do you feel?
+ How do you see below?
+ Is there a way to see?
+ This one?
+ Ok, so what do you have?
+ You have some structures here, for example ADC, Analog to Digital Converter,
+ this, as you can see, has three channels, four channels actually,
+ plus SforzoX and SforzoY, each of which has a vector of 18,662 numbers.
+ Then there is Time and Sequence.
+ What is important is Time, because Time is the time marker,
+ it is the vector with the time markers.
+ So you have an equal number of rows in this structure with many columns,
+ and to know the time of acquisition of each row,
+ refer to the time row, to the size of the time, I don't know if I explained myself.
+
+So, the first one was acquired at 5 seconds and 001 from the start of the recording,
+ the second row at 5 seconds, so the index 1 of all the sizes is this one, the index 18 is 6.704, etc., etc.
+ For your reference, sequence is actually an extra variable that is acquired,
+ instead it is increased by 1 every time I acquire a new data
+ to check in the post-processing phase that no data has been skipped.
+ You see, it must be increased by 1, then this seems to me to be 8 bits, so at 256 it returns to 0,
+ at 255 it returns to 0 because it is the roll-over of the 16-bit numbers.
+ So it doesn't matter to you, but if you ask yourself what sequence is, it is simply a number that is increased every time it is acquired
+ with that system to have the control to not have skipped any in the recording.
+ So CH0, CH1, CH2 and CH3 are the flight commands, then we see how they are mapped,
+ effort X and effort Y are the efforts on the flight commands given by the load cell.
+ After that we have air data system, we have static, which is baptized as dynamic given the low performance,
+ AOA, SSA, OAT, time and sequence.
+ In the GPS we have ECEF, ECEF are connected X, Y and Z according to the GPS reference system,
+ Earth Centered, Earth Fixed, then the earth solid reference system,
+ which has the Z axis that coincides with the earth rotation axis, the X axis that comes out of the equator
+ in correspondence with the meridian 0 and the Y axis put to make the earth to the right.
+ This is used in the GPS because with the circular coordinates, the latitudes and longitudes are more complicated,
+ so an orthogonal system, then there are already a thousand transformations in the LLA.
+ So ECEF, I'll rewrite the chronicle for your reference.
+ Earth Centered, Earth Fixed.
+ So you would be curious to see the coordinates, I would be surprised if there is no code already made to convert the ECEF into LLA.
+ the components of speed are also very important.
+
+decomposed according to this axis, after which time of week is a time value of the GPS that we are not
+ interested in, time and sequence are always the last two fields of all our structures.
+ Here we have top count, top state, open-closed, event count, other things, let's say, of housekeeping
+ of our system, this of XSENS instead is the inertial platform which memorizes the three
+ components of the nasibody acceleration, the three angular radii in the nasibody, the three components of the
+ terrestrial magnetic field and then already calculates some angles, roll, pitch and yaw, and always time and sequence.
+ There is also a function, here what is this, which is calibrate, which seems to me to be called,
+ or you have to call it, maybe you have to call it, you can understand it, calibrate is the calibration function,
+ so it is the one that takes in input the data that are the digital analog converter counts
+ and spits out engineering greatness. You have to find out if they are pascal, ecto-pascal or millivar,
+ because the reading paper is not urgent. This was done during the installation of the data acquisition system
+ on the Vellivolo for what concerns the positions of the controls and, for example, for what
+ concerns the area data, there are calibration banks that are extremely expensive devices,
+ I with a bit of social engineering I always managed to go either in Augusta or in Leonardo to Venegon,
+ from the experiments of the Alafissa helicopter department, where these banks had to calibrate me,
+ basically these banks have two tubes, one PT, one PS, they pretend to be the probes of your Vellivolo,
+ they attach them to your system, which is to be calibrated, after which they are ten times more precise
+ than any other system and they can impose values of total and static pressure in such a way as to
+ calibrate CAS, TAS or whatever you want to calibrate, starting from those two measures,
+ because they can impose these values ​​in an extremely precise way and therefore the calibration of
+ data has been done with these systems. The impact pressure transducer or dynamic pressure
+ as Gadarco had called it was a differential transducer and therefore had on one side the total of the other
+
+the static and directly translate the difference.
+ Bidirectional.
+ I don't add anything else, though.
+ That's it, I don't think there's anything to say.
+ So, my task, the task I entrust to you precisely as an exercise,
+ is that, speaking also with our colleagues,
+ because even in this room you can easily speak with the neighbors,
+ is to calculate all the data with the Coulson formulas,
+ let's say, by coding them, by writing codes on math.
+ At this point, I'll stop the recording.
+ If it's not useful, I'll make you go ahead with nothing for a while.
+ We'll restart it when we do the restitution of this exercise.
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

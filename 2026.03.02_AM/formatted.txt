@@ -1,0 +1,536 @@
+
+# TRANSCRIPTION BRUTE
+
+[Pause]
+ Finally let's talk about altimeters. It is useless to underline the importance of measuring the
+ rate and therefore we remember that the altimeter was one of the very first instruments to populate
+ the cockpit of the planes and to measure the rate we were not in times of GPS, radio help, etc.
+ we thought of using some of the thermodynamics that vary with the rate as we have seen in
+ our ISA model and to express the rate according to which of these sizes we could
+ use both the temperature and the pressure because as we have seen both vary with the
+ rate for a series of reasons related to the precision with which we manage to have the information
+ of the rate it was chosen to link the measurement of the rate to the only pressure, static pressure
+ and therefore consider the measure of what comes in this way baptized pressure altitude
+ regardless of the temperature that is currently at level 0 because we have seen that at level 0
+ the temperature can be in general different from the standard altimeter of 15 Celsius.
+ As we have already mentioned, starting today with the technology available to this day
+ for the measurement of the rate, we will not use the barometric rate, but historically the whole
+ world of transport of the aircraft has developed around the barometric rate measurement,
+ so even today, even in the year 2026, in which we have many technologies based
+ on different physics with which we can calculate and measure the rate in a much more precise way,
+ we continue to use pressure altitude flight level altitude or height according to our regulations.
+ Remembering the formulas that we have seen, the simplified ones of the international standard
+ atmosphere, we can, as we will see later, turn them around and express
+
+H, so the altitude, as a function of P_Static, P_0 and P_0.
+ In addition, in the relationship that you see below, there is also a K that goes to explicit
+ the dependence on those that are the errors of the system, I do not have a perfect system
+ and therefore my measurement of the quota will also be a function of the system errors.
+ We have already mentioned it and we will talk about it in a more widespread way,
+ talking about anemometry, therefore the measurement of the air speed, but the probe,
+ the transducer, sorry, the probe that is more critical among those that pick up the sizes
+ that are needed in the air data is precisely that of P_Static and therefore its influence
+ goes directly to the measures of pressure altitude, so much so that the certification regulations
+ specify a maximum error for this measurement of the quota and so much so that, I would say
+ a fifteen years ago, a twenty years ago, starting from the need to increase the capacity
+ of the air spaces, we went from having a separation of 2,000 feet between the traffics to having
+ a separation of 1,000 feet between the traffics, with a program called RVSM, Reduced Vertical
+ Separation Minimum, and to understand the reason we have to take a step back and see how
+ before there was a minimum separation of 2,000 feet between the traffics and the explanation
+ is very simple, you can see it well here, the curve increases its slope, it becomes
+ more and more vertical going up the altitudes, which means that at the same time as the measurement
+ error of the pressure, the error of the calculated quota that I comment becomes greater, so at
+ high altitudes with the precision of the measures of pressure of the times, with the precision of the
+ indicators of the quota of the times, it seemed reasonable to stay on the safe side, which we
+ aeronautics like so much, to have a minimum separation of 2,000 feet, this was established
+ when the progress of the science and technology of the instruments guaranteed certain
+ precision, with the passage of time it was seen that it could go to much higher precision and therefore
+ on the basis of this program that involved traction control.
+
+the aircraft manufacturers and the aircraft operators.
+ It was possible in fact to double the density of traffic that is in the same volume of airspace
+ because the minimum separation at this point if the air traffic control is trained on the RBSM procedures,
+ if the aeroplane proves to pay the precision requirements and reliability of the pressure altitude measures
+ requested by the RBSM, which are more stringent than those requested by the ECS,
+ if the crew has been trained to know these objectives and respect them, then you can fly with the separation of the feet.
+ Feet are 300 meters, it's not a lot.
+ And so this program, as it often happens, involves different stakeholders,
+ different events in the world of air transport, in particular the one that involves air traffic control,
+ the product of the OEM aeroplanes, as they are called.
+ This is a very common term, maybe I've already mentioned it the first time.
+ OEM means "Original Equipment Manufacturer",
+ but it is the acronym that normally identifies the aircraft manufacturers, the pilots, the air framers,
+ or even, for example, the engine OEMs, which are the engine manufacturers,
+ so GM, Pratt & Whitney, Safran, CFM, which is the consortium between Safran and Pratt & Whitney,
+ German MTU, etc.
+ Ok, so let's go back to our measurement.
+ The instrument that was first designed and that remained in use for decades,
+ for the measurement of the pressure, takes the name of barometric altimeter,
+ baro altimeter, or altitude indicator, in short, there are the two versions.
+ And the altimeter basically has to indicate the pilot the pressure, but what else does it have to allow?
+ Besides going from the car to the pilot, it has to adjust the reference.
+ And this, in the barometric altimeter, pneumatic/mechanical, which is what we see here,
+ which is the simplest, which is what we still have in low-end machines,
+ is done through a little knob that pops out of the dial and allows me to adjust the reference.
+
+to adjust the P0 compared to which the barometric altimeter, then on the measurement of the P statics
+ that invests it at that moment, generates the output of pressure altitude. The barometric altimeter
+ is one of the capsule instruments that we will see and therefore makes a direct translation of the
+ pressure in a mechanical magnitude, in a displacement, in a movement, which, with an appropriate
+ law, with an internal cinematism that had nothing to envy Swiss watch manufacturers,
+ because these from the point of view of internal cinematism are jewels, with an appropriate
+ internal cinematism, was going to give the indication to the pilot of the quote. So how does the
+ barometric altimeter work? The instrument is contained in a box that has standard dimensions both for
+ diameter and for depth and for mounting on the panel and this box is a stainless steel box,
+ so it does not have communication with the cabin, with the cockpit. This stainless steel box has the
+ possibility of being connected, now here we do not see it, I bring some physical instruments,
+ maybe today afternoon, it has the possibility of being connected to the tube that is connected to the
+ static pressure probe and therefore except transistors, which are still uninfluential for
+ what concerns us given the geometric sizes of the tubes and boxes, except transistors
+ inside the box of the instrument, the static pressure is brought which is taken from the static probe.
+ After that, in the instrument there is an aneroid capsule, we said those capsules that have
+ the vacuum inside them, so at the altimeter comes a single tube which is the static tube,
+ because the static pressure is the only size that the altimeter needs to perform its job.
+ Inside the box there is the static pressure, the capsule will dilate or contract depending on
+ what the static pressure is, because the capsule dilates and contracts for the pressure delta
+ between the pressure that is outside the capsule itself and what is inside, but since this is
+ an aneroid capsule there is a vacuum inside and therefore the variations of static pressure are
+ transformed into variations in movements, let's say, in the dilatation of the cylinder along the
+ axis itself and which are taken from a system of levers,
+
+multiplied by a system of gears and then brought back to the pilot as an indication.
+ If we think a little about how this instrument was made, what problems could there be, in your opinion?
+ What obstacles do I have to overcome in order to give the pilot a good indication, starting from the pressure measures done in this way?
+ Atrits, of course. Then, linearity. Why linearity? Because, first, in Monte, let's start right in Monte.
+ What is the connection between the pressure and the pressure? Non-linear. That's already non-linear.
+ Then, generally speaking, the expansion of the capsule, according to Delta P, is completely different from linear.
+ You try to make it more or less linear, but it's unlikely to have a linear expansion.
+ And so, I already want to linearize, because for the pilot it would be very uncomfortable to read the pressure altitude on a non-linear scale.
+ And so, you try and you can also mechanically linearize it. Then, what other problems could there be?
+ Think about it, look a little at how it's done, think a little.
+ What are all the problems that, with the invention of electronics, we take and throw away,
+ but for a while it was quite simple to solve in an efficient, economical, reliable way? What other problems could there be?
+ Well, I don't know, yes, we do the analysis of the failures, but let's say, beyond the problems, there are theoretical problems to be solved.
+ Let's say, the temperature changes, for example, it makes me dilate the metal, that is, there is no metal that does not dilate, so for how little?
+ I know that then, more or less, the outside air arrives, the tubes travel inside the turbine, etc., etc., but there it could be -55, which is the outside temperature, too low.
+ And so, you have to compensate for the variations in temperature. The capsule itself dilates in the same way as Delta P,
+ if you keep it at 40 degrees or at -55, you can imagine. The range, I repeat, there is never -55 inside the altimeter.
+ This is a problem. Then, let's think about the operating environment.
+
+Vibrations. Let's begin by anticipating a mantra that will follow us throughout the course.
+ What are the killers of instrumentation?
+ There are two fundamental physical greatnesses, especially for electronics.
+ One is vibrations, the other not so much.
+ Usually there is a resin in which all electronic components are denied.
+ This resin prevents moisture from reaching components.
+ This treatment of production is called tropicalization.
+ This is one of the Ks.
+ What are the two physical greatnesses and killers of instrumentation?
+ The ones that make the reliability of our instrumentation fall.
+ One is vibrations, the other is effort.
+ In those mechanisms, yes, it was not sensitive,
+ but the second is especially for those electronics that are also very afraid of vibrations.
+ Yes, not as decisive as that other greatness that comes to mind.
+ We have already talked about dilatations at temperature.
+ The two killers of instrumentation are vibration and temperature.
+ So much so that the same instrumentation, the same device, from Datasheet can perform a different MTBF.
+ What is the MTBF?
+ You will not be able to convince me to stop asking questions.
+ What is the MTBF? Have you done something about reliability?
+ We time between failure, which is the average time between two damages measured on a sufficiently large population of devices.
+ The MTBF is not an absolute value of a certain device or component.
+ Why is it not an absolute value? Because it depends on what?
+ From the environment in which it goes to operate.
+ So the same device, I don't know, I'll invent it, a Herd Data Computer.
+ Later we will see very much how it is done.
+ Installed in the Bionic Bay of a Liner that we have seen being under the floor of the cockpit,
+ pressurized, air-conditioned or installed.
+
+You want to know where the avionics of helicopters normally are?
+ There are two possible places.
+ They put the avionics.
+ Where would you put the avionics of a helicopter?
+ To make it stay, because there is no space, it is certainly not the best place.
+ It is very often mounted in front, where there is the one that would be a flamethrower,
+ which is not a flamethrower because there is no engine in front.
+ Let's say the front of the cockpit.
+ There in front are normally mounted components of the avionics.
+ The same component mounted on a liner or on a helicopter.
+ It can have an MTBF that is ten times smaller mounted on the helicopter.
+ Because there it is exposed to extreme temperatures, we do not even mention the vibrations,
+ because the helicopter is a machine that makes vibrations and, incidentally, sometimes it also flies.
+ So, always remember, when we talk about MTBF, the MTBF must be characterized.
+ It is the mean time between failure, that is, it is the time that intercores between two accidents of the aircraft,
+ measured on a statistically significant population of aircraft.
+ When operated according to the conditions defined by the MTBF.
+ Anyway, environmental conditions have an impact,
+ but there is another characteristic, always at the level of environmental conditions,
+ which put challenges, challenges to designers, to machinists of pneumatic or mechanical instrumentation.
+ Think about the environmental conditions in which you are working, in normal missions.
+ If I start to have all the axles, the bolts, the arms, what can influence all those cinematic chains?
+ Acceleration. If I am in manoeuvrable flight, especially very manoeuvrable,
+ so let's imagine, not an airplane that transports passengers, because passengers, starting from me,
+ usually tolerate very badly the accelerations, but it is a machine that manoeuvres with strong accelerations.
+ If I do not have everything statically centered, I, with the accelerations,
+ I have a lever weapon that acts on the center of my arm and brings me a rotation,
+ even if it changes the measure of my static pressure.
+ So, I repeat, these instruments are real jewels of mechanics.
+ And here we see, for example, the need to linearize.
+
+I sit down so we can see it together, you see in the GANMA 1 I have a non-linearity in the pressure-height range, or pressure-altitude in short, as we want it.
+ Then the deflection of the capsule on the delta P, also this is non-linear, we tried to make them compensate each other.
+ At that point there is a Variable Magnification Lever and Gear System, in such a way that even there with these variable arm levers,
+ basically they solved it like this because I hardly change the diameters of the gears continuously,
+ but I have variable step levers with which in the end I can produce a reasonably linear indication, which will never be perfectly linear.
+ This is the barometric altimeter indication, then you see on the right the indication in the small window of the reference pressure P0
+ on the basis of which at this moment the altimeter is giving me the pressure altitude, which is changed by the knob on the bottom left of the knob with which to adjust the pressure altitude.
+ After that, the altimeter indicator, game force, cannot be done with a single lever that goes from Quota 0 to the maximum, Flight Level 370, 380 or more,
+ because it cannot be done with a lever that goes from 0 to 40,000 feet.
+ The scale, that is, how does it go up this scale? Too much? Too compressed. And for me, especially in the vicinity of the track, it matters to read small variations of quota.
+ Someone plays the reform, someone uses their own time with flight simulators. Have you ever heard a landing phase?
+ In their landing phase there is this system that we will see, which is called EGPWS, which calls the height to the pilot.
+ Starting from 1000, then 500, height would be the distance from the ground, so much so that then the airports must have on the length of the track,
+ a whole part of the terrain that is the same elevation of the...
+
+the track, otherwise this trick doesn't work. I say all this because then, going down
+ towards the small high, it calls them 10 by 10, so I could never see ten feet on a
+ scale of 40,000, as I could never see a few minutes on a scale of 24 hours, this is
+ why our watches have two gauges and the idea is the same here, while in the watch a
+ small gauging marks the hours, the other one marks the minutes, here I have a small gauging that marks the
+ hundreds of feet, a small gauging, the longer one normally, the shorter one that marks the
+ thousands of feet, and instead the little triangle, another one that marks the tens of thousands of feet.
+ The scale, as you can see, is linear.
+ The scale unit is always indicated, as you can see in Altofit, because in some parts of the world,
+ especially in Russia and China, the figures are measured, also for commercial air transport,
+ but even if you are turning a little, they can be measured.
+ So, making simple counts, I wouldn't take the time to go and see the counts, let's see what
+ is in the final frame. So, my true altitude, when I go to see the effect of the temperature on the
+ calculation of the quota on the basis of the pressure measurements, my true height is the same as the
+ indicated height for the ratio between the true temperature and the standard temperature, which
+ however I have to express in Kelvin, for which below there is 278 and above there is the variation,
+ so it is a number that is anyway close to the temperature at zero, that is, it changes little on the
+ almost 300 that is below and this supports the fact that it has decided to transcurate and therefore
+ we have to put that fraction also above the standard. Except for very particular cases,
+ no one makes the correction for the temperature at zero on the pressure measurements
+ to have the most precise barometric value.
+
+This was what we had to see about the barometric altimeter.
+ There is no need for power supply, the software is reliable,
+ but there are some advantages that we will see when we talk about the electronic instrumentation system or the air data computer.
+ Let's take two words on the measurement of the temperature, which is another of the thermodynamics that we acquire.
+ What is the temperature that I would like to measure?
+ The temperature that I would like to measure is the temperature of the asymptotic current, which we call static temperature.
+ To differentiate it from the one that we call total temperature, which is measured at what point of the current,
+ and at what point the total temperature will never be measured, is a point of separation, which therefore has an increase in temperature due to the fact that the current goes from the asymptotic speed to the zero speed.
+ Remembering the technical physics, what is the simplest transformation that we can use to model this passage, the asymptotic speed to the zero speed?
+ Disentropic and adiabatic. I only remember two technical physics, adiabatic and desentropic.
+ This is also used in other models of this phenomenon, so it is true that everything is extremely more complex.
+ But as an engineering approach, the one for which the p/g is 3.14 and does not have infinite decimals, we consider the adiabatic and desentropic transformation to simplify many counts, which you can see there too.
+ It is full of gamma, gamma-1, gamma and the ratio between Cp and Cv, Cv and Cp, Cp and Cv.
+ I would be surprised if any of you could not understand them, so let's avoid doing them step by step.
+
+What we're analyzing is a total air temperature probe,
+ which has a staining point and is sensitive to the element.
+ There are also probes that measure the static temperature.
+ They're not very common, they're made in a particular way and are suitable for very subsonic flight modes.
+ What is the scrimmage, normally, to know if we should take into account or not, the effects of completeness?
+ Okay, so the size is the number of Mach, which is not a physical size, it's a pure number.
+ And the discriminant is 0.3, which does not mean that at 0.31 there is certainly all the compatibility and at 0.29 not, but that's the idea.
+ So, for subsonic flight modes, there are static temperature probes.
+ They are structured in a particular way to be invested by the static temperature, but the game does not work by increasing the speed.
+ Normally I have total temperature probes, so from the measurement of total temperature I have to be able to calculate the static temperature.
+ Why? Because it is the static temperature that interests me in many ways that I then have to do to calculate my data area.
+ And then the link between static temperature, which is what I want to calculate,
+ total temperature, which is the one that measures my probe, sorry, I'm reforming.
+ Total temperature, which is the one that is relevant to the isentropic adiabatic transformation,
+ and measured temperature by my probe is in this relationship that you see here,
+ where an R, recovery coefficient, is defined, which is evaluated by the producer of the probe and is supplied with the documentation of the probe.
+ So, by definition, the recovery coefficient is this, that is, measured temperature less static, total fraction less static.
+ That is, it tells me how much, if this is one, the recovery coefficient is one, you see, numerator and denominator are the same,
+ it means that my measured temperature is exactly the same as the total temperature.
+ This thing is not always possible to do, in general R will be different from 1.
+
+And in the end, what matters is this relation here, which links me to the static temperature,
+ the measured temperature, R, and the Mach number, because normally the Mach number
+ influences the magnitude to which I read the speed information, now you can see it
+ because it is full of CP/CV rather than other sizes, it is what allows me to link the
+ temperature that I measure to the static temperature, so basically I go to measure the Tm temperature,
+ I know R of the probe, I know the Mach number for which I am flying for other reasons, and then
+ I recover the static temperature, which is what interests me, and recover to then do my
+ accounts what we have said that may be useful.
+ What is the temperature interested in? Normally, we have said that the temperature is not taken into account
+ in the calculation of the barometric rate from the measure of static pressure, but the
+ temperature has a strong impact on the variations in density with the rate, that is, the parity of
+ rate according to the temperature T0 of the temperature that I have in particular has a large
+ variation, a non-transcurable variation of density, and who is normally interested in density?
+ The engines, that is, the great interest for the temperature is because from the temperature it
+ defends the thrust that I can get from the engines, in a way the thrust that I can get from the
+ engines. But to the point that for the operators, for the airline, very hot days when their
+ aircraft have to perform very long stretches and maybe start at a rate not zero can be a
+ problem, there is the problem of the seat cap, of the limitation of the number of passengers, that is, it is not
+ infrequent, I know this for sure because for work reasons I talk to those inside Delta
+ Airlines who take care of these things. There were some days when, taking off from airports in
+ quotes, with so much heat, you have to leave people on the ground, usually it makes people who
+ have to be left on the ground go crazy, and the problem of the seat cap is now solved by
+
+having reasonably precise weather forecasts 48 hours before the flight.
+ So the company contacts the unfortunate, or lucky, it depends,
+ because usually there is an economic compensation,
+ who are left on the ground 48 hours before and not at the gate,
+ saying "I'm sorry, you can't get on board".
+ So typically, the performance of the aircraft in take-off depends largely on the temperature.
+ There are even some techniques, but we'll talk about them later.
+ Your ex-colleague, who is now a first officer in Erdoganiti, will come.
+ Maybe there will be another one who will be a commander at this point.
+ Anyway, there are techniques for which, on the other hand,
+ it is not said that you always take off with the engine at maximum thrust.
+ Why? Because sometimes it may not be necessary,
+ and therefore you save and lengthen the life of the engine by reducing the take-off thrust,
+ despite the fact that this reduction makes me stay within the criteria,
+ the safety requirements that I need to have.
+ To do this, you have to put the external temperature in the aircraft.
+ I say this because it happened that we had an on-board take-off,
+ a crew several years ago, because it had put the temperature,
+ I don't remember if in Farnati instead than in Celsus,
+ or vice versa, the engine thought it was much colder,
+ so the take-off thrust was kept much lower,
+ because thinking that the engine would have pushed much more,
+ with a much higher density, this was not the case.
+ So they came to do a take-off,
+ which is not that they arrived with the same plan as me,
+ because you know that it is extremely invasive on the brakes,
+ and on others they can burst the tires, there are several other problems.
+ So the measurement of the temperature is very important
+ and it will mainly impact the performance of the engines.
+ Another detail that may interest you,
+ which I discovered by talking with the performance engineers
+ both of Linea R and the pilots of the OEM,
+ normally the performance of the airplane is divided into two parts,
+ totally different.
+ The first one is called high-speed performance,
+ which concerns all the performance of the aircraft in clean configuration.
+
+and all the retractable ones, which are basically the second phase of the climb
+ and all the cross section and the initial part of the approach.
+ As for the performance with the non-clean configuration,
+ so typically with the retractable ones out, we are talking about low speed.
+ So speaking of performance, high speed or low speed of an airplane,
+ we are referring to one or the other configuration.
+ Let's remember that we are talking about configuration when we describe how the hypersustainers are activated,
+ for example, in terms of a vision level of an airplane.
+ This diagram is particularly unreadable, if you have the heart, you can find out that there is a link
+ between pressure and density, and so for everything that concerns the performance of the engine,
+ I can measure the density of the air by measuring the temperature and the pressure
+ with the state equation that we have already seen, P=RT.
+ Then I go to see on the tables what is the density in the standard air,
+ sorry, the value that is relevant to the current density that I have calculated is what I define as the density altitude,
+ and so I have the performance of my engine depending on the density altitude,
+ which is also sensibly different from the pressure altitude to which I am, to which is the field,
+ because typically these performances are evaluated for the takeoff run,
+ the landing is usually a little simpler, also because the go around,
+ even if it happens when there is the airplane that already has the cart bowed to the ground, is much simpler,
+ you give up the whole engine, the airplane is usually much lighter than the take-off,
+ so much so that you know that when you have to go back on the track immediately after take-off,
+ you have to do a little dumping of the fuel to get back into the weights.
+ So this concerns the take-off performance,
+ the take-off performance varies with the density altitude, which can be, as I said, different from the pressure altitude,
+ which in turn can still be different from the, let's say, geometric altitude that I measure with respect to the ellipsoids.
+ Another instrument to capture, are there any questions or doubts or observations on this from you?
+ Another instrument that has a capsule that is attached to the static pressure is the variometer,
+ or VSI, Vertical Speed Indicator, which is normally quoted with the English acronym.
+ Variometer is the instrument that indicates the vertical speed,
+
+And how does it indicate the vertical velocity? What is the principle on which it works?
+ The BALUTA variometer not so much the derivative, but let's say an incremental relation,
+ because we have finite quantities of the static pressure.
+ So the vertical velocity is uniformly linked to the gradient of the static pressure.
+ And how does a mechanical trap, a kind of Leonardo's machine,
+ that goes to evaluate the gradient of the static pressure? It's done in this way.
+ Inside the variometer, which variometer is housed in a box
+ that is geometrically identical to the altimeter box.
+ So it fuses, has the standard dimensions to be put in a dashboard.
+ Inside the variometer there is a capsule, but in this case it is not an aneroid capsule.
+ Why? Because the capsule has the static pressure inside
+ and the capsule is exposed to the pressure that is inside the box.
+ If I had the same tube that carries the pressure inside the capsule
+ and the pressure inside the box, sufficiently dimensioned,
+ I wouldn't read anything, because when the static pressure varies,
+ the pressure outside the capsule inside would vary equally, so we would have seen.
+ What is the trick? The trick is to bring or extract, because then the mass rotates in one direction or the other
+ depending on the fact that the variation of static pressure is positive or negative,
+ bring the static pressure inside the capsule through a capillary
+ that introduces a load loss, so that if I have, let's imagine, an answer to the gradient,
+ if I have a gradient of static pressure, which is not true because "nature does not make saltus",
+ so it is impossible to have a gradient, but let's imagine a gradient, if I have a gradient,
+ in my ideal variometer, instantly inside the capsule there is the new static pressure,
+ that of the new value of the gradient, and instead there is a whole transitorium
+ that depends on the geometric characteristics and some thermodynamic quantities of the air,
+ there is a whole transitorium through which, in the box of the instrument,
+ the new static pressure arrives, that of the gradient.
+ So, by properly measuring the physical dimensions of the capillary,
+ therefore the length and the diameter,
+
+I can make the capsule expand proportionally to the incremental ratio of the static pressure
+ and therefore expand proportionally to my vertical speed, once again we stick the barometric label
+ because there are also other vertical speeds.
+ This is the bar vertical speed.
+ So, if the static pressure increases, instantly the highest pressure goes inside the capsule,
+ the capsule expands because inside the box it puts a little, I say it in qualitative terms,
+ then here too there are all the equations, but I repeat, it seems important to me to see it qualitatively,
+ it puts a little inside the box to have the highest pressure.
+ So the capsule expands as long as the pressure inside the box is equal to that inside the capsule,
+ but if I continue to go down, I continuously have an increase in pressure inside the capsule
+ and therefore I continuously have a reading due to the fact that if I have built my variometer well,
+ there is this difference caused by load losses along the part with the capillary.
+ On the contrary, if the static pressure decreases because I am going up,
+ inside the capsule there will be a lower pressure than that inside the box
+ because the air has to come out of the box through the same capillary
+ that thanks to the sky behaves in a symmetrical way depending on what the motorbike is, because then there is also a part of the mass that moves.
+ And so in this case, if I am going up, the pressure inside the box is higher than that inside the capsule
+ and therefore the capsule contracts and I, by going to recover the dilatations, the contractions,
+ due to the fact that the capsule remains still, I can produce an output of barometric vertical speed.
+ I hear some comments, is there something you want to share? Any doubts?
+ Let's go to this one, these are all very simple.
+ The thing I want to point out, the thing I want to draw your attention to,
+ is the fact that in the variometer it bothers me that there is a temperature gradient.
+ Because if I have a temperature gradient, because of how these equations are made,
+ which I repeat, I would avoid going to see in detail unless someone wants it enough, in the case of you.
+
+we will see it next time, but if a temperature gradient ignites the whole motor,
+ the pressures change, but they change differently because of the capillary,
+ so if it is a temperature gradient, I can have false readings of barometric vertical speed
+ that are not linked to an effective change in the quota, an effective change in the static pressure,
+ so much so that it is not uncommon for the instrument to be thermostated.
+ So the capillary is kept at a constant temperature just to kill the big delta T over the small delta T.
+ Here there was an account, if I remember correctly.
+ Here, if I have a delta T over the small delta T of 1 Kelvin per minute or 1 Celsius per minute,
+ I read 100 feet per minute of vertical speed.
+ And so, I repeat, very often, in the most precise implementations of the mechanical pneumatic version,
+ the variometer is thermostated.
+ The problem is no longer put to read it on the computer because it has a totally different approach.
+ Here there is also a drawing ... ah no, here we see how the vertical speed indicator instrument is made.
+ So, the instrument has a trigger that, when the vertical barometric speed is zero,
+ so when I'm flying at constant pressure altitude,
+ which does not mean that I'm flying at constant geometric quotas,
+ because if I change the QNAF I could go up or down.
+ But if I'm flying at constant pressure altitude, the trigger indicates zero at 9 o'clock.
+ So it is horizontal.
+ Then intuitively, when it goes up, I read vertical barometric speed to go up.
+ And when it goes down, I read vertical barometric speed to go down.
+ The scale depends very strongly on the performance of the aircraft.
+ This could be a general aviation airplane.
+ I remember at the time when I was flying with 172-180 horsepower,
+ which was already a success to fly at 1000 feet per minute.
+ I also remember that in the same years they had made a record with an F15 to fly in supersonic and vertical,
+ so you can imagine the difference in vertical speed.
+ A liner usually makes several thousand feet per minute of vertical speed.
+ Then we will see that there are different strategies for change of quota
+ in commercial transport planes that are managed by the F15.
+
+by the flight management system and by the autopilot.
+ But the pilots will talk about it, because I think it gives an added value
+ to hear it from those who then really use it and explain it to us,
+ because it is better a strategy or something else.
+ This symbology is also maintained in the electronic version of the vertical speed indicator,
+ which I think we saw the other time was next to the altimeter on the right,
+ of the electronic instrument.
+ This is another way of making the instrument, but it is similar to that.
+ Here you see if you dilate or contract the capsule,
+ I have Climb or Descent indications.
+ So, we have seen the first three instruments,
+ there are also here observations and questions from you.
+ I didn't understand, the capsule is not stagnant yet?
+ Yes, it is stagnant, because there is static pressure through the capillary,
+ it can't be the pressure of the cockpit.
+ What happens if, for example, in the altimeter you break the glass or break the gasket?
+ What measures the altimeter?
+ The cockpit, except for the regulation of zero,
+ but it measures exactly the cockpit.
+ If it breaks the variometer, it is a little more complicated.
+ So, let's start now to face another extremely important topic,
+ on which I will introduce many underlineings that come from the experience with the exams.
+ Let's talk about anemometry, which in Greek means the measurement of the speed of the wind.
+ For what concerns us, anemometry is the measurement of our speed compared to the speed of the wind.
+ Before going into the anemometry, let's make sure we have some questions in mind.
+ So, I beat the total pressure with Pt.
+
+that is what we have said is taken from the pitot, we have said that the pitot takes the total pressure from the point of impact,
+ then the beat with PS, the static pressure.
+ So here, first question, I have to turn it on so you can see better.
+ So, first question, for definition, how do we baptize PT-PS?
+ Let's not lose the notation, but what do we call it, PT-PS?
+ Who votes for dynamic pressure?
+ No. How do we baptize it?
+ In the most general case, we don't go on until it comes out.
+ How do we baptize it? By definition.
+ And we usually call it that, so I don't help you.
+ But you can also call it Pippo-Pluto, let's not focus on the notation.
+ Pressure, there is an apostrophe.
+ By definition, PT-PS is called impact pressure.
+ This is the most general case possible.
+ It is always true that PT-PS is the impact pressure.
+ When PT-PS is PD, that is dynamic pressure,
+ also here, by definition, PT-PS.
+ When, under what hypothesis? Incompressible fluid?
+ Ok, so memorize this well, because if this is not clear, we don't understand anything about anemometry.
+ So, by definition, let's repeat, PT-PS, I can always define it as impact pressure.
+ If, in particular, I can neglect the effects of compressibility,
+ then PT-PS I can baptize it as dynamic pressure, and it is equal to half rho squared.
+ But it is not always true. What is always true is this.
+ So, for a very subsonic flight regime, for conditions in which I can neglect compressibility,
+ the dynamic pressure coincides with the impact pressure. But generally, no.
+ Ok.
+
+So, when we say that this is equal to this, I can write that it is also equal to, let's put it in the middle of the Rho/Pier.
+ We will be interested in evaluating this rather than evaluating the V's through these measurements.
+ We need to do some laps to be able to measure this.
+ Let's start by saying how the anemometer is made. In Italian it is called anemometer, in English it is called ASI, Air Speed Indicator.
+ The anemometer has a usual tin box, but it has two sockets, because the anemometer needs these two sizes.
+ The anemometer has two tubes, one that is the static tube that is connected to the inside of the instrument box.
+ The box that is usually tin is sealed compared to the instrument panel.
+ The total pressure is brought inside the capsule that is contained in the anemometer.
+ The anemometer is like the vertical speed indicator, like the altimeter, a capsule instrument.
+ The capsule of the anemometer is similar to that of the variometer, the vertical speed indicator, it is a capsule that is powered by the two pressures.
+ But unlike the vertical speed indicator, here are attached the two different tubes.
+ While we have seen that there is the static that goes directly inside the capsule and then in the instrument box through the capillary,
+ in the case of the vertical speed indicator, in the case of the anemometer, I have the total inside the capsule, the static outside, there are no capillaries, there is no load opening, there is no such thing.
+ I imagine that I am also in the middle of the screen.
+
+we are in subsonic regime, we start to have this thing and therefore the dilation of the capsule I could say is proportional to pd, we are in subsonic regime so I measure this and then I can write that v4 is equal to pd, 2 pd/rho
+ and therefore write that v is equal to the root of 2 pd/rho. What would be the problem of a capsule of this kind? I would have to complicate the instrument because I would have to put it as the current rho of the area in which I am flying.
+ How is it done? What is a possible solution? A possible solution is that instead of the current rho I put rho0 and at this point I beat this speed EAS, I don't know if you can read it, equivalent airspeed.
+ So if in that relationship that obscures the effects of compressibility, in addition instead of the real rho in which I am flying I put rho0, I get what by definition is called EAS, equivalent airspeed.
+ And therefore seen from the other point of view the equivalent airspeed by definition is that speed that would give me at 0% the same dynamic pressure.
+ The EAS is not the only airspeed that we will see because we see that there are several others, in particular if instead of rho0 I put the real rho in which I am flying, we will see it later, I start to turn it on now, I get the TAS, the TAS is the true airspeed, which by definition is the real speed with which I move compared to the air.
+ So let's remember the definitions, EAS is the speed that at 0%, I say at 0% to say with rho0, it is the speed that at 0% would give me the same dynamic pressure as the one I have at this point, the TAS, true airspeed, is the speed that instead I actually have at this point compared to the air.
+
+We anticipate which are the other two speeds, then we will resume this afternoon the two speeds, so we have said
+ pass through airspeed, EAS equivalent airspeed, then we have CAS, which is the acronym for calibrated airspeed,
+ which is the speed that at zero speed would give me the same impact pressure.
+ So, what is the difference between CAS and EAS? It is that EAS neglects the compressibility effects, CAS takes them into account.
+ The last one we see, but it is the first, which is usually considered, is EAS, AIAS, where the acronym stands for Indicated Airspeed.
+ And this has the simplest definition of all. What is the Airspeed indicator? It is the speed that the pilot reads on the instrument.
+ So, it has nothing to do with the assumptions that we make. EAS or AIAS is the speed that the pilot reads on the instrument, the speed indicator.
+ So, remember AIST, now it is not very fashionable to talk about AIST, which is the sequence, because as we will see, they are ordered.
+ I start from reading the AIAS, then I can keep the CAS, I keep the AIAS, and from the AIAS if I want I keep the CAS.
+ As we will see, in the field of flight operations, these are the two that are of interest.
+ The CAS is used when it is used for navigation, the AIAS is normally used in the phase of the development of the airplane, to make evaluations, to make a data reduction, to have comparable conditions between tests carried out in different moments with characteristics of the different areas.
+ The AIAS is used to make evaluations of the performance of the aircraft. For everything that is flight control, we talk about AIAS and CAS, which, spoiler, in the case of electronic instrumentation, coincide.
+ So while the pneumatic mechanical anemometer, which we will talk about this afternoon, makes me read an AIAS, and then I, as a pilot, will have to correct that AIAS to have a CAS, electronic instrumentation makes me read a CAS directly, but AIAS is still baptized.
+ The indications, for example, given by the air traffic control, which says "Accelerate, Accelerate, Maintain the speed", are AIAS, which in the CAS,
+
+the dayliner with the electronic instrumentation coincides with the house, are there any questions or doubts?
+ So what do I have to tell you? Follow WeBeep, if you communicate to me in advance, I will turn it to you
+ as soon as I have news and if not we'll see each other there, no, but it will also be broken today
+ let's see if they have adjusted it, in short read WeBeep, I will give you news on that platform
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

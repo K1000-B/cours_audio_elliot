@@ -1,0 +1,766 @@
+
+# TRANSCRIPTION BRUTE
+
+Here are the two magnets, you see this is a top view of the compass box, there are these two magnets, one that adjusts in the direction east-west and the other perpendicular in the direction north-south.
+ This is how you make the pilot of the residual errors with a table, exactly as we have seen for the passage from the IAS to the CART.
+ So for "to fly" 0-1-6, sorry 0-1-5 "steer" 0-1-6, here you see, for "to fly" 1-6-5, "to fly" 1-6-3, these are the tables that you see are dated to give evidence of when this evaluation of compensation was made.
+ How to minimize the error due to the magnetic deviation, you try to bring the sensitive element of the compass as far as possible from the sources of disturbance.
+ This can only be done if you do not use a traditional compass where the sensitive element is closely linked to the indicator element, but if you use a so-called remote compass,
+ which was made possible by the introduction of electronic systems, also primordial at the beginning, in which the sensitive element is moved compared to the indicator element,
+ that is, a way in which information is transmitted, taken from the sensitive element to the indicator element, and the sensitive element is put as far out of the way as possible.
+ What could be an appropriate location for the sensitive element that is away from the disturbance on the compass?
+ I put it in the sensitive element of the compass, the tip of the rudder, then at the top of the fin, which is very far away, or the tip of the wings, so the further away from the fuselage, the better.
+ Here you see that masterpiece of engineering that is disturbed with a song or scene.
+
+to your degrees, that is, Compass System, Gyron Amplifier,
+ just to say that the system also on this plane is divided into two parts.
+ So now let's spend a few minutes to understand well,
+ because some of you have also asked me some questions about the Prues,
+ and let's see how the measurement works well these years.
+ So we are international, we also have a French Sliding.
+ No, this is not the first.
+ The true north is vertical, the magnetic north is put in this direction.
+ The big one is the magnetic declination.
+ After that, the compass north, which by definition is the direction identified
+ by the longitudinal axis of the plane, with respect to the direction of the north measured by the compass,
+ so looking north on the compass, is moved with respect to the magnetic north
+ because of the magnetic deviation.
+ Then the sum of declination and deviation is sometimes labeled "magnetic variation",
+ so small plus large is equal to variation.
+ These are the reference directions.
+ Now, as for the airplane engine, I have two different references that I can take.
+ One is the axis of the plane, and when I measure angles,
+ considering the axis of the plane, I always name it "Prua Heading",
+ so I can have a compass heading,
+ "Cap Compass", now I don't know how to pronounce "C", a magnetic heading "CM",
+ or a real heading.
+ Are these three references clear?
+ Of course, small and large can also be on the other side.
+ Here, for simplicity, they are drawn in this sector, but there is no link on the signs.
+ And so these three references are those related to my "Prua",
+ so I measure the angle between the compass north, the magnetic north,
+ all.
+
+the real North, and the circular axis of the mirofano.
+ When I speak of "track", of "route",
+ it can still be a compass, a magnetic compass, or a ground compass,
+ as a reference point, I take, beyond one of the three Norths
+ that call the compass, magnetic compass, or the ground compass,
+ I basically take the projection on the tangent plane of my speed vector.
+ As we have already seen, but let's repeat it, because it is repeated in Juvant,
+ the "route" cannot coincide with the "prue",
+ because of a component of the wind in the transverse and because of a symmetric flight,
+ or for the combination of these two effects.
+ So even if I have a symmetric flight, but I have a component of the wind in the transverse
+ with respect to my direction, for the vector composition of the speed,
+ between my speed and that of the wind, I have a "route" that is different from the "prue".
+ And, on the other hand, if the flight is not symmetrical, and it is the typical case
+ of multi-engine cars, in the case of one engine in operative,
+ I have my heading, which is different from my "prue", for the sake of the symmetry of the flight,
+ for the sake of the fact that the speed vector is not in the symmetry plane of the flight.
+ So here we have already seen how the magnetic compass is made.
+ It is therefore screwed and linked to the cockpit, in this case the monolithic compass,
+ in which the sensitive element is placed with the indicator element,
+ and therefore, compared to a "lubber line", the pilot reads the magnetic "prues",
+ the "prue" compass that are indicated by the instrument.
+ Let us remember that the hinge that links the mobile part with the fixed part
+ is a spherical hinge with three degrees of freedom.
+ Even if we expect that the only degree of freedom necessary is that of rotation
+ around the axis, in order to indicate two different compasses.
+ In reality, the other two degrees of freedom of rotation are also necessary
+ because of a characteristic of the terrestrial magnetic field.
+
+of the Earth's magnetic field, in general, are not parallel to the Earth's surface,
+ but they have a component towards the bottom, that is, they enter the North Pole or exit
+ from the South Pole depending, if we want to baptize with entering and exiting, the sign of the
+ magnetic field, but in general they have a vertical component that can also be important.
+ So here you see the horizontal plane is drawn on which the magnetic north is indicated,
+ so magnetic heading, but the vector of the line of force of the Earth's magnetic field,
+ that one in large, also has a component on the vertical, which, as I said, can be
+ not obscured, and this is a paper that combines the places of the Earth in a certain period
+ in which this paper has been made, which I don't even remember when, which have the same "magnetic
+ dip", the same angle of inclination towards the bottom of the lines of force of the Earth's magnetic field.
+ What you see in green is the magnetic equator, that is, it is the place of the points in which
+ the Earth's magnetic field, which in an hemisphere is inclined towards the bottom on one side,
+ and in the other inclined towards the other, is the place of the points in which the Earth's magnetic field
+ is exactly parallel to the tangent plane. As you can see, the shape is completely different from the regular
+ of this paper, precisely because, let's say, the Earth's magnetic field is not generated by a
+ source point at the centre of the Earth, according to Maxwell's equations, but it is generated
+ by a series of physical phenomena that cannot be ruled out by the distribution of matter
+ within the Earth, which is not a point, but is a radius of 6,000 erotic kilometres.
+ As you can see, there are particular places with magnetic anomalies.
+ The Earth's magnetic field is not extremely strong, due to its intensity, so even going to
+ detect its value requires refined simulations, if you want to go and do studies with
+ high precision, and many campaigns on the distribution of the Earth's magnetic field have been
+ made for military purposes, because, especially in the years of the Cold War, one of the domains
+ in which there were challenges between the two big blocks was that of the submarines,
+ and it was a research project.
+
+strategically essential to know where the enemy submarines were located.
+ And to do this, one of the tools used, because submarines can also be extremely quiet
+ if they turn off all the lights and decide to stay still
+ because an airplane is passing above that wants to stun them.
+ Obviously, I can't use a radar because radio waves don't cross the interface between air and water,
+ but they bounce back and don't even spread under water radio waves,
+ mainly because of the inevitable conductivity of the water,
+ the electrical conductivity of the water that holds them immediately,
+ and it is also unthinkable to organize sonar campaigns
+ so high as to knock down all the oceans.
+ So, the idea was this.
+ I map a course of the Earth's field intensity as you can see here.
+ Imagine then to associate, this is only the visualization of the magnetic dip,
+ imagine to also visualize the intensity of the field.
+ Clearly, these are all things that need to be done periodically
+ because everything then changes over time.
+ But imagine to map, then, point by point, the vector of the Earth's magnetic field intensity.
+ Well, the presence of an enemy submarine can distort this.
+ In fact, there were sensors called Magnetic Anomaly Detector,
+ that is, processes that on the basis of the magnetic field measured in a certain place
+ by an appropriate sensor, compared with the magnetic field detected in the acquisition campaigns
+ during which it was thought that there was no submarine below,
+ they gave differences and therefore managed to distort the submarines.
+ For this reason, there was an intense activity of mapping the Earth's magnetic field
+ at the end of the last two decades, three decades.
+ So, since the magnetic field has a component downwards,
+ even the sensitive element of my compass will tend to tilt downwards.
+ Will it be able to align perfectly with the line of force of the Earth's magnetic field?
+ No, because it will be in equilibrium between the moment of inertia,
+ because if I move a pendulum, let's imagine that I have...
+
+So this ... let's draw here.
+ This is my compass, right?
+ If the line of force of the Earth's magnetic field is put in this direction, the compass, which will have its own center of gravity, where do I put it?
+ The center of gravity of the compass compared to the hinge. Let's say that the hinge is up here.
+ I put it down because it must be in stable balance, because when it starts to roll, I want the balance to be stable.
+ If the center of gravity coincides, the center of gravity and the hinge would be in an indifferent balance.
+ If the center of gravity was above the hinge, we would be in a condition adored by the controllers, because for them that of the inverse pendulum is one of the problems with which it is more fun to face.
+ However, we would have an unstable balance, and therefore my body would tend, in case of a disturbance, to move away more and more from the balance.
+ This is my compass, which opens the center of gravity below the hinge axis.
+ So, on the one hand, the force ... the moment due to the local magnet that tends to align with the line of force that turns me, that tends to make me rotate the body of the compass.
+ On the other hand, since the body of the compass, when it rotates, let's say I rotated it here.
+ Ok, let's imagine that the center of gravity is below, now my center of gravity is finished here.
+ So, what happens? It happens that, because of the lever arm, I will have a moment that tends to contrast this movement,
+ because at this point my center of gravity on the vertical is no longer aligned with the hinge axis, which tends to bring it back to balance.
+ So, the balance between this magnetic moment, this moment called inertial, tells me how much the axis of my compass tilts, but it tilts.
+ Ok, so I have to guarantee the two axes of ... sorry, the two degrees of freedom of additional rotation to be able to allow the sensitive body of my compass to tilt because of the magnetic dip.
+ Why do I have to leave two? Because it is not said that the North is ahead. The North can be next to it, so the equipment of my compass moves everything in the second direction of the North.
+ Who has the experience of having used a compass ...
+
+on the aero plane or normally on the boats,
+ perhaps there are also those who are not practical in the boats,
+ has seen that then the compass tends to
+ have motorbikes also of rotation
+ along these other two directions.
+ What is,
+ here you can not see very well, but what is the problem
+ initiated
+ from this having to have the possibility
+ to move the compass
+ to follow the vertical component
+ of the magnetic field.
+ The problem is that
+ if I change the drawing and make a drawing
+ seen from above,
+ then we imagine
+ that the north is above
+ and that I am flying in the direction west.
+ It can be seen from there, if I write it here.
+ So, if the north is above
+ and we are in the north hemisphere,
+ the compass will be tilted in this way.
+ Here we are in a top view, but in a side view,
+ if we looked here, the compass would be tilted in this way
+ because this part will have to follow
+ the line of the Earth's magnetic field
+ that goes down and this one will have to go up.
+ So, if it rotates in this way,
+ the center of gravity,
+ this is the center of gravity,
+ ends here.
+ We agree, so it generally moves
+ from the core axis and stays there.
+ We said that there is equilibrium
+ between this inertial moment
+ that tends to bring it down
+ and the magnetic moment that tends to rise.
+ This is true when we are in peace
+ because if we add
+ an in-station motorcycle,
+ an accelerated motorcycle,
+ in general, the accelerations,
+ because if we stop,
+ the only acceleration that acts on the center of gravity
+ is the acceleration of gravity.
+
+and so it causes a force due to the mass.
+ But the accelerations that will insist on this equipment
+ will also be the accelerations due to my bike in the parking lot.
+ They can be along the trajectory, I accelerate or slow down,
+ or perpendicular to the trajectory when I go to make a turn.
+ So, to understand well, let's consider having an acceleration.
+ We are flying towards the west, the flight is levelled to a certain point,
+ we increase the engine, we maintain the speed and then we accelerate.
+ If we accelerate, then our speed increases, what happens?
+ It happens that, in the plane of the blackboard, in the horizon plane,
+ I will have an acceleration that acts on my center of gravity
+ that has an arm with respect to the frame axis.
+ Why does it have an arm? Because it is moved by the fact that we follow the dip tank.
+ And so, acceleration F=m*a, there will be an F linked to the M
+ that with this arm will create a moment, and what does this moment do?
+ It makes me rotate the compass, do you see it?
+ It makes me rotate the compass by giving the pilot a false indication,
+ with an error, an error due to the acceleration.
+ The same thing is valid if I am in a turn.
+ Clearly, it depends on the particular geometric configuration
+ between the geographical north, my direction, and then the intensity of the maneuver,
+ therefore the intensity of the acceleration.
+ But the combination of these factors, in general,
+ due to the fact that the center of gravity of the mobile body of the compass
+ is not aligned with the cernier axis
+ because it must be able to move to follow the vertical component of the Earth's magnetic field,
+ because of this arm, in general, during the maneuvering flight,
+ the indication given by the compass is affected by errors, but also big errors.
+ Here, there is a table that says, depending on the direction,
+ I can have more or less big errors.
+ But what I want to show you is that, during the maneuvering flight,
+ the compass gives indications, let's say, unreliable.
+ Is this a problem for us?
+
+Why is it a problem?
+ Exactly, because typically in the maneuvers in which I change heading I have to know when
+ I have reached the heading I want, that is, it is very difficult, also because this error
+ as I told you is not constant but it depends on the contingent situation so it is unthinkable
+ to go and try to evaluate it time and again, while I maneuver to change heading it is
+ just a moment in which the heading gives me an unreliable indication.
+ Here is another slide, you see if it accelerates or slows down depending on where it is,
+ there are indications, but look, the error can also be 10, 15, 20, 30 degrees, it depends on
+ all the parameters of which we have briefly mentioned, but it is not that I was saying that I was
+ wrong about 1 degree, patience, I align myself with the new heading and then if they are out of 1 degree
+ with small acceleration maneuvers I fix myself, no, the compass is totally unreliable in the case
+ of maneuvering flight, here you see the acceleration effect, I am flying with a constant flow, you see from
+ 090 I go to 060 or to 120 in the case of acceleration and deceleration for that particular example that I was doing.
+ And so we no longer put the bus to work on the airplanes, there is a spoiler and so we have to invent
+ another heading sensor based on another physics and this is a frequent case in the
+ aeronautical world, that is, I, of the same magnitude, maybe with a sensor that has another
+ physics and therefore I will probably be affected by different errors and in some way I put the
+ information and try to give the pilot a version, let's say, blended of the two values ​​that is
+ feasible for what the pilot needs for the flight. And so we will see how the
+ airplanes work, there is the directional turn, which is precisely the instrument that helps us to limit the
+ damage of the errors caused by the phenomena that we have seen on the bus.
+
+I don't know if you can see it, but it's a little bit dark because of the light.
+ I think it's a little bit too dark.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ I think it's a little bit too dark because of the light.
+ The gyroscope is a mechanical system of three degrees of freedom,
+ made up of a rotor that has a certain moment of inertia
+ around an axis of rotation that is put in rotation around its axis
+ and then is engineered with two degrees of freedom
+ compared to an external box.
+
+What are the two degrees of freedom? I don't have a cool laser indicator, one is this, theta, and one is this, yes.
+ So there is an internal gimbal, which holds the igniter with some hooks, this is the internal gimbal,
+ here there will be the hooks, then here there is an axis with the other hooks,
+ so I have a first degree of freedom in theta, normally theta, also here,
+ I underline for the second time, let's not focus on the notes, it is not said that it must be called theta by force,
+ very frequently called theta, and which therefore links the internal gimbal to an external gimbal,
+ which has two lugs, so it has one degree of freedom of rotation, which we normally call psi,
+ so it is a system that has these two degrees of freedom plus the degree of freedom of rotation,
+ and there you see all the sizes that insist on my gyroscope, it goes from the small x, small y, small z axes
+ of the first system to the big x, big y, big z of the external system.
+ Let's say that the complexity of the gyroscope is precisely to go from one system to another,
+ but these are malignant questions, let's not lose them.
+ So here I repeat, which report only for those who are interested,
+ I would be surprised if you cannot get them by yourself, if you have problems with time,
+ but these are equations of dynamics, moments of motion, let's move on.
+ This is important because we are interested in characterizing the behavior of the gyroscope,
+ it is a greatness that is called spin momentum gyroscope rigidity,
+ which is given by the moment of inertia of the rotor around the rotation axis for angular velocity.
+ Many of the characteristics of our gyroscope will depend on this small h, spin momentum,
+ and we will see that the more the better, so I would like to try to maximize this product,
+ what I can get by maximizing j, but on that I have problems related to the geometric dimensions,
+ we know that it goes with the square of the distance from the spin momentum, moment of inertia of the rotation,
+ but I can't make a...
+
+the rotor is as big as the wheel of a tractor.
+ I'll show you a tool.
+ Then you go to recover with N,
+ you tend to make systems that have an N,
+ the speed of rotation of the rotor is very high.
+ After that, in the translation,
+ small rotations and N much greater than Psi,
+ you will see it.
+ It makes a transformation of Laplace,
+ always in the translation,
+ we do not know the characteristic equations.
+ What is interesting, then,
+ is the dynamics of the gyroscope
+ in response to external solicitations.
+ Now we analyze from a qualitative point of view,
+ but we can go,
+ if you ask, if you are interested,
+ we can also go to the analytical part,
+ but for now let's face it from a qualitative point of view.
+ Let's imagine we have an external solicitation,
+ this moment around Y,
+ which is an impulsive function,
+ I give a hammer to the gyroscope.
+ So here I always make a transformation of Laplace,
+ I return to the domain of time,
+ and I obtain these functions for theta of t,
+ remember the degree of freedom theta,
+ and Psi of t.
+ And plotting theta versus Psi,
+ or Psi in time, or theta in time,
+ I see that I have a periodic oscillatory motion,
+ so if my gyroscope system is rotating
+ and without external solicitations,
+ the gyroscope system has the characteristic,
+ we have not yet said this,
+ of maintaining the direction of its constant spin axis.
+ But saying "constant" is not enough,
+ we must say "with respect to what".
+ With respect to what does a gyroscope
+ maintain the direction of its constant spin axis?
+ No? Why not?
+ Because the system of solidarity with the Earth,
+ what is it not?
+ Inertia.
+ The gyroscope maintains the direction of its constant spin axis
+ with respect to an inertial movement system,
+ the sky of fixed stars,
+ which then the universe is expanding.
+
+so I don't know if they are so fixed that they are fixed but not the earth I recommend the
+ earth is a non-inertia system and this gives us the problems that we will see with the
+ gyroscopes that then we have found a way to overcome but the direction maintained constant
+ from the spin axis of the gyroscopic system is constant compared to a system of inertial
+ movements so if he is calm and gives him a hammer there is his spin axis begins to have
+ this dynamic has a motor of coning around the one that was the inertial position
+ and that the two supersonic oscillations are balanced by 90 degrees
+ instead another case in which the stimulus is a gradient function so typically sorry
+ if it is a gradient function from a certain moment onwards it is constant
+ and always transforming the equations of the square what you get is this movement
+ which is the composition of an oscillatory motor similar to that of before but
+ a constant derivative is not over-impressed
+ this derives from this movement of the gyroscopic axis over time it takes the name of precession
+ the gyroscope we will see it talking about the practical aspect of the motor but in the
+ aeronautical realization there are two possibilities or a pneumatic possibility in the sense that
+ in some way the rotor has turbin-type pallets and therefore I breathe out of the air
+ I keep it in motion or it is a rotor of the gyroscope it is the rotor of an electric motor
+ and therefore it absorbs the two functions and is used as we will see it is one of the needs
+ of gyroscopes here this is the course that the cycloid motor of the gyroscopic
+ axis underpins both the step and the impulse and the motor that makes a point on a radius
+
+of a bike while on this road.
+ Anyway, I repeat, this is a brief summary.
+ I imagine that no one will be surprised by what we have just seen.
+ We are very interested in this vectorial relationship
+ and let's look closely at who appears.
+ H is the stiffness of the gyroscope,
+ therefore it also has the velocity vector of spin,
+ angular velocity vector of spin for the moment of inertia.
+ M is the external moment,
+ so if I go to stimulate my gyroscope with an external moment,
+ omega is the response of the gyroscopic system.
+ As we can see, they are at 90 degrees.
+ What does this mean?
+ It means that if I have a gyroscope that is rotating
+ with a certain direction in its axis of spin
+ and I impose a certain moment on the gyroscopic system,
+ the response of the system will be a rotation that is at 90 degrees
+ compared to the other two directions I mentioned earlier.
+ And this is extremely unintuitive for us
+ because in nature it is rare.
+ But is there anyone who is passionate about bikes?
+ Mountain bike?
+ Ok.
+ Have you ever tried to hold the wheel to see what happens?
+ Who hasn't tried it?
+ It is a way to experience this phenomenon practically.
+ For example, if you disassemble the front wheel,
+ which moves quickly and there is no chain between the feet,
+ then you hold the wheel with your arms straight
+ for its axis of rotation from the side of the thighs
+ so that it is comfortable to hold it.
+ Ask your friend to rotate it.
+ After that, this will be the rotor of our gyroscope
+ that has as a spin axis the joint of your two hands.
+ At this point, if you give a moment, let's say,
+ with a rotation, a kind of vertical rotation,
+ then in the horizontal plane,
+ your wheel will not rotate horizontally,
+ but it will rotate from the other side.
+ This is precisely because of the gyroscopic phenomenon,
+ because the output is the vector product
+ between the angular velocity and the angular axis of the moment
+ of the moment that I am going to impose.
+ And this is a phenomenon that we will capitalize
+ on some gyroscopic instruments that we will deal with later.
+ Another variant of the gyroscopic system
+
+that we use for aeronautical instrumentation
+ is that of the gyroscopic system
+ in which we suppress one of the degrees of freedom
+ and therefore typically Psi.
+ So instead of having a hinge
+ that unites the external gimbal to the instrument box,
+ OMEGA is the rotation axis
+ and we can see it from here, I think.
+ Here is the axis of rotation.
+ OMEGA should also be here.
+ It is because it is a small system.
+ It is one of these.
+ Perfect.
+ It is the y-point rotation.
+ So that of the external case.
+ As I said, we can, and we do it in one of the instruments in particular,
+ block one degree of freedom.
+ So there is no longer the hinge that unites the external gimbal to the case,
+ but the external gimbal is rigidly linked to the external case.
+ So we have a system of one plus one degrees of freedom,
+ in the sense that we always compose the second,
+ which is that of the rotation of the rotor around the axis,
+ even to a degree of freedom, as is normally said, in a not very precise way.
+ So what happens?
+ It happens that we have made an angular speed meter,
+ because our gyroscopic system,
+ going to block this degree of freedom and to consider it as an input,
+ and in particular to consider the derivative of the degree of freedom that we block
+ like a...
+
+input, we get this formulation that is below, in which we focus on the right side
+ of the equal. On the right side of the equal, I have the Mugave which are the uncertainties
+ of the realization of gyroscopes, so it is the component that models the fact that the gyroscopes
+ for how much I invest resources in mechanical processing, design, etc. etc. will never be
+ like an ideal gyroscope. But what is very important is that through H I am sensitive to
+ Psi Punt. And what magnitude is sensitive to Psi Punt? Theta which is the inclination of the
+ inner gimbal compared to the external case at this point, because there are no more other degrees of freedom.
+ So Jy, the moment of inertia for the acceleration around theta, plus B for the theta point plus K
+ per theta is equal to a quantity that, except for the errors, is proportional to Psi Punt. So,
+ at Sauriti transistors, so we throw away theta two points and theta one point, I have K per theta is equal to minus H per
+ Psi Punt plus the errors. And therefore K is a constant that derives from constructive questions,
+ so I have a theta equal to minus H per Psi Punt divided by K and therefore I have a theta equal to a certain
+ constant for Psi Punt. So the theta rotation that I can measure with a rotation translator,
+ which can be optical if I do it in the instrument or an electric translator if I want to use this
+ size in a computerized system, is a function of angular velocity. And this characteristic,
+ we will see it again, is such, and it has been so much used in the aeronautical field, that even
+ when angular velocity meters have no longer been made with gyroscopes, because at a certain
+ point fiber optics or laser gyro or optical phenomena have been introduced, rather than
+ all of us in our phones have gyro rates that have been solid, that have nothing to do with the gyroscope
+ that we see here, even if they have been made differently, these sensors have continued to
+ be called gyro rates, where gyro no longer affects the gyroscope, but let's say it is.
+
+The name was so ingrained in the jargon of the angular speed measurement technique
+ that these instruments are always called "raid gyro".
+ In our phone there are three "raid gyros", even if there are no gyroscopes.
+ Our cars are very used, we'll see.
+ This was taken from a book called "Dynamic of Physical Systems" by a certain Cannon.
+ In my opinion, for this particular topic, it is very very clear and is formally at the limit of the inevitable.
+ It is a very new book, but if someone is interested in it, they can go and get it,
+ or I should have a PDF extract of those parts that I am going to see now, if someone is interested, let me know.
+ My intention today was to refresh notions, at the cost of exposing myself to criticism,
+ the course is exempt from repetitions, was to refresh the notions that you should already know
+ about gyroscopic dynamics, because I have refreshed them,
+ and we need to understand how gyroscopes are made.
+ But before we understand them, let's see how they are used in aeronautical practice.
+ Say it.
+ Why?
+ Because I measure angular speed, which otherwise would be very difficult for me to measure.
+ Because if I measure theta in my instrument, I have a measurement that, through that constant, is proportional to angular speed.
+ So, for example, if I have to give a indication to the pilot of how long it takes to finish the turn,
+ I use a narrow instrument on angular speed.
+ We will see, what is called a vilosbandometer, which by the way seems to be the last topic included in the first test.
+ So, we've already talked about it, let's resume briefly with a single image.
+ Lateral longitudinal set, so roll and pitch, or roll and bank, sorry, or pitch and bank,
+ and Prua heading, and we've already seen this.
+ So, the gyroscopic system, since it tends to maintain the direction of its own spin axis,
+ is very convenient for me to measure angles, so let's forget for a moment about the gyro rate
+ and the degree of blocked freedom.
+ In particular, if I have a gyroscope on board the plane that has a vertical spin axis,
+ it is very convenient for me, compared to that, to measure pitch and bank.
+ Why? Because the gyroscope tends to remain vertical.
+
+If my airplane has a fuselage that rotates in general,
+ which has different sets of pitch and bank compared to this vertical,
+ if I go in some way to measure these angles between my fuselage,
+ between the box of the gyroscopic instrument and the internal gyroscope,
+ I get an immediate measurement of the angle of pitch and bank.
+ I cannot use a gyroscope with a vertical axis to measure the heading,
+ because compared to that it is indifferent.
+ So I put another gyroscope on board, which instead has a spin axis,
+ in this case oriented to the north.
+ So if I go to see in the horizontal plane how my plane is rotated
+ compared to the spin axis of the gyroscope, which always points to the north,
+ which is then a magnetic or geographical north,
+ I get an immediate indication of the heading angle.
+ Therefore, it seems reasonable to have gyroscopic systems on board
+ that are a reference to the vertical and to an appropriate direction,
+ which is typically the north, typically the magnetic north, for historical reasons.
+ So, vertical reference, I am appropriately building my gimbal
+ so that I have a system to pull out the inclinations
+ compared to the external case and immediately measure the pitch and roll.
+ For the direction, also here, very simple, I have the spin axis that points to the north.
+ If I look how it is oriented, you see here the indication,
+ given in a schematic way, then we see how they are realized in practice.
+ If I see how the spin axis is rotated compared to my plane,
+ I understand what my magnetic heading is.
+ Everything would be much simpler if we were in an inertial reference system.
+ Instead, we are not in an inertial reference system.
+ Let us remember, we are still talking about navigation flight conduct,
+ so we are interested in the surface reference system of the Earth.
+ And regarding gyroscopic problems, there are two features that are not appreciated.
+ First, the fact that the Earth rotates around the spin axis,
+ with angular and mega-large speeds.
+ and second the face.
+
+the fact that the bike during my missions happens in proximity to the earth's surface,
+ which is a curved surface, and so these two aspects give me problems in my gyroscopic systems.
+ To understand exactly what we are talking about and to characterize the mistakes
+ in the quantitative way of gyroscopic systems, a brief overview.
+ So we are in a generic point of lambda latitude and mu longitude,
+ where latitudes and longitudes are measured, as you have already seen,
+ and both the Earth's rotation axis and the angular velocity of the Earth.
+ But first of all we have a precession of the gyroscope,
+ so we observe that the axis pushes the gyroscope, which is an apparent precession,
+ and everything we see now is an apparent precession,
+ because if we were in space, still compared to fixed stars,
+ and we looked at this gyroscope, it would be stuck, neglecting the construction errors,
+ while if we observe it from the surface of the Earth, this is a precession.
+ For example, if I am at the North Pole, I am exactly on the North Pole with my feet,
+ I have a gyroscope with an axis of spin pointed towards that window,
+ you imagine the room and the sky of fixed stars,
+ the axis of spin is placed like this, the Earth rotates,
+ and I see that the axis pushes from my Earth reference system,
+ and therefore a first precession of the axis of spin of my gyroscope
+ is due to the fact that the Earth rotates,
+ it depends on how the axis of spin is placed,
+ but the rotation of the Earth causes what is called an apparent precession
+ due to the rotation of the Earth.
+ Here there are several cases.
+ But to understand a little better, because for now what I have shown you is qualitative,
+ to understand a little better is to quantify the apparent precession.
+ Since we have axis of spin that are locally vertical or horizontal,
+ Noi scomponiamo!
+
+all the effects and, in particular, in this case, the effects of the angular velocity of the Earth, omega large,
+ in a vertical component and in a local horizontal component.
+ So, as you can see here, on the local vertical, the angular velocity component of the Earth is omega large sine of lambda.
+ While, on the tangent plane, there are two directions that I can identify.
+ One towards the north, along the south, and one towards the west, perpendicularly.
+ Towards the north, omega large sine of lambda, and towards the east, zero. Imagine transporting the angular velocity of the Earth at this point
+ and then projecting it in both directions. In the east direction, there is nothing.
+ Until now, it should be quite clear. So, what happens to my gyroscopes? And I say it again, but I will say it again many times today.
+ What happens to my gyroscopes, seen by me, an observer, that I am on the gyroscopic box?
+ For example, in the first case, what happens to the gyroscope with the axis parallel to the local vertical?
+ What happens is that omega large sine of lambda, the vertical component of angular velocity of the Earth,
+ for me, an observer, that is in line with the instrument box, is algebraically summed up with the speed of spin of the gyroscope.
+ Ok, so I, an observer, since it is as if the box were spinning around the instrument with an angular velocity of omega large sine of lambda,
+ I see a speed of the rotor, which is larger or smaller, depending on how they are combined vertically,
+ compared to the speed of the rotor in the inertial reference system, because there is this composition.
+ Is this a problem? No. No, for two reasons. First, because in reality, it does not bring me a precession.
+ At the limit, it is simply a variation of speed.
+ Second, because, let's try to think about it, someone has an idea of what the typical angular velocity is,
+
+of the rotator of a gyroscope, orders of magnitude.
+ Hundreds of years, that is, of revolutions per minute, of revolutions per second.
+ Yes, a few thousand revolutions per minute, even tens of thousands,
+ it depends on the application, so yes, hundreds of revolutions per second.
+ What is the angular velocity of the Earth?
+ It's one lap per day, okay?
+ So even in the worst case scenario, if I were at the North Pole,
+ if instead of 20,000 revolutions per minute, or 20,000 revolutions per minute,
+ plus one lap per day, it doesn't change anything, or less one lap per day,
+ because the worst case scenario would be this, and try to follow me in this speech.
+ So, I have to guarantee a minimum speed of the rotor,
+ because it has the rigidity so that the dynamic characteristics
+ are within the tolerances provided.
+ We have seen that there is H in quite a few equations.
+ So, since the speed of the rotor, I manage it
+ from a reference system at the bottom of the instrument,
+ if I had, due to the precession due to the rotation of the Earth,
+ a very false speed indication, I could find myself in the case
+ in which, to me as an observer, it seems that the speed is correct,
+ in reality the speed, compared to the inertial system, is much lower,
+ and therefore the rotor no longer has the rigidity
+ it needs to pay, let's say, a positive requirement.
+ But, since it is totally uninfluential,
+ because we have seen that the order of magnitude of the angular speed of the Earth
+ is completely different from that of the angular speed of the gyroscope,
+ this does not give me any error.
+ Instead, the horizontal component strikes me,
+ that is, the angular speed put, let's say, in the plane of the meridian,
+ which is the other component, which is omega grande cos lambda,
+ it makes me lose the verticality, because I see
+ it is breaking me down.
+ If I have angular speed like this, it means that
+ imagine the plane perpendicular to the screen,
+ which passes through the spin axis,
+ it is the plane in which it rotates.
+ I see the spin axis rotating,
+ but I see it rotating because in reality I am the one who rotates it around, on the contrary.
+ However, this for me is a loss of verticality.
+
+because the effect of the apparent precession due to the rotation of the Earth is that a piece of rotation of the Earth,
+ which is the big omega and cos lambda, shows me that it rotates in a certain direction that is perpendicular to the plane of the South,
+ shows me that it rotates the axis of spin of my gyroscope, losing the vertical.
+ So, if I want to somehow continue to use my gyroscopic system for indications,
+ as a reference to verticality, I will have to invent something to compensate for this apparent precession.
+ If, on the other hand, I have a gyroscope with a horizontal axis of spin, let's say that it points to the North,
+ then what happens? It happens that the component of angular velocity of the big omega Earth, cos lambda,
+ the one that goes to the North, the one in the plane of the South, algebraically adds up to the speed of spin,
+ so it does not give me any problem, as you see in the case of before, while the vertical component makes me lose the direction of the North,
+ because I have a big omega and cos lambda angular velocity placed like this that shows me that there is a rotation in the axis of spin of the gyroscope.
+ So, if I want to continue to use a gyroscope with a horizontal axis as a reference to the direction of the North,
+ I will have to invent something to eliminate this precession due to the angular velocity of the Earth.
+ The other problem we have said is that of the movement, let's say, on the spherical surface, this is quite clear.
+ Let's imagine also the Earth still, if I have a reference here with the axis of spin placed in this way,
+ so here it is parallel to the tangent plane, if I move and end up here, it becomes perpendicular to the surface.
+ So I start from the horizontal, I arrive vertically moving on the curved surface and then there too is an apparent precession.
+ This apparent precession can be quantified, yes, it can be quantified.
+ The apparent precession is due to the motorbike, so we have to draw in the velocities that it is convenient for us to compose on the horizontal plane in east and north.
+ Vertical velocity does not give any problem.
+ So what we have already said is that we have, first of all, a gyroscope with a horizontal axis as a reference to the direction of the Earth.
+
+that the radius of the parallel of the generic point at the latitude λ is r cos λ,
+ where r is the radius of the Earth, and then, known as Ψ, which is the Puavera,
+ we can project the speed at east speed and north speed.
+ So, at this point, let's see it again here, excuse me for a moment, in the first slide.
+ So, the east speed, with the radius r cos λ, at the end, generates an angular speed
+ that is placed in the axis of the Earth's rotation, it is only a magnitude that is not omega large,
+ but it is r cos λ, ok? You see it here, this is the circle, this is the east speed,
+ an angular speed comes out, placed exactly as the Earth's angular speed,
+ which we will treat exactly as omega large.
+ The novelty, in this case, is the V-Nord, because the V-Nord, with its radius,
+ gives it an angular speed that is perpendicular to the plane of the meridian.
+ Can you see it?
+ And so, this omega, which we call omega star, which is equal to V-Nord divided by r,
+ is a bit of the novelty, which I will have to deal with in another lecture.
+ So, let's see, the component, we said, for what concerns the west, I treat it as omega large,
+ except that the intensity is different, but exactly as before,
+ so it is a vertical component that adds up to the speed of spin,
+ it is a horizontal component that makes it lose its verticality,
+ in reality, this in the case of gyroscopes with an axis oriented along the vertical.
+ And so, exactly as before, except that instead of omega large we have omega star.
+ In addition, I have this angular speed that is perpendicular to the plane of the meridian,
+ to the plane of my screen, and also this, you see, makes me lose the verticality.
+ I, because of this angular speed, see that it rotates in the plane of the screen,
+ in a clockwise sense, it depends on how I am put, on how I am going.
+
+the spin axis of my gyroscope and therefore loses its verticality.
+ So I have two components that make me lose the verticality
+ and one component that, instead, is algebraically at the speed of spin.
+ In the case of gyroscopes with horizontal axis tangent to the local meridian,
+ for the effects of the motor on the curved surface,
+ we are studying this second part,
+ I have the usual three components,
+ one that is exactly superimposable to what we have seen before,
+ and then the speed increases and loses its directionality,
+ and instead the omega star, as you see,
+ makes it rotate in the plane of the screen, of the blackboard,
+ and therefore loses its horizontality.
+ I can combine the effects of large omega and land rotation,
+ and north, in these two equations,
+ where omega small p is that part that we saw in the slides.
+ It is parallel to the land rotation axis,
+ while omega small star p is the perpendicular plane of the blackboard.
+ What are the good news?
+ The good news is that I care about omega p and omega star p,
+ I want to evaluate them, but I have all the elements to do so,
+ because generally, at least in the most advanced systems,
+ I know omega large, I know how much it is worth,
+ I know how much land rotation is worth,
+ I know my heading, I know the latitude,
+ I know it here in the navigation system,
+ so they are all sizes that I can quantify.
+ We will return to this, because usually it leaves some perplexities,
+ I leave you some time to digest everything,
+ see you at three and a half,
+ I wanted to understand this, three and a quarter or three and a half,
+ because those who have lessons first are better, three and a half,
+ three and a half, see you at three and a half in the new class.
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

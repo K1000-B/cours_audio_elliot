@@ -15,12 +15,12 @@ BASE_DIR = Path(__file__).parent.resolve()
 WHISPER_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/build/bin/whisper-cli")
 WHISPER_MODELS_DIR = os.path.expanduser("~/dev/ai/whisper-cpp/models")
 CPU_COUNT = max(1, os.cpu_count() or 1)
-CHUNK_DURATION_SECONDS = 10 * 60
+CHUNK_DURATION_SECONDS = 3 * 60
 MAX_PARALLEL_WORKERS = max(1, min(8, CPU_COUNT))
 DEFAULT_PARALLEL_WORKERS = max(1, min(4, MAX_PARALLEL_WORKERS))
 
 LANGUAGES = ["auto", "fr", "en", "it", "es", "de"]
-WHISPER_MODELS = ["base", "small", "medium"]
+WHISPER_MODELS = ["base", "small", "medium", "large-v3"]
 EXECUTION_MODES = ["Série", "Parallèle"]
 LANGUAGE_CHOICES = [
     ("Auto-detect", "auto"),
