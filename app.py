@@ -8,7 +8,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.resolve()
 
 WHISPER_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/build/bin/whisper-cli")
-MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-small.bin")
+MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-base.bin")
 
 LANGUAGES = ["auto", "fr", "en", "it", "es", "de"]
 
@@ -25,6 +25,8 @@ def download_audio(url, output_wav):
     run_cmd(cmd)
 
 def transcribe(audio_path, output_txt, lang_in, lang_out):
+    audio_path = Path(audio_path)
+    output_txt = Path(output_txt)
 
     lang_flag = "" if lang_in == "auto" else f"-l {lang_in}"
 
@@ -35,9 +37,28 @@ def transcribe(audio_path, output_txt, lang_in, lang_out):
     cmd = f'"{WHISPER_PATH}" -m "{MODEL_PATH}" -f "{audio_path}" {lang_flag} {translate_flag} -otxt'
     run_cmd(cmd)
 
-    base = os.path.splitext(audio_path)[0]
-    generated_txt = base + ".txt"
-    os.rename(generated_txt, output_txt)
+    # whisper-cli output naming may vary by version:
+    # - audio.txt
+    # - audio.wav.txt
+    # - audio.text
+    # - audio.wav.text
+    candidates = [
+        audio_path.with_suffix(".txt"),
+        Path(str(audio_path) + ".txt"),
+        audio_path.with_suffix(".text"),
+        Path(str(audio_path) + ".text"),
+    ]
+
+    generated_txt = next((p for p in candidates if p.exists()), None)
+    if generated_txt is None:
+        expected = "\n".join(f"- {p}" for p in candidates)
+        raise FileNotFoundError(
+            f"Whisper output file not found. Checked:\n{expected}"
+        )
+
+    if output_txt.exists():
+        output_txt.unlink()
+    generated_txt.rename(output_txt)
 
 def format_for_llm(input_txt, output_txt, lang_out):
     with open(input_txt, "r") as f:
@@ -173,3 +194,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
     root.mainloop()
+

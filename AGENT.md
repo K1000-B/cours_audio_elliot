@@ -68,14 +68,14 @@ This format is required for optimal Whisper performance.
 
 - `whisper.cpp` is used (C++ implementation)
 - running locally with Metal acceleration (Mac M-series)
-- model: `medium` or `small`
+- model: `medium` or `small` or `base`
     > change 
     
     ```MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-small.bin")```
 
     > by 
 
-    ```MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-medium.bin")```
+    ```MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-medium.bin")``` or `base.bin`
 
 Options supported:
 - forced language (`-l`)
