@@ -9,3 +9,5 @@ models/
 *.m4a
 *.txt
 .DS_Store
+models/
+build/
