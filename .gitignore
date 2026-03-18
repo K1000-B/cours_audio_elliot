@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv
+build/
+models/
+*.wav
+*.mp3
+*.m4a
+*.txt
+.DS_Store
