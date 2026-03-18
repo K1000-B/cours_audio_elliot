@@ -8,7 +8,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.resolve()
 
 WHISPER_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/build/bin/whisper-cli")
-MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-medium.bin")
+MODEL_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/models/ggml-small.bin")
 
 LANGUAGES = ["auto", "fr", "en", "it", "es", "de"]
 
