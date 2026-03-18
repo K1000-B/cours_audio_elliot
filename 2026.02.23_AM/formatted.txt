@@ -1,0 +1,714 @@
+
+# TRANSCRIPTION BRUTE
+
+I would be surprised if you did, but come on, I'm perplexed by some tools. I got it. I'll leave it to you for a few seconds, if we don't talk about it, we'll figure it out later, because I don't know how to do it, but I'm not sure how to do it, because I don't know how to do it, because I don't know how to do it, because I don't know how to do it, because I don't know how to do it, because I don't know how to do it, because I don't know how to do it, because I don't know how to do it, because I don't know how to do it.
+ I would be surprised if you did, but come on, I'm perplexed by some tools. I got it. I'll leave it to you for a few seconds, if we don't talk about it, we'll figure it out later, because it is thanks to this gentleman that many of the topics we will cover in this course have become routine for the Europeans.
+ No one gets it. If there is one more point to the exam, I bet that in a second we will get it.
+ All right, then, let's do the unveiling later. Let's focus on these two photos. The first is a rollout of the 747-100, the first. The second is the made in flight of the 380.
+ Spot the difference. What has changed? The shape is more or less the same, the engines. It seems that it had a low ratio of dilution, it was one of the first with the turbofan, the 7.4, the 380, but more or less, after 40 years, more or less, it's all the same, it's all the same.
+ With due respect to the aerodynamic colleagues. This is very different, this is definitely different. What is inside the cockpit has made some glamorous jumps, glamorous in the sense that they had impacts on how the flight operations are organized, the airline, the pilots, etc., etc.
+ So, from cockpits full of electromechanical instruments, such as those of the times of the 7.4-100, we have arrived at the glass cockpit, which I guess we all know,
+ and which, let's say, integrate many advantages and have undergone several generational jumps, let's say disruptive compared to what was the previous generation.
+ In my opinion, much more than what has happened for aerodynamics or for the engines. Of course, the drivers have made enormous progress. Now there are engines like the Leap, I don't know if you know them, those of the 320neo.
+ What do they have of strange? What do they have of particular? Here it is. We are close, you can interact differently compared to cars like 250, 300%.
+ What do they have of particular engines like the leo, which allows you to reduce here also sensibly? Yes, it's not only the higher repass ratio, it's a little trick connected to the fun.
+ They have another option, they have a reducer that allows the fan to turn more slowly compared to the tree, which is normally rigidly connected and this allows you to have a more efficient fan.
+ Apart from that, with the instrumentation we have made many jumps forward. And this is because Mr. Federico Faggin, in 1970, invented the microprocessor.
+ He was a physicist in California, he worked for Intel and worked for 8-9 months on the project of what was then released on the market as Intel 40-04, which is the first microprocessor in history.
+ Microprocessor, now we do not do a course on robotics, but it is the key to what happened in electronics, not only in the aeronautical field, but also in the consumer field, in all fields of our life.
+ What would have happened if Federico Faggin had not invented the microprocessor? He would have invented someone else.
+ The progress of science and technology is such that, in short, we find ourselves a bit like cyclists who look at each other before leaving for the flight. We find ourselves all close, and what one does not invent is probably invented by another, precisely because we share a common progress of science.
+ So let's thank Faggin for the microprocessor. So let's talk about the aeronautical instrumentation course. What is the idea of the course? It is to look together at the limits of what an 8-credit course allows us to do.
+ So, in order to do an entire degree course on these topics, we have 8-credits. So, in the limits of our 8-credits, let's take a look at what you see, what is typically installed on the plane as an instrumentation.
+ And the impact that I like to give is an impact that not only describes the operation of the instrument itself, its physical principles, the connection with other instruments, but also describes what implications the instrument has on the flight, on the interaction with the pilots, more generally on the organization of the aircraft transport.
+ My name is Alberto Rolando. Two words about me before going into the details of how to be contacted. So, I am not a professor of the Politecnico di Milano.
+ I have an email from the rector who says that he can give me the title of professor of the Politecnico di Milano, I have the contract for the course, but my main occupation is to sell software to flight attendants and motorists.
+ I work for a company, Software House, which is responsible for this software. I have been in the group for almost twenty years, in the laboratory of flight mechanics and systems, then three years ago I had an indecent proposal.
+ I have changed my life, but I have maintained with my new German employers, the company is based in Berlin, to be able to keep up with the course.
+ Since I have always been in the industry for a series of reasons with which I have not been bored, now I am even more frequent in the environments of the OEM, the flight attendants and some of their first-level suppliers, so I will give a fairly practical cut to what we see.
+ I do not remember if there is a differential equation in the course, which I do not want to diminish.
+ I repeat, I would like to try to share with you my experience with the industry, which is the one in which a discrete fraction of you will go to work, apart from those who will go to the academic career or some research center, which in any case the statistics tell us to be a small fraction of the total number of our employees.
+ I still have an office at B12, where there is the department, we will use to communicate WeBeep, this is the tool that is given to us, I would say no comment, I appeal to the fifth amendment and I do not make any comment on WeBeep, but in short, now it seems that it works quite well.
+ On WeBeep you will find the delivery of the teaching material, today I did not do it in time because there were some troubles with WeBeep, but usually I load the slides in advance so that you can have them to take notes with the systems that you now use to give lessons.
+ Weekly schedule, I'm sorry, but I happen to have a short notice of work commitments, so consider our appointments a little flexible, if you ask me to go somewhere with a short notice I unfortunately have to cancel the lessons.
+ So I will try, as soon as I have visibility on the following days, on the following week, I will try to load you the confirmation of what activities we will do at what time zones.
+ And then if we can, I would like to make some visits, now let's see if we can find a weekly slot where everyone can, some visits for some industry, we will also coordinate for that on WeBeep.
+ If you have to communicate with me, use the email.
+
+In the first part of the subject you put this aeronautical instrumentation,
+ I have a filter that highlights those emails.
+ I am tormented by emails, I still do not trust using an AI agent,
+ I'm afraid I'll be the spy, to process my emails,
+ so I look at them by hand and I really have a lot of them.
+ So if you put that in between, I have a filter that highlights it
+ and then you go down the line compared to the other emails that I receive.
+ I would like to know two information about you that help me better balance the course.
+ How many are students of Polytechnic Continuity in Milan?
+ How many do not have an aeronautical background,
+ like they have never heard anything about flying mechanics?
+ There is no problem, it's right because sometimes I make some accents, some steps.
+ I can give you some material to recover these gaps,
+ because we need at least one.
+ So if you have any gaps, I can rotate the material,
+ typically the material of the flight agent, the triangle.
+ What are the topics we will talk about in the course?
+ You can see them here, I will not read all the topics.
+ They should also be, if they did not mess up, on the site.
+ In general, we look, we try to understand what the instruments on board the airplane are,
+ even with a look at the history of how they evolved,
+ because it is not uncommon that the aspect, the functioning, the logic of a current instrument
+ is the result of the evolution in the time of that instrument,
+ and therefore you still pay architectural choices
+ that were linked to the state of advancement of technology when the instrument was invented.
+ In other words, maybe if a particular instrument were to rise from zero today,
+ I would do it differently from how it is today, even with those sophisticated technologies that can encompass today,
+ because it is perhaps more effective.
+ However, if an instrument has always been in a certain way,
+ the pilot is used to seeing it in that way,
+ and also its innermost evolution with the most sophisticated technologies is done in that way.
+ So we will present a little bit of everything.
+ Air data, magnetic compass, attitude and heading measurement,
+ and here first note, we are used to the rational mechanics,
+ to consider the orientation, compared to a reference system, as an attitude, that is, all three angles.
+ In the aeronautical field it is not like that.
+ Two are attitudes, as we will see, the third heading, and there is a division between these sizes,
+ and they are also labeled in a different way than what we are used to seeing in the field, for example,
+ in the field of quantum mechanics and physics. Autonomous navigation, assisted navigation,
+ a little bit of ATC, because of air traffic control, because we need to know it.
+ In joy and in pain, air traffic control in Europe is responsible for most of the delays that occur,
+ more so for bad weather, more so for shoppers, more so for other issues.
+ Big investments have been made to try to eliminate this bubble,
+ which, on the other hand, can also have non-technical origins.
+ For example, during, this is the experiment in my going back and forth to Berlin,
+ during the Covid in Germany, they licensed a lot of flight controls because the traffic was reduced.
+ The traffic was reduced and those there were found in another job. You can't stop someone on the road
+ and tell them to do the flight controls, it takes years to train them,
+ so Germany is suffering from a shortage of air traffic control operators,
+ and this has an impact on the delay in Europe because there is a maximum number of traffic
+ that the single controller can manage, so saturated that, you have to leave it on the ground or send people back.
+ And then a whole series of equipment that we have on board to minimize the risks during the mission
+ or maximize the effectiveness or more likely both things at the same time.
+ What are the activities that await us?
+ By the way, I didn't say it before, I'll say it later, if you have a question, raise your hand quietly and don't wait.
+ Frontal lessons, this is the core of our course, some driving exercises that we will do together.
+ Then we have a procedural flight simulator, in the sense that it has full motion, even the command part is not the exact replica of a cockpit,
+ but it is very effective, very effective because the experience confirms the fact that
+ an account is to hear how the flight works, the artificial horizon, the compass, an account is to see it during a simulated flight.
+ So I won't be able to make everyone try to fly because this year there are 57 subscribers, I don't know if you are less.
+ In short, in 57 we are many, indeed we should divide ourselves into two groups.
+ Now let's see how many people will want to come to the simulator session, even if we are only in 40 it is not very flexible,
+ so maybe we can get some more hours, let's make two different teams.
+ However, I repeat, the experience tells me that it has great value, even just looking at what happens during a simulated flight.
+ In addition to this, there will be seminars held by experts who come from the industry to talk to us about some of the topics we see in the classroom,
+ rather than being a complement to what we see in the classroom and therefore talk to us about something more.
+ If we can, let's make some visits, it seems that you are also interested in this, I will make some invitations, some visits to some companies in the aeronautical field.
+ Instead, unfortunately, once I guaranteed the access to the simulator to the students outside the time, compared to the time of the lessons,
+ in the sense that there was a mechanism of, let's say, pre-notation, now, however, unfortunately, waiting for the tower that they are finishing to build,
+ to prepare, to be ready to be, let's say, occupied, the simulator is parked in a part of the workshop for which the advanced level safety course is required,
+ for which you cannot access if you are not accompanied by me, and therefore I am sorry, but this year, also last year, unfortunately, it was like this,
+ we hoped to be able to enter the tower this year, instead we are still late, so we will not be able to access the simulator autonomously.
+ But I imagine someone has a house, some windows, nobody? Well, let's see it together.
+ Two words, also because I have received several communications from potential subscribers in this sense.
+ Two words on the language. The official language of the course is Italian.
+ English is given for free, so I will use English terms, not for Boria, but because they are the terms that are used in the field,
+ maybe some sentences in English, let's see some documents in English.
+ The exam, the quiz, after speaking about the exam, is in English and the oral, if you want, can be sustained in English.
+ But the language of the course is Italian and a large fraction of the teaching material in Italian.
+ So this has two implications. First, if you can, do not penalize in the customer satisfaction, in the feedback of the students
+ the teaching material, because it is not in English, because it is the official language of the course in Italian.
+ On the contrary, if we want, we should protest by saying why the material starts in English, since it is the Italian language.
+ So this is the situation from school, there is still the order to hold the course in Italian, so I will hold the course in Italian.
+ So, for the past experience, those who do not have a good friendship with Italian can have some problems with the course.
+ After that, there are many examples, students who are not native speakers of Italian who have passed the course, but it can be a difficulty.
+
+So, go ahead and meditate.
+ As a lesson schedule...
+ Thank goodness the polytechnic is closing at a certain time.
+ We have these slots.
+ When we have two hours, we have an hour and a half without an interval.
+ In the evening we do an interval, and we try to close it.
+ Maybe in the second part, after the interval, I won't explain, but we'll see something lighter.
+ I asked my colleague to take care of the lesson schedule, which is a totally different problem.
+ If there were software that did everything, no, to make it a bit more complex.
+ I asked him what would be a time slot where I could put additional hours to do the second part of the simulator.
+ He told me that, apart from WindEnergy, there would be this slot.
+ Let's see.
+ Nobody should have courses of the...
+ Is it still called pre-approved plan?
+ Apart from the ones who forge their own fantasy study plan,
+ who chooses between what is proposed?
+ I don't remember how this thing is labeled in recent times.
+ Once it was a pre-approved study plan.
+ Who chooses should not have collisions, if not who does WindEnergy.
+ But the idea is a bit like this.
+ If we do a second session at the simulator,
+ who has the possibility to come to both sessions declares this fact,
+ and we place the session within the time slot as a calendar,
+ who cannot participate in this time slot.
+ Clearly, maybe we alternate.
+ In short, who made the "sacrifice" of coming on that Tuesday,
+ the next round comes during the lesson time.
+ Let me know, if someone does WindEnergy.
+ I guess not a few.
+ They surely have the collision.
+ Then we'll see.
+ So, I would say, let's start at 8.30.
+ And let's end at 12.00 in the morning.
+ In the afternoon we can start at 16.15.
+ You have to cross the station.
+ We're here.
+ You don't have anything in the time slot before?
+ No one has anything?
+ Why did they give us those hours?
+ Are we sure?
+ Maybe they don't have the classrooms.
+ Let me know then.
+ Let's wait until the closing of the study plan, which will be 9.00.
+ Let's wait until 9.00.
+ Then we'll see if really no one has a lesson before
+ and if they find us a classroom.
+ Let's wait and see.
+ Anyway, don't invest emotionally.
+ For now, let's stick with this.
+ Check, we beep.
+ Check if you can access.
+ Check if you get push mails.
+ Why?
+ It can happen.
+ As I told you, there are variations.
+ I don't want you to come here for the midnight lesson.
+ And then you won't find anyone because I was in Seoul that day.
+ For the outside visits, it would take a whole afternoon.
+ So, check me out on Monday.
+ Now, let's see.
+ Anyway, I think it's more appropriate to talk about this
+ when the study plans are frozen.
+ So, let's see exactly who attends which other courses.
+ Okay, now I'll switch to English because this is pretty important
+ for my fellow visiting students.
+ This comes from previous year's experience.
+ So, we expect your background to be aligned
+ with polyamory students or non-visiting students.
+ Some of you have never taken an oral exam in their career,
+ and this could be challenging if you're not used to.
+ So, consider that before deciding to take this course.
+ This is very tricky.
+ I know it may be expensive to come to Milano and so on.
+ So, if you fail an exam and you say,
+ "Oh, I already have the ticket to go home.
+ I shall pay another ticket to come to Milano," and so on and so forth,
+ I'm sorry, but the rules are you just come and show up
+ and take the exam in person.
+ And if you have any deadlines from your home university
+ for enrolling, for doing anything,
+ do not expect any special treatment with respect to regular students
+ because you won't have any special treatment.
+ There may be the possibility to take a remote exam,
+ but this is the decision of the Dean of the School of Industrial Engineering,
+ Industrial Information Engineering.
+ So, it's not my decision.
+ You shall write me an email to the Dean asking for the possibility
+ to take the exam remotely.
+ Any other questions?
+ As for the teaching material, as I said,
+ there are the slides that I publish time after time.
+ After which the lessons are all recorded,
+ even if there is no streaming for the choice of the school.
+ But the lessons are recorded and, with a reasonable time,
+ they are made available.
+ This was the result of an explicit request from the students.
+ As a natural consequence,
+ everything I say in the lesson is an integral part of the exam program,
+ because at this point you have it available to everyone.
+ So, it's not just about the fees,
+ but also what is said in the lesson
+ that can complement what is found on the fees.
+ And, in fact, in many cases, it serves as a complement
+ compared to what is found on the fees.
+ These texts are monothematic on some topics.
+ If someone then has the curiosity or desire to go deeper,
+ I can give you the references.
+ They are all available in our library.
+ Ok.
+ So, on this, are there any questions or doubts?
+ Comments?
+ Now, let's see the exam mode.
+ No, this has nothing to do with it.
+ Ok.
+ So, exam mode.
+ Ok.
+ The exam consists of an online quiz
+ delivered through the online exam platform.
+ What is it called? Moodle in the Polimi version.
+ So, a quiz with all the questions closed,
+ no questions asked.
+ There is also an oral test.
+ The language of the test is English.
+ The language of the oral test is English or Italian,
+ depending on what each student prefers.
+ To carry out the online test, you have to bring your PC.
+ So, we don't go to the computer room.
+ You have to be sure that you can access the Polimi credentials,
+ the Politecnico platform, etc., etc.,
+ that you can access the Edurom or the Polimi Protected network,
+ or use your cell phone, I don't know.
+ So, you have to speed up all the technical questions
+ regarding the fact that your PC can access the exam platform.
+ It is not necessary, I cannot force anyone
+ to buy a PC to take the exam,
+ even if it is reasonable to expect
+ that everyone has one at their disposal.
+ If someone doesn't have a PC,
+ let me know at least 72 hours before the exam,
+ I'll prepare it for them.
+
+and then we'll go to the exam.
+ After that, with Moodle, I don't know,
+ someone has already done exams with Moodle,
+ with Politecnico.
+ The platform is the one of Politecnico.
+ Remote exams, I think it's called.
+ Yes, ok.
+ So, there is a certain day
+ and hour in which the exam opens
+ and you can "start attempt".
+ Then we'll do a simulation, not after today,
+ one of the next days.
+ The exam starts.
+ After that, the Result Quiz,
+ the score you take in the exam,
+ is the threshold to access the oral exam.
+ The score is in cents.
+ So, if you have 65% or more of the right answers,
+ you are admitted to the oral exam.
+ Between 60% and 65%,
+ I look, case by case,
+ and I evaluate whether to admit to the oral exam or not.
+ Below 60%, you have to go back to the next round.
+ So, is that clear?
+ But why, even here,
+ not that one is only paying attention
+ to the students' feedback,
+ they are low in the evaluation of the exam modes,
+ it was clear.
+ So, I ask you to ask all the questions you want now.
+ So, it's clear.
+ So, do a test,
+ I immediately correct it when you submit it,
+ I don't remember what it's called, the voice.
+ You see your percentage result,
+ and here are the thresholds.
+ Above 60%, from 65% included,
+ above, pass, between 60 and 64.999,
+ I look at it,
+ below 59.999, including,
+ you have to go back to the exam.
+ Clear?
+ There is a bonus provided,
+ which rewards those who finish in a hurry,
+ provided that they have at least 90% of the right answers.
+ It doesn't go by chance to finish in a hurry.
+ Okay?
+ After that, there is a coefficient
+ with which, if I see you copy or mess up,
+ I can confirm or change the result of your exam.
+ So, let's see how grading works,
+ the evaluation of the online test.
+ Moodle automatically evaluates your answers.
+ So, for each,
+ the questions have different difficulties.
+ So, they have a different normalized score,
+ which goes from 1 to 3, I think.
+ Not necessarily from 0 to 5.
+ So, then, the question can be worth 1, 1.5, 2, 2.5 or 3.
+ Which is the G max of each question.
+ After that, for the multiple choice questions,
+ single answer, if you get the right one,
+ you get all the points of the G max,
+ if you don't get it, 0.
+ For the questions that have more right answers,
+ the total score of the question is divided
+ by the right number of questions.
+ Sorry, by the right answers.
+ So, each of the right answers contributes
+ for its own fraction.
+ Let's say, the right answers all weigh the same.
+ Now, let's make a more clear numerical example.
+ They weigh for their own fraction positively,
+ but the wrong ones weigh negatively for their own fraction.
+ So, let's make a simple example.
+ A question worth two points with four answers,
+ two right and two wrong.
+ The two points are divided by the two right answers,
+ so each of the right answers gives me one point.
+ Each of the wrong answers has less than one point.
+ In such a way that if you score all of them, you get 0.
+ But, for my extreme magnetism,
+ you never go below 0, so if you select the wrong questions
+ instead of scoring minus two, you get 0.
+ I keep saying questions instead of answers.
+ Let's start again.
+ If you select all of the wrong answers,
+ instead of having less G max of those questions, you get 0.
+ Clear?
+ Are there any questions?
+ From you on the live mode.
+ Then, depending on how many questions there are in the particular test,
+ everything is summed up, normalized to 100.
+ This generates the percentage of questions.
+ And I repeat, then it is immediately visible
+ after the conclusion of the test as a result of your attempt.
+ Is this clear?
+ Ok, after that, for the oral, we start immediately after the test.
+ The order you are called with is the order of registration to the appeal.
+ And the possible exchanges between you.
+ I mean, who comes to tell me that there is an airplane, a gyroscope,
+ or other reasons to pass first,
+ you have to find another one to do the exchange.
+ At least notify me that the student A exchanges with the student B and that's it.
+ It is possible to do it, but I repeat, I leave this task to you.
+ After that, let's do the orals.
+ It's like a small calendar, depending on how the entries have gone,
+ so how many people we have.
+ It could be that we go to a second game.
+ I usually try to finish on the same day of writing.
+ And the day of writing, which for reasons of compatibility with my work,
+ is a usual Saturday.
+ But you have to consider that you do the exam on Saturday instead of Monday after,
+ so if you pass, you have all the weekend to celebrate.
+ I'm sorry, but having to do sometimes 25 orals in every district,
+ we write on the morning of Saturday and then we do the orals.
+ Ok, these are the factors that influence the evaluation of the oral,
+ which is obviously subjective on my part.
+ They are all important, but today I emphasize the first one.
+ If I ask you a question, you answer the question I ask.
+ Don't start talking about the general topic that is related to the question I ask you.
+ If I ask you what is the physical principle on which an inertial navigator is based,
+ don't start talking about inertial navigators like who builds them and what they have to do with them.
+ No, I asked you what is the physical principle.
+ Let's keep it short, even because normally we have different people,
+ and let's praise the ability of synthesis.
+ Speculate, it is not said that I ask you a question with the answer that is enough to have studied the slides.
+ Prove that you have understood.
+ Lexicon.
+ We are a master's degree in aeronautical engineering.
+ If I ask you what is the physical greatness used as a reference to the local vertical,
+ don't tell me the strength of gravity.
+ Acceleration of gravity is probably the same thing as the average school.
+ It is not enough to say a sentence that is more or less related to what we are talking about.
+ Let's try to use appropriate terminology.
+ It is not only my desire to advise you with these things, but to play, a place of work, promotions, access, maybe doctorate, etc.
+ Let's get used to it.
+ And then, to navigate high, even the style of exhibition can have some relevance.
+ This is the formula of the oral, so the written weight is 65% of the final vote.
+ The oral is 35%.
+ More possibly the bonus for the time that is worth 1 point.
+ Ok, so everything has already been translated into English.
+ Clearly, with the coefficient that you observe during the quiz, I can cancel everything.
+ I have had a few, but I have had some cases that have definitely deteriorated.
+
+I would like to remind you that formally it's a crime to block an exam,
+ and certainly the Procurement of the Republic in the Tribunal of Milan has someone else to block an exam from,
+ but formally it's a crime that has potential consequences.
+ Let's try to collaborate all of us and avoid finding ourselves in situations that are inevitably unpleasant for all of us.
+ So, as I said, it can happen that the possibility of doing the exam remotely is allowed.
+ There are some criteria, as I said, the decision is not exclusive.
+ In this case, I'm also evaluating the Lockdown Browser, but I see that it messes everything up.
+ It works anyway on the Zoom platform, camera, microphone.
+ So I record the desktop during the performance of the quiz and then the time is made like a normal video call.
+ Whoever gets the chance to do the exam remotely is still at the bottom of the list.
+ First I do all the exams in presence and then eventually those remotely.
+ However, it happened only a few times in the last few years that this possibility was agreed upon.
+ And it was conditions for students who lived in particular countries,
+ where there were conditions for which returning to Italy was not safe.
+ So if there is a grandmother with her nails embossed, now I'm very sorry for the grandmother, I was very affectionate with her, but I'm sorry.
+ Any questions?
+ Normally the writing lasts an hour, from 8 to 9 or 10. It happened to me once in the last six years to do it in two days.
+ But it was an extraordinary number of letters, usually for the average of the letters we can finish in the same day.
+ But also here, if we do the exam on a Saturday, do not take the flight at 2 in the afternoon of that Saturday, if you have to go somewhere else.
+ Consider that you could do the oral at 7 in the evening, which is what happened, ok?
+ Any other questions?
+ It happened only now, since the semester ended on Friday, but I did the exam on Saturday, the exam on the online service appeared on February 20, we did the exam on Friday.
+ But I did not notify you officially, otherwise now you will see the dates.
+ Here, no, no, better, because I have to change them, but as soon as I can.
+ So there are other questions about the exam?
+ So let's say two, I am amazed to have to say it, but if you have not written the exam, I cannot register the vote, is this clear?
+ Because sometimes this happens, so what happens? After passing the exam, you find the vote registered on the online service or the refund if you have not passed the exam.
+ If you want to refuse, there is the mechanism of the online services.
+ Unfortunately, our tenet provides that one can refuse the votes, other tenets not, if you have a friend in Bocconi, you know that you can withdraw from an oral exam during its development, if later it is not going well, but at the moment you are told a vote that is.
+ From us you can refuse, but we use the mechanism of the online services, it is planned to do this, do not send me emails saying no, I want to refuse, ok?
+ So you find yourself in a career, I publish it with a reasonable duration of publication, at the end of the publication I consolidate and I register.
+ Do not come out that you want to refuse after the consolidation, because here you can do it, you have to ask for a thousand permits and then everyone gets a bit pissed off, ok?
+ Clearly, if you have refused the exam, you have to redo everything, including the quiz the next round, that is, it is not that you can keep a good quiz as valid and redo the oral one, let's see.
+ Late show, if one arrives late, the exam is admitted, but the exam then closes at the same time as the others, so you have less time, but the late shows are admitted, do not trust public transport.
+ As I said before, if you are not registered, I cannot register it and then if you do not discover on the day of the exam that you cannot access the network, the polimi credentials, the speed, the electronic identity card, in short, manage it in the days before the exam.
+ So, come with a reasonable certainty that your
+ allowances will not betray you.
+ And let's come to the PATH, to the Fastlane, this is something that I invented a couple of years ago.
+ I talked to one of you, a student representative at the study council, I talked to the then president of the study council, Professor Dozio, and he liked the thing, now maybe they are doing something else.
+ What are the progress assessment tests?
+ They are, what I call Fastlane, they are four intermediate tests, they are tasks that are administered to me during the course and allow those who then at the end of the tasks have a sufficient average and every task has sufficient attention.
+ I have written explicitly, if I have to correct myself, to register with that vote without even taking the exam.
+ The statistics taken over the two years I have done it tell me that almost half of the students pass the exam.
+ Who has 18, 19 or 29, 30 does a small oral, as an average, while the others can register directly.
+ Before hearing your possible questions, I would like to make a couple of comments.
+ First, these PATHs are an initiative of mine that wants to offer one more possibility, but they are not a guaranteed right that you have.
+ So if someone, just the day we set the test, cannot come, then because of that unfortunate date, then he will have to do the normal exam, I'm sorry, but do the normal exam.
+ In fact, they are not a right that is guaranteed, they are an extra possibility that I give you because in my opinion it also has the advantage of stimulating you, I know you would do it anyway,
+ but of stimulating you to follow with the study, time after time, the progress of the lessons, you have the possibility to register a vote at the end of the course
+ and then free you a little, a little like what happens, I have the opportunity to also cross foreign students for a number of reasons.
+ I have always wondered why the students of TU Delft, in the summer, do extra curricular the course of high performance computing
+ and those of TU München, instead, they do another, in the autumn, they do an ass like this to study in a normal way.
+ So let's take the students down a little from what is the curricular commitment, now such that they may advance resources, either to give other exams or to do something more to enrich your CV.
+ At the end of the course I will also tell you some personal opinions that I have about what you see in your company, of who you change for a job.
+ Certainly having a career, although brilliant, but exclusively made of the homework at home, the course of study, does not guarantee to be noted compared to those who, perhaps,
+ have a less high final vote, but present more experiences, of which some are extra curricular.
+ So my idea is to put you in the opportunity to dedicate yourself to something else, starting from June onwards, with our progress assessment tests.
+ I repeat, it can happen that someone cannot, I am very sorry, they are fixed time and time again, I would like to be in the conditions to be able to tell you now when they will be, it is not like that.
+
+depends on how much I can be there with continuity or how much I have to skip some lessons.
+ So I repeat, we can't do it now, there will be four, so imagine dividing the course into four parts that are more or less the same
+ and hypothesize where they can be, for example, Program, Assessment, Test.
+ You can pass all of them, so you have to pass all of them and then have an average of sufficient.
+ They will be done in an election, I don't say anything because otherwise you will take it for granted,
+ let's say very briefly, not on Monday afternoon, but to be confirmed.
+ Other questions on partial tests? Ah, partial tests are an extract of the quiz, that is, they don't have any special questions.
+ My database of questions is about 790, it seems to me, the last number of questions.
+ When it goes into a muddle crisis, every time I do a migration from one year to the next, everything grows, because they didn't last long enough or the possibility of loading files was long enough.
+ Anyway, in the "quits", in the "normal" tests, there are extracts of questions from the same database from which I extract them for the Program, Assessment, Test.
+ And so, even if you don't have to pass one or if you happen to have an assessment that lowers the average of the facts, my advice is to come anyway,
+ because it's a bit like trying to do, even if it's a real test, because you train with real questions.
+ And for this, I allow you to come to the tests, even if one of them failed, so he will never come out with the fast lane of the course, but he comes to train the tests.
+ The only thing, as I may write later, if I remember correctly, is that he doesn't connect to the remote, he comes who is in the classroom.
+ You can't say "I'm doing the PATH from home, so much so that they're out now", no, sorry, come to the classroom.
+ Any other questions on the test?
+ Yes, for the "quits" of this, it works differently just for this case, because I'm not registered in the flight career,
+ it is first communicated with our methodology, which is not the official Polimi, the result of your vote and you will have to, there will be silence and absence,
+ that is, they send you a medicine and you take it, 27, if you don't receive an answer, I register at the first appeal,
+ because there is no appeal for this in the online services systems, if you don't receive an answer, I register it,
+ if you receive an answer, I refuse the vote, then you refuse and then you can present yourself to the normal appeal and do the normal exam.
+ I repeat, precisely because there is no opposite appeal in the online service, he said that it is too much of a mess to do.
+ At least this was the case with me until last year, did you find that they changed something?
+ No, I don't think so.
+ Ok, any other questions or doubts?
+ Yes, no, he also has to redo a script.
+ It depends on how many questions, they last a little, 20 minutes, it depends, because each question in my database has associated a value and a time required for it,
+ so when I compose the exam, I also automatically get the necessary time, but the order is that one.
+ Indicatively, then, there is no exact formula, but if the total exam of the order of the hour is 10, each of these is a quarter of an hour or an hour and ten.
+ Any other questions or doubts about the whole exam?
+ So, some of the most frequent questions that come to me, if the time does not pass, you have to redo the quiz for the next appeal, if the time does not pass.
+ Then, if you cannot participate in one of the pacts or you are rejected, the appeal comes later.
+ It may happen that you evaluate that one of the questions of the quiz, this is both in the pacts and in the regular exam,
+ that you evaluate that one of the questions has an error or that it has been formulated badly,
+ in that case there is a mechanism to put a flag to the question, indeed to the question, I don't know who of you has already done the exams on Moodle, on the online exam, knows it.
+ You put a flag, among other things, the flags can also be used during the performance of the quiz,
+ because even here, for my enormous magnanimity, I allow you to go back and forth, because you know that in some cases it is blocked to go only forward with the questions.
+ So I allow you to go back and forth the flag during the performance of the quiz to say put a flag and I'll answer this later, I'll go to the next ones.
+ Instead, once the exam is closed, the flag points out to me that you have something to say about that question.
+ It can happen, it can happen, because in order to generate 700 questions you can also imagine that there may be, because some are positive, some negative, something may have emerged from the past.
+ But evaluate well, it is not that one who feels insecure or hopes to get a higher vote,
+ pleads ten questions hoping that someone will be able to contract and the score will be changed, because if you answer the questions that are barely right, this will turn against you.
+ Then, even here, I ask in a very frequent way, what do you keep during the quiz, you only need the computer, a document of identity, a photo,
+ because even here, this had happened to me in architecture when I was doing physics and technology for architects.
+ The substitution of people in an exam is a crime, there is the penalty, so at least I have to control your identities, with the twins we are not able to equip ourselves.
+ If you want, because I understand that it makes you sure, and that's fine, put a white sheet and a pencil, it won't be of any use, but keep the white sheet and the pencil, I have nothing to say about this.
+ If there are any technical problems, I'm sorry. Today it is so serious that you told me 72 hours earlier and I am preparing the quiz paper,
+ after which it is not explicitly said, but the quiz paper I may correct the day after, so I certainly can't do it on the same day,
+ because it is very laborious, precisely for this density, for this large number of questions, it is very laborious to correct the quiz paper.
+ Unfortunately, the system does not generate me automatically, together with the quiz and the correction mask, so I have to go and see them one by one, it is a long and laborious process.
+ There are so many questions because the quiz is generated randomly between a pool of micro-questions, that is, the question on the ARIA data, on the randomometer, on the airspeed indicator,
+ there are five of them and when I build the quiz I say "get one". So each of you will have a different quiz from the neighbor, with the questions in different order, with the answers to the questions in different order,
+ so it is reasonably useless to try to copy, even if we get bigger classrooms. Speaking of classrooms, someone is looking at the official capacity of this, 45, there are 57 students.
+ Ah, ok, I feel the service. Ok, so, to answer the question, if you can't answer it on the same day, I'm sorry, it doesn't exist, I use my friend's PC, I'll do it later, I'm sorry.
+ And then during the PADs, as I told you, and not so much during the exams, during the PADs I can't connect to the remote, but as soon as I get this, there will be a PAD that I write on the screen, to be able to copy the answer.
+ There are questions, doubts, observations about the organization of the course, anything that can be relevant, maybe not for you, but for your colleagues who are undecided to sign up for this course or not.
+
+all right then we still have half an hour let's start to see
+ indeed I load the slides maybe these two after I load the slides
+ of the first module that we see now
+ then we should have tactical materials lecture slide you see it on let's see if I can
+ go and confirm that it has appeared at 01 intro ok
+ so every flight
+ represents a mission mission the term is generally used to describe what
+ a plane must do between when it takes off and when it leaves this mission includes
+ a plan that is prepared before it is very rare the case in which we decide to take off we see
+ where we go we improvise in many cases it ends on Monday morning with due respect
+ someone ppl the head of the ulm pilot ppl ulm glider ok then a mission is planned
+ that takes place in four dimensions the time is extremely important for all the
+ speeches for example of the traffic control that I did before it is crucial to be able to plan for
+ example when a certain sector will take care of it and in euro control there is a supercomputer
+ that takes the flight plans of all flights that fly through Europe and estimates
+ the occupation shortly by means of sectors communicating it to the various actors who manage
+ the air traffic control service precisely because they too call more people or divide
+ a sector into two parts in short once we managed pre covid to go to the acc to the area control
+ center of milano which is that room where the positions of the air traffic control are located
+ that manages the area of ​​milano the area of ​​milano that goes from the border with france west
+ to the border with veneto where then padova starts and from lugano included in the north until
+ under I do not remember if pirentia is included in milano in europe it is a big part of italy
+ and there we had the opportunity to see how air traffic was managed and precisely this fact
+ for which sectors were enlarged and reduced by calling extra controllers or leaving them
+ go according to the density of the planned traffic of the number of airplanes per volume unit
+ controlled by the single controller which has a maximum cap for which the maximum regulation is therefore
+ very important the fourth dimension and obviously interacting with the atmosphere
+ we on the one hand we manage to generate the range that allows us to balance the weight and therefore
+ to stay in the area but on the other hand we are also impacted by those that are the
+ motions of the atmosphere so we will see a bit what effect these have on air navigation
+ one of the ways to describe those that are the tasks of the pilots are those of
+ identifying let's say these three actions that are the aviate navigate and communicate the first two
+ are actions in closed ring that however have different dynamics of different times the aviate
+ is that part of tasks that the pilot performs to control the machine to ensure that the
+ machine in terms of controllable parameters therefore assets, attitude heading, speed,
+ configuration of the surface of the ship, the hull, etc. etc. is compatible with the phase of the
+ flight so this is a more internal loop at let's say a rate or higher at a rate or less
+ high there is the external navigation loop that is to understand where they are to compare where they are with the
+ position I would like to be or where I planned to be and eventually if it is the case to bring the
+ corrective measures that bring you the first on the second so that I am where I want to be and
+ this is therefore the task that I have to do after which there is a communicator because as we will see it is
+ required a continuous frequent interaction between the crew and the air traffic control
+ because for how the air transport is organized the separation between the traffic, the fact that the
+ airplanes do not collide in the air, is entrusted to an external entity that is the air so it has been
+ organized in this way this is one of the cases I mentioned before probably starting now
+ to organize the air transport we could do that everything is autonomous everything is managed on board the
+ airplanes themselves there are even studies by the United States on the question of
+ collisions we will talk when we talk about the ticas of collisions and what we have on board to
+ prevent them from happening but there are studies that examine animals and in particular
+ storks because unlike other animals that are found to fly let's say with a large density of
+ animals for volume units such as ducks or hawks or birds that migrate rather than
+ even the chicks or crows that fly in our city in which they fly almost in formation the
+ storks fly each independently from the others they are not coordinated yet they never collide
+ with each other and I think you can imagine that inside a cave there are all the
+ storks that fly it does not happen that they collide continuously and therefore the FIE is studying
+ how it is done so it is possible having sufficient intelligence on board maybe to coordinate the
+ separation of the traffic on board so if I left today I could do it instead we started
+ with air traffic at the beginning of the last century and the most reasonable solution seemed to be
+ to have an entity that with the appropriate instruments of which we will talk, delivers and serves the
+ air traffic control with which the pilot must continuously communicate the crew cockpit on board
+ these are the three tasks there is also the task then to communicate with the passengers
+ they are forced by the companies and the pilots to tell us where we are and how much we are
+ the small statistic that I did on all the pilots I know tells me that they hate to do this
+ they have to tell us this ok let's see how a typical mission is done it is not for a macabre taste
+
+that I included this graphic taken from a publication that is available for free and accessible to everyone
+ by Boeing, made very well on the aircraft crashers.
+ The typical mission of commercial transport, which is the reference car of which we will talk,
+ was nothing more than the type of mission, the type of car that is largely more widespread in the aeronautical field.
+ Typical flight has the phases that you see, that you have imagined, that you have already seen on other occasions.
+ Taxi, take-off, climb. Climb is usually divided into two parts.
+ The climb part is called low-speed with the configuration still with flaps, with the ups and downs,
+ and then the climb part that takes us to the cruise.
+ Descent, approach, finishes the final and then landing, then there will be a taxi out.
+ Taxi out, which is not trivial, recently I timed it in Amsterdam from when we released the runway,
+ when we arrived at the parking lot, 21 minutes, which is the order of the half of the flight time I had to do.
+ Anyway, there have also been problems.
+ And here you see, first of all, the percentage of flight in terms of time, that is low,
+ you see, for example, the cruise, usually, this is a medium hold I think,
+ because then it depends on which one is already, but the cruise, which occupies 57% of the time,
+ in reality has 0% of the onboard and 10% of the take-offs.
+ While there are phases that, with small fractions of the flight time, combine large percentages of accidents.
+ And so, this is a very important feedback, also for those who develop the instrumentation,
+ because then we have to go and reduce those values.
+ Just to give you a note of relief, because this maybe
+ activates a little tropic gestures, a little elegant, but ...
+ I'll show you all that document
+ because this is a graph, for example, that worries us.
+ You see that the rates of accidents, you see, these are the departures, so it's the traffic.
+ The traffic is constantly increasing.
+ And it is constantly growing, but it may have an impact on the contribution that Asia will give us.
+ I was recently at the Comac Innovation Days.
+ Comac is the Chinese Airbus.
+ So it is the branch of Avic, Aircraft Industry of China.
+ The Avic branch that deals with commercial transport.
+ At Comac Innovation Days, they are currently in production, a single islet type A320, and they are developing a widebody type 78, to understand us.
+ And there was an employee of the Chinese Airbus, I don't remember the name,
+ who said, "There are a billion of our Chinese inhabitants who have not yet appeared."
+ We want that in the next 20 years, these will take over.
+ There are a billion people, all over Europe, all over North America, and probably another piece is needed.
+ This is just to give you the idea of the Chinese internal market.
+ Let's say India is the same.
+ And so the total number of departures is expected to increase a lot, especially for that contribution.
+ And these are the rates, because the number of accidents is given proportionally to the number of departures.
+ Normally, they are the number of accidents per million departures, and we are at zero.
+ Well, it depends on how we calculate them on these parts.
+ You see that they are continuously falling.
+ Even though the traffic is increasing, the rate of accidents is continuously falling.
+ I don't have a graph like that for electric scooters, but it would probably be at the same level as the tower of television in Berlin,
+ because as you know, they are means, they are rates of accidents more than anything else.
+ But what is the problem?
+ So we are all happy that there is this trend, we all work to reduce the number of accidents.
+ The problem is that this is a ratio, but if we then multiply it by the number of departures,
+ it happens that the calendar frequency of accidents decreases.
+ Why? Because once there was little traffic, now we have about 65,000-70,000 commercial flights in 24 hours.
+ To make a million departures, we need to focus. I have 0.4 accidents per million departures, I have 0.8, statistically.
+ So the public perception is like this.
+ I just wanted to show you another data, the accident rate.
+ The vertical drop, I don't know what this vertical drop was due to around the 1960s, 60-62.
+ What has been introduced that has changed from day to night?
+ It's a technological novelty.
+ Try to think about it, speculate.
+ Not of the domain of this course.
+ What has led to a drastic reduction in the accident rate?
+ No, it's a technical thing, a technical innovation.
+ Torment, if we don't go ahead, if we don't guess.
+ Not in GPS, in the 1960s. GPS, full operation capability, seemed up to the 80s.
+ There's a phrase from the promises of the spouses, which we always remember, which says "make room for the mechanic".
+ So it's a matter of, let's say, mechanics, more or less.
+ Mechanics, physics, technology, engines, jet engines.
+ Jet engines have changed in terms of size, the rate of accidents.
+ I can tell you that for work reasons, my grandfather, at the time, crossed the ocean with the Super Constellation.
+ I don't know if you've seen it, but it's beautiful.
+ And he was doing Amsterdam, Scotland, Scotland, Iceland, Iceland, Canada, Alifax, that area, and then Canada.
+ And he told me he never arrived with all the engines that worked, but in none of the sections.
+ And sometimes even two that didn't work.
+ Okay, now we have jet, ops, and everything, with the two engines.
+ The two engines also on the ocean areas, but this is the introduction.
+ And the other thing I want to show you is the runtime.
+ If you're interested, download this document.
+ We'll see this also in other stages of the course.
+ These, instead, are how the causes of the accident are categorized.
+ And, as you can see, LOCK stands for loss of control in flight.
+ We'll see this, but we have something else.
+ Flight phase, here we have it.
+ Region of statistics, Asian Pacific, Eastern South Africa.
+ Here we have the accident rate.
+ Here we have 1.16 per million departures.
+ I repeat, if you're interested, this is a document that can help you mediate on several issues related to flight safety.
+ Back to our slides.
+ It will be up to those who invest in the development of the equipment to go and attack the flight phase,
+ where you can see the majority of accidents.
+ And this, obviously, given the percentage, will then lead to the increase in other inevitable cases.
+ But let's go and see.
+
+The basic paradigm of the instrumentation is that to conduct the flight safely, the pilot, but also the automatic pilot, needs data and therefore these data must be collected by an appropriate system, processed and then presented to the user, who in many cases, as I said, is a pilot, but in other cases.
+ It is the automatic pilot.
+ We mean in this course as an instrumentation, as you can see, every single device or system that provides to those who control the air vehicle, which can be, I repeat, an automatic system, indeed it will be more and more an automatic system, the parameters that can have an impact on the success of the mission.
+ As I said, we focus on the MEND because they are the majority of the air vehicles that are around, but also with a look at the MEND, which are increasingly taking place.
+ And as I said, also this reference will be a jetliner, a machine for commercial transport, passengers or goods.
+ We undervalue the goods, the goods make a very noticeable traffic, it is a complementary traffic compared to passenger traffic, because you know the goods travel mainly at night, at least the goods of those services such as HL, UPS, FDX, travel mainly at night but have very important traffic.
+ A brief reference to the situation awareness, if any of you has taken a course on flight safety, someone has taken the course of Professor Dona.
+ He knows much better than me these things, but just a small pass, a little hint, because he has never seen it.
+ The situation awareness, and this is the fundamental definition, is the perception of the elements in the environment within a certain volume of time and space, the understanding of their meaning and the projection in the future of this.
+ We are talking about situation awareness because the instrumentation has an impact on the situation awareness, because the goal of the instrumentation is to require the minimum number of cognitive resources to the pilot, because the pilot has a limited cognitive capacity.
+ And therefore everything we remove of cognitive capacity for human-machine interaction is an ability that cannot be used by the pilot to develop the situation awareness, which is unfortunately the cause of many accidents.
+ We will see it because it has a big impact on the data areas, but the incident of Air France 447, that is that ship that sailed off the coast of Brazil with 300 people dead, there was a big problem of situation awareness because they did not realize that they were sailing.
+ They ended up in the water with an incidence of about 40 degrees, going down to 12,000 feet per minute at a speed like a rock that falls and they did not realize that they were in that condition.
+ So the situation awareness is extremely important. Projection of the status in the near future, therefore I not only have to understand what is happening, but I have to anticipate what will be the situation later.
+ I was lucky enough to do what was then called a second-degree patent, what is now called Private Pilot License, PPL, and I remember that my instructor kept telling me, "Alberto, you don't have to think about what to do now, you have to think about what the next thing you do will be."
+ You have to develop the ability to predict what will happen shortly, which does not mean that you have to be disinterested in what you do now, but you have to start this mechanism so that what you do now goes automatically because what you have predicted before and you already think about the next action.
+ Perception, comprehension, forward projection, a decision eventually, an action of the pilot who has on the plant, which is the wing, and then has a feedback in giving a new perception because the situation changes, a new comprehension and a new projection.
+ On this mechanism, for example, the TICAS is also based, which is the tool that is used to signal to the pilot the other traffic or when this other traffic becomes a threat, a possibility of collision, and therefore there is this mechanism.
+ Let's focus on this part. The instrumentation, as I said, must be clear, unequivocal and simple to use.
+ This was not the case in recent times of electromechanical instrumentation, we will see. If you look at the 60s, full of instrumentation, but they are full of instrumentation, to the point that it took a third person on board, in addition to the commander, the first officer, who was the flight engineer who took care of the systems.
+ We will see that later. Now, on the clear, the glass cockpit contributes a lot, even in many electronic instrumentation systems there is a de-clutter button, de-clutching, which, once pressed, removes from the feet everything that the pilot does not need at that moment, in that flight phase, and therefore leaves a minimum representation, which allows to dedicate energy.
+ Let's move on. Today is afternoon, come on. Are there any other questions, doubts, curiosities? How many have already registered and are thinking of remaining registered?
+ Ok, no, because if it had been half, there would be more than 57, but I see that the majority is already registered. Thank you very much, see you. So, it's a quarter past one, can we make it? In the meantime, I will inform myself on the history of the free hours you have.
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection

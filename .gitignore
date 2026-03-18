@@ -7,8 +7,9 @@ models/
 *.wav
 *.mp3
 *.m4a
-!formatted.txt
 *.txt
+!formatted.txt
+
 .DS_Store
 models/
 build/
