@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).parent.resolve()
 WHISPER_PATH = os.path.expanduser("~/dev/ai/whisper-cpp/build/bin/whisper-cli")
 WHISPER_MODELS_DIR = os.path.expanduser("~/dev/ai/whisper-cpp/models")
 CPU_COUNT = max(1, os.cpu_count() or 1)
-CHUNK_DURATION_SECONDS = 20 * 60
+CHUNK_DURATION_SECONDS = 10 * 60
 MAX_PARALLEL_WORKERS = max(1, min(8, CPU_COUNT))
 DEFAULT_PARALLEL_WORKERS = max(1, min(4, MAX_PARALLEL_WORKERS))
 
@@ -83,8 +83,8 @@ def run_cmd(cmd, log=None):
     if process.returncode != 0:
         raise RuntimeError(f"Command failed:\n{cmd}")
 
-def download_audio(url, output_wav, log=None):
-    cmd = f'ffmpeg -y -i "{url}" -vn -ac 1 -ar 16000 -c:a pcm_s16le "{output_wav}"'
+def download_audio(url, output_audio, log=None):
+    cmd = f'ffmpeg -y -i "{url}" -vn -map 0:a:0 -c:a pcm_s16le "{output_audio}"'
     run_cmd(cmd, log=log)
 
 
@@ -110,7 +110,7 @@ def split_audio_into_chunks(audio_path, chunks_dir, log=None, chunk_duration=CHU
 
     cmd = (
         f'ffmpeg -y -i "{audio_path}" -f segment -segment_time {chunk_duration} '
-        f'-reset_timestamps 1 -ac 1 -ar 16000 -c:a pcm_s16le "{chunk_pattern}"'
+        f'-reset_timestamps 1 -map 0:a:0 -c:a copy "{chunk_pattern}"'
     )
     run_cmd(cmd, log=log)
 
@@ -659,7 +659,7 @@ class App:
             self.update_status("Téléchargement audio...", UI_COLORS["text_secondary"])
             self.append_log("Téléchargement audio...")
             download_audio(url, audio_path, log=self.append_log)
-            self.append_log(f"Audio source normalisé: {audio_path}")
+            self.append_log(f"Audio source exporté en WAV: {audio_path}")
 
             self.update_status("Découpage audio...", UI_COLORS["text_secondary"])
             chunks = split_audio_into_chunks(audio_path, chunks_dir, log=self.append_log)
