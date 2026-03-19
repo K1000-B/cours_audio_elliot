@@ -1,0 +1,583 @@
+
+# TRANSCRIPTION BRUTE
+
+and the other one is the one that is the most important.
+ So, we are now going to finish our brief presentation on the directional turn, the leading indicator,
+ talking about the effects of the apparent precession.
+ I haven't highlighted it yet, but in addition to the apparent precession,
+ gyroscopes are also affected by a real precession.
+ What is the difference in the adjective that we associate with the precession?
+ The apparent precession is one that does not occur with respect to an inertial reference system,
+ but is simply due to the fact that I observe the gyroscope from the non-inertial reference system
+ on which I am to observe it, then the surface of the Earth that rotates and on which I move.
+ In fact, there is also the apparent precession, that is, the axis of the gyroscope moves a bit,
+ also with respect to the starry sky, the inertial reference system.
+ And why is this? This is due fundamentally to the impossibility of mechanically implementing an ideal system.
+ So, in particular, as far as sophisticated techniques can be put into action,
+ for example, to make sure that the spin axis is exactly the main inertial axis of the system,
+ there will always be dis-homogeneity, no matter how small, of the real system,
+ which will make sure that there is a small disalignment between the spin axis and the main inertial axis that leads to an apparent precession.
+ I am talking about the friction in the hinges, in the various gimbals.
+ So, if I rotate the outer gimbal, inevitably for the effects of friction,
+ which for as long as I pay attention to a mechanical realization, in the end they will be there,
+ for the effect of these friction I will have an applied moment, then I will have a response to the gyroscope system
+ that will show a precession, which in that case is called real, because it is precisely also based on the inertial reference system.
+ In our application, the real precession is lower order of magnitude than the apparent precession,
+ so we do not take care of it, because we have to run behind, instead, the more macroscopic effects of what is the apparent precession.
+ And among these we have seen, for what it concerns
+
+the gyrodirectional system, which is a gyroscopic system with 2 + 1 degrees of freedom with the horizontal spin axis,
+ normally oriented towards the magnetic north.
+ For the gyrodirectional system, we have a component of the apparent process that tends to make us lose the verticality,
+ and we recover this with the gyrodirectional system that we have seen, and then we have a component that makes us lose the directionality and this recovers the pilot.
+ So, as far as the loss of verticality is concerned, the compensation of the apparent process is automatic, it does not require an intervention of the pilot.
+ For what concerns, on the other hand, the loss of directionality, the apparent process requires the pilot's intervention, which then, at pre-set intervals,
+ will take care of getting into the conditions of having a reliable reading of the compass, looking at the magnetic proof of the compass and re-aligning the indication of the gyrodirectional system according to this reading.
+ Now, let's talk about the other gyroscopic instrument that, let's say, closes up the pilot's heading and attitude settings, which is the artificial horizon.
+ The artificial horizon is a gyroscopic system with the vertical spin axis, compared to the local reference plane at the top of the earth.
+ And so, having a reference of the local vertical, it is possible to give the pilot indications on the two angles of pitch and roll, which are just right.
+ The two angles with respect to which the two gimbals are attached, the inner one and the outer one, there are several implementations, normally the one you see in the figure is adopted.
+ And so, by reporting the indication of the angle between the spin axis and the first gimbal or the second, I get the exact indication of the pitch angle and the roll angle.
+ In the system, then, you will see here in the figure, here I have the large x1 axis, which is the spin axis of the gyroscope, or the inner gimbal, compared to which I measure the pitch angle.
+ And then, the inner gimbal, compared to which I measure the roll angle, then the outer gimbal, compared to which I measure the pitch angle.
+ So you will see, the roll angle is simply reported mechanically with a weapon, a small solid arm, to the gimbal, which is on a graded scale indicates the angle.
+ As you can see, there's a...
+
+a little more complex for what concerns the pitch angle.
+ This is the explanation.
+ The Artificial Horizon has more often an Attitude Indicator,
+ because, I repeat, for us, pitch and roll are attitudes.
+ They are not all between the angles, but only these two,
+ in the aeronautical field, those that are included in the attitude.
+ The Artificial Horizon, as the name suggests,
+ shows the pilot his set, reproducing what would be the horizon line.
+ So, conventionally, the terrain painted in brown or black,
+ in some cases, especially in Russian productions,
+ at the bottom, and the sky painted in blue at the top.
+ So, there is a horizon line that moves and puts itself in the position
+ where the horizon line would be, if there were any difficulties.
+ So, while it is common for the roll angle to be a reference for the local vertical,
+ imagine talking only about the roll angle.
+ You have a nice circle, which is your artificial horizon card,
+ which is divided in half by a horizontal diameter under brown and above blue.
+ This circle is linked to the axis of your gyroscope.
+ If you have a roll angle, you see that the horizon turns from the "right" part.
+ In the sense that you see it tilt compared to the case of your instrument,
+ compared to your aeroplane reference,
+ as you would see if you were doing the same maneuver.
+ The same is not true for the pitch angle,
+ because if I link to my gyroscope the same representation with the circle,
+ therefore with the horizontal diameter, the brown one below and the blue one above,
+ try to think what would happen.
+ In the case of a pitch angle to rise, therefore positive,
+ first of all, when it has a positive pitch, what do I see outside?
+ If I look outside the window, is there visibility? What does the horizon line do?
+ Does it go down or does it rise? It goes down.
+ The more I raise the pitch angle, the more the horizon line goes down
+ compared to what was the value at which I saw it with a zero pitch angle.
+ Now imagine having your gyroscope system,
+ which then when you stick the card in front of you,
+ you start to give it a pitch angle, what happens to this gyroscope system?
+ However, if it is possible for you to see it, the brown one goes up,
+ so it turns from the wrong side. Try to imagine it.
+ You give it a pitch angle, look at it from below,
+ your card has moved the horizon line up, because it works the other way around.
+
+There's a lever that takes the motorbike from behind the handlebar
+ and it's like it's taking the motorbike from the rear of my gimbal
+ and then it goes to the rear.
+ Imagine that compared to the axis of the gimbal, which is perpendicular to the axis of spin
+ and perpendicular to my vision, it's the one that gives me the pitch indications.
+ If I put the card in front, when I have a positive pitch or the brown that goes up,
+ which is the opposite of what happens, but if I put the card in the back,
+ I would have the brown that goes down when I have a positive pitch angle.
+ So, with a lever system, it brings you these indications in front
+ and so this justifies this cinematism that you see.
+ So it goes to take the motorbike from behind the handlebar of the pitch
+ and then it takes it back.
+ Here, basically, this other lever is linked to the horizontal part
+ that is then moved by the instrument.
+ Clearly, the instrument is mechanically designed to handle both people at the same time.
+ I'll show you, because here it's very obvious, number 5 is the balance weight.
+ Why do I need the balance weight? For the reasons that we have already mentioned,
+ talking about the environment in which these instruments operate.
+ The lever system must be as balanced as possible in such a way that even under manoeuvred flight,
+ the effect of the acceleration of the maneuver does not impact the visualization given to the rider.
+ So if this system was not balanced, but was unbalanced,
+ the effect of the acceleration of the levers would move or would tend to move,
+ passing that which is the indication that is given to the rider.
+ Here we have a pneumatic realization and the word "pneumatic" refers to how the rotor is kept in motion,
+ how the rotor's spin is maintained.
+ You see, the realization of the turbine is normally obtained by digging out of a full cylinder.
+ The rotor is worked as a full cylinder,
+ after which these appropriate plugs are mined on the outside,
+ which keep the bike when they are subjected to the difference in pressure due to the fact that we have our pump empty.
+ Here, too, we have the mechanism that allows us to invert the movement of the horizon on the pitch axis.
+ Also for the artificial horizon, we need a system of horizontal erection.
+
+that keeps the verticality, but compared to what we have seen in the directional turn where,
+ for those who were the functional and operational requirements of the instrument, it was enough to align
+ with the case of the instrument, in the artificial horizon it is instead necessary to align with the
+ local vertical and why is this? Because while in the case of the directional turn the vertical is not
+ a magnitude directly revealed and brought to the pilot, but the maintenance of the vertical is
+ simply necessary because if it begins to lose the vertical to the point of reaching the line,
+ with the axis of thrust which is no longer horizontal, but aligned with the local vertical, there are
+ the problems that we will see of Kimball Loco, however, of loss of sense of information.
+ There is a small spoiler, try to think about it, remember the heading definition that we gave,
+ well imagine having the axis of the plane exactly that points to the zenith and in that case it is no
+ longer definable. It is exactly the case that analytically you have certainly encountered,
+ I have been talking about the problems of the singularity of the parametrization of the sets with the Olero angles,
+ however, choose them, there is a particular set that sends me to insert the analytical part and
+ therefore you have to take this into account in the design or you have to apply the plan B
+ which from the analytical point of view is how to avoid the singularity in the parametrization
+ of the sets, we are talking about rational mechanics, not aeroplanes. How? Four parameters are used
+ instead of three, which is not a small thing because I have to bring back four numbers instead of three
+ because it loses the physical meaning, however with the parametrization through the quaternions
+ I no longer have problems of singularity. Most of the calculations in the differential equations
+ are done with the quaternions. So let's see a little how a system of erection can be done
+ a little different from what we saw yesterday that maintains the local vertical.
+ So you imagine that this component is the one in which our rotor rotates and therefore it is a
+ box through which the air flows, the air that keeps our rotor in motion is sucked in,
+ which box, I allow you a comment on these systems that maybe today make us smile
+ because nowadays we do all the electronics, but they required ingenuity, they are a bit of the
+ little Leonardo's cars that you have seen, they required ingenuity to be able to realize
+ with the state of advancement of the technology of then, functions that then in the end were shown.
+
+work well. So here we see the top view of this particular mechanic. I have four slots, four cracks
+ from which the air can come out. These cracks are closed by these pendels veins, by these
+ pendulum flags, which are embedded at this point and can move to open the crack
+ more or close the crack more. In the case in which they are perfectly aligned with their
+ rotation axis, they close half the crack. So what happens? These pendels veins, as the
+ name suggests, are moved like pendels by the acceleration of gravity. So as long as they are all aligned,
+ the reaction due to the air coming out from the four slots is the same, because the veins are
+ all in the same position and therefore the vector algebra of the reactions gives me a total force
+ of zero. When I have a movement from the vertical, let's do it exactly aligned with some
+ of the veins, which is the simplest case, but it also works by generalizing it with non-aligned
+ movements with the axes. Let's imagine a movement around y and y1. The vein on one side
+ opens because the weight moves it to open. The one on the other side, which is placed symmetrically,
+ actually closes, while the two 90 degrees, those on z1, do not make a plissé. So the fact
+ that one opens and one closes gives a unbalance along the direction y and y1 of the forces.
+ On one side the air comes out more, it has a greater reaction, on the other side it comes out less,
+ so it has a smaller reaction. So the vector algebra of the two is aligned and gives me a force in this direction.
+ Since I am placed with respect to the axis of the spherical hinge that I can imagine managing my
+ system, I will have a lever arm as usual. A moment will be created that, vectorially summed up
+ with the spin velocity of my gyroscope, creates a moment with respect to z and z1,
+ multiplied vectorially by the speed of the rotor, gives me a rotation around y and y1 which
+ means to bring it back to the initial position. So this is also a system in a closed ring, totally mechanical,
+ which maintains my artificial horizon aligned with the local vertical.
+
+and that the movements generate these asymmetric openings of the veins,
+ which generate a force that generates a moment of input to the gyroscopic system
+ that vectors the angular velocity of my spin axis gives me the moment it tends to recover and bring me back to the vertical condition.
+ There are also, now let's analyze them all, some erection systems in the small pesini,
+ like pesca balls in an appropriate base of the instrument that give an asymmetry.
+ This below is made like a bowl, so when we are all aligned, the pesini are in the center, nothing happens,
+ when we are out of line, for a part of the rotation trajectory they engage in the outer perimeter,
+ because they fall inside and therefore give a moment that can be seen from the usual precession
+ to bring back to the balance condition that is that of the verticality of the spin axis.
+ As we have seen, this characteristic of gyroscopes is often used to have the rotation response in vector product
+ between the moment of input and the angular velocity of the spin of the rotor,
+ and this is due to the fact that with small moments of input they can maintain quite important rotations,
+ and therefore it is not necessary to have a great force.
+ It is clear that I could also bring back the vertical spin axis by forcing it,
+ because they do not have an infinite gyroscopic resistance,
+ but it would require much greater forces than they would be able to do with these simple mini tracks that we have seen so far.
+ This, as far as we can understand, is a slightly confusing question,
+ it is an artificial-electric horizon, so this here that you see vertically is the spin axis of the rotor,
+ which the rotor of the gyroscopic system coincides with the rotor of the electric motor.
+ There are, as you can see, two other torque motors that we are now talking about.
+ The torque motor is an engine that is controlled in pairs.
+ You can know that normally electric motors can be controlled either at speed,
+ or not controlled at all, or controlled at speed.
+ I close the ring on the speed of the motor,
+ which motor, depending on the load that insists on its shaft,
+ will then absorb a larger or smaller torque.
+
+I close the loop on the speed, or they can be controlled in pairs, on the contrary, I impose a certain torque and the engine will then go at the speed that allows it, the torque resistance that is attached to the power supply, ok, so in this case the torque motors that are added to the main engine, which is that of the rotor, are controlled, as the name suggests, in pairs and have the important function that we will see later.
+ So the 8 is the stator, this part here is cut for demonstration, in reality it is all continuous, the rotor is the 9.
+ If someone remembers how an electric motor can be made, in this case an EDC motor of that kind, like stator and rotor, the relative positions, there are two possible realizations.
+ How can the stator be compared to the rotor, as a relative position, external or internal, so I can have, in the most general case, the so-called inner runner, where there is a rotor that is inside the stator, that is external.
+ That is, in the case of the normal industrial electric motor, that is, the box linked to the industrial machine that has to operate, inside there is the rotor.
+ But I can also have the outer runners, I can have the stator inside and the rotor part outside.
+ Now let's try to think about it, we, to make a gyroscopic system, choose an inner runner or an outer runner and why?
+ If you remember well, from the electrotech to the magnetic circuit it can be done in exactly two ways, but we do not simply have to make an electric motor, what do we have to do?
+ What characteristics change at the end of what interests us by making an inner runner or an outer runner?
+ What? Yes, this is a constructive thing, precisely at the level of theoretical principles of operation.
+
+Let's forget it's an electric engine, what does it matter to us as a gyroscope what is the other mechanical feature?
+ If I put it outside, it goes with the radius of the beam, so if I do an outer runner, I can have a moment of inertia around the axis of the beam, much higher in general.
+ At the same mass, I distribute the same mass on a much larger beam, in the order of the double, so if the beam is double, inertia is 4 times as much.
+ Normally, an outer runner is made, so I have the rotor on the inside, the rotor on the outside, then I bring the power supply with some stringing contacts, so our rotor is 9, which is the rotor, which is more on the outside, than 8, which is the rotor.
+ What is the reason for the torque motor? We said that the torque motor is an engine with which I apply a torque, so a moment around an axis.
+ Torque motors are used to maintain the vertical axis of the beam, and how do they work? They work like this, in the simplest version.
+ These were mercury switches. I imagine that you have lost the possibility of playing with mercury coming out of a broken thermometer. It was already out of law, I imagine, when you were children.
+ The mercury is a metal that has the characteristic of having a much lower melting temperature than the ambient temperature, so it has a liquid state at the ambient temperature, but it is a metal.
+ The mercury switch works like this.
+ Mercury is contained in a glass ampoule, the fact that there is glass...
+
+Imagine now an ampoule made in this way, which has 3 electrodes, so they get inside the ampoule and then they come out and are connected.
+ In the case of horizontality, because mercury is inside and moved by the acceleration of gravity, in the case of horizontality mercury comes in here and does not combine anything.
+ In the case of horizontality mercury goes from one of the two extremes and closes a contact.
+ These methods were invented to make a rudimentary switch that is sensitive to inclination compared to the local vertical.
+ Let's see how these systems are organized.
+ What you see is the roll leveling switch, so it was placed on the roll axis, so if the rotor lost its verticality along the roll axis, it closed an appropriate contact.
+ However, it did not activate the motor around the roll axis, which should have given a strong torque to bring it back in place, but it activated the roll torque motor, which is exactly 90 degrees.
+ This is because for the usual phenomenon that we have already described several times, I have the input which is 90 degrees compared to the direction of the spin axis and the system responds with an output, which is the product-vector.
+ So when I go out for roll questions, this torque motor gives an input along the pitch axis, the vector, the spin axis, the answer is in torque, which therefore brings me back horizontally.
+ When I turn off the motor, the torque motor does not apply at all. This is also a closed ring system, so to speak, discreet, because it has only three states that it serves to guarantee verticality.
+ So it is an electric rotor system.
+ So if we remember the effects of the Earth's rotation on our gyroscopic system at two degrees of freedom with vertical spin axes, they were one that added the angular velocity, the component along the local vertical of the angular velocity of the Earth at the speed of spin.
+
+The other effect was the loss of verticality. I recover it automatically with the rector system.
+ The same goes for the bike on the ground, also for the one we called Omega Star P,
+ because it still makes me lose the verticality on the 90° axis compared to the component towards the north,
+ but this does not give me any problem. I recover it automatically with the rector system.
+ The rector system, which in the case of the artificial horizon uses as a reference of the local vertical
+ in its various practical implementations, acceleration and gravity.
+ Now, however, we have to make a comment on what are the characteristic parameters of these erection systems.
+ Why?
+ Because we have just said that acceleration and gravity are used as a reference for the direction of the local vertical.
+ But is acceleration and gravity the only acceleration that exists on my plane?
+ What? Yes, if I end up outside the atmosphere I probably end up towards Mars. If I am maneuvering, then yes.
+ But in the general case, no, because in addition to acceleration and gravity,
+ I have the acceleration due to the fact that I am not on a stationary bike.
+ And there is some way to separate acceleration and gravity from the inertial acceleration due to the stationary bike.
+ Can I distinguish the two accelerations?
+ The answer is no, I cannot distinguish acceleration and gravity from the other accelerations that are due to my plane.
+ So, what will maintain the alignment of the spin axis of the rotor of the artificial horizon in the erection system?
+
+I respect the result of all the accelerations on my plane.
+ So, quiz on the mechanics of flight, who defines what a correct turn is?
+ Guys, I have to send you back to the training room.
+ The correct turn is the one during which all the accelerations are contained in the plane's symmetry plane.
+ So, let's imagine that I make a correct turn for an infinite time with a bank of 30 degrees.
+ What happens to my erection system?
+ And what happens to my bank indication on the instrument?
+ Imagine that I am horizontal, because he will tend to align me with the result of all the accelerations that act on the plane, because he cannot be there and say that this piece is the acceleration of gravity, the other piece is due to death.
+ So, I start my turn with the bank angle of 30 degrees, then gradually the erection system enters into action and brings me the spine axis to align with the result of all the accelerations that, as we said, by definition and even less badly, I would say, when we are on board, is in the plane's symmetry plane, especially if we are walking and we have to go from one side to the other of the cabin.
+ After a while I will read the bank angle.
+ So, how do we prevent this from causing problems to the pilots for flying?
+ What can we do?
+ This is a sophisticated technique, but it is a spoiler of step 2.
+ The one with the Vane, Pendulus Vane.
+ What can we do on the system? What is a parameter of our possession?
+ It depends more generally on the pendulums. Let's look at it in a more abstract way, then that one is more realistic, but what can we do on it?
+ We said that it is a system.
+
+and the system, even mechanical, in closed ring. What can we do? That is real, but at the system level, the control.
+ What are the parameters of a closed ring control system, mechanical, that I can try to manage?
+ The gain, why? How does the gain have to be to prevent me from running behind the apparent acceleration that I have in turn and align my axis of spin with the apparent acceleration?
+ How does this gain have to be of the system as a magnitude? It has to be low.
+ And is it a problem that the gain is low? It has to have constant time of the order of 10 minutes, 15 minutes. How long does a spin normally last?
+ What is the correct spin? 360 degrees? Two minutes, ok. So, if I have constant time of the order of a quarter of an hour, the spin, ok, during the spin I will start to align myself with that with a low gain, then I will finish the spin, I will slowly move towards the other direction and it is not a problem.
+ Ok, so from the point of view of avoiding messes during the spins, high gain is fine. It is a problem for the question of the precession, no, we have said the times linked to the precession, but that of the angular velocity of the earth is very low, I am sure of it.
+ The problems of precession due to my motorbike on the ground depend on the Vest and the V-Nord, so unless you have an hypersonic transport, which by the way seems to have abandoned everyone, it is difficult to have such important speeds, so important to lower the constants of time of the apparent precession in the order of minutes, so I can easily have the constants of time of a quarter of an hour.
+ And here, precisely, the apparent precession of the artificial horizon is what we have just said.
+
+Let's try to align ourselves with the result of the accelerations.
+ Let's imagine that with the vanes that open and close, if I am tilted, I start with the vertical spin axis,
+ if I am in stationary flight, the only acceleration is the acceleration of gravity,
+ so if I am in closed ring, I read error 0, it is already aligned.
+ The rotor is rotating, if not, the instrument does not go, but the system of erection is still, it is all symmetrical,
+ because the error is 0, we are in a closed ring.
+ I turn 30 degrees, at this point I find that since the result of all the accelerations is now 30 degrees,
+ compared to the local vertical, I have 30 degrees of misalignment of my gyroscopic system
+ compared to the result of all the accelerations, so the system of erection begins to enter the direction,
+ if it wants to bring it back along the result.
+ So if I turn 30 degrees for 20 minutes, in the end I will read the angle of bank 0,
+ because the system of erection will slowly have brought the spin axis along the result of all the accelerations,
+ but in maneuvering flight the result of all the accelerations is not necessarily on the local vertical.
+ In the case of the correct turn with several bank angles, the result of all the accelerations is 30 degrees compared to the local vertical.
+ However, with the system of erection I report to have the spin axis aligned with the result of all the accelerations,
+ so if I am in a turn, it is precisely at 30 degrees.
+ The erector, I build it very slowly, in such a way that in the turn of two minutes he tries to go towards 30 degrees,
+ he does not do it and then, however, it is not a problem, because the problem of loss of verticality has very long dynamics.
+ It is not that every minute the earth rotates so fast and I go so fast along the curved surface that every minute I have to change the direction.
+ Even if I have a closed ring in my system, constant of the order of 15 minutes, it is fine, so this is a bit the idea.
+ In this, however, a problem arises, which is the problem of when in the morning I go to turn on the aeroplane or the first mission I go to turn on the aeroplane.
+ What can happen in the most general case when I go to turn on the aeroplane?
+ The gyroscopic system at two degrees of freedom is built reasonably well, so everything is in an indifferent equilibrium around its axis.
+
+but around here, around there, move, pull, move, there is something that guarantees us that when I turn on the tool the axis of thrust aligned along the local vertical, no, ok.
+ And then what can happen? It can happen that, especially because when it does not rotate, the tenacity to keep the direction of the very axis of thrust at zero,
+ it is very small because it is only the moment of inertia and rotation along the other two axes, so the axis of thrust can generally rotate by moving the plane, however, from when I turn off the tool.
+ So when I accentuate it, the axis of thrust can also be very outside compared to the local vertical.
+ Yes, but he says, do not worry, as long as there is the erection system that brings it to you vertically, ok, but if I have so much time of a quarter of an hour, 20 minutes, can I wait 20 minutes before I have a reliable indication of my artificial horizon?
+ And so how could this problem be solved? But be clear, how can it be solved?
+ Let's think about the electrical realization of the erection system.
+ What should I change to have much smaller times of alignment with the local vertical, with the result of the accelerations?
+ The cup is therefore seen as a controller. What should I change? What is the size of the control system when it is closed?
+ The profit is done like this. In electrical systems there is a button, normally close to the electrical gyroscope, which is called "fast erection", by pressing which the profit becomes 10 or 100 times more.
+ The problem is, however, of a high profit.
+ Have you ever created a PID based on those cool controllers that make you study LQR? A controller is a PID closed, so we throw away the "D", because if we have signals with noise, making a proportional control action to a signal that has noise, indeed to the derivative of a signal that has noise, we leave it open.
+ Have you ever turned the profit knob of a proportional control system? What happens if you increase the profit so much?
+
+not only worse
+ so I tend to exceed the value of the setpoint then go down however I have a slope even if
+ unfortunately I can have an instability but a slope around the setpoint then fast
+ direction brings me quickly in proximity of the right position after I let it go and
+ slowly with the low gain aligns my system with the local vertical so much so that here
+ if we go back for the button of fast direction which is the 11, fast direction then increases
+ by 10 or 100 gain for the next moment. Another trick of the maneuvering effects that we have already seen
+ is what your colleague has told you and that is, first we have rightly agreed on the fact
+ that I cannot separate acceleration and gravity from the acceleration due to the bike,
+ but I can realize if I am subjected only to acceleration and gravity or not and I do this
+ as your colleague said by looking at the acceleration module. If the acceleration module is reasonably
+ equal to 981 meters per second squared then the acceleration that acts above me is acceleration
+ and gravity, if it is different there is also an acceleration due to the bike that I do not know how to separate but I know that there is.
+ By the way I refer to yesterday's exercise that you did to make an observation
+ on how numbers are treated when we do calculations. I imagine that you have introduced in
+ some computer courses a difference between whole variables and mobile variables.
+ When I compare two quantities, the case is very different whether they are whole quantities
+ or mobile quantities because the whole quantities accept the operator of the same which works
+ very well. But compared to the whole quantities, the whole quantities are different.
+
+number by number is the same or if they are the same, what is the "mobile" size, the operator of the same
+ which is also legal, does not work so well because the operator of the same of the calculators means
+ that all the single bits of the long word that represent the two numbers in "mobile"
+ must be identical, so it means that if you use a double precision that has a precision of 1
+ by 10 to the minus 100, I don't know how many, you have to compare two numbers, the operator
+ of the same will report true, the two numbers are the same only if they are all the same until the last
+ decimal number that you can present, in case it is never what I want to do, that is, if I say
+ if acceleration and gravity is equal to 9.81 square meters, but in your opinion it will never happen
+ that it is exactly 9.81, the one I swear, no, it never happens, so the comparison with the
+ operator of the same between two numbers in "mobile" is a terrible practice, what do you do instead
+ to compare two numbers in "mobile" and see if they are the same? I put tolerance, operatively what do you do?
+ I subtract and compared to the difference one piece is missing, one piece is missing, what do I take
+ from this difference? Absolute value, I make the difference module and look if it is less than my
+ threshold of equality, then the numbers are the same, ok, I say this because it happened to me
+ then to see in the thesis phase, comparisons between numbers in "mobile", this thing is not very good,
+ then I said if my total acceleration is reasonably equal, for this I did not say the same,
+ but it is reasonably equal to 9.81, I leave the reaction system active because then it means that
+ really the one running after it is exclusively the acceleration of gravity, if it is greater than 9.81
+ I turn off everything, I want to say that for a while I will turn it off, but here we return to the assumption
+ that we have already mentioned several times that we will continue to bring back, that is, that during the
+ mission the maneuvered phases are a small fraction compared to the time of the mission, so the
+ fact of turning off the system of erection when the result of all the accelerations is different
+ from 9.81 is not a problem, so much so that as soon as I return to 9.81 I turn it back on and so
+ there were also here switches at Mercury who went to see the total magnitude, let's not go into
+ details, now it is obviously done as I told you comparing the numbers in "mobile", this operation,
+ there were switches that went to see and turned off the reaction system during the maneuvered flight phases.
+ How did the indicator of the "signal" work?
+
+of an artificial horizon, so there is a fixed outer layer that moves with the gimbal that rotates around the Roll axis,
+ on which I read the angles of Roll Bank, in reality the ones I read on the instrument are the angles of Bank,
+ but we said that for the range of pitch that interests our flights, the two can be considered overcapable.
+ So as you can see, the angle of Bank is to the right and to the left, while there is a symbol of the plane that is fixed,
+ against which I have horizontal tabs on the horizon to evaluate the pitch angle.
+ What is the knob for? The knob that you see below is used to move vertically the zero reference, the symbol of the two wings of the plane,
+ against which I read the pitch angles. This is because, historically, higher or lower pilots had a different angle of parallax,
+ so when they entered the plane, sitting on the seat, they adjusted the value to zero when they were at the parking lot.
+ This is another version of the artificial horizon.
+ Here you see, and these are details that are present in many instruments and that are of vital importance,
+ are the off-flags that communicate to the pilot that the indication given by the instrument is not reliable.
+ In this case, it is an artificial horizon with electric action of the rotor and therefore that off-flag is obtained with an electromechanical system.
+ Basically the flag is engineered at a certain point that you can imagine to be on the left of what we see, in such a way that it can go down and cover the off-flag.
+ That is a metal mask. It is held high by a spring and is pulled down by an electromagnet that is powered by the same power supply that powers the engine.
+ Therefore, when the instrument is powered, the electromagnet pulls the flag that covers the off-flag.
+ If the power supply to the engine was to be missing, at this point there would be no more electromagnet power supply that would release its force.
+
+This is the approach. The indication of damage should not be a spark that lights up but in this case of extremely rudimentary mechanical systems it is preferred to make sure that if there is no power supply there is nothing, I tell the pilot not to use it.
+ The measurements of the artificial horizon for their own flight.
+ This is the aeronautical technology of the mode of providing information to the pilot that even in the electronic instrumentation systems, indications of bank chips are reproducing the visualization of an artificial horizon.
+ So there is a line that represents the horizon, brown below, blue above, then maybe it can be cooler, blended with gradients, etc. But the principle is exactly that, the pilot reads the pitch and the bank on an electronic instrument that redraws what was the artificial horizon, the mechanical horizon to which the pilot was used.
+ Let's talk now about another gyroscopic instrument.
+ This is a gyroscopic instrument that is a bit like the evolution of the directional turn, which is the stabilized turn compass.
+ Here there is an introduction that I leave for historical reasons on how ground-magnetic field sensors were made. Fundamentally, spires were made, which are parts of wire wrapped around an axis, on the outer surface of a cylinder that has a certain axis, and depending on the relative direction,
+
+between the axis of this cylinder and the lines of force of the earth's magnetic axis
+ a certain magnetic flow will be induced in this sphere that in some way,
+ you see, angle of position of coil compared to the field H,
+ that obviously is insolid, because it goes through the sine and cosines,
+ and therefore by going to evaluate this flow we can go to evaluate the direction
+ of the lines of force of the earth's magnetic field.
+ They made sensors here too, quite complicated with the technology available at the time,
+ basically it was a double magnetic circuit in which it had an alternating current,
+ so a magnetic flow of excitation, which was captured by a pick-up coil
+ and was instead exposed both to the magnetic field of the excitation circuit
+ and to the magnetic field of the earth, now let's go fast,
+ but it is not extremely important because it would involve digging deeply
+ in the knowledge of the electrotechnics you have.
+ What interests me is to underline here below, that is, the fact that 400 Hz requires the alternating current.
+ The electrical system of airplanes is normally continuous current and alternating current,
+ and what is one of the advantages of alternating current?
+ One of the advantages of alternating current is that through transformers,
+ that is, I can use some electric cars that in continuous current do not work,
+ through the transformers I can change the voltage.
+ I can actually change the voltage even in continuous current.
+ There are some devices called DC-DC Converter and as the name suggests,
+ they also change voltage for continuous current,
+ but they are devices that have been born in the last 30 years,
+ they were not born when they invented the systems you see here,
+ so for example there we have 230 eV 400 Hz that are obtained from the 115 V 400 Hz
+ that are the voltage and frequency of the AC electrical system that is in the airplane.
+ The DC electrical system, on the other hand, what parameters does it have, what voltage does it have?
+ We have already said it, we have already said it, how do you remember?
+ 28 volts, so all gyroscopic instruments, if made electrically, are 28 volts DC.
+ However, in continuous current there are no such phenomena.
+
+of magnetic flux that is needed to feed these diffuse valves and so it took 235 volts for 300 euros.
+ In short, here there is a magnetic circuit to such and such, let's say that, let's not get lost,
+ the diffuse valve, let's look at this, the diffuse valve which is the sensitive element
+ to the direction of the origin of the terrestrial magnetic field that invests the valve itself,
+ is normally made with three of these systems of detection of the magnetic field
+ to avoid the ambiguity of the more or less 180 degrees that I would have having only two
+ and therefore there are three emitting at 120 degrees and basically they reveal to me from which part the terrestrial magnetic field
+ arrives in sensor axes, how the terrestrial magnetic field is oriented in sensor axes
+ and the diffuse valve which is the SEM that contains the element with the three envelopes at 120 degrees
+ and other details, similarly to what we have seen for the compass, it has a pendulous weight
+ that allows it to have degrees of freedom to compensate for the possible rotations of the reflector.
+ But what we are interested in is this, this is the fundamental scheme of the compass
+ and what is the compass? The compass is a directional turn that automatically sets up with the magnetic compass.
+ So the compass is a directional turn without the pendulum, it does all the work and how does it do this?
+ It has a sensor of the terrestrial magnetic field, the flux gate or flux valve that gives me, let's say,
+ in body axes, with respect to a body reference, the direction of the terrestrial magnetic field.
+ This direction is confronted with the current indication of the directional turn, the direction indicator or the heading indicator.
+ The comparison between the two generates an error that can be zero, that is, what difference is there between where I say the magnetic north is
+ and the direction from which the lines of force of the terrestrial magnetic field come from, this difference is an error.
+ The error is properly processed, there is a signal conditioning system, it enters a control panel
+
+It has the possibility to activate some functions that we will see, and it will activate a precession motor, the usual Torque Motor that gives a torque input on this gimbal,
+ so with a vector put in this way, produced vector, axis of spin, causes a reaction around this other axis, which brings, which makes rotate the gyroscope of the directional gyro.
+ At this point, if the gyroscope of the directional gyro rotates and I have designed the system accurately, the error is reduced when the error is zero, the torque motor is given zero,
+ the indication of my directional gyro is constantly aligned with that of the compass, indeed with that of the magnetic field, detected by the diffuse valve.
+ What can be the problems? The diffuse valve is subject to the same errors as the compass, especially talking about magnetic deviation, but there is an advantage that compared to the compass I can really put it out of my feet as much as possible.
+ However, even you, in the maneuvering flight, do not give me expected indications, so how do you solve the potential problem that my compass runs behind the non-awaited indications that the flow valve gives me during the maneuvering flight?
+ This is the way in which we have limited the damage for the alignment of the artificial horizon along the apparent vertical, along the result of the acceleration, that is, keeping the values ​​low.
+ In the already mentioned, many times up to us, certainly mine, probably yours, hypothesis that for most of the flight, a flight is not maneuverable.
+ So, if I have a low gain, it is true, during the maneuvering flight, the flow valve gives me non-awaited indications, my compass tends to run behind it, but it tends to run behind it so slowly that in the phases for which I need a reliable indication from the compass, this continues to be reliable and when I have finished the maneuvering flight, the error that has been generated is so small that it is very easy to recover.
+ So here you see a typical control panel, free or slave means ok, I have a free directional turn or slave has served, then open the control ring, the switch.
+
+Clockwise or counterclockwise means that I can turn everything on because I can help it.
+ When I turn everything on, I set the FAST to 60 degrees per minute, which is 20 times higher than the 3 degrees per minute that is in SLOW, which is the normal operation.
+ But I can give it a hand in this realization, because if I know what my test is, maybe I'll read it from a normal compass that is always on board.
+ But if I tell it to turn clockwise or counterclockwise, I tell it which is the shortest path to get to the real flow.
+ So clockwise or counterclockwise only works with FAST.
+ So this is also a system like the compass pair and the directional turn that, however, makes the fusion between the two information automatically.
+ The pilot no longer has to act periodically, but the system itself does.
+ On the one hand, it's good for the short period, because during the turns, during the maneuvering flight, I can use the instrument to have reliable heading indications.
+ On the other hand, it's also good for the long period, because the apparent precession of my gyroscopic system is regained automatically with FAST indicators.
+ Normally, it's not rare to find a service-assisted compass.
+ Its main application was a tool called the Radio Magnetic Indicator, which has a compass on the back, a stabilized compass,
+ and on top of that, it has two slits, a thin one and a wide one, whose indications are maneuvered from the radio aid to the air navigation that we will see in the future.
+ This represents a first step towards that fusion between information coming from different sensors that help the pilot in reducing the work load.
+ This is an extremely intuitive experiment for some flight phases, which allowed the pilot, by looking at a single quadrant, to recover more information,
+ otherwise they would have asked him to look at at least three or four different quadrants.
+ RMI, Radio Magnetic Indicator.
+
+It's all obsolete, on the 737 also in version 800, I don't know on the MAX, but on the 800 there is an RMI.
+ It's a stand-by instrument compared to electronic instrumentation systems.
+ Directional General Unit, this is how the part that is in the Vionic Bay can be done.
+ Clearly, at this point we got confused and there were also some realizations for which the entire gyroscopic part was closed in the Vionic Bay
+ and the card that moved was moved with an appropriate system of synchronous motors, it was moved electrically and did not close the gyroscope
+ and therefore the gyroscopic system could not be linked to the panel.
+ Now, however, I will ask you another question.
+ What can also be due to the intervention of the closed ring system that corrects the indications of magnetic proof during flight?
+ In addition to the apparent precession that we have to recover, what else can change?
+ You can ask me to change the regulation of the instrument that I have not explicitly said, let's do it now, but I imagine it is clear that it is aligned with the magnetic norm.
+ So, the irregularities of the magnetic field are the rest, so here there is one more phenomenon, and that is actually of a slightly higher dynamics.
+ They told me that flying near iron or iron-magnetic material, there are local forces of motion in the magnetic field,
+ those would require a very high dynamic, but in reality the practice of flight operations involves not giving much strength to the magnetic proof in those areas,
+ because there are extremely high declaration values.
+ However, another reason for re-aligning the instrument with respect to the magnetic field is the fact that the magnetic field is not perfectly distributed on the Earth as the reticle of latitude and longitude,
+ it has several deformations compared to a pattern with a more regular scheme.
+
+Let's now face the last gyroscopic tool we are talking about.
+ It is made in two versions, which take the name of Turn Indicator or Turn Coordinator.
+ It is a gyroscopic tool, but it is the only gyroscopic tool we have seen so far,
+ the only one that has a gyroscope with a degree of freedom of expression.
+ So it is a gyroscope with one plus two degrees of freedom of expression.
+ And we have seen that in the case of a degree of freedom of expression, I get that the theta movement,
+ when z is two points and theta points are zero, is proportional to the angular velocity around the axis,
+ through an appropriate factor of proportion.
+ So, how is the Turn Coordinator or Turn Indicator made?
+ But before we see how it is made, what information does the pilot give?
+ The information that the pilot gives, the turn indicator and the turn coordinator,
+ are information about angular speed of a gyroscope.
+ In other words, about how quickly my gyroscope is changing over time.
+ This information can be important, we have already mentioned the standard turn, 360 degrees in two minutes.
+ In fact, let's say one more thing, the instrument gives the pilot an indication, first if the turn is changing,
+ and if it is, what is the speed at which it is changing the turn.
+ So, how is the instrument made?
+ The instrument is made as you can see, there is a large y-axis, y-1 is the axis that we normally call x,
+ here it is a small curve to be made, so you see forward of the plane and where there is y-1,
+ and it is also the axis of the only degree of freedom of the gyroscopic system.
+ X, large x-1, which are our y-axis normally, is the perpendicular axis to the delivery symmetry plane,
+
+This is the spin axis of the gyroscopic system and the third axis, this vertical, is the z1 axis, which is not marked,
+ which is the instrument's sensitivity axis because it is a blurred axis and the axis around which I measure the angular velocities.
+ After that, the gimbal has a spring and, through a lever system, when there is a theta rotation around the big y1 axis,
+ a spring is moved which then gives the pilot an indication and the theta movement is proportional to the angular velocity around this axis, which is not marked at z1.
+ This is a practical implementation of the instrument, here you see the tire, this is the filter to prevent the dirt from getting in because of the depression.
+ In the dampening mechanism there are always systems to dampen the possible oscillations and this is the indication given to the pilot.
+ The virus bandometer usually combines two different instruments, we begin to see the upper half.
+ The upper half, as you can see, has the vertical line, which can be in the center, rather than where the left or right button is and there is two minutes turn.
+ So, first operational consideration, how is the VIRATA indicator built? It gives quantitative information to the pilot, therefore on the actual value of the angular velocity.
+ Only when the indicator is exactly aligned with one of the response lines, so if when I am on the left response line,
+ I can deduce that I am doing a VIRATA with an angular velocity of 2 degrees per minute, if I am halfway between 0 and that value, I cannot deduce that I am doing an angular velocity of 4 degrees per minute,
+ which is not worth anything, in the middle is only qualitative, the quantitative value is exclusively when I coincide with one of the two channels. We then see the OFF flag, which is obviously an electrical realization and therefore the OFF flag.
+ The one below is the indication.
+
+of where it is placed in a plane perpendicular to the plane of symmetry of the ship,
+ let's say in plane yz, in AxiBody, as we normally define AxiBody,
+ as it is placed in plane yz the result of the accelerations that exist there.
+ And this is used for the flight conduct during the turn,
+ and for this it is placed together with the instrument that instead indicates the speed of the turn angle.
+ So, assuming, in fact, regime situations and system errors 0, theta is equal to j per omega
+ marked above which is the moment of inertia of rotation of our gyroscope,
+ j is the moment of inertia of its spin axis, k is the multiplicative constant and omega of the turn is the omega of the turn.
+ So this is the simplest case in which I make a flat turn without bank angle.
+ So I have an instrument that gives me theta in function of a constant and an omega of the turn,
+ the higher the omega of the turn, the higher theta, so the more my gyroscope moves.
+ We said, let's remember, that we have invented the instrument sensitive to angular speeds.
+ The problem is a little complicated with signs and cosines if there is a bank angle,
+ so here, which is different from zero, but also here, they are simply circular functions that come inside to change the absolute values of some parameters,
+ but the concept is exactly the same.
+ As for the indication of the ball, the ball in the center during the turn,
+ when the result of the accelerations is in the plane of symmetry and therefore the turn is a correct turn,
+ that's how we want to make the turns, otherwise in the case of slip, skid or sliding,
+ then only as a result of the accelerations that go towards the inside of the turn or towards the outside of the turn, the ball moves.
+ And so it gives the pilot an indication of what he has to do, how he has to act on the flight controls
+ or to take himself in the correct turning conditions, which is what you want to do in normal commercial transport flights.
+ Does any of you know the rule that pilots give themselves to manage the indication of the ball?
+
+I've never heard "step on the ball" because I have to press on the rudder from the side where the ball is moved.
+ By doing this, I put the ball back in the center, it's one of the practical rules of the pilots who are used to perform the correct turn.
+ However, the turn indicator, as we have seen before, had a major defect.
+ From the point of view of the pilots, the defect was that in the beginning of the turn, how do you perform a turn on the aero plane?
+ How do you perform a turn?
+ Now I want the aero, so I have a bank angle, at this point the result of the turn will have a perpendicular component to my speed,
+ which is the one that pulls me and begins to give me an acceleration to curve the trajectory, to change the heading.
+ But at the beginning I give the aero and then I have an angular speed of rolling.
+ During this initial phase, the turn indicator does not indicate anything, because it is sensitive to the angular speed of rolling.
+ The pilots considered it a defect and even in the final phase, when I go to release the wings, it does not indicate anything because it is not sensitive to the angular speed of rolling.
+ So how did you get the tool that at this point is called turn coordinator, when it is realized in this way that also makes it sensitive to the angular speed of rolling?
+ It is enough to tilt the exit axis normally to 30 degrees, let's say, compared to the longitudinal axis of the aero plane.
+ Let's see it better in the slide after, there is no more slide after, let's see, so if I have the two axes that coincide,
+ if the axis theta, let's look at it here, if the axis y1, which is the axis of roll, coincides with the axis of roll, I am not sensitive at all,
+
+because I don't have a component of the angular velocity of the roll that insists on the axis of sensitivity, which is z^z^1.
+ On the other hand, I am inclined forward by 30 degrees. On the axis of sensitivity of my gyroscopic instrument, I am also sensitive to a fraction of the angular velocity of the roll.
+ What is this fraction? It is the roll velocity for the cosine of 3. At this point, I will be less sensitive to angular velocity of the roll, because I will be sensitive to angular velocity of the roll for the cosine of 3.
+ In this way, the instrument, which at this point becomes hybrid, indicates to the pilot that it is turning, even in the initial phase, when it puts only the roll, but has not yet developed the angular velocity of the roll.
+ The indication is given, as you can see, in this instrument. Even here, you see, DC electric, electrically activated, here there is the OFF flag when it is turned on, 2 minutes turn, so when the tip of the wing coincides with the heel,
+ I am applying an angular velocity of 360 degrees, 2 minutes per turn, you do how many degrees per second, then tell me right away.
+ And when I am horizontal, when I am on the left, I am stabilized with 2 minutes turn. Obviously, in the middle it does not mean anything, but this instrument, as I told you, is also very sensitive to the initial and final phases of the turn, which is what is normally installed, there is a coordinator on all the planes that install an electromechanical system.
+ What I want to underline first, this does not give me any indication of roll, even if the visualization is realized in this way, what makes us think of a roll angle, it does not have anything to do with the roll angle, that there is a angular ratio, and then, of course, it gives no pitch information, which seems to me the most superficial of the recommendations.
+ The ball underneath, instead, works like the ball we talked about earlier, ok, there are questions and doubts, no pitch information, it can not give any information about the pitch.
+ And that's all.
+
+The difference between the indicator and the co-ordinator is that the first one is only sensitive to the angular speed in bardata.
+ The second one is sensitive to a mix through sine and cosine of 30 to D, angular speed of rolier and angular speed of bardata.
+ Ok, so I'll see you online next Monday.
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
+
+Constraints:
+- Output language: en
+- Academic style
+- Extract definitions, equations, key ideas
+- Structure with \section, \subsection
