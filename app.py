@@ -6,8 +6,9 @@ import shutil
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 import tkinter as tk
-from tkinter import messagebox, scrolledtext, ttk
+from tkinter import filedialog, messagebox, scrolledtext, ttk
 from pathlib import Path
+from urllib.parse import urlparse
 
 # ===== CONFIG =====
 BASE_DIR = Path(__file__).parent.resolve()
@@ -22,6 +23,7 @@ DEFAULT_PARALLEL_WORKERS = max(1, min(4, MAX_PARALLEL_WORKERS))
 LANGUAGES = ["auto", "fr", "en", "it", "es", "de"]
 WHISPER_MODELS = ["base", "small", "medium", "large-v3"]
 EXECUTION_MODES = ["Série", "Parallèle"]
+SOURCE_MODES = ["URL Webex", "Fichier local"]
 LANGUAGE_CHOICES = [
     ("Auto-detect", "auto"),
     ("Français", "fr"),
@@ -83,8 +85,17 @@ def run_cmd(cmd, log=None):
     if process.returncode != 0:
         raise RuntimeError(f"Command failed:\n{cmd}")
 
-def download_audio(url, output_audio, log=None):
-    cmd = f'ffmpeg -y -i "{url}" -vn -map 0:a:0 -c:a pcm_s16le "{output_audio}"'
+def is_probable_url(value):
+    parsed = urlparse(value)
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def extract_audio_to_wav(source, output_audio, log=None):
+    source_path = Path(source).expanduser()
+    if not is_probable_url(source) and not source_path.is_file():
+        raise FileNotFoundError(f"Fichier source introuvable: {source_path}")
+
+    cmd = f'ffmpeg -y -i "{source}" -vn -map 0:a:0 -c:a pcm_s16le "{output_audio}"'
     run_cmd(cmd, log=log)
 
 
@@ -253,8 +264,36 @@ class App:
         )
         self.controls_panel.grid(row=0, column=0, sticky="nsew", padx=(0, 16))
         self.controls_panel.grid_columnconfigure(0, weight=1)
+        self.controls_panel.grid_rowconfigure(0, weight=1)
 
-        header = tk.Frame(self.controls_panel, bg=UI_COLORS["surface"])
+        self.controls_canvas = tk.Canvas(
+            self.controls_panel,
+            bg=UI_COLORS["surface"],
+            highlightthickness=0,
+            bd=0,
+            relief="flat",
+        )
+        self.controls_scrollbar = ttk.Scrollbar(
+            self.controls_panel,
+            orient="vertical",
+            command=self.controls_canvas.yview,
+        )
+        self.controls_canvas.configure(yscrollcommand=self.controls_scrollbar.set)
+        self.controls_canvas.grid(row=0, column=0, sticky="nsew")
+        self.controls_scrollbar.grid(row=0, column=1, sticky="ns")
+
+        self.controls_content = tk.Frame(self.controls_canvas, bg=UI_COLORS["surface"])
+        self.controls_canvas_window = self.controls_canvas.create_window(
+            (0, 0),
+            window=self.controls_content,
+            anchor="nw",
+        )
+        self.controls_content.bind("<Configure>", self._update_controls_scrollregion)
+        self.controls_canvas.bind("<Configure>", self._resize_controls_content)
+        self.controls_panel.bind("<Enter>", self._bind_controls_mousewheel)
+        self.controls_panel.bind("<Leave>", self._unbind_controls_mousewheel)
+
+        header = tk.Frame(self.controls_content, bg=UI_COLORS["surface"])
         header.pack(fill="x", padx=22, pady=(22, 16))
 
         tk.Label(
@@ -280,8 +319,10 @@ class App:
         self.whisper_model = tk.StringVar(value="base")
         self.execution_mode = tk.StringVar(value=EXECUTION_MODES[0])
         self.max_workers = tk.IntVar(value=DEFAULT_PARALLEL_WORKERS)
+        self.source_mode = tk.StringVar(value=SOURCE_MODES[0])
+        self.local_file_path = tk.StringVar(value="")
 
-        form = tk.Frame(self.controls_panel, bg=UI_COLORS["surface"])
+        form = tk.Frame(self.controls_content, bg=UI_COLORS["surface"])
         form.pack(fill="x", padx=22, pady=(0, 16))
         form.grid_columnconfigure(0, weight=1)
         form.grid_columnconfigure(1, weight=1)
@@ -302,16 +343,69 @@ class App:
 
         tk.Label(
             source_body,
-            text="URL Webex (.m3u8)",
+            text="Type de source",
             fg=UI_COLORS["text_secondary"],
             bg=UI_COLORS["surface"],
             font=("Helvetica", 10, "bold"),
         ).grid(row=1, column=0, sticky="w", pady=(14, 6))
 
+        source_mode_shell = self._field_shell(source_body)
+        source_mode_shell.grid(row=2, column=0, sticky="ew")
+        self.source_mode_selector = ttk.Combobox(
+            source_mode_shell,
+            textvariable=self.source_mode,
+            values=SOURCE_MODES,
+            state="readonly",
+            style="App.TCombobox",
+        )
+        self.source_mode_selector.pack(fill="x", padx=1, pady=1)
+        self.source_mode_selector.current(0)
+        self.source_mode.trace_add("write", self._update_source_inputs_state)
+
+        tk.Label(
+            source_body,
+            text="URL Webex (.m3u8) ou URL média",
+            fg=UI_COLORS["text_secondary"],
+            bg=UI_COLORS["surface"],
+            font=("Helvetica", 10, "bold"),
+        ).grid(row=3, column=0, sticky="w", pady=(14, 6))
+
         url_shell = self._field_shell(source_body)
-        url_shell.grid(row=2, column=0, sticky="ew")
+        url_shell.grid(row=4, column=0, sticky="ew")
         self.url_entry = ttk.Entry(url_shell, style="App.TEntry")
         self.url_entry.pack(fill="x", padx=1, pady=1)
+
+        tk.Label(
+            source_body,
+            text="Fichier audio local (mp3, wav, m4a, flac, ogg, aac, ...)",
+            fg=UI_COLORS["text_secondary"],
+            bg=UI_COLORS["surface"],
+            font=("Helvetica", 10, "bold"),
+        ).grid(row=5, column=0, sticky="w", pady=(14, 6))
+
+        local_shell = self._field_shell(source_body)
+        local_shell.grid(row=6, column=0, sticky="ew")
+        local_shell.grid_columnconfigure(0, weight=1)
+        self.local_file_entry = ttk.Entry(
+            local_shell,
+            style="App.TEntry",
+            textvariable=self.local_file_path,
+        )
+        self.local_file_entry.grid(row=0, column=0, sticky="ew", padx=(1, 6), pady=1)
+        self.local_file_button = tk.Button(
+            local_shell,
+            text="Parcourir...",
+            bg=UI_COLORS["field_border"],
+            fg=UI_COLORS["text"],
+            activebackground=UI_COLORS["panel"],
+            activeforeground=UI_COLORS["text"],
+            relief="flat",
+            padx=10,
+            pady=7,
+            command=self.select_local_file,
+            cursor="hand2",
+        )
+        self.local_file_button.grid(row=0, column=1, sticky="e", padx=(0, 1), pady=1)
 
         tk.Label(
             source_body,
@@ -319,12 +413,13 @@ class App:
             fg=UI_COLORS["text_secondary"],
             bg=UI_COLORS["surface"],
             font=("Helvetica", 10, "bold"),
-        ).grid(row=3, column=0, sticky="w", pady=(14, 6))
+        ).grid(row=7, column=0, sticky="w", pady=(14, 6))
 
         name_shell = self._field_shell(source_body)
-        name_shell.grid(row=4, column=0, sticky="ew")
+        name_shell.grid(row=8, column=0, sticky="ew")
         self.name_entry = ttk.Entry(name_shell, style="App.TEntry")
         self.name_entry.pack(fill="x", padx=1, pady=1)
+        self._update_source_inputs_state()
 
         transcription_card = self._card_frame(form)
         transcription_card.grid(row=1, column=0, columnspan=2, sticky="ew", pady=(16, 0))
@@ -407,7 +502,7 @@ class App:
         self.execution_mode.trace_add("write", self._update_worker_selector_state)
         self._update_worker_selector_state()
 
-        footer = tk.Frame(self.controls_panel, bg=UI_COLORS["surface"])
+        footer = tk.Frame(self.controls_content, bg=UI_COLORS["surface"])
         footer.pack(fill="x", padx=22, pady=(0, 22))
 
         self.run_button = tk.Button(
@@ -563,9 +658,55 @@ class App:
                 return code
         return fallback
 
+    def _update_controls_scrollregion(self, _event):
+        self.controls_canvas.configure(scrollregion=self.controls_canvas.bbox("all"))
+
+    def _resize_controls_content(self, event):
+        self.controls_canvas.itemconfigure(self.controls_canvas_window, width=event.width)
+
+    def _bind_controls_mousewheel(self, _event):
+        self.root.bind_all("<MouseWheel>", self._on_controls_mousewheel)
+        self.root.bind_all("<Button-4>", self._on_controls_mousewheel)
+        self.root.bind_all("<Button-5>", self._on_controls_mousewheel)
+
+    def _unbind_controls_mousewheel(self, _event):
+        self.root.unbind_all("<MouseWheel>")
+        self.root.unbind_all("<Button-4>")
+        self.root.unbind_all("<Button-5>")
+
+    def _on_controls_mousewheel(self, event):
+        if event.num == 4:
+            delta = -1
+        elif event.num == 5:
+            delta = 1
+        elif event.delta:
+            delta = -1 if event.delta > 0 else 1
+        else:
+            delta = 0
+
+        if delta != 0:
+            self.controls_canvas.yview_scroll(delta, "units")
+
     def _update_worker_selector_state(self, *_args):
         state = "readonly" if self.execution_mode.get() == "Parallèle" else "disabled"
         self.worker_selector.configure(state=state)
+
+    def _update_source_inputs_state(self, *_args):
+        use_url = self.source_mode.get() == "URL Webex"
+        self.url_entry.configure(state="normal" if use_url else "disabled")
+        self.local_file_entry.configure(state="disabled" if use_url else "normal")
+        self.local_file_button.configure(state="disabled" if use_url else "normal")
+
+    def select_local_file(self):
+        selected = filedialog.askopenfilename(
+            title="Sélectionner un fichier audio",
+            filetypes=[
+                ("Audio", "*.mp3 *.wav *.m4a *.flac *.ogg *.oga *.opus *.aac *.wma *.aiff *.aif *.alac *.amr *.mp4 *.mkv *.webm *.mov"),
+                ("Tous les fichiers", "*.*"),
+            ],
+        )
+        if selected:
+            self.local_file_path.set(selected)
 
     def set_running(self, running):
         state = "disabled" if running else "normal"
@@ -627,7 +768,8 @@ class App:
 
     def run_pipeline_worker(
         self,
-        url,
+        source_mode,
+        source_input,
         name,
         lang_in,
         lang_out,
@@ -656,10 +798,13 @@ class App:
                 f"Mode d'exécution: {execution_mode} | workers max demandés: {max_workers}"
             )
 
-            self.update_status("Téléchargement audio...", UI_COLORS["text_secondary"])
-            self.append_log("Téléchargement audio...")
-            download_audio(url, audio_path, log=self.append_log)
-            self.append_log(f"Audio source exporté en WAV: {audio_path}")
+            self.update_status("Ingestion audio...", UI_COLORS["text_secondary"])
+            if source_mode == "URL Webex":
+                self.append_log("Téléchargement/ingestion depuis URL...")
+            else:
+                self.append_log("Chargement d'un fichier local...")
+            extract_audio_to_wav(source_input, audio_path, log=self.append_log)
+            self.append_log(f"Audio source converti en WAV: {audio_path}")
 
             self.update_status("Découpage audio...", UI_COLORS["text_secondary"])
             chunks = split_audio_into_chunks(audio_path, chunks_dir, log=self.append_log)
@@ -754,7 +899,9 @@ class App:
 
     def run_pipeline(self):
         try:
+            source_mode = self.source_mode.get()
             url = self.url_entry.get().strip()
+            local_file = self.local_file_path.get().strip()
             name = self.name_entry.get().strip()
             lang_in = self._language_code(self.lang_input.get(), "auto")
             lang_out = self._language_code(self.lang_output.get(), "fr")
@@ -762,14 +909,35 @@ class App:
             execution_mode = self.execution_mode.get()
             max_workers = int(self.max_workers.get())
 
-            if not url or not name:
-                raise ValueError("Champs manquants")
+            if not name:
+                raise ValueError("Nom du dossier projet manquant")
+
+            if source_mode == "URL Webex":
+                if not url:
+                    raise ValueError("URL manquante")
+                source_input = url
+            else:
+                if not local_file:
+                    raise ValueError("Fichier local manquant")
+                local_path = Path(local_file).expanduser()
+                if not local_path.is_file():
+                    raise FileNotFoundError(f"Fichier introuvable: {local_path}")
+                source_input = str(local_path)
 
             self.set_running(True)
             self.append_log("Lancement du pipeline")
             threading.Thread(
                 target=self.run_pipeline_worker,
-                args=(url, name, lang_in, lang_out, whisper_model, execution_mode, max_workers),
+                args=(
+                    source_mode,
+                    source_input,
+                    name,
+                    lang_in,
+                    lang_out,
+                    whisper_model,
+                    execution_mode,
+                    max_workers,
+                ),
                 daemon=True,
             ).start()
 
