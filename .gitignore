@@ -9,7 +9,7 @@ models/
 *.m4a
 *.txt
 !formatted.txt
-
+AntoineInterview/
 .DS_Store
 models/
 build/
