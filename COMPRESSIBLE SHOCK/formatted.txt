@@ -1,0 +1,866 @@
+
+# TRANSCRIPTION BRUTE
+
+[ Pause ]
+ [ Inaudible Remarks ]
+ >> Okay, so good day everyone.
+ They will move from a smooth solution
+ for which we basically know how to solve
+ the unsteady one-dimensional oil rotation.
+ So we need an initial condition that is given not a long characteristic line.
+ And as long as the characteristic lines of the same family do not cross,
+ so as long as we don't have a shock wave,
+ we can use the method of characteristic to solve the problem.
+ More specifically, we address the idea of the condition that you have
+ if a Riemann invariant is constant
+ whereby the other Riemann invariant changes in the domain.
+ If that's the case, characteristic line associated to the constant Riemann invariant are curved
+ whereby characteristic line associated to the Riemann invariant that is changing
+ are straight lines with constant value of everything basically.
+ Therefore, the kinematic and the thermodynamic is constant along the characteristics.
+ The idea is then that we can use the intersection
+ of the characteristic of the same family to compute the solution on a new node.
+
+in this way we can build the characteristic network which is this one and having the initial
+ condition along this line which is not a characteristic line we can use these two points as p plus p minus
+ compute the point i and then use this and this as p plus p minus compute point i
+ and build the whole the whole domain so before moving to the uh more physical part in shockwaves
+ i would like to address the idea of uh
+ so
+ so i would like to address the uh the issue of primary condition say that we have a very simple
+ problem uh that is maybe a bounded problem so this is uh to be a one d unsteady flow
+ so in uh we can picture the usual pipes the one that's guaranteed this time maybe uh with
+ shock waves in it but anyway the x-axis is the axis of the pipe we have an initial condition on
+ the pipe and let it evolve so let's make things simple that we start with these many points
+ uh and we have uh
+ this out a little bit too many
+ and you already got how we can use this
+ to build the intersection this will constitute the new initial condition
+
+condition and then at one point we will build the domain of dependence of one point, this
+ we don't have the boundary condition, ok. What we do if you recall the procedure is
+ in fact very simple, we, here it is, looking there, we have the J+ from point 1, 2, 3,
+ 4 and 5, J+ is constant, so here I have J+1, here I have J+1, here I have J+1, so on and
+ so forth, and here I have also J-2, and here I have J-2, here I have J+2, and here I have
+ J-2, ok. So all these J's are constant along the corresponding characteristic weight, all
+ these J's therefore bring about a relation, one relation for u and f, and this is a constant,
+ this is something that we can get from the initial data, ok. So J+1 is made of, J+1 is
+ J1+ meaning, I wrote already, meaning that this is u1+f1, and J-2 is u2-f2, all this
+ data is known, ok. F for polytrophic ideal gas is gamma-1/2 C-C, so its temperature is
+ whatever you, ok. So in many ways to say here that J, this is point 1, 2, 3, 4, 5, this
+ is point 6, that J+6 is equal to J1+, and J+-6 is equal to J-2, these are two conditions
+ that delivers the value.
+
+of U6 and F6, which is C6, okay?
+ So the procedure plays out this way.
+ You have one condition for each characteristic,
+ you have two unknowns.
+ When the two characteristic meet,
+ you get the equation for two unknowns, okay?
+ In this view, when we get to the boundary here,
+ where our pipe ends, or the portion of the pipe
+ we're interested in ends,
+ the issue is that we only have one condition.
+ So, at this point,
+ this is six, seven, eight, nine, and this is point 10.
+ At point 10, we know that J minus 10
+ is equal to J minus two.
+ I object because the characteristics,
+ characteristic number two, the minus,
+ goes all the way to 10.
+ So in short, we have that U10 minus F10
+ is equal to U2 minus F2, and that's one condition.
+ So the other condition that is,
+ or the other relation that is required to compute
+ the value of U2, U10, and F10 is the boundary condition.
+ And that depends easily on the type of boundary
+ that we have.
+ Take that this wall is closed,
+ what is the boundary condition?
+ U10 is equal to zero.
+ And these two together deliver U10 equal to zero,
+ and F10 equal to F2 minus U2.
+ So now we have U10 and F10, we can compute J plus 10.
+
+and I will have J plus 10 also here and here I will have J minus 3, sorry this is 3 of course,
+ and I have the solution. Okay so it's super easy if I have a pressure boundary condition
+ because the other end so point 10, 11, 12, 13, 14 is along, so this pipe is open to an
+ ambient with constant pressure, so here I have P equal to P ambient. What I do is to
+ use the isentropic relations for a polytropic ideal gas which are lost somewhere in my notes.
+ Here they are, I have the reference pressure which I have, P is P ambient and now I have
+ a value of C that I have to accept on the boundary. Okay so that's point 14, I have
+ J plus 4 is equal to J plus 14 is equal to J plus 4 which is equal to U4 plus F4, easy
+ busy and the other condition I need is that P4, P14, sorry, is equal to P ambient and
+ I have a relation between P14 over P0 is equal to C14 over C0 to the power of gamma gamma
+ minus 1, since this is in fact gamma minus 1, C4 minus 2.
+
+C0, and this is u14 the last gamma minus one half C14 minus C0.
+ I have three relations for C14, P14, and u14.
+ And I get the whole state here.
+ Specifically, I have J minus 14, which is brought inside.
+ Okay, so this way I can solve in the whole five at all times.
+ As long as these things don't cross.
+ The procedure of enforcing boundary condition is very easy.
+ You have either the velocity or you have the thermodynamic quantity.
+ Maybe we are expanding in a place where the temperature is constant.
+ Then the temperature will define the speed of sound.
+ The speed of sound will define F.
+ And therefore, from the other characteristics,
+ we get the full solution.
+ I can also have a piston pushing or withdrawing from inside the pipe.
+ Again, the boundary condition is easy.
+ The velocity at the boundary is the velocity at the piston.
+ Okay, so you can, I think it's a matter for you
+ of half an afternoon, you can write a model of code
+ and see the solution with the piston pushing
+ and open air at the end of the pipe.
+ You used to do that when the course was with two more credits.
+ But it's super easy to do, it's all spelled out there, okay?
+ You don't need, you can start with a uniform condition.
+ The flow is at rest with uniform thermodynamics.
+ You push, meaning that there is a boundary condition
+ of velocity that is non-zero.
+ And you let it flow outside with the constant pressure.
+ Or you can have two piston pushing
+ or you can have one piston pushing, the other pulling.
+ I mean, enjoy your weekend, whatever.
+ The fun goes on until you encounter a shock wave,
+ meaning until characteristics of the same family
+
+[NOISE]
+ Which is the topic of the lecture today.
+ So we identified the situation in which we have simple waves,
+ and I also mentioned that in fact,
+ in many ways you can remove the characteristic lines for
+ which the Riemann invariant is constant because it's uniform.
+ So we can focus on the characteristic lines of the other families,
+ the C plus in this case,
+ which are straight lines and use our knowledge
+ of the Burgers equation to detect the formation of a shock.
+ So if these lines cross,
+ then we have a shock.
+ So let's start with this simple wave in which J minus is uniform,
+ and it's equal to J zero minus,
+ meaning that the C minus characteristic lines are curved,
+ and the C plus characteristic lines are straight lines along
+ which both the velocity and the thermodynamic is constant.
+ Then let's look at the change of the velocity along these lines.
+ We have that along the minus line du minus f is constant,
+ and therefore du is equal to df,
+ and df is by definition,
+ you remember that f is the integral from v zero to v of dp over rho c,
+ so df is dp rho c.
+ So when we try and understand the slope of the plus characteristic lines,
+ the slope of the plus characteristic lines.
+
+is this. We have to understand how u changes and how c changes. For du is dp over rho c.
+ dc, you remember we wrote that dp over rho c is equal to dc over capital gamma minus 1.
+ So dc is gamma minus 1 over rho c dp. For the change in the slope how u plus c varies
+ is gamma divided by rho c times dp. So with respect to the polytropic idea I guess it
+ means that gamma is positive always and it is also larger than 1 strictly meaning that
+ this is positive. If we increase the pressure this value will increase and therefore the
+ slope will decrease because this is x over t and we got t over x. The x-t plane is always
+ the inverse of the slope. So if I am compressing the slope becomes smaller and smaller meaning
+ that the velocity of the wave becomes higher and higher and I have the possibility of forming
+ a shock wave of intersection. So if I am compressing the slope goes like this and at one point
+ possibly that will cross. If I am expanding the slope goes like this and I have what is
+ called a rarefaction path. So we can also check that for a polytropic idea I guess the
+ speed of sound increases upon compression and is not true for all fluids but for a polytropic
+ idea I guess it is indeed the case.
+
+the idea that when we are compressing we increase the velocity and we increase by compressing
+ we increase the speed of sound. So the overall wave velocity, which is u+c, increases upon
+ compression. So if I am compressing there is the first wave, portion of the wave, then
+ I am compressing the second portion of the wave, moving at u+c, is faster. And what follows
+ is even faster. So the three portions are bound to catch up and form a front that is
+ called a shockwave. And the opposite occurs if I am reducing the pressure along the wave.
+ So let's be more precise, because wave and compressing is not a clear idea, meaning there
+ is no wave here, there are just a bunch of characteristic lines crossing each other.
+ What I mean by expanding, I mean that I am an observer in X, the flow reaches me and
+ I witness a decrease in the pressure, meaning that the pressure of time 1 is larger than
+ the pressure of time 2 and the pressure of time 3. If this is what I feel, and I am simply
+ gazing, then what it means is that the slope of these characteristic lines is increasing
+ and they are spread apart far and far more as we leave the center of the wave. So this
+ is what I call a wave, even though it is not a wave, it is a continuous change in the flow.
+ And similarly, here, for me to measure a compression wave, meaning that the pressure here is lower
+ than the pressure here and it is lower than the pressure there, I need the characteristic
+ lines to converge, to reduce their slope, meaning to increase their velocity. And this
+ is possible because the dp here is positive, so p2-p1 is positive, so dp is positive, therefore
+ [BLANK_AUDIO]
+
+u is positive, therefore dc is positive, therefore d u plus c is positive. So that's the picture
+ and what I can expect is to have the possibility of the formation of a shock for a compression
+ wave and the possibility and it's not possible for a reflection wave. This is true under
+ the assumption that capital gamma is positive, which for most fluids is indeed the case.
+ That's the only hypothesis. So you remember that there was a stability condition for the
+ Burgers equation and that's similar to what is happening here. All the characteristic
+ lines are converging, entering the future locus of discontinuity that we call shock.
+ So it's possible to observe a shock wave. This is super similar to what we had for Burgers
+ and in fact we will deal with it in the same way. Given a compression wave, by compression
+ wave I mean that the pressure here is lower than the pressure here, lower than the pressure
+ here, lower than the pressure here and lower than the pressure here. So the pressure here
+ is lower than the pressure there. It's a compression shock, which is the only one type that is
+ physically admissible. To add this thing, it's possible for a positive gamma fluid and now
+ we need to compute the speed of this shock. Having a right-hand side state and a left-hand
+ side state. And I think, I mean maybe it's worth, where is it? We're going to, I'm going
+ to, this, so this is what we did for Burgers. So we identified a domain in spacetime where
+
+to integrate the integral form of the equation.
+ And here we're going to do exactly the same thing.
+ So we assume that the shock wave is a straight line.
+ If it's not a straight line,
+ that we zoom in more, make it straight.
+ And we select the very same space-time domain,
+ spanning the origin, the first position of the shock,
+ and the other corner is the final position of the shock,
+ the time final.
+ So it goes from XL to X-prime and DI to T-initial to T-file.
+ That's our complete space-time domain,
+ where we want to compute the integral.
+ And again, these are the Euler equations,
+ so it's a vector problem,
+ but the formal expression is the same.
+ We have the derivative over time
+ of the quantity in the domain.
+ The space domain is this.
+ Changes because of the flux going out of the right,
+ and in from the left.
+ Computing the integral over time of this relation
+ removes the derivative here.
+ So we only have the integral from XL to XR of WX,
+ and final time minus the same at the initial time.
+ And here, we have the integral from DI to T-file
+ of this thing that depends only on time, yes.
+ Performing the integral is easy,
+ as it was for the Burgers equation,
+ because along the integration path,
+ the solution is constant.
+ So we take this one, XL XR at T-file.
+ And T-file going from XL to XR, W is WL.
+ So this is a constant multiplied
+ by the length of the integral.
+ Going time initial, the solution is WR.
+ So the integral is WR multiplied by the difference
+ of two special coordinates.
+ Concerning the time integrals,
+ we have to compute this time integral at XR.
+
+from here to here, and at XR, we have WR times DT.
+ And this integral here is just WL times DT.
+ So by defining the shock speed by S,
+ S is in fact the ratio of the space over the time
+ that has been, that the shock wave travels in our domain.
+ We have the Rankin-Ogonian relation for the Euler equation.
+ The difference in the flux is equal to the speed
+ of the shock times the difference in the solution.
+ Now what we did for burgers,
+ was exactly the same thing.
+ But for burgers, F and U were scalar quantities.
+ So it was easy to compute the speed
+ as the ratio of the difference in the flux
+ divided by the difference in the solution.
+ In this case, we cannot, because the relation
+ looks exactly the same, but it's a vectorial relation.
+ So unless you're using Matlab and get the wrong result,
+ of course, you cannot divide that vector by vectors.
+ What you have instead is three equations,
+ three relations involving the values
+ of the solution on the left,
+ the density, the momentum density,
+ the total energy density on the left and on the right.
+ These are six variables.
+ And the seventh variable, which is the speed, okay?
+ So differently from the Burgers equation
+ where any state was allowed,
+ here you have seven unknowns and you have three relations.
+ It means that you can pick at leisure any four variable
+ and the other three are computed
+ from the rank in Ugonino jump condition.
+
+it's a little bit too maybe too abstract so let's make an example I said that we
+ have seven variables and three conditions the variables are the density on the
+ right the density on the left let's go to the velocity on the right and the
+ velocity on the left and pressure on the right the pressure on the left from these
+ three we can complete everything else and then the shock shock speed so say that I
+ want to the shock is propagating towards the right this example so enough with
+ the theory now start picturing your mind the shock that is traveling is the boom
+ that is traveling towards you okay and you means even state the right state you
+ have your density velocity which is zero right now and the pressure so these three
+ states are defined then if I want to build a mach 2 shock then I can't choose
+ anything else what is past this shock is completely determined so rho l u l p l
+ are determined at my three omission okay or if I want to build a shock that has a given
+ pressure difference across the shock I set the pressure difference and then the
+ shock speed shock to both shock density and shock velocity are defined
+ determined by the right to the left condition so in short I only have one degree of
+ freedom if the state the head of the shock so-called unperturbed state is
+ defined as it's open the case I want to build a particular condition which I can
+ control both must take the unperturbed state that is so they can explosion that
+ in this room the shock wave with determining a pressure difference and
+ [BLANK_AUDIO]
+
+as it travels and the tree can rank in a condition
+ will determine the velocity of this wave,
+ the density and the velocity past,
+ flow velocity past the wave, okay?
+ So it's very different from what we had
+ in the Burgess equation where any shock was admissible.
+ In here we have to fulfill the Rankin-Hugonius relations.
+ So it's more convenient to write them,
+ to spell them out so that one can really
+ number the unknowns and the equations
+ and see what the outcome.
+ So we have the first relation, so what we're dealing here with
+ is this and the F of W is rho, rho u, sorry,
+ rho u squared plus p and we have e t plus p u.
+ That's the max function and W is of course rho, rho u, e t.
+ Not a four, it's a u.
+ So the first equation is rho r u r minus rho l u l
+ equal to s rho r minus rho l.
+ And the second equation and the third equation are
+ similarly for tape.
+ These equations are written in this reference.
+ In the reference of a steel observer.
+ So it's called laboratory reference.
+ I am standing still or I'm moving as a matter
+ under Galilean invariance but I am moving
+ with respect to the shock.
+ So I can define a shock speed different from zero
+ and there is a state on the right, state on the left
+ and this is what we do.
+ Sometimes it's very hard to find a solution.
+
+It's very convenient to switch the reference to that of the shock wave itself.
+ So instead of staying still and waiting for a shock to arrive, so standing still in the
+ right state, shock and then left state, sometimes it's more convenient to ride in the shock
+ and therefore be still.
+ So if that's the case you will experience a velocity different from zero even if you're
+ moving into the layer, but the equation simplifies a lot.
+ So we pick a Galilean invariant reference frame that moves at speed s.
+ So what is affected is the velocity, I will indicate the shock reference with a tilde,
+ the velocity tilde is the velocity of the lab minus the shock speed.
+ The density is the same, the internal energy is the same, the pressure is the same, the
+ thermodynamic state is unaffected by this change in the Galilean system, in the reference
+ system, sorry.
+ Be careful because one of the conservative variables, the velocity is affected, the density
+ is not affected, but the total energy is affected because the internal energy doesn't change,
+ but the kinetic energy does.
+ So the two internal energy, the two total energy per unit volume in the two references
+ are different because of the change in the velocity and therefore the kinetic energy.
+ Is it worth to observe the phenomenon as a steady phenomenon, because in this case I'm
+ looking at an unsteady problem, in this case since the whole system is moving at this speed,
+ in this system the shock is vertical, at zero speed, okay?
+ It is worth.
+ In fact, if you take mascaras away, sugar...
+
+what you get is simply substituting for u tilde plus s.
+ You get that you simplify the right-hand side
+ and you write the very same relation
+ but for tilde variables without the s.
+ And for a momentum balance, I'll spare you with the days,
+ you end up with this term here
+ and you can remove this term.
+ And the same goes for the energy.
+ The energy is more complicated by the fact
+ that the total energy is changing.
+ But anyway, you end up with the flux on the right
+ equal to the flux on the left without the s d w part.
+ And now by recalling that the total enthalpy,
+ so the enthalpy is e plus p over rho.
+ So rho h is rho e plus p.
+ And h t, the total enthalpy per unit mass
+ is e plus, I'm sorry, is h plus 1/2 u squared.
+ So combining these three, you get e t plus p divided by rho
+ is the total enthalpy per unit mass multiplied by the density.
+ And since rho r u tilde r is equal to rho l u tilde l
+ from mass conservation, you end up with a very
+ interesting result that is that the total enthalpy
+ is constant in the shock reference, right to left.
+ Since in the next slide, we are going to look at the shock
+ as a process, as a physical process.
+ We can already guess that this physical process
+ is an adiabatic one.
+ So whatever the shock does,
+ it doesn't change the total enthalpy.
+ That beats the idea that there is no e transfer
+ and no viscosity.
+ So we can write that for the shock relation in the shock,
+
+in the shock reference, the Rankin-Gordian relation
+ in the shock reference.
+ So we define a reference that is one to one with the shock,
+ so that the shock speed in that reference is zero.
+ And the relation holding that reference are these,
+ which is basically F of W are d-dead minus F of W are l-dead
+ equal to zero, and they are rho r equal to r
+ minus rho l equal to l equal to zero,
+ rho r u r squared plus p r minus rho l u r squared
+ minus p l equal to zero, and h to the total on the right
+ is equal to h to the total on the left.
+ Okay, nice, say the shock speed is unknown
+ and cannot be retrieved from these.
+ Also, I mean, we are moving in a reference
+ that has a speed that we don't know.
+ So at one point, we have to cave and go back to the lab
+ and say, okay, this shock is moving at 400 meter per second.
+ Okay, but for the time being,
+ we are happy with where we are.
+ So we are riding the shock and I am the shock
+ and I'm moving in still air.
+ Now I have the flow coming in, the velocity is not zero.
+ If the velocity is zero, but I am moving,
+ of course, if I'm still, the velocity is coming to me.
+ And I'm leaving behind the velocity
+ that is different from what I had earlier.
+ So I have two possible solutions.
+ One, you have the velocity is zero.
+ u l is equal to u r and they're both equal to zero.
+ Or it's a piece that one is equal to zero
+ and the other one will be zero.
+ So if the two velocities are zero and you do your math,
+ you see that the second relation becomes
+ that the pressure is the same across the shock.
+ But the density is not.
+ If the density is the same,
+ then it means that I have no shock, there is nothing.
+ I have the same density, the same pressure,
+ the same velocity, left and right means there is nothing.
+
+Okay. So, the non-trivial solution is called the compact discontinuity.
+ And I have the velocity that is zero in the head and behind me in the shock.
+ I have a curved shock that pertains to the problems.
+ And the pressure is constant across the shock.
+ But the density is not.
+ So, this discontinuity, once we move back to the shock reference, is moving.
+ What is its velocity?
+ The velocity of this discontinuity is zero plus s.
+ So, the velocity in the laboratory frame, how I'm moving, is the same and is also ahead and behind the discontinuity.
+ And is also the velocity of the discontinuity.
+ What is this?
+ What is this? Is something separating the fluid that is blue and the fluid that is red.
+ They are moving at the same velocity and this discontinuity is just the separation between the two.
+ And the red and blue fluid will stay separated all the time.
+ In fact, there is no mixing, there is no molecular mixing, there is no nothing. And they will stay separated.
+ It's quite a boring discontinuity, if you ask me.
+ But that's what it is. You have your water and oil in the pipe.
+ You push and they move and they are separated by the discontinuity.
+ The other process is the second, is the border.
+ And it moves if the fluid moves.
+ And discontinuity is what separates water from air.
+ The water is moving, air is moving at the same speed and discontinuity is moving back and forth.
+ That's the discontinuity. There is no mass fluctuation.
+ Shockwave is so much more interesting because it's the other solution in which
+
+the velocity ahead and past the shock is different from zero.
+ That's the case then at the changes.
+ Pressure and density.
+ So before concluding that is more complex and it's a mess,
+ let's look at it in terms of the process.
+ I have the shock wave, I'm still and in the case of the discontinuity,
+ in the case of a contact discontinuity, what's ahead of me stays ahead of me
+ and what's behind me stays behind me.
+ The blue and the red. If I move, they move.
+ In the case of the shock, even if I'm still, there is a non-zero velocity
+ going through me and leaving me in a different state.
+ So there is pressure, density and velocity ahead of me and the same past me.
+ What is interesting to me now is the fact that I have a velocity that is non-zero
+ and a mass density that is non-zero.
+ It means that I'm eating, I'm processing mass.
+ So rho u times my surface, which is quite large, is kilogram per second.
+ I'm eating air and I'm saying depleting air past me in a different state.
+ I am now a process.
+ So the shock wave is a process whereby you have a mass flow,
+ you do your shock things inside and the mass flow that leaves the surface of discontinuity,
+ is of course the same. I'm not creating or deleting mass.
+ But this thing has different properties.
+ It has higher pressure, higher density, higher temperature.
+ I do something with it, I do some work, but I change and change the condition.
+ And I'm processing, so the detonation wave is a shock wave.
+ I'm eating oxygen and hydrogen and I'm creating water and heat.
+ Combat discontinuity cannot do that, cannot process any mass or fluid.
+ That's the way...
+
+the shot behaves in fact I mean just check this
+ hello
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ yeah
+ like I lost my I had a full collection of video and I don't know where they are
+ here is one
+
+Okay.
+ Okay, so what this is, is a barrel of explosives.
+ I'm not sure I'm sharing.
+ That is a point-wise source of energy.
+ So what I'm setting is like, this is the steady case, the amplitude condition, I'm setting the new pressure.
+ And the rest comes along.
+ And now there is the explosion.
+ Come on.
+ I've been lucky with the steel here.
+ So let's look it twice.
+ That's the sound.
+ I don't know why every time it goes this.
+ Okay, so the thing is that you are looking at the fireball, of course, with the nuclear explosion is even clearer.
+ There is the fireball and there is the sound, and the sound comes way before the fireball.
+ And what you see here is the shockwave. And that's the contact discontinuity.
+
+So the contact discontinuity separates the gas inside the barrel from the rest.
+ There will always be a different thing, different molecules.
+ They were inside the barrel and they will move away from the barrel.
+ But they are not air. They are air which is in it.
+ And that's what it is.
+ This one is the shock.
+ The shock is moving at a speed s.
+ It's causing a pressure increase.
+ Therefore, it causes an increase in the velocity.
+ From momentum conservation.
+ And you can tell that there is a velocity here because the serve is moving.
+ So here we are in a steel condition.
+ Here we are past the shock.
+ The pressure is increased and the velocity also is now positive towards the observe.
+ And it's moving here.
+ The contact discontinuity is just separating the gas from the explosion from the surrounding air.
+ Air is of course modified because of the shock.
+ But I think here it's clear that the shock is a process heating air and releasing air.
+ So it's not related to the fire and chemicals inside the bomb.
+ It's a process that is processing air, increasing the pressure, the temperature and leaving behind air in a different condition.
+ Specifically moving in the same direction as the shock is moving.
+ It's particularly inappropriate in these moments to show these explosions.
+ I have plenty more. I think this one will be enough.
+
+[Sounds of the game]
+ [Sounds of the game]
+ Yeah, here you can see. So in the video it's clear that here something different happened, but that's not the case. I'll find a different movie.
+ [Sounds of the game]
+ Ok, this is once more a very sad video, but it really...
+ That's the explosion, at least it's not related to war. It's the explosion in Beirut.
+ [Sounds of the game]
+ So this is the fire, the smoke of the fire. This is the explosion, and this is water.
+ [Sounds of the game]
+ It produces humid air and condensing air. It increases the pressure to condensation.
+ [Sounds of the game]
+
+So then it comes down to the top.
+ The fire of the...
+ of the...
+ No, no, no.
+ Are you okay?
+ No, no.
+ This is the thing here.
+ [Faintly speaking]
+ [Loud thunder]
+ [Loud thunder]
+ [Loud thunder]
+ [Loud thunder]
+ This is the shock wave.
+ [Loud thunder]
+ [Loud thunder]
+ Okay, so the two things...
+ Sorry, I don't have nicer examples.
+ Not for unsteady...
+ For steady it's...
+ It's a different story.
+ But for unsteady is the best.
+ Bad examples.
+ Anyway, that's the idea.
+ In a shock wave you are processing...
+ processing fluid,
+ increasing the pressure and the density.
+ In a contact discontinuity,
+ you just separate two different fluids
+ as you move on.
+ So by a little manipulation,
+ you can rewrite the...
+ the shock relation into three different relations.
+ One is the mass flux, J,
+ which is the UL over the specific volume on either side.
+ The Rayleigh line,
+ which is the difference in pressure,
+ is equal to minus J squared,
+ the difference in specific volume.
+ And together they deliver this relation,
+ that the difference in the entropy
+ plus minus one half the sum of the two volumes
+ and the difference in the pressure
+ is equal to zero.
+ The interest towards this relation
+ is that it is of purely thermodynamic nature.
+ It doesn't involve the velocity.
+ So the shock is...
+
+an adiabat process, so this is also called shock adiabat,
+ or Hugoniot-Lotus, and if you look at it,
+ and you have selected, say,
+ the unperturbed state right,
+ you only have two things to fix here,
+ the pressure on the left and volume on the left.
+ So setting this to zero delivers an implicit definition
+ of the pressure, plus the shock,
+ as a function of the volume of the shock.
+ So you can draw the shock adiabat as a PD line,
+ depending on the initial state.
+ So you change the initial state, of course,
+ so that line will change.
+ So it's not a thermodynamic lotus,
+ but it's something that depends on this parameter.
+ And when you draw it in the X-D plane,
+ so you define unperturbed state, P0, V0,
+ and you get the red line that is the shock adiabat.
+ So even at P0, V0, you can plot all the pressures
+ that can be connected to the state zero by a shock.
+ And if you decrease the specific volume,
+ meaning you increase the density,
+ the pressure will increase.
+ Now we look at the Rayleigh line,
+ say that the post shock is the PD state there.
+ The Rayleigh line is V minus P0,
+ minus J squared, V minus P0,
+ so it's the slope of the segment connected,
+ is the segment, I'm sorry, connecting two states,
+ three shocks, this is right, this is left.
+ Also what we can do is to plot the isentrope
+ to the same, to the same point zero.
+ Okay.
+ The isentrope is a thermodynamic locus,
+ so it does not depend on the pivot point.
+ The adiabat, if you change and you move,
+ so the isentrope to point zero,
+ you pick another point with the isentrope,
+ it's still the same isentrope.
+ In the case of the adiabat, that's not the situation.
+ But anyway, what you can,
+ prove is that if, this is due to lambda 1, lambda 2,
+
+and leaf-ships, the change in the entropy is proportional to gamma, that in our case
+ is always positive, times the shock intensity to the power of three.
+ Shock intensity is the change in the pressure divided by rho zero C zero squared.
+ So if gamma is positive, for the entropy of this process to be increasing, then the pressure
+ must increase.
+ So of all the possible states depicted in the shock adiabat, the ones highlighted here
+ are unphysical, because they would lead to a decrease in the entropy.
+ It's not possible to have a process that decreases the entropy.
+ For a contact discontinuity, this is not an issue, because it's not a process.
+ I can move in this way, and I can have a higher entropy here than I have here, since this
+ is not a process.
+ For a shock wave, it's important that what I get in has entropy that is lower than what
+ I get out.
+ That's a process, and just an observation, if you switch left and right, you get the
+ same equation, it means that if I have a state zero, I draw the shock adiabat.
+ I pick another point here, I draw the shock adiabat to that point, it will go through
+ state zero as well.
+ Because of symmetry.
+ They are not the same curve, but they share this property that they intersect in two points.
+ They are one if they intersect in two points.
+ So the Rankin-Ugonio conditions are symmetric and express conservation, which cannot be
+ violated.
+ This condition here is asymmetric and express physical admissibility.
+ It's an additional condition in which the entropy is requested to increase across the
+ process.
+ So, all the points in the red line are connected through a discontinuity that conserve conservative
+ variables, but only the upper portion also connects points through which the entropy
+ is increasing.
+ So these are the physical points.
+
+This can be expressed as we did for the Borghe's equation by the Lax condition of mechanical stability.
+ Meaning that characteristic lines are entering the shock.
+ This means... let's see if we can...
+ So we've got it in there.
+ Use that plus.
+ Let's see if we can...
+ Yes, that's how it is.
+ So the shock speed we did, which is...
+ The condition should be this one.
+ So that you have a shock.
+ A given speed and the characteristics are entering the shock.
+ Any perturbation is thrown back at the shock.
+ So that the velocity is low, this is right, this is left.
+ This velocity is larger than the shock velocity that is larger than...
+ If you move to shock coordinates, you have the...
+ Sorry, the speed of sound is the same.
+
+This means that U R divided by C R is larger than 1 and U L by C L is lower than 1.
+ This is the Mach number in the shock reference.
+ So the shock in terms of the Mach number is encountering a flow that is supersonic
+ and is leaving a flow that is subsonic, meaning if I'm still in the shock reference till then,
+ what is coming in must be supersonic and what is leaving must be subsonic.
+ If I'm moving in the reference, in the laboratory reference,
+ it means that the flow is still, it means that I'm moving supersonic.
+ So in the steady reference, the flow ahead of the shock is always supersonic
+ and the flow past the shock is always subsonic.
+ The steady reference is also relevant for steady flow.
+ If you have a steady flow with a steady shock, that's also what you observe.
+ And ahead of the shock, the flow is supersonic and past the shock it's subsonic.
+ So we'll see in 2D that it's possible to observe a supersonic, supersonic flow,
+ sorry, shock wave only in supersonic flows.
+ Okay, this is how it should be.
+ Okay, the shock is faster than the right wave and is slower than the left.
+ Okay, now it makes sense.
+ So this picture is in equality.
+
+Let's see, can I tell you about shockwaves?
+ So with engineer Gaglione, you will do a lot of exercises.
+ I think that in terms of the exercise,
+ the thing that you need to keep in mind
+ is that you only have one parameter, bits.
+ Okay, so you will be given tables
+ and you will interrogate the tables
+ one line at a time, saying, okay, I have this condition
+ and that's the outcome of the shock.
+ So you either pick the pressure of the shock,
+ the density, the velocity or the speed of sound
+ or the shock speed, whatever that be,
+ it's one choice that will define the whole shock.
+ In terms of, say, the shock itself,
+ where there are so many things to discuss,
+ it's very, it's a pity that we don't have time for that.
+ Just a few words, three minutes,
+ about internal shock structure.
+ So there is a very relevant work of Boris Zeltovich
+ from the '60s to, in fact, set the base
+ for the modern numerical schemes dealing with shocks,
+ studying the internal structure of the shock.
+ So how come, and that's the question,
+ how come that there is no viscosity,
+ there is no thermal conductivity in the Euler equation
+ and yet we are discussing an entropy increase, okay?
+ And, I mean, from a mathematical standpoint, it's okay.
+ I mean, the conservation, which does not include
+ dissipation in any sort, delivers a symmetric answer.
+ We can go in a way, but that's conservation, the red line.
+ Then we have to go back to the fact that,
+ yes, but we would like the entropy to increase,
+ even though this is not a requirement
+ from the Euler equation.
+ Euler equation time can go up and down,
+ forward and backward, doesn't matter.
+ It does matter if there is dissipation.
+ So somehow it's disturbing that after telling you
+ that we are in the outer region,
+
+is now dragging into the discussion the entropy, okay.
+ That's because the, I mean, we already discussed this,
+ but I would like to, now it's the time
+ to recall that conversation that we had.
+ I have three more hours of lecture today,
+ so I have to go home.
+ So you remember the conversation we had
+ about the Burgens equation, whereby we, X and U,
+ we had the shock that was in fact the limit
+ or epsilon that goes to zero of the Bisco's Burgens equation.
+ And we mentioned that indeed there is, to define the shock,
+ we need to get these two terms,
+ one that is leading to the Z shape,
+ so it's steepening the profile,
+ and this one that is marrying out the profile
+ to get both at the equilibrium, that they balance each other.
+ Same happened in a physical shock wave,
+ and in fact any shock is in fact defined by a profile
+ that is called a Bisco's profile,
+ here you have three on the right, three on the left.
+ And what we are doing now is to assume
+ that that's a discontinuity.
+ But in fact at very high level of zoom,
+ detail, molecular level, vector,
+ few average molecular mean free path, eight, 10, 10.
+ If you zoom in, there is this structure.
+ So the pressure increases smoothly in a layer,
+ similarly to a boundary layer,
+ from the pre-shock to the post-shock value on the left.
+ So does the velocity, so does the temperature,
+ so does the density, the entropy,
+ it's super, so this can be velocity, pressure.
+
+density, whatever. The entropy, as Eldović found, goes like this. That's the entropy
+ on the left and that's the entropy on the right. That's because of the process that
+ is occurring inside the shock. So what happens is that first the wave arrives, it's mainly
+ a kinetic thing, so the molecules are arriving here to these molecules that are standing
+ almost still, minding their own business, and they eat the molecules and that results
+ in an increase in the velocity, the pressure, the temperature, and then the temperature
+ needs to be equalized. And that process is called conduction. So there is the term that
+ we wrote for the boundary layer equation. There is this term here, but there is also
+ this other term that is acting. And these two are playing inside the shock in such a
+ way that the process first goes to a higher entropy and then the entropy is per unit mass
+ is distributed in the shock structure. So as a process it goes from a lower entropy
+ to a higher entropy. So no question asked. The fact that it does it non-monotonically
+ doesn't violate any law. It's very complicated and the first thing that fails here is the
+ hypothesis of continuum. So I can present you with these terms, but they are not meaningful
+ anymore. We should move to molecular dynamics to really do this. These results are from
+ continuum mechanics and are confirmed by molecular dynamics and by measurement, but in principle
+ they are not allowed. I remember a time I was having this conversation with Professor
+ Quartapelle and Professor Trezzotti. He is a physical mathematician. He told me, "Hey
+ look, you have to wash your mouth with soap before talking about shock waves this way."
+ So, I was called it on the spot.
+
+Just the theory of what is Zdendrovich,
+ which is based on continuum mechanics,
+ but in fact is applied to 10 mean free path,
+ which is frankly, and it's a number a little bit too high
+ to get clear.
+ In any way, the takeaway is that
+ shock is not a discontinuity in reality,
+ is a very, very thin layer
+ in which these marbles things occur.
+ The same way a contact discontinuity is not.
+ Shock discontinuity, there is molecular diffusion
+ between the blue and red fluid,
+ and you will see a part of each interface
+ in which the two are molecularly mixed in reality.
+ But for the problems we're interested in,
+ these layers are so thin
+ that similarly to what we did for the boundary layer,
+ we can neglect their existence
+ and deal with the shock as discontinuity.
+ What is to me these days,
+ and say that I've been dealing with shock waves
+ since I was your age,
+ what puzzles me is that the entropy difference,
+ so the entropy on the right
+ is the entropy of the pressure on the right
+ and the density on the right
+ is lower than the entropy on the left,
+ which is the entropy.
+ But it's completely determined
+ by the jump condition
+ that we get from the Euler equation.
+ So once we set the pressure on the left,
+ this is set, this is set, this is set,
+ and this is set, and these two are set.
+ And the entropy change is exactly the one
+ that you get from the Euler.
+ It means that if you are using
+ a consistent thermodynamic relation,
+ the internal structure of the shock
+ adjusts to the entropy difference
+ that is computed from the inviscid part,
+ from thermodynamics.
+ So the mechanism leading to this difference is
+
+viscosity that changes from fluid and thermal conductivity the both of them
+ are not included in any equation of state and yet the entropy jump is the
+ correct one so it might be you but that's really a little bit more than an
+ opinion the this mechanism so the job of this and the job of this equates until
+ the invisible part is fulfilled to get the discontinuity or a very thin layer
+ and then the viscous part adjusts to it in terms of thickness in terms of the
+ profile the viscous solution adjusts to a set of boundary condition on the right
+ and left and the viscous profile is such that dissipation is exactly the one that
+ is needed to produce SL okay that's true for a stable shock that moves with no
+ changes with an unchanging viscous profile over time I probably should wash
+ my my mouth with soap now but that's I mean all I can offer without studying
+ more molecular dynamics any question so tomorrow there will be no lecture no
+ exercise and next week Monday and Tuesday is holiday Wednesday there will
+ be lecture online not in the in the class so you are on vacation you stay on vacation
+ I'm setting an example here okay I'll see you online Wednesday next Wednesday
+ and in person in two weeks enjoy your break
+ you
+
+
+# INSTRUCTIONS POUR IA
+
+Rewrite this into a structured LaTeX course.
